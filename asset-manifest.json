@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "https://abrarsyed.in/static/css/main.45ccebbb.css",
+    "main.js": "https://abrarsyed.in/static/js/main.df27eae4.js",
+    "static/media/img5.jpg": "https://abrarsyed.in/static/media/img5.9c1c4c71bff0bacd7eca.jpg",
+    "static/media/img3.jpg": "https://abrarsyed.in/static/media/img3.7c7664056e59321f6218.jpg",
+    "static/media/img2.jpg": "https://abrarsyed.in/static/media/img2.50564b5144504d90dbfa.jpg",
+    "static/media/img1.png": "https://abrarsyed.in/static/media/img1.72d09c0f5b34e50f54eb.png",
+    "static/media/img6.jpg": "https://abrarsyed.in/static/media/img6.bf90b43f1f826c2ad579.jpg",
+    "static/media/heroImage.png": "https://abrarsyed.in/static/media/heroImage.e820ab4f5ef9fc2c8550.png",
+    "static/media/react.png": "https://abrarsyed.in/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/tf.png": "https://abrarsyed.in/static/media/tf.dc0f35485677b1e38f51.png",
+    "static/media/node.png": "https://abrarsyed.in/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/flutter.png": "https://abrarsyed.in/static/media/flutter.014cf1d482e7cb66ab6d.png",
+    "static/media/github.png": "https://abrarsyed.in/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/python.png": "https://abrarsyed.in/static/media/python.4097f1104855ab86e8ea.png",
+    "static/media/html.png": "https://abrarsyed.in/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "https://abrarsyed.in/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "https://abrarsyed.in/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "https://abrarsyed.in/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "https://abrarsyed.in/index.html",
+    "main.45ccebbb.css.map": "https://abrarsyed.in/static/css/main.45ccebbb.css.map",
+    "main.df27eae4.js.map": "https://abrarsyed.in/static/js/main.df27eae4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45ccebbb.css",
+    "static/js/main.df27eae4.js"
+  ]
+}
