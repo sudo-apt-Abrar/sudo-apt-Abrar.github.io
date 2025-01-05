@@ -9,3 +9,19 @@
         font-family: 'Raleway', sans-serif;
     }
 }
+
+@media (max-width: 325px) {
+	.padd{
+        padding-top: 20rem;
+    }
+}
+@media only screen and (min-width: 330px) and (max-width: 576px) {
+	.padd{
+        padding-top: 23rem;
+    }
+}
+/* @media (min-width: 380px) and (max-width:425px) {
+	.padd{
+        padding-top: 40rem;
+    }
+} */

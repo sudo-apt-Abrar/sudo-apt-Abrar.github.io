@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 
@@ -23,6 +23,15 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'https://github.com/sudo-apt-Abrar',
+        },
+        {
+            id:3,
+            child:(
+                <>
+                    Twitter <FaTwitter size={30}/>
+                </>
+            ),
+            href: 'https://twitter.com/abrarasyed',
         },
         {
             id:3,

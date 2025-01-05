@@ -14,9 +14,8 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             Hey I'm Abrar Syed
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 py-4 max-w-md text-bold text-2xl">
                 Developer from Hyderabad, India. 
-                <br/>I am well-versed with domains related to Front-End Development and Artifical Intelligence. 
                 <br/>I can help you build a product or grow existing product.
           </p>
 
