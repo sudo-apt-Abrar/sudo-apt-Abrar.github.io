@@ -1,0 +1,703 @@
+/* CSS Reset & Base */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Beige Color Palette */
+    --bg-primary: #f5f0e8;
+    --bg-secondary: #ebe4d8;
+    --bg-card: #faf7f2;
+    --text-primary: #2c2825;
+    --text-secondary: #5c5651;
+    --text-muted: #8a847d;
+    --accent: #a67c52;
+    --accent-hover: #8b6642;
+    --border: #d9d1c5;
+    
+    /* Spacing */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2.5rem;
+    --space-xl: 4rem;
+    --space-xxl: 6rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--space-md);
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    margin-bottom: var(--space-md);
+}
+
+p {
+    color: var(--text-secondary);
+    margin-bottom: var(--space-sm);
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+strong {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--accent-hover);
+}
+
+/* Navigation */
+header {
+    padding: var(--space-lg) 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.logo:hover {
+    color: var(--accent);
+}
+
+.nav-links {
+    display: flex;
+    gap: var(--space-md);
+}
+
+.nav-links a {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.nav-links a:hover {
+    color: var(--text-primary);
+}
+
+/* Hero Section */
+.hero {
+    padding: var(--space-xxl) 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-lg);
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    flex-shrink: 0;
+}
+
+.hero-image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--border);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-image img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.hero h1 {
+    margin-bottom: var(--space-sm);
+}
+
+.highlight {
+    color: var(--accent);
+}
+
+.tagline {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: var(--space-md);
+}
+
+.intro {
+    font-size: 1.1rem;
+    max-width: 600px;
+}
+
+/* Sections */
+.section {
+    padding: var(--space-xl) 0;
+    border-bottom: 1px solid var(--border);
+}
+
+/* About Section */
+.about-content p {
+    font-size: 1.05rem;
+}
+
+/* Experience Section */
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.experience-item {
+    padding: var(--space-md);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+
+.experience-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    align-items: baseline;
+    margin-bottom: var(--space-xs);
+}
+
+.experience-role {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.experience-company {
+    color: var(--text-muted);
+}
+
+.experience-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: var(--space-xs);
+}
+
+.experience-dot {
+    opacity: 0.6;
+}
+
+.experience-summary {
+    font-size: 0.95rem;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-sm);
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-md);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.project-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+.project-title {
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: var(--space-xs);
+    text-transform: lowercase;
+}
+
+.project-desc {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-xs);
+    flex-grow: 1;
+    text-transform: lowercase;
+}
+
+.project-tech {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-transform: lowercase;
+}
+
+/* YouTube Videos Section */
+.videos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-md);
+    margin: var(--space-md) 0;
+}
+
+.video-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    text-decoration: none;
+}
+
+.video-thumbnail {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--bg-secondary);
+}
+
+.video-football {
+    background: radial-gradient(circle at 20% 20%, #fdfaf4 0, #fdfaf4 30%, #ebe4d8 60%, #d4c7b5 100%);
+}
+
+.video-guitar {
+    background: linear-gradient(135deg, #f5e8d8 0%, #e4d3c0 40%, #d0b79f 100%);
+}
+
+.video-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.video-card:hover .video-thumbnail img {
+    transform: scale(1.05);
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.play-button svg {
+    width: 24px;
+    height: 24px;
+    color: white;
+    margin-left: 3px;
+}
+
+.video-card:hover .play-button {
+    background: #ff0000;
+}
+
+.channel-thumb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-secondary);
+    gap: var(--space-xs);
+}
+
+.channel-icon {
+    width: 48px;
+    height: 48px;
+    color: var(--text-muted);
+    transition: color 0.2s ease;
+}
+
+.channel-thumb span {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.video-card:hover .channel-icon {
+    color: #ff0000;
+}
+
+.video-card:hover .channel-thumb span {
+    color: var(--text-primary);
+}
+
+.video-title {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.youtube-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    margin-top: var(--space-sm);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.youtube-link:hover {
+    border-color: #ff0000;
+    color: #ff0000;
+}
+
+.youtube-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Substack Feed Section */
+.feed-container {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: var(--space-md);
+    margin: var(--space-md) 0;
+}
+
+.feed-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border);
+}
+
+.substack-icon {
+    width: 20px;
+    height: 20px;
+    color: #ff6719;
+}
+
+.feed-header span {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.post-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-sm);
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.post-item:hover {
+    background: var(--bg-secondary);
+}
+
+.post-title {
+    color: var(--text-primary);
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-transform: capitalize;
+}
+
+.post-meta {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+.feed-link {
+    display: inline-block;
+    margin-top: var(--space-md);
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border);
+    width: 100%;
+    text-align: center;
+    color: var(--accent);
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: lowercase;
+}
+
+.feed-link:hover {
+    color: var(--accent-hover);
+}
+
+.loading {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    text-align: center;
+    padding: var(--space-md);
+}
+
+.error {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Strava Card */
+.strava-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: var(--space-md);
+    margin-top: var(--space-md);
+}
+
+.strava-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border);
+}
+
+.strava-header .strava-icon {
+    width: 20px;
+    height: 20px;
+    color: #fc4c02;
+}
+
+.strava-header span {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.strava-stats {
+    display: flex;
+    gap: var(--space-lg);
+    margin-bottom: var(--space-md);
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+}
+
+.stat-icon {
+    font-size: 1.5rem;
+}
+
+.stat-label {
+    color: var(--text-secondary);
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.strava-profile-link {
+    display: inline-block;
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border);
+    width: 100%;
+    text-align: center;
+    color: #fc4c02;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.strava-profile-link:hover {
+    color: #d94402;
+}
+
+/* Writing Section */
+.writing-links {
+    margin-top: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.writing-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-sm) var(--space-md);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.writing-link:hover {
+    border-color: var(--accent);
+    padding-left: calc(var(--space-md) + 4px);
+}
+
+.writing-link .platform {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.writing-link .arrow {
+    color: var(--accent);
+}
+
+/* Active/Strava Section */
+.active-content {
+    text-align: left;
+}
+
+/* Connect Section */
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin-top: var(--space-md);
+}
+
+.social-link {
+    padding: var(--space-xs) var(--space-md);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.social-link:hover {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: white;
+}
+
+/* Footer */
+footer {
+    padding: var(--space-xl) 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .nav-links {
+        gap: var(--space-sm);
+    }
+    
+    .nav-links a {
+        font-size: 0.85rem;
+    }
+    
+    .hero {
+        padding: var(--space-xl) 0;
+    }
+    
+    .hero-content {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    .hero-image img {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .intro {
+        max-width: 100%;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .videos-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .social-links {
+        flex-direction: column;
+    }
+    
+    .social-link {
+        text-align: center;
+    }
+}
+
+/* Smooth animations */
+@media (prefers-reduced-motion: no-preference) {
+    .project-card,
+    .writing-link,
+    .social-link,
+    .strava-link {
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
