@@ -465,7 +465,7 @@ nav {
     color: var(--text-primary);
     font-weight: 500;
     font-size: 0.95rem;
-    text-transform: capitalize;
+    text-transform: lowercase;
 }
 
 .post-meta {
