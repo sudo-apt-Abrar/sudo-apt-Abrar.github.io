@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrar's Reading — This Week's Book</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        /* Reset & Base — matching main site */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #f5f0e8;
+            --bg-secondary: #ebe4d8;
+            --bg-card: #faf7f2;
+            --text-primary: #2c2825;
+            --text-secondary: #5c5651;
+            --text-muted: #8a847d;
+            --accent: #a67c52;
+            --accent-hover: #8b6642;
+            --border: #d9d1c5;
+            --space-xs: 0.5rem;
+            --space-sm: 1rem;
+            --space-md: 1.5rem;
+            --space-lg: 2.5rem;
+            --space-xl: 4rem;
+            --space-xxl: 6rem;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: lowercase;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 var(--space-md);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        a:hover { color: var(--accent-hover); }
+
+        /* Navigation — matching main site */
+        header {
+            padding: var(--space-lg) 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        .logo:hover { color: var(--accent); }
+
+        .nav-links {
+            display: flex;
+            gap: var(--space-md);
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            font-weight: 400;
+            text-transform: lowercase;
+        }
+        .nav-links a:hover { color: var(--text-primary); }
+        .nav-links a.active {
+            color: var(--accent);
+            font-weight: 500;
+        }
+
+        /* Page Header */
+        .page-header {
+            padding: var(--space-xl) 0 var(--space-lg);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            margin-bottom: var(--space-xs);
+        }
+
+        .page-header .highlight {
+            color: var(--accent);
+        }
+
+        .page-subtitle {
+            color: var(--text-muted);
+            font-size: 1rem;
+            margin-bottom: var(--space-sm);
+        }
+
+        .date-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-xs);
+            padding: 0.35rem 0.85rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .date-badge svg {
+            width: 14px;
+            height: 14px;
+        }
+
+        /* Book Card */
+        .book-section {
+            padding: var(--space-xl) 0;
+        }
+
+        .book-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .book-hero {
+            display: flex;
+            gap: var(--space-lg);
+            padding: var(--space-lg);
+            border-bottom: 1px solid var(--border);
+            align-items: flex-start;
+        }
+
+        .book-cover {
+            flex-shrink: 0;
+            width: 160px;
+            height: 240px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .book-cover-art {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1.25rem;
+            text-align: center;
+            text-transform: none;
+        }
+
+        .book-cover-art .cover-title {
+            font-family: 'Lora', Georgia, serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 0.75rem;
+        }
+
+        .book-cover-art .cover-author {
+            font-size: 0.7rem;
+            font-weight: 400;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            opacity: 0.8;
+        }
+
+        .book-cover-art .cover-line {
+            width: 30px;
+            height: 2px;
+            margin: 0.5rem 0;
+            opacity: 0.4;
+        }
+
+        /* Book cover color themes */
+        .cover-desert {
+            background: linear-gradient(160deg, #c49a6c 0%, #a67c52 40%, #8b6642 100%);
+            color: #faf7f2;
+        }
+        .cover-desert .cover-line { background: #faf7f2; }
+
+        .cover-slate {
+            background: linear-gradient(160deg, #4a5568 0%, #2d3748 40%, #1a202c 100%);
+            color: #e2e8f0;
+        }
+        .cover-slate .cover-line { background: #e2e8f0; }
+
+        .cover-ocean {
+            background: linear-gradient(160deg, #2b6cb0 0%, #2c5282 40%, #1a365d 100%);
+            color: #ebf8ff;
+        }
+        .cover-ocean .cover-line { background: #ebf8ff; }
+
+        .cover-forest {
+            background: linear-gradient(160deg, #38a169 0%, #276749 40%, #1a4731 100%);
+            color: #f0fff4;
+        }
+        .cover-forest .cover-line { background: #f0fff4; }
+
+        .cover-wine {
+            background: linear-gradient(160deg, #9b2c2c 0%, #742a2a 40%, #4a1a1a 100%);
+            color: #fff5f5;
+        }
+        .cover-wine .cover-line { background: #fff5f5; }
+
+        .cover-gold {
+            background: linear-gradient(160deg, #d69e2e 0%, #b7791f 40%, #7b5e28 100%);
+            color: #fffff0;
+        }
+        .cover-gold .cover-line { background: #fffff0; }
+
+        .cover-emerald {
+            background: linear-gradient(160deg, #0d9488 0%, #0f766e 40%, #115e59 100%);
+            color: #f0fdfa;
+        }
+        .cover-emerald .cover-line { background: #f0fdfa; }
+
+        .cover-coral {
+            background: linear-gradient(160deg, #ed8936 0%, #dd6b20 40%, #9c4221 100%);
+            color: #fffaf0;
+        }
+        .cover-coral .cover-line { background: #fffaf0; }
+
+        .cover-midnight {
+            background: linear-gradient(160deg, #2d3748 0%, #1a202c 40%, #0d1117 100%);
+            color: #edf2f7;
+        }
+        .cover-midnight .cover-line { background: #edf2f7; }
+
+        .cover-ash {
+            background: linear-gradient(160deg, #718096 0%, #4a5568 40%, #2d3748 100%);
+            color: #f7fafc;
+        }
+        .cover-ash .cover-line { background: #f7fafc; }
+
+        .cover-terra {
+            background: linear-gradient(160deg, #c05621 0%, #9c4221 40%, #7b341e 100%);
+            color: #fffaf0;
+        }
+        .cover-terra .cover-line { background: #fffaf0; }
+
+        .cover-obsidian {
+            background: linear-gradient(160deg, #1a1a2e 0%, #16213e 40%, #0f3460 100%);
+            color: #e2e8f0;
+        }
+        .cover-obsidian .cover-line { background: #e2e8f0; }
+
+        .cover-teal {
+            background: linear-gradient(160deg, #319795 0%, #2c7a7b 40%, #234e52 100%);
+            color: #e6fffa;
+        }
+        .cover-teal .cover-line { background: #e6fffa; }
+
+        .cover-violet {
+            background: linear-gradient(160deg, #805ad5 0%, #6b46c1 40%, #44337a 100%);
+            color: #faf5ff;
+        }
+        .cover-violet .cover-line { background: #faf5ff; }
+
+        .cover-sunrise {
+            background: linear-gradient(160deg, #ed8936 0%, #e53e3e 40%, #c53030 100%);
+            color: #fffaf0;
+        }
+        .cover-sunrise .cover-line { background: #fffaf0; }
+
+        .cover-sand {
+            background: linear-gradient(160deg, #d2b48c 0%, #c4a57b 40%, #a0845c 100%);
+            color: #fefcf3;
+        }
+        .cover-sand .cover-line { background: #fefcf3; }
+
+        .cover-indigo {
+            background: linear-gradient(160deg, #5a67d8 0%, #4c51bf 40%, #3c366b 100%);
+            color: #ebf4ff;
+        }
+        .cover-indigo .cover-line { background: #ebf4ff; }
+
+        .cover-rose {
+            background: linear-gradient(160deg, #d53f8c 0%, #b83280 40%, #702459 100%);
+            color: #fff5f7;
+        }
+        .cover-rose .cover-line { background: #fff5f7; }
+
+        .cover-electric {
+            background: linear-gradient(160deg, #3182ce 0%, #2b6cb0 40%, #1a365d 100%);
+            color: #ebf8ff;
+        }
+        .cover-electric .cover-line { background: #ebf8ff; }
+
+        .cover-rust {
+            background: linear-gradient(160deg, #c05621 0%, #9c4221 40%, #652b19 100%);
+            color: #feebc8;
+        }
+        .cover-rust .cover-line { background: #feebc8; }
+
+        .cover-steel {
+            background: linear-gradient(160deg, #5f6b7a 0%, #3e4c5e 40%, #283543 100%);
+            color: #e8ecf1;
+        }
+        .cover-steel .cover-line { background: #e8ecf1; }
+
+        .cover-amber {
+            background: linear-gradient(160deg, #d97706 0%, #b45309 40%, #78350f 100%);
+            color: #fffbeb;
+        }
+        .cover-amber .cover-line { background: #fffbeb; }
+
+        .cover-marble {
+            background: linear-gradient(160deg, #9ca3af 0%, #6b7280 40%, #4b5563 100%);
+            color: #f9fafb;
+        }
+        .cover-marble .cover-line { background: #f9fafb; }
+
+        .cover-sky {
+            background: linear-gradient(160deg, #38bdf8 0%, #0ea5e9 40%, #0369a1 100%);
+            color: #f0f9ff;
+        }
+        .cover-sky .cover-line { background: #f0f9ff; }
+
+        .cover-charcoal {
+            background: linear-gradient(160deg, #374151 0%, #1f2937 40%, #111827 100%);
+            color: #f3f4f6;
+        }
+        .cover-charcoal .cover-line { background: #f3f4f6; }
+
+        .cover-iron {
+            background: linear-gradient(160deg, #64748b 0%, #475569 40%, #334155 100%);
+            color: #f1f5f9;
+        }
+        .cover-iron .cover-line { background: #f1f5f9; }
+
+        .cover-sage {
+            background: linear-gradient(160deg, #6b8e6b 0%, #4a7c59 40%, #2d5a3f 100%);
+            color: #f0fdf4;
+        }
+        .cover-sage .cover-line { background: #f0fdf4; }
+
+        .cover-cherry {
+            background: linear-gradient(160deg, #e11d48 0%, #be123c 40%, #881337 100%);
+            color: #fff1f2;
+        }
+        .cover-cherry .cover-line { background: #fff1f2; }
+
+        .cover-bronze {
+            background: linear-gradient(160deg, #b08d57 0%, #8b6f47 40%, #654e34 100%);
+            color: #fdf8f0;
+        }
+        .cover-bronze .cover-line { background: #fdf8f0; }
+
+        .cover-onyx {
+            background: linear-gradient(160deg, #292524 0%, #1c1917 40%, #0c0a09 100%);
+            color: #f5f5f4;
+        }
+        .cover-onyx .cover-line { background: #f5f5f4; }
+
+        .book-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .book-meta-tag {
+            display: inline-block;
+            background: var(--bg-secondary);
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            margin-bottom: var(--space-sm);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .book-title {
+            font-family: 'Lora', Georgia, serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: var(--space-xs);
+            text-transform: none;
+        }
+
+        .book-author {
+            font-size: 1rem;
+            color: var(--accent);
+            font-weight: 500;
+            margin-bottom: var(--space-sm);
+            text-transform: none;
+        }
+
+        .book-details {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-sm);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .book-detail {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .book-detail svg {
+            width: 14px;
+            height: 14px;
+            opacity: 0.6;
+        }
+
+        /* Summary Content */
+        .book-summary {
+            padding: var(--space-lg);
+        }
+
+        .summary-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent);
+            margin-bottom: var(--space-md);
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+        }
+
+        .summary-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .summary-text {
+            text-transform: none;
+        }
+
+        .summary-text h3 {
+            font-family: 'Lora', Georgia, serif;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: var(--space-md) 0 var(--space-sm);
+            text-transform: none;
+        }
+
+        .summary-text h3:first-child {
+            margin-top: 0;
+        }
+
+        .summary-text p {
+            font-size: 1rem;
+            line-height: 1.85;
+            color: var(--text-secondary);
+            margin-bottom: var(--space-sm);
+            text-transform: none;
+        }
+
+        .summary-text blockquote {
+            margin: var(--space-md) 0;
+            padding: var(--space-sm) var(--space-md);
+            border-left: 3px solid var(--accent);
+            background: var(--bg-secondary);
+            border-radius: 0 8px 8px 0;
+            font-family: 'Lora', Georgia, serif;
+            font-style: italic;
+            color: var(--text-primary);
+            font-size: 1.05rem;
+            line-height: 1.7;
+            text-transform: none;
+        }
+
+        /* Takeaways */
+        .takeaways {
+            margin: var(--space-md) 0;
+            padding: var(--space-md);
+            background: var(--bg-secondary);
+            border-radius: 12px;
+        }
+
+        .takeaways-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: var(--space-sm);
+            text-transform: none;
+        }
+
+        .takeaways ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-xs);
+        }
+
+        .takeaways li {
+            padding-left: 1.5rem;
+            position: relative;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            text-transform: none;
+        }
+
+        .takeaways li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        /* Rating */
+        .book-rating {
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+            padding: var(--space-md) var(--space-lg);
+            border-top: 1px solid var(--border);
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .stars {
+            color: var(--accent);
+            letter-spacing: 2px;
+            font-size: 1rem;
+        }
+
+        /* Tomorrow teaser */
+        .tomorrow-teaser {
+            margin-top: var(--space-lg);
+            padding: var(--space-md);
+            background: var(--bg-card);
+            border: 1px dashed var(--border);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .tomorrow-teaser p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-transform: none;
+        }
+
+        .tomorrow-teaser .next-book {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Footer */
+        footer {
+            padding: var(--space-xl) 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .page-header h1 {
+                font-size: 2rem;
+            }
+
+            .nav-links {
+                gap: var(--space-sm);
+            }
+            .nav-links a {
+                font-size: 0.85rem;
+            }
+
+            .book-hero {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: var(--space-md);
+            }
+
+            .book-cover {
+                width: 130px;
+                height: 195px;
+            }
+
+            .book-title {
+                font-size: 1.4rem;
+            }
+
+            .book-details {
+                justify-content: center;
+            }
+
+            .book-summary {
+                padding: var(--space-md);
+            }
+
+            .book-rating {
+                padding: var(--space-md);
+                justify-content: center;
+            }
+        }
+
+        /* Smooth animations */
+        @media (prefers-reduced-motion: no-preference) {
+            .book-card {
+                animation: fadeInUp 0.6s ease-out;
+            }
+            .tomorrow-teaser {
+                animation: fadeInUp 0.6s ease-out 0.2s both;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <nav>
+                <a href="../" class="logo">abrar.</a>
+                <div class="nav-links">
+                    <a href="../#about">about</a>
+                    <a href="../#work">work</a>
+                    <a href="../#writing">writing</a>
+                    <a href="./" class="active">reading</a>
+                    <a href="../#connect">connect</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Page Header -->
+        <div class="page-header">
+            <h1>abrar is reading <span class="highlight">this</span> this week</h1>
+            <p class="page-subtitle">a new book summary every week — one book at a time.</p>
+            <span class="date-badge" id="today-date">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                loading...
+            </span>
+        </div>
+
+        <!-- Book Section (populated by JS) -->
+        <div class="book-section" id="book-section"></div>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2026 abrar syed</p>
+        </footer>
+    </div>
+
+    <script>
+        let books = [];
+
+        async function loadBooks() {
+            try {
+                const response = await fetch('./books.json');
+                books = await response.json();
+                render();
+            } catch (err) {
+                document.getElementById('book-section').innerHTML = `
+                    <div class="tomorrow-teaser">
+                        <p>couldn't load this week's book — please try refreshing.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function getThisWeeksBook() {
+            const now = new Date();
+            const start = new Date(now.getFullYear(), 0, 1);
+            const diff = now - start;
+            const oneWeek = 1000 * 60 * 60 * 24 * 7;
+            const weekOfYear = Math.floor(diff / oneWeek);
+            return weekOfYear % books.length;
+        }
+
+        function getNextBook(currentIndex) {
+            return (currentIndex + 1) % books.length;
+        }
+
+        function renderStars(count) {
+            return '★'.repeat(count) + '☆'.repeat(5 - count);
+        }
+
+        function formatWeekRange() {
+            const now = new Date();
+            const day = now.getDay();
+            const monday = new Date(now);
+            monday.setDate(now.getDate() - ((day + 6) % 7));
+            const sunday = new Date(monday);
+            sunday.setDate(monday.getDate() + 6);
+            const opts = { month: 'long', day: 'numeric' };
+            const yearOpts = { year: 'numeric' };
+            return `${monday.toLocaleDateString('en-US', opts).toLowerCase()} – ${sunday.toLocaleDateString('en-US', opts).toLowerCase()}, ${sunday.toLocaleDateString('en-US', yearOpts)}`;
+        }
+
+        function render() {
+            // Set date
+            document.getElementById('today-date').innerHTML = `
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                ${formatWeekRange()}
+            `;
+
+            const idx = getThisWeeksBook();
+            const book = books[idx];
+            const nextBook = books[getNextBook(idx)];
+
+            const summaryHTML = book.summary.map(section => `
+                <h3>${section.heading}</h3>
+                ${section.text.split('\n\n').map(p => `<p>${p.trim()}</p>`).join('')}
+            `).join('');
+
+            const takeawaysHTML = book.takeaways.map(t => `<li>${t}</li>`).join('');
+
+            document.getElementById('book-section').innerHTML = `
+                <div class="book-card">
+                    <div class="book-hero">
+                        <div class="book-cover">
+                            <div class="book-cover-art ${book.coverClass}">
+                                <span class="cover-title">${book.title}</span>
+                                <span class="cover-line"></span>
+                                <span class="cover-author">${book.author}</span>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-meta-tag">this week's read</span>
+                            <h2 class="book-title">${book.title}</h2>
+                            <p class="book-author">by ${book.author}</p>
+                            <div class="book-details">
+                                <span class="book-detail">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                                    ${book.year}
+                                </span>
+                                <span class="book-detail">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                                    ${book.pages} pages
+                                </span>
+                                <span class="book-detail">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+                                    ${book.genre}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book-summary">
+                        <div class="summary-label">abrar's summary</div>
+                        <div class="summary-text">
+                            ${summaryHTML}
+
+                            <blockquote>"${book.quote}"</blockquote>
+
+                            <div class="takeaways">
+                                <div class="takeaways-title">Key Takeaways</div>
+                                <ul>
+                                    ${takeawaysHTML}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book-rating">
+                        <span class="stars">${renderStars(book.rating)}</span>
+                        <span>abrar's rating</span>
+                    </div>
+                </div>
+
+                <div class="tomorrow-teaser">
+                    <p>next week's read: <span class="next-book">${nextBook.title}</span> by ${nextBook.author}</p>
+                </div>
+            `;
+        }
+
+        document.addEventListener('DOMContentLoaded', loadBooks);
+    </script>
+</body>
+</html>

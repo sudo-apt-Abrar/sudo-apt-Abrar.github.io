@@ -284,133 +284,76 @@ nav {
 }
 
 /* YouTube Videos Section */
-.videos-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--space-md);
-    margin: var(--space-md) 0;
-}
-
-.video-card {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-xs);
-    text-decoration: none;
-}
-
-.video-thumbnail {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    border-radius: 8px;
-    overflow: hidden;
-    background: var(--bg-secondary);
-}
-
-.video-football {
-    background: radial-gradient(circle at 20% 20%, #fdfaf4 0, #fdfaf4 30%, #ebe4d8 60%, #d4c7b5 100%);
-}
-
-.video-guitar {
-    background: linear-gradient(135deg, #f5e8d8 0%, #e4d3c0 40%, #d0b79f 100%);
-}
-
-.video-thumbnail img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-}
-
-.video-card:hover .video-thumbnail img {
-    transform: scale(1.05);
-}
-
-.play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50px;
-    height: 50px;
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.2s ease;
-}
-
-.play-button svg {
-    width: 24px;
-    height: 24px;
-    color: white;
-    margin-left: 3px;
-}
-
-.video-card:hover .play-button {
-    background: #ff0000;
-}
-
-.channel-thumb {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: var(--bg-secondary);
-    gap: var(--space-xs);
-}
-
-.channel-icon {
-    width: 48px;
-    height: 48px;
-    color: var(--text-muted);
-    transition: color 0.2s ease;
-}
-
-.channel-thumb span {
-    color: var(--text-muted);
-    font-size: 0.9rem;
-    font-weight: 500;
-}
-
-.video-card:hover .channel-icon {
-    color: #ff0000;
-}
-
-.video-card:hover .channel-thumb span {
-    color: var(--text-primary);
-}
-
-.video-title {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    font-weight: 500;
-    text-transform: lowercase;
-}
-
 .youtube-link {
     display: inline-flex;
     align-items: center;
-    gap: var(--space-xs);
+    gap: 0.25rem;
     margin-top: var(--space-sm);
-    padding: var(--space-sm) var(--space-md);
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    color: var(--text-primary);
-    font-weight: 500;
-    transition: all 0.2s ease;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: var(--text-secondary);
+    font-weight: 400;
+    text-transform: lowercase;
+    text-decoration: none;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
 .youtube-link:hover {
-    border-color: #ff0000;
-    color: #ff0000;
+    color: var(--text-primary);
+    text-decoration: underline;
+    text-decoration-color: var(--text-primary);
 }
 
-.youtube-icon {
-    width: 20px;
-    height: 20px;
+/* Sher Section */
+.sher-card {
+    margin-top: var(--space-sm);
+    position: relative;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--space-lg) var(--space-md);
+}
+
+.sher-card::before {
+    content: '\201C';
+    font-family: 'Lora', Georgia, serif;
+    font-size: 4rem;
+    line-height: 1;
+    color: var(--accent);
+    opacity: 0.45;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sher-card::after {
+    content: '\201D';
+    font-family: 'Lora', Georgia, serif;
+    font-size: 4rem;
+    line-height: 1;
+    color: var(--accent);
+    opacity: 0.45;
+    position: absolute;
+    bottom: -0.25rem;
+    right: 0;
+}
+
+.sher-text {
+    color: var(--text-primary);
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.35rem;
+    line-height: 2;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.01em;
+    margin: 0;
+    text-transform: none;
+    white-space: pre-line;
 }
 
 /* Substack Feed Section */
@@ -676,10 +619,6 @@ footer p {
     }
     
     .projects-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .videos-grid {
         grid-template-columns: 1fr;
     }
     

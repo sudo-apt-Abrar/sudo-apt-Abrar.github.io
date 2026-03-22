@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -21,6 +22,7 @@
                     <a href="#work">work</a>
                     <a href="#videos">videos</a>
                     <a href="#writing">writing</a>
+                    <a href="./reading/">reading</a>
                     <a href="#connect">connect</a>
                 </div>
             </nav>
@@ -165,57 +167,22 @@
             </div>
         </section>
 
+        <!-- Sher Section -->
+        <section id="sher" class="section">
+            <h2>sharing 'sher'</h2>
+            <div class="sher-content">
+                <div class="sher-card">
+                    <p class="sher-text" id="sher-text"></p>
+                </div>
+            </div>
+        </section>
+
         <!-- YouTube Videos Section -->
         <section id="videos" class="section">
             <h2>videos</h2>
             <div class="videos-content">
                 <p>football nights, racket games, guitar, and a bit of tech live on youtube.</p>
-                <div class="videos-grid">
-                    <a href="https://www.youtube.com/watch?v=DIl8k-W8StI" target="_blank" class="video-card">
-                        <div class="video-thumbnail">
-                            <img src="https://img.youtube.com/vi/DIl8k-W8StI/mqdefault.jpg" alt="football" />
-                            <div class="play-button">
-                                <svg viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M8 5v14l11-7z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <span class="video-title">football</span>
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=mA-ge_kmd4U" target="_blank" class="video-card">
-                        <div class="video-thumbnail">
-                            <img src="https://img.youtube.com/vi/mA-ge_kmd4U/mqdefault.jpg" alt="badminton" />
-                            <div class="play-button">
-                                <svg viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M8 5v14l11-7z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <span class="video-title">badminton</span>
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=h4HM4sh-kns" target="_blank" class="video-card">
-                        <div class="video-thumbnail">
-                            <img src="https://img.youtube.com/vi/h4HM4sh-kns/mqdefault.jpg" alt="squash with dad" />
-                            <div class="play-button">
-                                <svg viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M8 5v14l11-7z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <span class="video-title">squash with dad</span>
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=llNGXLoZgRY" target="_blank" class="video-card">
-                        <div class="video-thumbnail">
-                            <img src="https://img.youtube.com/vi/llNGXLoZgRY/mqdefault.jpg" alt="guitar" />
-                            <div class="play-button">
-                                <svg viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M8 5v14l11-7z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <span class="video-title">guitar</span>
-                    </a>
-                </div>
+                <a href="https://www.youtube.com/channel/UC9M3YX3LZXVzetCHp81QOBw" target="_blank" class="youtube-link">visit my youtube channel →</a>
             </div>
         </section>
 
@@ -267,6 +234,33 @@
     </div>
 
     <script>
+        let shers = [];
+
+        async function loadShers() {
+            try {
+                const response = await fetch('./shers.json');
+                shers = await response.json();
+                renderSherOfTheDay();
+            } catch (error) {
+                document.getElementById('sher-text').textContent = 'could not load sher right now.';
+            }
+        }
+
+        function renderSherOfTheDay() {
+            if (!shers.length) {
+                return;
+            }
+
+            const now = new Date();
+            const start = new Date(now.getFullYear(), 0, 0);
+            const diff = now - start;
+            const oneDay = 1000 * 60 * 60 * 24;
+            const dayOfYear = Math.floor(diff / oneDay);
+            const todaySher = shers[dayOfYear % shers.length];
+
+            document.getElementById('sher-text').textContent = todaySher.text;
+        }
+
         // Fetch Substack posts using RSS feed and RSS2JSON API
         async function fetchSubstackReads() {
             const container = document.getElementById('substack-posts');
@@ -293,6 +287,7 @@
         // Initialize
         document.addEventListener('DOMContentLoaded', () => {
             fetchSubstackReads();
+            loadShers();
         });
     </script>
 </body>
