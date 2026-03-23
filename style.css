@@ -591,9 +591,16 @@ footer p {
     h1 {
         font-size: 2rem;
     }
+
+    nav {
+        align-items: flex-start;
+        gap: var(--space-sm);
+    }
     
     .nav-links {
         gap: var(--space-sm);
+        flex-wrap: wrap;
+        justify-content: flex-end;
     }
     
     .nav-links a {
