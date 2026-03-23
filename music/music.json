@@ -1,9 +1,19 @@
 {
-  "lastUpdated": "2026-03-23T21:07:22.660798+00:00",
+  "lastUpdated": "2026-03-23T21:09:13.747078+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Young Dumb & Broke",
+      "artist": "Khalid",
+      "album": "American Teen",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
+      "playedAt": "2026-03-23T21:09:13.744465+00:00",
+      "source": "spotify",
+      "spotifyId": "5Z3GHaZ6ec9bsiI5BenrbY",
+      "nowPlaying": true
+    },
     {
       "name": "Better",
       "artist": "Khalid",
