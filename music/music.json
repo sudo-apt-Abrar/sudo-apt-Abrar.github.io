@@ -1,0 +1,51 @@
+{
+  "lastUpdated": "2026-03-24T06:00:00Z",
+  "sources": ["spotify", "youtube-music"],
+  "tracks": [
+    {
+      "name": "excuses",
+      "artist": "ap dhillon",
+      "album": "hidden gems",
+      "image": "",
+      "playedAt": "2026-03-24T05:45:00Z",
+      "source": "spotify",
+      "nowPlaying": false
+    },
+    {
+      "name": "tum hi ho",
+      "artist": "arijit singh",
+      "album": "aashiqui 2",
+      "image": "",
+      "playedAt": "2026-03-24T05:30:00Z",
+      "source": "spotify",
+      "nowPlaying": false
+    },
+    {
+      "name": "blinding lights",
+      "artist": "the weeknd",
+      "album": "after hours",
+      "image": "",
+      "playedAt": "2026-03-24T05:15:00Z",
+      "source": "youtube-music",
+      "nowPlaying": false
+    },
+    {
+      "name": "kesariya",
+      "artist": "arijit singh",
+      "album": "brahmastra",
+      "image": "",
+      "playedAt": "2026-03-24T05:00:00Z",
+      "source": "spotify",
+      "nowPlaying": false
+    },
+    {
+      "name": "naina",
+      "artist": "neha kakkar",
+      "album": "dangal",
+      "image": "",
+      "playedAt": "2026-03-24T04:45:00Z",
+      "source": "youtube-music",
+      "nowPlaying": false
+    }
+  ]
+}
