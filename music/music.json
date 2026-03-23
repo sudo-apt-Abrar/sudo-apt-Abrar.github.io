@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T19:59:12.581877+00:00",
+  "lastUpdated": "2026-03-23T21:01:19.708371+00:00",
   "sources": [
     "spotify"
   ],
@@ -11,6 +11,7 @@
       "image": "https://i.scdn.co/image/ab67616d0000b273316e987210a1186c95eff23e",
       "playedAt": "2026-01-28T04:38:05.432Z",
       "source": "spotify",
+      "spotifyId": "6zeeWid2sgw4lap2jV61PZ",
       "nowPlaying": false
     },
     {
@@ -20,6 +21,7 @@
       "image": "https://i.scdn.co/image/ab67616d0000b273a2011a6b7f81c63c1557076d",
       "playedAt": "2026-01-28T04:22:21.817Z",
       "source": "spotify",
+      "spotifyId": "3JbujPTeag5mDMAcye3vDD",
       "nowPlaying": false
     },
     {
@@ -29,6 +31,7 @@
       "image": "https://i.scdn.co/image/ab67616d0000b273d9168a716dd978d5322f411a",
       "playedAt": "2026-01-20T22:39:06.921Z",
       "source": "spotify",
+      "spotifyId": "0EMYTe2oQy70PCKPQFlbVy",
       "nowPlaying": false
     },
     {
@@ -38,6 +41,7 @@
       "image": "https://i.scdn.co/image/ab67616d0000b273bc52b9838ebcfae5646a5457",
       "playedAt": "2026-01-20T06:07:03.618Z",
       "source": "spotify",
+      "spotifyId": "5nXmr6ypbTYjhLR3lXSPyc",
       "nowPlaying": false
     },
     {
@@ -47,6 +51,7 @@
       "image": "https://i.scdn.co/image/ab67616d0000b2737542aed098fc044db8ce8498",
       "playedAt": "2026-01-20T05:56:33.387Z",
       "source": "spotify",
+      "spotifyId": "0lhlqmzeqlOCIgJH3yL6IY",
       "nowPlaying": false
     },
     {
@@ -56,6 +61,7 @@
       "image": "https://i.scdn.co/image/ab67616d0000b2735da5e18b4f9a33d42e737c21",
       "playedAt": "2026-01-07T11:25:35.220Z",
       "source": "spotify",
+      "spotifyId": "2tO0QPdCA0jgDBshTuYYkc",
       "nowPlaying": false
     },
     {
@@ -65,6 +71,7 @@
       "image": "https://i.scdn.co/image/ab67616d0000b27389e8f71cb6f3b6cc60944858",
       "playedAt": "2026-01-07T11:20:01.510Z",
       "source": "spotify",
+      "spotifyId": "0cYohCh24y1aMjJmcS9RBl",
       "nowPlaying": false
     },
     {
@@ -74,6 +81,7 @@
       "image": "https://i.scdn.co/image/ab67616d0000b273beb05424c3e1c3e74b75214f",
       "playedAt": "2025-12-29T20:35:59.782Z",
       "source": "spotify",
+      "spotifyId": "1maGNaWdI4GfoDOFc4BZxP",
       "nowPlaying": false
     },
     {
@@ -83,6 +91,7 @@
       "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
       "playedAt": "2025-12-29T13:35:12.836Z",
       "source": "spotify",
+      "spotifyId": "4r8JqkhpTb5tzSKKHnVJIJ",
       "nowPlaying": false
     }
   ]
