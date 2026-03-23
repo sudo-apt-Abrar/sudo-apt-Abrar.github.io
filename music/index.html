@@ -776,6 +776,23 @@
             color: var(--text-secondary);
         }
 
+        .top-song-hero.with-embed .ts-track,
+        .top-song-hero.with-embed .ts-artist {
+            display: none;
+        }
+
+        .top-song-hero.with-embed .ts-art {
+            display: none;
+        }
+
+        .top-song-hero.with-embed .ts-details {
+            width: 100%;
+        }
+
+        .top-song-hero.with-embed .ts-label {
+            margin-bottom: 0.5rem;
+        }
+
         /* ---- Spotify Embed Player ---- */
         .spotify-embed {
             margin-top: var(--space-sm);
@@ -933,10 +950,9 @@
                     </div>
                     <div class="ts-track" id="ts-track"></div>
                     <div class="ts-artist" id="ts-artist"></div>
+                    <div class="spotify-embed" id="spotify-embed" style="display:none;"></div>
                 </div>
             </div>
-            <!-- Spotify Embed for last played -->
-            <div class="spotify-embed fade-in" id="spotify-embed" style="display:none;"></div>
 
             <!-- Now Playing Hero -->
             <div class="now-playing-hero fade-in" id="now-playing-hero">
@@ -1134,7 +1150,11 @@
             if (!hasNowPlaying && tracks.length > 0) {
                 var ts = tracks[0];
                 var tsHero = document.getElementById('top-song-hero');
+                var embedEl = document.getElementById('spotify-embed');
                 tsHero.classList.add('visible');
+                tsHero.classList.remove('with-embed');
+                embedEl.style.display = 'none';
+                embedEl.innerHTML = '';
 
                 var tsArtImg = ts.image
                     ? '<img src="' + ts.image + '" alt="' + (ts.album || ts.name) + '">'
@@ -1145,7 +1165,7 @@
 
                 // Spotify embed player for background playback
                 if (ts.spotifyId) {
-                    var embedEl = document.getElementById('spotify-embed');
+                    tsHero.classList.add('with-embed');
                     embedEl.style.display = '';
                     embedEl.innerHTML = '<iframe src="https://open.spotify.com/embed/track/' + ts.spotifyId + '?theme=0" height="80" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
                 }
