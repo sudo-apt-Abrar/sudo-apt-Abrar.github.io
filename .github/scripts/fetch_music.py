@@ -1,9 +1,10 @@
 """
-Fetch recent tracks from Spotify and YouTube Music, merge them,
-and write to music/music.json.
+Fetch recent tracks from Spotify and liked songs from YouTube Music,
+merge them, and write to music/music.json.
 
 Spotify: Uses SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REFRESH_TOKEN
-YouTube Music: Uses YTMUSIC_HEADERS_AUTH (JSON string of auth headers)
+YouTube Music: Uses YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN
+              (standard Google OAuth — YouTube Data API v3)
 
 All credentials come from GitHub Secrets — never stored in code.
 """
@@ -11,7 +12,6 @@ All credentials come from GitHub Secrets — never stored in code.
 import json
 import os
 import sys
-import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -25,9 +25,11 @@ SPOTIFY_CLIENT_SECRET = os.environ.get("SPOTIFY_CLIENT_SECRET", "")
 SPOTIFY_REFRESH_TOKEN = os.environ.get("SPOTIFY_REFRESH_TOKEN", "")
 
 # ---------------------------------------------------------------------------
-# YouTube Music (ytmusicapi)
+# YouTube Music (YouTube Data API v3 — standard Google OAuth)
 # ---------------------------------------------------------------------------
-YTMUSIC_HEADERS_AUTH = os.environ.get("YTMUSIC_HEADERS_AUTH", "")
+YOUTUBE_CLIENT_ID = os.environ.get("YOUTUBE_CLIENT_ID", "")
+YOUTUBE_CLIENT_SECRET = os.environ.get("YOUTUBE_CLIENT_SECRET", "")
+YOUTUBE_REFRESH_TOKEN = os.environ.get("YOUTUBE_REFRESH_TOKEN", "")
 
 
 def fetch_spotify_tracks(limit=50):
@@ -112,56 +114,120 @@ def fetch_spotify_tracks(limit=50):
     return tracks
 
 
-def fetch_ytmusic_tracks(limit=50):
-    """Get recently played tracks from YouTube Music via ytmusicapi."""
-    if not YTMUSIC_HEADERS_AUTH:
-        print("YouTube Music auth not set — skipping YouTube Music.")
+def get_youtube_access_token():
+    """Exchange Google OAuth refresh token for an access token."""
+    resp = requests.post(
+        "https://oauth2.googleapis.com/token",
+        data={
+            "client_id": YOUTUBE_CLIENT_ID,
+            "client_secret": YOUTUBE_CLIENT_SECRET,
+            "refresh_token": YOUTUBE_REFRESH_TOKEN,
+            "grant_type": "refresh_token",
+        },
+        timeout=30,
+    )
+    resp.raise_for_status()
+    return resp.json()["access_token"]
+
+
+def fetch_youtube_liked_songs(limit=50):
+    """Fetch liked songs from YouTube Music via YouTube Data API v3.
+
+    The 'LM' playlist contains all YouTube Music liked songs.
+    Falls back to 'LL' (liked videos) if 'LM' fails.
+    """
+    if not all([YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN]):
+        print("YouTube credentials not set — skipping YouTube Music.")
         return []
 
     try:
-        from ytmusicapi import YTMusic
-
-        # Write auth headers to a temp file
-        auth_path = Path("/tmp/ytmusic_headers.json")
-        auth_path.write_text(YTMUSIC_HEADERS_AUTH, encoding="utf-8")
-
-        yt = YTMusic(str(auth_path))
-        history = yt.get_history()
-
-        tracks = []
-        for item in history[:limit]:
-            artists = ", ".join(a["name"] for a in item.get("artists", []) if a.get("name"))
-            album_info = item.get("album")
-            album_name = album_info.get("name", "") if album_info else ""
-
-            # Thumbnail
-            thumbnails = item.get("thumbnails", [])
-            image_url = thumbnails[-1]["url"] if thumbnails else ""
-
-            tracks.append({
-                "name": item.get("title", "unknown"),
-                "artist": artists or "unknown",
-                "album": album_name,
-                "image": image_url,
-                "playedAt": "",  # YTMusic history doesn't provide exact timestamps
-                "source": "youtube-music",
-                "nowPlaying": False,
-            })
-
-        print(f"YouTube Music: fetched {len(tracks)} tracks")
-        return tracks
-
-    except ImportError:
-        print("ytmusicapi not installed — skipping YouTube Music.")
-        return []
+        access_token = get_youtube_access_token()
     except Exception as e:
-        print(f"YouTube Music error: {e}")
+        print(f"YouTube token exchange failed: {e}")
         return []
 
+    headers = {"Authorization": f"Bearer {access_token}"}
+    tracks = []
 
-def merge_and_deduplicate(spotify_tracks, ytmusic_tracks):
+    # Try 'LM' (YouTube Music Liked Music) first, then 'LL' (Liked Videos)
+    for playlist_id in ["LM", "LL"]:
+        try:
+            items = []
+            page_token = None
+
+            while len(items) < limit:
+                params = {
+                    "part": "snippet",
+                    "playlistId": playlist_id,
+                    "maxResults": min(50, limit - len(items)),
+                }
+                if page_token:
+                    params["pageToken"] = page_token
+
+                resp = requests.get(
+                    "https://www.googleapis.com/youtube/v3/playlistItems",
+                    headers=headers,
+                    params=params,
+                    timeout=30,
+                )
+
+                if resp.status_code == 404:
+                    print(f"Playlist '{playlist_id}' not found, trying next...")
+                    break
+
+                resp.raise_for_status()
+                data = resp.json()
+                items.extend(data.get("items", []))
+                page_token = data.get("nextPageToken")
+
+                if not page_token:
+                    break
+
+            if not items:
+                continue
+
+            for item in items[:limit]:
+                snippet = item.get("snippet", {})
+                title = snippet.get("title", "unknown")
+                channel = snippet.get("videoOwnerChannelTitle", "unknown")
+                # Clean up " - Topic" channels (YouTube Music auto-channels)
+                artist = channel.replace(" - Topic", "")
+                published = snippet.get("publishedAt", "")
+
+                # Best thumbnail
+                thumbnails = snippet.get("thumbnails", {})
+                image_url = ""
+                for size in ["high", "medium", "default"]:
+                    if size in thumbnails:
+                        image_url = thumbnails[size].get("url", "")
+                        break
+
+                tracks.append({
+                    "name": title,
+                    "artist": artist,
+                    "album": "",
+                    "image": image_url,
+                    "playedAt": published,
+                    "source": "youtube-music",
+                    "nowPlaying": False,
+                })
+
+            print(f"YouTube Music: fetched {len(tracks)} tracks from playlist '{playlist_id}'")
+            break  # Success — don't try the next playlist
+
+        except Exception as e:
+            print(f"YouTube playlist '{playlist_id}' error: {e}")
+            continue
+
+    if not tracks:
+        print("YouTube Music: no tracks fetched from any playlist.")
+
+    return tracks
+
+
+def merge_and_deduplicate(spotify_tracks, youtube_tracks):
     """Merge tracks from both sources, dedup by name+artist, sort by playedAt."""
-    all_tracks = spotify_tracks + ytmusic_tracks
+    all_tracks = spotify_tracks + youtube_tracks
 
     # Deduplicate by (lowercase name, lowercase artist)
     seen = set()
@@ -173,13 +239,6 @@ def merge_and_deduplicate(spotify_tracks, ytmusic_tracks):
             unique.append(t)
 
     # Sort: now playing first, then by playedAt descending
-    def sort_key(t):
-        if t.get("nowPlaying"):
-            return (0, "")
-        return (1, t.get("playedAt") or "0000")
-
-    unique.sort(key=sort_key)
-    # Reverse the non-nowPlaying portion so newest is first
     now_playing = [t for t in unique if t.get("nowPlaying")]
     rest = [t for t in unique if not t.get("nowPlaying")]
     rest.sort(key=lambda t: t.get("playedAt") or "0000", reverse=True)
@@ -189,9 +248,9 @@ def merge_and_deduplicate(spotify_tracks, ytmusic_tracks):
 
 def main():
     spotify_tracks = fetch_spotify_tracks(limit=50)
-    ytmusic_tracks = fetch_ytmusic_tracks(limit=50)
+    youtube_tracks = fetch_youtube_liked_songs(limit=50)
 
-    merged = merge_and_deduplicate(spotify_tracks, ytmusic_tracks)
+    merged = merge_and_deduplicate(spotify_tracks, youtube_tracks)
     print(f"Total after merge/dedup: {len(merged)} tracks")
 
     output = {
@@ -202,7 +261,7 @@ def main():
 
     if SPOTIFY_REFRESH_TOKEN:
         output["sources"].append("spotify")
-    if YTMUSIC_HEADERS_AUTH:
+    if YOUTUBE_REFRESH_TOKEN:
         output["sources"].append("youtube-music")
 
     out_path = Path("music/music.json")
