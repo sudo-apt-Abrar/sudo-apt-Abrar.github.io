@@ -68,6 +68,7 @@ def fetch_spotify_tracks(limit=50):
             "image": image_url,
             "playedAt": item.get("played_at", ""),
             "source": "spotify",
+            "spotifyId": t.get("id", ""),
             "nowPlaying": False,
         })
 
@@ -94,6 +95,7 @@ def fetch_spotify_tracks(limit=50):
                     "image": image_url,
                     "playedAt": datetime.now(timezone.utc).isoformat(),
                     "source": "spotify",
+                    "spotifyId": t.get("id", ""),
                     "nowPlaying": True,
                 })
     except Exception as e:
