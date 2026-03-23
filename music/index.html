@@ -7,10 +7,8 @@
     <link rel="icon" href="../favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Reset & Base — matching main site */
         *, *::before, *::after {
             margin: 0;
             padding: 0;
@@ -18,33 +16,160 @@
         }
 
         :root {
-            --bg-primary: #f5f0e8;
-            --bg-secondary: #ebe4d8;
-            --bg-card: #faf7f2;
-            --text-primary: #2c2825;
-            --text-secondary: #5c5651;
-            --text-muted: #8a847d;
+            --bg-deep: #0a0a0f;
+            --bg-surface: rgba(255, 255, 255, 0.04);
+            --bg-glass: rgba(255, 255, 255, 0.06);
+            --bg-glass-hover: rgba(255, 255, 255, 0.10);
+            --text-primary: #f0ece6;
+            --text-secondary: rgba(240, 236, 230, 0.65);
+            --text-muted: rgba(240, 236, 230, 0.35);
             --accent: #a67c52;
-            --accent-hover: #8b6642;
-            --border: #d9d1c5;
+            --accent-glow: rgba(166, 124, 82, 0.5);
+            --border: rgba(255, 255, 255, 0.08);
+            --border-accent: rgba(166, 124, 82, 0.3);
             --space-xs: 0.5rem;
             --space-sm: 1rem;
             --space-md: 1.5rem;
             --space-lg: 2.5rem;
             --space-xl: 4rem;
-            --space-xxl: 6rem;
         }
 
         html { scroll-behavior: smooth; }
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background-color: var(--bg-primary);
+            background-color: var(--bg-deep);
             color: var(--text-primary);
             line-height: 1.7;
             font-size: 16px;
             font-weight: 400;
             text-transform: lowercase;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        /* ---- Laser / Aurora Background ---- */
+        .laser-bg {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .laser-beam {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.5;
+            will-change: transform;
+        }
+
+        .beam-1 {
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(166, 124, 82, 0.6) 0%, transparent 70%);
+            top: -15%;
+            left: -10%;
+            animation: drift1 12s ease-in-out infinite;
+        }
+
+        .beam-2 {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(180, 80, 120, 0.45) 0%, transparent 70%);
+            top: 30%;
+            right: -15%;
+            animation: drift2 15s ease-in-out infinite;
+        }
+
+        .beam-3 {
+            width: 450px;
+            height: 450px;
+            background: radial-gradient(circle, rgba(80, 120, 200, 0.4) 0%, transparent 70%);
+            bottom: -10%;
+            left: 20%;
+            animation: drift3 18s ease-in-out infinite;
+        }
+
+        .beam-4 {
+            width: 350px;
+            height: 350px;
+            background: radial-gradient(circle, rgba(120, 200, 160, 0.3) 0%, transparent 70%);
+            top: 50%;
+            left: 50%;
+            animation: drift4 20s ease-in-out infinite;
+        }
+
+        .beam-5 {
+            width: 300px;
+            height: 600px;
+            background: linear-gradient(180deg, rgba(166, 124, 82, 0.3) 0%, rgba(180, 80, 120, 0.2) 50%, transparent 100%);
+            top: -20%;
+            left: 40%;
+            transform: rotate(-15deg);
+            filter: blur(60px);
+            animation: drift5 14s ease-in-out infinite;
+        }
+
+        .beam-6 {
+            width: 250px;
+            height: 500px;
+            background: linear-gradient(180deg, rgba(80, 120, 200, 0.25) 0%, rgba(120, 200, 160, 0.15) 50%, transparent 100%);
+            bottom: -10%;
+            right: 15%;
+            transform: rotate(20deg);
+            filter: blur(50px);
+            animation: drift6 16s ease-in-out infinite;
+        }
+
+        @keyframes drift1 {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(80px, 60px) scale(1.15); }
+            66% { transform: translate(-40px, 30px) scale(0.9); }
+        }
+
+        @keyframes drift2 {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(-60px, -80px) scale(1.1); }
+            66% { transform: translate(40px, -40px) scale(0.95); }
+        }
+
+        @keyframes drift3 {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(50px, -50px) scale(1.2); }
+            66% { transform: translate(-70px, -20px) scale(0.85); }
+        }
+
+        @keyframes drift4 {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(-100px, -60px) scale(1.3); }
+        }
+
+        @keyframes drift5 {
+            0%, 100% { transform: rotate(-15deg) translateY(0); opacity: 0.5; }
+            50% { transform: rotate(-10deg) translateY(40px); opacity: 0.7; }
+        }
+
+        @keyframes drift6 {
+            0%, 100% { transform: rotate(20deg) translateX(0); opacity: 0.5; }
+            50% { transform: rotate(15deg) translateX(-30px); opacity: 0.65; }
+        }
+
+        /* Grain overlay for texture */
+        .laser-bg::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+            opacity: 0.5;
+            mix-blend-mode: overlay;
+        }
+
+        /* ---- Content Layer ---- */
+        .content-layer {
+            position: relative;
+            z-index: 1;
         }
 
         .container {
@@ -56,11 +181,11 @@
         a {
             color: var(--accent);
             text-decoration: none;
-            transition: color 0.2s ease;
+            transition: color 0.2s ease, opacity 0.2s ease;
         }
-        a:hover { color: var(--accent-hover); }
+        a:hover { color: #c9a478; }
 
-        /* Navigation — matching main site */
+        /* ---- Nav ---- */
         header { padding: var(--space-lg) 0; }
 
         nav {
@@ -85,7 +210,6 @@
             color: var(--text-secondary);
             font-size: 0.9rem;
             font-weight: 400;
-            text-transform: lowercase;
         }
         .nav-links a:hover { color: var(--text-primary); }
         .nav-links a.active {
@@ -93,26 +217,28 @@
             font-weight: 500;
         }
 
-        /* Page Header */
+        /* ---- Page Header ---- */
         .page-header {
             padding: var(--space-xl) 0 var(--space-lg);
-            border-bottom: 1px solid var(--border);
         }
 
         .page-header h1 {
-            font-size: 2.5rem;
-            font-weight: 600;
-            line-height: 1.2;
-            letter-spacing: -0.02em;
+            font-size: 2.8rem;
+            font-weight: 700;
+            line-height: 1.15;
+            letter-spacing: -0.03em;
             margin-bottom: var(--space-xs);
         }
 
         .page-header .highlight {
-            color: var(--accent);
+            background: linear-gradient(135deg, var(--accent) 0%, #c9a478 50%, #e8c9a0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
         .page-subtitle {
-            color: var(--text-muted);
+            color: var(--text-secondary);
             font-size: 1rem;
             margin-bottom: var(--space-sm);
         }
@@ -122,59 +248,183 @@
             align-items: center;
             gap: 0.4rem;
             color: var(--text-muted);
-            font-size: 0.85rem;
-            background: var(--bg-card);
+            font-size: 0.8rem;
+            background: var(--bg-glass);
             border: 1px solid var(--border);
             border-radius: 20px;
             padding: 0.3rem 0.75rem;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
         }
 
         .last-updated svg {
-            width: 14px;
-            height: 14px;
+            width: 13px;
+            height: 13px;
         }
 
-        /* Stats Row */
+        /* ---- Now Playing Hero ---- */
+        .now-playing-hero {
+            background: var(--bg-glass);
+            border: 1px solid var(--border-accent);
+            border-radius: 20px;
+            padding: var(--space-md) var(--space-lg);
+            margin-bottom: var(--space-lg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            display: none;
+            align-items: center;
+            gap: var(--space-md);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .now-playing-hero.visible { display: flex; }
+
+        .now-playing-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(166, 124, 82, 0.08) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .np-art {
+            width: 80px;
+            height: 80px;
+            border-radius: 14px;
+            overflow: hidden;
+            flex-shrink: 0;
+            background: var(--bg-surface);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+        }
+
+        .np-art img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .np-details { flex: 1; min-width: 0; }
+
+        .np-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.3rem;
+        }
+
+        .np-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+            box-shadow: 0 0 8px var(--accent-glow);
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(0.8); }
+        }
+
+        .np-track {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .np-artist {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* Equalizer bars */
+        .eq-bars {
+            display: flex;
+            align-items: flex-end;
+            gap: 3px;
+            height: 28px;
+            flex-shrink: 0;
+        }
+
+        .eq-bar {
+            width: 3px;
+            background: var(--accent);
+            border-radius: 2px;
+            animation: eqBounce 1.2s ease-in-out infinite;
+        }
+
+        .eq-bar:nth-child(1) { height: 60%; animation-delay: 0s; }
+        .eq-bar:nth-child(2) { height: 100%; animation-delay: 0.15s; }
+        .eq-bar:nth-child(3) { height: 40%; animation-delay: 0.3s; }
+        .eq-bar:nth-child(4) { height: 80%; animation-delay: 0.45s; }
+        .eq-bar:nth-child(5) { height: 50%; animation-delay: 0.6s; }
+
+        @keyframes eqBounce {
+            0%, 100% { transform: scaleY(0.3); }
+            50% { transform: scaleY(1); }
+        }
+
+        /* ---- Stats Row ---- */
         .stats-row {
             display: flex;
             gap: var(--space-sm);
-            padding: var(--space-md) 0;
-            border-bottom: 1px solid var(--border);
+            margin-bottom: var(--space-lg);
         }
 
         .stat-card {
             flex: 1;
-            background: var(--bg-card);
+            background: var(--bg-glass);
             border: 1px solid var(--border);
-            border-radius: 10px;
-            padding: var(--space-sm);
+            border-radius: 16px;
+            padding: var(--space-sm) var(--space-sm);
             text-align: center;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            transition: border-color 0.3s ease, background 0.3s ease;
+        }
+
+        .stat-card:hover {
+            border-color: var(--border-accent);
+            background: var(--bg-glass-hover);
         }
 
         .stat-number {
-            font-size: 1.75rem;
-            font-weight: 600;
-            color: var(--accent);
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             line-height: 1.2;
         }
 
         .stat-label {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             color: var(--text-muted);
-            margin-top: 0.2rem;
+            margin-top: 0.15rem;
+            letter-spacing: 0.03em;
         }
 
-        /* Top Artists */
+        /* ---- Top Artists ---- */
         .section-block {
-            padding: var(--space-lg) 0 var(--space-md);
+            margin-bottom: var(--space-lg);
         }
 
         .section-label {
-            font-size: 0.8rem;
-            font-weight: 500;
+            font-size: 0.7rem;
+            font-weight: 600;
             color: var(--text-muted);
             text-transform: uppercase;
-            letter-spacing: 0.08em;
+            letter-spacing: 0.1em;
             margin-bottom: var(--space-sm);
         }
 
@@ -185,23 +435,30 @@
         }
 
         .artist-tag {
-            background: var(--bg-card);
+            background: var(--bg-glass);
             border: 1px solid var(--border);
             border-radius: 20px;
             padding: 0.35rem 0.85rem;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             color: var(--text-secondary);
-            transition: all 0.2s ease;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            transition: all 0.25s ease;
+        }
+
+        .artist-tag:hover {
+            border-color: var(--border-accent);
+            color: var(--text-primary);
         }
 
         .artist-tag:first-child {
-            background: var(--accent);
-            color: #fff;
-            border-color: var(--accent);
+            background: linear-gradient(135deg, rgba(166, 124, 82, 0.25) 0%, rgba(166, 124, 82, 0.1) 100%);
+            border-color: var(--border-accent);
+            color: var(--accent);
             font-weight: 500;
         }
 
-        /* Track List */
+        /* ---- Track List ---- */
         .track-list {
             list-style: none;
         }
@@ -210,13 +467,14 @@
             display: flex;
             align-items: center;
             gap: var(--space-sm);
-            padding: var(--space-sm) 0;
-            border-bottom: 1px solid var(--border);
-            transition: background 0.15s ease;
+            padding: 0.75rem var(--space-sm);
+            border-radius: 12px;
+            transition: background 0.2s ease;
+            cursor: default;
         }
 
-        .track-item:last-child {
-            border-bottom: none;
+        .track-item:hover {
+            background: var(--bg-glass-hover);
         }
 
         .track-number {
@@ -225,15 +483,17 @@
             color: var(--text-muted);
             text-align: center;
             flex-shrink: 0;
+            font-variant-numeric: tabular-nums;
         }
 
         .track-art {
             width: 48px;
             height: 48px;
-            border-radius: 6px;
-            background: var(--bg-secondary);
+            border-radius: 8px;
+            background: var(--bg-surface);
             overflow: hidden;
             flex-shrink: 0;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
         }
 
         .track-art img {
@@ -248,6 +508,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            background: linear-gradient(135deg, rgba(166, 124, 82, 0.15), rgba(80, 120, 200, 0.1));
         }
 
         .track-art-placeholder svg {
@@ -272,13 +533,12 @@
 
         .track-artist {
             font-size: 0.8rem;
-            color: var(--text-muted);
+            color: var(--text-secondary);
         }
 
         .track-album {
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: var(--text-muted);
-            opacity: 0.7;
         }
 
         .track-time {
@@ -287,268 +547,221 @@
             flex-shrink: 0;
         }
 
-        .track-source {
-            font-size: 0.65rem;
-            color: var(--text-muted);
-            background: var(--bg-secondary);
-            border-radius: 8px;
-            padding: 0.15rem 0.45rem;
-            flex-shrink: 0;
-            text-transform: uppercase;
-            letter-spacing: 0.03em;
-        }
-
-        .track-meta {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            gap: 0.2rem;
-            flex-shrink: 0;
-        }
-
-        /* Now Playing */
-        .now-playing {
-            display: flex;
-            align-items: center;
-            gap: var(--space-sm);
-            background: var(--bg-card);
-            border: 1px solid var(--accent);
-            border-radius: 12px;
-            padding: var(--space-sm) var(--space-md);
-            margin-bottom: var(--space-md);
-        }
-
-        .now-playing-dot {
-            width: 8px;
-            height: 8px;
-            background: var(--accent);
-            border-radius: 50%;
-            animation: pulse 2s ease-in-out infinite;
-            flex-shrink: 0;
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.3; }
-        }
-
-        .now-playing-label {
-            font-size: 0.75rem;
-            color: var(--accent);
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            flex-shrink: 0;
-        }
-
-        .now-playing-info {
-            flex: 1;
-            min-width: 0;
-        }
-
-        .now-playing-track {
-            font-size: 0.95rem;
-            font-weight: 500;
-            color: var(--text-primary);
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .now-playing-artist {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-
-        /* Playlist CTA */
-        .playlist-cta {
-            background: var(--bg-card);
+        /* ---- Spotify CTA ---- */
+        .spotify-cta {
+            background: var(--bg-glass);
             border: 1px solid var(--border);
-            border-radius: 12px;
+            border-radius: 16px;
             padding: var(--space-md);
             text-align: center;
-            margin-top: var(--space-md);
+            margin-top: var(--space-lg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
         }
 
-        .playlist-cta p {
+        .spotify-cta p {
             color: var(--text-secondary);
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             margin-bottom: var(--space-sm);
         }
 
-        .playlist-links {
-            display: flex;
-            justify-content: center;
-            gap: var(--space-sm);
-            flex-wrap: wrap;
-        }
-
-        .playlist-link {
+        .spotify-btn {
             display: inline-flex;
             align-items: center;
-            gap: 0.35rem;
-            padding: 0.4rem 0.85rem;
-            border: 1px solid var(--border);
-            border-radius: 20px;
-            font-size: 0.8rem;
-            color: var(--text-secondary);
-            transition: all 0.2s ease;
+            gap: 0.5rem;
+            padding: 0.6rem 1.5rem;
+            background: #1DB954;
+            color: #fff;
+            border-radius: 24px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
 
-        .playlist-link:hover {
-            border-color: var(--accent);
-            color: var(--accent);
+        .spotify-btn:hover {
+            color: #fff;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(29, 185, 84, 0.3);
         }
 
-        .playlist-link svg {
-            width: 14px;
-            height: 14px;
+        .spotify-btn svg {
+            width: 18px;
+            height: 18px;
         }
 
-        /* Empty State */
+        /* ---- Empty State ---- */
         .empty-state {
             text-align: center;
             padding: var(--space-xl) 0;
             color: var(--text-muted);
         }
 
-        .empty-state p {
-            font-size: 1rem;
-        }
-
-        /* Footer */
+        /* ---- Footer ---- */
         footer {
             padding: var(--space-lg) 0;
             text-align: center;
             color: var(--text-muted);
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             border-top: 1px solid var(--border);
             margin-top: var(--space-xl);
         }
 
-        /* Responsive */
+        /* ---- Responsive ---- */
         @media (max-width: 600px) {
             .page-header h1 {
-                font-size: 1.75rem;
+                font-size: 2rem;
             }
 
-            .stats-row {
-                gap: 0.5rem;
+            .stats-row { gap: 0.5rem; }
+
+            .stat-card { padding: 0.65rem 0.4rem; }
+
+            .stat-number { font-size: 1.5rem; }
+
+            .nav-links { gap: var(--space-sm); }
+
+            .track-art { width: 40px; height: 40px; }
+
+            .track-album { display: none; }
+
+            .np-art { width: 60px; height: 60px; }
+
+            .now-playing-hero { padding: var(--space-sm) var(--space-md); }
+
+            .beam-1, .beam-2, .beam-3 {
+                width: 300px;
+                height: 300px;
             }
 
-            .stat-card {
-                padding: 0.75rem 0.5rem;
-            }
-
-            .stat-number {
-                font-size: 1.35rem;
-            }
-
-            .nav-links {
-                gap: var(--space-sm);
-            }
-
-            .track-art {
-                width: 40px;
-                height: 40px;
-            }
-
-            .track-album {
+            .beam-4, .beam-5, .beam-6 {
                 display: none;
             }
+        }
 
-            .now-playing {
-                flex-wrap: wrap;
-            }
+        /* ---- Fade-in animation ---- */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(12px);
+            animation: fadeUp 0.6s ease forwards;
+        }
+
+        .fade-in:nth-child(2) { animation-delay: 0.08s; }
+        .fade-in:nth-child(3) { animation-delay: 0.16s; }
+        .fade-in:nth-child(4) { animation-delay: 0.24s; }
+        .fade-in:nth-child(5) { animation-delay: 0.32s; }
+
+        @keyframes fadeUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .track-item {
+            opacity: 0;
+            animation: fadeUp 0.4s ease forwards;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header>
-            <nav>
-                <a href="../" class="logo">abrar.</a>
-                <div class="nav-links">
-                    <a href="../#about">about</a>
-                    <a href="../#work">work</a>
-                    <a href="../#videos">videos</a>
-                    <a href="../reading/">reading</a>
-                    <a href="./" class="active">music</a>
-                    <a href="../#connect">connect</a>
+    <!-- Laser / Aurora Background -->
+    <div class="laser-bg">
+        <div class="laser-beam beam-1"></div>
+        <div class="laser-beam beam-2"></div>
+        <div class="laser-beam beam-3"></div>
+        <div class="laser-beam beam-4"></div>
+        <div class="laser-beam beam-5"></div>
+        <div class="laser-beam beam-6"></div>
+    </div>
+
+    <div class="content-layer">
+        <div class="container">
+            <!-- Header -->
+            <header>
+                <nav>
+                    <a href="../" class="logo">abrar.</a>
+                    <div class="nav-links">
+                        <a href="../#about">about</a>
+                        <a href="../#work">work</a>
+                        <a href="../#videos">videos</a>
+                        <a href="../reading/">reading</a>
+                        <a href="./" class="active">music</a>
+                        <a href="../#connect">connect</a>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- Page Header -->
+            <div class="page-header fade-in">
+                <h1>what <span class="highlight">abrar</span><br>is listening to</h1>
+                <p class="page-subtitle">recently played on spotify, updated daily.</p>
+                <span class="last-updated" id="last-updated">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    loading...
+                </span>
+            </div>
+
+            <!-- Now Playing Hero -->
+            <div class="now-playing-hero fade-in" id="now-playing-hero">
+                <div class="np-art" id="np-art"></div>
+                <div class="np-details">
+                    <div class="np-label"><span class="np-dot"></span> now playing</div>
+                    <div class="np-track" id="np-track"></div>
+                    <div class="np-artist" id="np-artist"></div>
                 </div>
-            </nav>
-        </header>
-
-        <!-- Page Header -->
-        <div class="page-header">
-            <h1>what <span class="highlight">abrar</span> is listening to</h1>
-            <p class="page-subtitle">daily playlist curated from my spotify & youtube music listening history.</p>
-            <span class="last-updated" id="last-updated">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <polyline points="12 6 12 12 16 14"></polyline>
-                </svg>
-                loading...
-            </span>
-        </div>
-
-        <!-- Stats -->
-        <div class="stats-row" id="stats-row">
-            <div class="stat-card">
-                <div class="stat-number" id="stat-tracks">—</div>
-                <div class="stat-label">tracks played</div>
+                <div class="eq-bars">
+                    <div class="eq-bar"></div>
+                    <div class="eq-bar"></div>
+                    <div class="eq-bar"></div>
+                    <div class="eq-bar"></div>
+                    <div class="eq-bar"></div>
+                </div>
             </div>
-            <div class="stat-card">
-                <div class="stat-number" id="stat-artists">—</div>
-                <div class="stat-label">artists</div>
+
+            <!-- Stats -->
+            <div class="stats-row fade-in">
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-tracks">—</div>
+                    <div class="stat-label">tracks</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-artists">—</div>
+                    <div class="stat-label">artists</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-albums">—</div>
+                    <div class="stat-label">albums</div>
+                </div>
             </div>
-            <div class="stat-card">
-                <div class="stat-number" id="stat-albums">—</div>
-                <div class="stat-label">albums</div>
+
+            <!-- Top Artists -->
+            <div class="section-block fade-in" id="top-artists-block" style="display:none;">
+                <div class="section-label">top artists</div>
+                <div class="top-artists" id="top-artists"></div>
             </div>
-        </div>
 
-        <!-- Top Artists -->
-        <div class="section-block" id="top-artists-block" style="display:none;">
-            <div class="section-label">top artists today</div>
-            <div class="top-artists" id="top-artists"></div>
-        </div>
+            <!-- Track List -->
+            <div class="section-block fade-in">
+                <div class="section-label">recently played</div>
+                <ul class="track-list" id="track-list">
+                    <li class="empty-state"><p>loading tracks...</p></li>
+                </ul>
+            </div>
 
-        <!-- Now Playing -->
-        <div id="now-playing-container"></div>
-
-        <!-- Track List -->
-        <div class="section-block">
-            <div class="section-label">recently played</div>
-            <ul class="track-list" id="track-list">
-                <li class="empty-state"><p>loading tracks...</p></li>
-            </ul>
-        </div>
-
-        <!-- Playlist CTA -->
-        <div class="playlist-cta">
-            <p>want to listen along? search these tracks on your platform.</p>
-            <div class="playlist-links">
-                <a href="https://open.spotify.com/search" target="_blank" class="playlist-link">
+            <!-- Spotify CTA -->
+            <div class="spotify-cta fade-in">
+                <p>want to listen along?</p>
+                <a href="https://open.spotify.com" target="_blank" class="spotify-btn">
                     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
-                    spotify
-                </a>
-                <a href="https://music.apple.com/search" target="_blank" class="playlist-link">
-                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.994 6.124a9.23 9.23 0 00-.24-2.19c-.317-1.31-1.062-2.31-2.18-3.043A5.022 5.022 0 0019.2.04a10.49 10.49 0 00-1.66-.04H6.46a10.49 10.49 0 00-1.66.04 5.022 5.022 0 00-2.374.851C1.308 1.624.563 2.624.246 3.934a9.23 9.23 0 00-.24 2.19C0 6.374 0 6.624 0 6.874v10.252c0 .25 0 .5.006.75a9.23 9.23 0 00.24 2.19c.317 1.31 1.062 2.31 2.18 3.043a5.022 5.022 0 002.374.851 10.49 10.49 0 001.66.04h11.08a10.49 10.49 0 001.66-.04 5.022 5.022 0 002.374-.851c1.118-.733 1.863-1.733 2.18-3.043a9.23 9.23 0 00.24-2.19c.006-.25.006-.5.006-.75V6.874c0-.25 0-.5-.006-.75zM17.994 10.5v5.75c0 .69-.1 1.36-.47 1.95-.37.59-.88.96-1.53 1.12-.42.1-.84.14-1.25.08-.95-.14-1.67-.84-1.82-1.79-.14-.95.34-1.87 1.2-2.28.4-.19.83-.3 1.26-.38.44-.09.88-.16 1.31-.27.23-.06.41-.2.46-.45.02-.12.03-.24.03-.36V9.66c0-.28-.1-.44-.37-.49-.36-.07-.72-.12-1.08-.19l-4.32-.76c-.35-.06-.47.03-.5.39-.01.08 0 .16 0 .24v7.67c0 .66-.08 1.31-.41 1.9-.37.66-.92 1.07-1.63 1.22-.42.09-.84.12-1.26.06-.91-.13-1.61-.81-1.77-1.72-.16-1 .32-1.95 1.22-2.37.41-.19.85-.3 1.29-.39.39-.08.78-.14 1.17-.25.27-.07.44-.24.49-.53.01-.08.02-.16.02-.24V6.16c0-.42.13-.6.54-.52.12.02.24.05.36.07l6.48 1.14c.36.06.48.2.48.57v3.08z"/></svg>
-                    apple music
-                </a>
-                <a href="https://music.youtube.com" target="_blank" class="playlist-link">
-                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.376 0 0 5.376 0 12s5.376 12 12 12 12-5.376 12-12S18.624 0 12 0zm0 19.104c-3.924 0-7.104-3.18-7.104-7.104S8.076 4.896 12 4.896s7.104 3.18 7.104 7.104-3.18 7.104-7.104 7.104zm0-13.332c-3.432 0-6.228 2.796-6.228 6.228S8.568 18.228 12 18.228s6.228-2.796 6.228-6.228S15.432 5.772 12 5.772zM9.684 15.54V8.46L16.2 12l-6.516 3.54z"/></svg>
-                    youtube music
+                    open spotify
                 </a>
             </div>
-        </div>
 
-        <!-- Footer -->
-        <footer>
-            <p>© 2026 abrar syed · powered by spotify api & ytmusicapi · updated daily by github actions</p>
-        </footer>
+            <!-- Footer -->
+            <footer>
+                <p>© 2026 abrar syed · powered by spotify api · updated daily</p>
+            </footer>
+        </div>
     </div>
 
     <script>
@@ -560,9 +773,8 @@
                 musicData = await response.json();
                 renderMusic();
             } catch (err) {
-                document.getElementById('track-list').innerHTML = `
-                    <li class="empty-state"><p>couldn't load music data — please try refreshing.</p></li>
-                `;
+                document.getElementById('track-list').innerHTML =
+                    '<li class="empty-state"><p>couldn\'t load music data — try refreshing.</p></li>';
             }
         }
 
@@ -574,108 +786,97 @@
             const diffHours = Math.floor(diffMs / 3600000);
 
             if (diffMins < 1) return 'just now';
-            if (diffMins < 60) return `${diffMins}m ago`;
-            if (diffHours < 24) return `${diffHours}h ago`;
+            if (diffMins < 60) return diffMins + 'm ago';
+            if (diffHours < 24) return diffHours + 'h ago';
             return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }).toLowerCase();
         }
 
         function renderMusic() {
             if (!musicData || !musicData.tracks || musicData.tracks.length === 0) {
-                document.getElementById('track-list').innerHTML = `
-                    <li class="empty-state"><p>no recent tracks found — check back later.</p></li>
-                `;
+                document.getElementById('track-list').innerHTML =
+                    '<li class="empty-state"><p>no recent tracks — check back later.</p></li>';
                 return;
             }
 
+            var tracks = musicData.tracks;
+
             // Last updated
             if (musicData.lastUpdated) {
-                const updatedDate = new Date(musicData.lastUpdated);
-                document.getElementById('last-updated').innerHTML = `
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <polyline points="12 6 12 12 16 14"></polyline>
-                    </svg>
-                    updated ${updatedDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }).toLowerCase()} at ${updatedDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }).toLowerCase()}
-                `;
+                var d = new Date(musicData.lastUpdated);
+                document.getElementById('last-updated').innerHTML =
+                    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+                    '<circle cx="12" cy="12" r="10"></circle>' +
+                    '<polyline points="12 6 12 12 16 14"></polyline>' +
+                    '</svg> ' +
+                    d.toLocaleDateString('en-US', { month: 'long', day: 'numeric' }).toLowerCase() +
+                    ' · ' +
+                    d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }).toLowerCase();
             }
 
             // Stats
-            const tracks = musicData.tracks;
-            const uniqueArtists = [...new Set(tracks.map(t => t.artist))];
-            const uniqueAlbums = [...new Set(tracks.map(t => t.album).filter(Boolean))];
-
+            var uniqueArtists = [];
+            var seenArtists = {};
+            var uniqueAlbums = [];
+            var seenAlbums = {};
+            tracks.forEach(function(t) {
+                if (!seenArtists[t.artist]) { seenArtists[t.artist] = true; uniqueArtists.push(t.artist); }
+                if (t.album && !seenAlbums[t.album]) { seenAlbums[t.album] = true; uniqueAlbums.push(t.album); }
+            });
             document.getElementById('stat-tracks').textContent = tracks.length;
             document.getElementById('stat-artists').textContent = uniqueArtists.length;
             document.getElementById('stat-albums').textContent = uniqueAlbums.length;
 
-            // Top artists (by play count)
-            const artistCounts = {};
-            tracks.forEach(t => {
-                artistCounts[t.artist] = (artistCounts[t.artist] || 0) + 1;
-            });
-            const topArtists = Object.entries(artistCounts)
-                .sort((a, b) => b[1] - a[1])
-                .slice(0, 8);
+            // Top artists
+            var artistCounts = {};
+            tracks.forEach(function(t) { artistCounts[t.artist] = (artistCounts[t.artist] || 0) + 1; });
+            var topArtists = Object.keys(artistCounts).map(function(k) {
+                return [k, artistCounts[k]];
+            }).sort(function(a, b) { return b[1] - a[1]; }).slice(0, 8);
 
             if (topArtists.length > 0) {
-                const block = document.getElementById('top-artists-block');
-                block.style.display = '';
+                document.getElementById('top-artists-block').style.display = '';
                 document.getElementById('top-artists').innerHTML = topArtists
-                    .map(([name, count]) => `<span class="artist-tag">${name} · ${count}</span>`)
+                    .map(function(pair) { return '<span class="artist-tag">' + pair[0] + ' · ' + pair[1] + '</span>'; })
                     .join('');
             }
 
-            // Now playing (if the first track has nowPlaying flag)
+            // Now Playing
             if (tracks[0] && tracks[0].nowPlaying) {
-                const t = tracks[0];
-                document.getElementById('now-playing-container').innerHTML = `
-                    <div class="section-block" style="padding-bottom:0;">
-                        <div class="now-playing">
-                            <span class="now-playing-dot"></span>
-                            <span class="now-playing-label">now playing</span>
-                            <div class="now-playing-info">
-                                <div class="now-playing-track">${t.name}</div>
-                                <div class="now-playing-artist">${t.artist}</div>
-                            </div>
-                        </div>
-                    </div>
-                `;
+                var t = tracks[0];
+                var hero = document.getElementById('now-playing-hero');
+                hero.classList.add('visible');
+
+                var artImg = t.image
+                    ? '<img src="' + t.image + '" alt="' + (t.album || t.name) + '">'
+                    : '<div class="track-art-placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>';
+                document.getElementById('np-art').innerHTML = artImg;
+                document.getElementById('np-track').textContent = t.name;
+                document.getElementById('np-artist').textContent = t.artist + (t.album ? ' · ' + t.album : '');
             }
 
             // Track list
-            const trackListHTML = tracks
-                .filter(t => !t.nowPlaying)
-                .map((t, i) => {
-                    const artHTML = t.image
-                        ? `<img src="${t.image}" alt="${t.album || t.name}" loading="lazy">`
-                        : `<div class="track-art-placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>`;
+            var listTracks = tracks.filter(function(t) { return !t.nowPlaying; });
+            var html = listTracks.map(function(t, i) {
+                var artHTML = t.image
+                    ? '<img src="' + t.image + '" alt="' + (t.album || t.name) + '" loading="lazy">'
+                    : '<div class="track-art-placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>';
 
-                    const albumHTML = t.album ? `<div class="track-album">${t.album}</div>` : '';
-                    const timeHTML = t.playedAt ? `<span class="track-time">${timeAgo(t.playedAt)}</span>` : '';
-                    const sourceLabel = t.source === 'youtube-music' ? 'yt' : t.source || '';
-                    const sourceHTML = sourceLabel ? `<span class="track-source">${sourceLabel}</span>` : '';
+                var albumHTML = t.album ? '<div class="track-album">' + t.album + '</div>' : '';
+                var timeHTML = t.playedAt ? timeAgo(t.playedAt) : '';
 
-                    return `
-                        <li class="track-item">
-                            <span class="track-number">${i + 1}</span>
-                            <div class="track-art">${artHTML}</div>
-                            <div class="track-info">
-                                <div class="track-name">${t.name}</div>
-                                <div class="track-artist">${t.artist}</div>
-                                ${albumHTML}
-                            </div>
-                            <div class="track-meta">
-                                ${timeHTML}
-                                ${sourceHTML}
-                            </div>
-                        </li>
-                    `;
-                })
-                .join('');
+                return '<li class="track-item" style="animation-delay: ' + (i * 0.04) + 's">' +
+                    '<span class="track-number">' + (i + 1) + '</span>' +
+                    '<div class="track-art">' + artHTML + '</div>' +
+                    '<div class="track-info">' +
+                        '<div class="track-name">' + t.name + '</div>' +
+                        '<div class="track-artist">' + t.artist + '</div>' +
+                        albumHTML +
+                    '</div>' +
+                    '<span class="track-time">' + timeHTML + '</span>' +
+                '</li>';
+            }).join('');
 
-            document.getElementById('track-list').innerHTML = trackListHTML || `
-                <li class="empty-state"><p>no tracks yet today.</p></li>
-            `;
+            document.getElementById('track-list').innerHTML = html || '<li class="empty-state"><p>no tracks yet.</p></li>';
         }
 
         document.addEventListener('DOMContentLoaded', loadMusic);
