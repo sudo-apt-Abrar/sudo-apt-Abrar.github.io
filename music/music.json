@@ -1,27 +1,87 @@
 {
-  "lastUpdated": "2026-03-23T21:09:13.747078+00:00",
+  "lastUpdated": "2026-03-24T07:03:41.215453+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
-      "name": "Young Dumb & Broke",
+      "name": "Stolen Dance",
+      "artist": "Milky Chance",
+      "album": "Sadnecessary",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732001bc1b4dd82d06631fcb9e",
+      "playedAt": "2026-03-24T05:30:50.143Z",
+      "source": "spotify",
+      "spotifyId": "34xGLuxM0rkxhCVyMSqwJO",
+      "nowPlaying": false
+    },
+    {
+      "name": "Psycho, Pt. 2",
+      "artist": "Russ",
+      "album": "Psycho, Pt. 2",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d76647a817d55638a50c863f",
+      "playedAt": "2026-03-24T05:22:41.746Z",
+      "source": "spotify",
+      "spotifyId": "26OhjtaTamFocE08t83ml6",
+      "nowPlaying": false
+    },
+    {
+      "name": "Stressed Out",
+      "artist": "Twenty One Pilots",
+      "album": "Blurryface",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732df0d98a423025032d0db1f7",
+      "playedAt": "2026-03-24T05:19:59.430Z",
+      "source": "spotify",
+      "spotifyId": "3CRDbSIZ4r5MsZ0YwxuEkn",
+      "nowPlaying": false
+    },
+    {
+      "name": "No Role Modelz",
+      "artist": "J. Cole",
+      "album": "2014 Forest Hills Drive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c6e0948bbb0681ff29cdbae8",
+      "playedAt": "2026-03-24T05:08:49.476Z",
+      "source": "spotify",
+      "spotifyId": "68Dni7IE4VyPkTOH9mRWHr",
+      "nowPlaying": false
+    },
+    {
+      "name": "Money Trees",
+      "artist": "Kendrick Lamar, Jay Rock",
+      "album": "good kid, m.A.A.d city",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732cd55246d935a8a77cb4859e",
+      "playedAt": "2026-03-24T05:03:45.374Z",
+      "source": "spotify",
+      "spotifyId": "74tLlkN3rgVzRqQJgPfink",
+      "nowPlaying": false
+    },
+    {
+      "name": "Location",
       "artist": "Khalid",
       "album": "American Teen",
       "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
-      "playedAt": "2026-03-23T21:09:13.744465+00:00",
+      "playedAt": "2026-03-24T04:54:14.574Z",
       "source": "spotify",
-      "spotifyId": "5Z3GHaZ6ec9bsiI5BenrbY",
-      "nowPlaying": true
+      "spotifyId": "152lZdxL1OR0ZMW6KquMif",
+      "nowPlaying": false
     },
     {
       "name": "Better",
       "artist": "Khalid",
       "album": "Suncity",
       "image": "https://i.scdn.co/image/ab67616d0000b273316e987210a1186c95eff23e",
-      "playedAt": "2026-01-28T04:38:05.432Z",
+      "playedAt": "2026-03-24T04:49:37.307Z",
       "source": "spotify",
       "spotifyId": "6zeeWid2sgw4lap2jV61PZ",
+      "nowPlaying": false
+    },
+    {
+      "name": "Baarish",
+      "artist": "Mohammed Irfan",
+      "album": "Bollywood Unplugged",
+      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
+      "playedAt": "2026-03-24T03:10:06.198Z",
+      "source": "spotify",
+      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
       "nowPlaying": false
     },
     {
