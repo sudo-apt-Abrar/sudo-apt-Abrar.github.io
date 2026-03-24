@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T07:59:07.023868+00:00",
+  "lastUpdated": "2026-03-24T17:07:23.112470+00:00",
   "sources": [
     "spotify"
   ],
@@ -9,10 +9,60 @@
       "artist": "Khalid",
       "album": "American Teen",
       "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
-      "playedAt": "2026-03-24T07:59:07.019890+00:00",
+      "playedAt": "2026-03-24T15:35:57.361Z",
       "source": "spotify",
       "spotifyId": "152lZdxL1OR0ZMW6KquMif",
-      "nowPlaying": true
+      "nowPlaying": false
+    },
+    {
+      "name": "The Hills",
+      "artist": "The Weeknd",
+      "album": "Beauty Behind The Madness",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737fcead687e99583072cc217b",
+      "playedAt": "2026-03-24T15:22:58.618Z",
+      "source": "spotify",
+      "spotifyId": "7fBv7CLKzipRk6EC6TWHOB",
+      "nowPlaying": false
+    },
+    {
+      "name": "Heartless",
+      "artist": "Kanye West",
+      "album": "808s & Heartbreak",
+      "image": "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18",
+      "playedAt": "2026-03-24T15:16:58.528Z",
+      "source": "spotify",
+      "spotifyId": "4EWCNWgDS8707fNSZ1oaA5",
+      "nowPlaying": false
+    },
+    {
+      "name": "No Role Modelz",
+      "artist": "J. Cole",
+      "album": "2014 Forest Hills Drive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c6e0948bbb0681ff29cdbae8",
+      "playedAt": "2026-03-24T15:08:30.242Z",
+      "source": "spotify",
+      "spotifyId": "68Dni7IE4VyPkTOH9mRWHr",
+      "nowPlaying": false
+    },
+    {
+      "name": "Mask Off",
+      "artist": "Future",
+      "album": "FUTURE",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e0b64c8be3c4e804abcb2696",
+      "playedAt": "2026-03-24T13:07:49.305Z",
+      "source": "spotify",
+      "spotifyId": "0VgkVdmE4gld66l8iyGjgx",
+      "nowPlaying": false
+    },
+    {
+      "name": "No Time for Caution",
+      "artist": "Hans Zimmer",
+      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730310d2e254062d98b2a92b2d",
+      "playedAt": "2026-03-24T09:21:21.027Z",
+      "source": "spotify",
+      "spotifyId": "5aaXqH8rgKZxg61HjECldi",
+      "nowPlaying": false
     },
     {
       "name": "Stolen Dance",
@@ -42,16 +92,6 @@
       "playedAt": "2026-03-24T05:19:59.430Z",
       "source": "spotify",
       "spotifyId": "3CRDbSIZ4r5MsZ0YwxuEkn",
-      "nowPlaying": false
-    },
-    {
-      "name": "No Role Modelz",
-      "artist": "J. Cole",
-      "album": "2014 Forest Hills Drive",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c6e0948bbb0681ff29cdbae8",
-      "playedAt": "2026-03-24T05:08:49.476Z",
-      "source": "spotify",
-      "spotifyId": "68Dni7IE4VyPkTOH9mRWHr",
       "nowPlaying": false
     },
     {
