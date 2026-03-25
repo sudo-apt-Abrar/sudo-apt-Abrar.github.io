@@ -1,17 +1,387 @@
 {
-  "lastUpdated": "2026-03-24T17:07:23.112470+00:00",
+  "lastUpdated": "2026-03-25T07:01:54.004188+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "After Hours",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
+      "playedAt": "2026-03-25T06:19:35.464Z",
+      "source": "spotify",
+      "spotifyId": "2p8IUWQDrpjuFltbdgLOag",
+      "nowPlaying": false
+    },
+    {
+      "name": "Stevie Doesn't Wonder",
+      "artist": "Hotel Ugly",
+      "album": "Stevie Doesn't Wonder",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d35174d28aadcef2843c7d07",
+      "playedAt": "2026-03-25T06:13:04.854Z",
+      "source": "spotify",
+      "spotifyId": "7BgyWwbbybJr2IbQoI1gzH",
+      "nowPlaying": false
+    },
+    {
+      "name": "Lovers Rock",
+      "artist": "TV Girl",
+      "album": "French Exit",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e1bc1af856b42dd7fdba9f84",
+      "playedAt": "2026-03-25T06:10:19.480Z",
+      "source": "spotify",
+      "spotifyId": "6dBUzqjtbnIa1TwYbyw5CM",
+      "nowPlaying": false
+    },
+    {
+      "name": "Is It True",
+      "artist": "Tame Impala",
+      "album": "The Slow Rush",
+      "image": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
+      "playedAt": "2026-03-25T06:06:44.786Z",
+      "source": "spotify",
+      "spotifyId": "6RZmhpvukfyeSURhf4kZ0d",
+      "nowPlaying": false
+    },
+    {
+      "name": "Imperium - Slowed",
+      "artist": "Caleb Bryant",
+      "album": "Imperium",
+      "image": "https://i.scdn.co/image/ab67616d0000b273389640a3842cb5b4b939ac5d",
+      "playedAt": "2026-03-25T05:58:26.242Z",
+      "source": "spotify",
+      "spotifyId": "3DLFJe7FmAu0JYSPkRU5S8",
+      "nowPlaying": false
+    },
+    {
+      "name": "Time",
+      "artist": "Hans Zimmer",
+      "album": "Inception (Music from the Motion Picture)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735327620df3029a04646914c1",
+      "playedAt": "2026-03-24T20:12:42.050Z",
+      "source": "spotify",
+      "spotifyId": "6ZFbXIJkuI1dVNWvzJzown",
+      "nowPlaying": false
+    },
+    {
+      "name": "Cornfield Chase",
+      "artist": "Hans Zimmer",
+      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730310d2e254062d98b2a92b2d",
+      "playedAt": "2026-03-24T20:08:43.015Z",
+      "source": "spotify",
+      "spotifyId": "6pWgRkpqVfxnj3WuIcJ7WP",
+      "nowPlaying": false
+    },
+    {
+      "name": "No Time for Caution",
+      "artist": "Hans Zimmer",
+      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730310d2e254062d98b2a92b2d",
+      "playedAt": "2026-03-24T20:06:34.040Z",
+      "source": "spotify",
+      "spotifyId": "5aaXqH8rgKZxg61HjECldi",
+      "nowPlaying": false
+    },
+    {
       "name": "Location",
       "artist": "Khalid",
       "album": "American Teen",
       "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
-      "playedAt": "2026-03-24T15:35:57.361Z",
+      "playedAt": "2026-03-24T19:59:06.633Z",
       "source": "spotify",
       "spotifyId": "152lZdxL1OR0ZMW6KquMif",
+      "nowPlaying": false
+    },
+    {
+      "name": "Gold",
+      "artist": "Kiiara",
+      "album": "lil kiiwi",
+      "image": "https://i.scdn.co/image/ab67616d0000b2733df320c7de5212472b93d4a0",
+      "playedAt": "2026-03-24T19:34:12.480Z",
+      "source": "spotify",
+      "spotifyId": "7yNX3ZFBWZoR52pbeU4Mcl",
+      "nowPlaying": false
+    },
+    {
+      "name": "Blue World",
+      "artist": "Mac Miller",
+      "album": "Circles",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d9d8f1a08476cd347fbea313",
+      "playedAt": "2026-03-24T19:30:25.942Z",
+      "source": "spotify",
+      "spotifyId": "2hwOoMtWPtTSSn6WHV7Vp5",
+      "nowPlaying": false
+    },
+    {
+      "name": "Gorgeous",
+      "artist": "mansionz",
+      "album": "Mansionz",
+      "image": "https://i.scdn.co/image/ab67616d0000b27390d0e1eb630b1595d23a1a0e",
+      "playedAt": "2026-03-24T19:26:56.026Z",
+      "source": "spotify",
+      "spotifyId": "75Q69chmd8CEZbVsA4CDMm",
+      "nowPlaying": false
+    },
+    {
+      "name": "Over",
+      "artist": "Lucky Daye",
+      "album": "Candydrip",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b9e256dbfe004473288bcdac",
+      "playedAt": "2026-03-24T19:24:27.316Z",
+      "source": "spotify",
+      "spotifyId": "23CKxEwKWsLs6LD5poGOLM",
+      "nowPlaying": false
+    },
+    {
+      "name": "PRBLMS",
+      "artist": "6LACK",
+      "album": "FREE 6LACK",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e4f13cd87b3b1ead6735a520",
+      "playedAt": "2026-03-24T19:20:58.884Z",
+      "source": "spotify",
+      "spotifyId": "4AtZRwSR8BOTTQg5ihSggt",
+      "nowPlaying": false
+    },
+    {
+      "name": "After The Storm (feat. Tyler, The Creator & Bootsy Collins)",
+      "artist": "Kali Uchis, Tyler, The Creator, Bootsy Collins",
+      "album": "Isolation",
+      "image": "https://i.scdn.co/image/ab67616d0000b27390b4e1905b1fc48c537ec053",
+      "playedAt": "2026-03-24T19:16:51.906Z",
+      "source": "spotify",
+      "spotifyId": "1otG6j1WHNvl9WgXLWkHTo",
+      "nowPlaying": false
+    },
+    {
+      "name": "She Belongs to the Game",
+      "artist": "Troy Ave, Young Lito",
+      "album": "She Belongs to the Game (feat. Young Lito) - Single",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732390822cf9db21866668325d",
+      "playedAt": "2026-03-24T19:13:23.998Z",
+      "source": "spotify",
+      "spotifyId": "1zuGHW5axtzu3NNrEr4vvY",
+      "nowPlaying": false
+    },
+    {
+      "name": "Shut up My Moms Calling",
+      "artist": "Hotel Ugly",
+      "album": "Shut up My Moms Calling",
+      "image": "https://i.scdn.co/image/ab67616d0000b273350ab7a839c04bfd5225a9f5",
+      "playedAt": "2026-03-24T19:09:16.886Z",
+      "source": "spotify",
+      "spotifyId": "3hxIUxnT27p5WcmjGUXNwx",
+      "nowPlaying": false
+    },
+    {
+      "name": "What They Want",
+      "artist": "Russ",
+      "album": "There's Really A Wolf",
+      "image": "https://i.scdn.co/image/ab67616d0000b273cb045e684adce8d49ada4045",
+      "playedAt": "2026-03-24T19:06:31.376Z",
+      "source": "spotify",
+      "spotifyId": "3pndPhlQWjuSoXhcIIdBjv",
+      "nowPlaying": false
+    },
+    {
+      "name": "Drew Barrymore",
+      "artist": "Bryce Vine",
+      "album": "Carnival",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f855fffce607af7c1d1cc845",
+      "playedAt": "2026-03-24T19:03:45.703Z",
+      "source": "spotify",
+      "spotifyId": "0JvUjekRwmDcQq4S0Sxocf",
+      "nowPlaying": false
+    },
+    {
+      "name": "Stressed Out",
+      "artist": "Twenty One Pilots",
+      "album": "Blurryface",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732df0d98a423025032d0db1f7",
+      "playedAt": "2026-03-24T19:00:33.453Z",
+      "source": "spotify",
+      "spotifyId": "3CRDbSIZ4r5MsZ0YwxuEkn",
+      "nowPlaying": false
+    },
+    {
+      "name": "Take Me To Church",
+      "artist": "Hozier",
+      "album": "Hozier",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737a9bf5f82e32d33d4503fe7b",
+      "playedAt": "2026-03-24T18:57:10.823Z",
+      "source": "spotify",
+      "spotifyId": "3dYD57lRAUcMHufyqn9GcI",
+      "nowPlaying": false
+    },
+    {
+      "name": "Belong to You (feat. 6LACK)",
+      "artist": "Sabrina Claudio, 6LACK",
+      "album": "About Time (Extended Vinyl Reissue)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273145aac0787809280053b8d00",
+      "playedAt": "2026-03-24T18:53:08.865Z",
+      "source": "spotify",
+      "spotifyId": "3GsmYNNiz9GCXgVgphLlyl",
+      "nowPlaying": false
+    },
+    {
+      "name": "Time of Our Lives",
+      "artist": "Pitbull, Ne-Yo",
+      "album": "Globalization",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e6efeff81a318670a292090f",
+      "playedAt": "2026-03-24T18:50:02.883Z",
+      "source": "spotify",
+      "spotifyId": "2bJvI42r8EF3wxjOuDav4r",
+      "nowPlaying": false
+    },
+    {
+      "name": "Ride Slow",
+      "artist": "Russ",
+      "album": "There's Really A Wolf",
+      "image": "https://i.scdn.co/image/ab67616d0000b273cb045e684adce8d49ada4045",
+      "playedAt": "2026-03-24T18:46:12.560Z",
+      "source": "spotify",
+      "spotifyId": "6HK4YGOpZr1ost68QP3ul0",
+      "nowPlaying": false
+    },
+    {
+      "name": "Money Trees",
+      "artist": "Kendrick Lamar, Jay Rock",
+      "album": "good kid, m.A.A.d city",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732cd55246d935a8a77cb4859e",
+      "playedAt": "2026-03-24T18:43:06.585Z",
+      "source": "spotify",
+      "spotifyId": "74tLlkN3rgVzRqQJgPfink",
+      "nowPlaying": false
+    },
+    {
+      "name": "Say You Won't Let Go",
+      "artist": "James Arthur",
+      "album": "Back from the Edge",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738d34e1fc21441df43571faaa",
+      "playedAt": "2026-03-24T18:36:39.332Z",
+      "source": "spotify",
+      "spotifyId": "5uCax9HTNlzGybIStD3vDh",
+      "nowPlaying": false
+    },
+    {
+      "name": "Broken",
+      "artist": "Lund",
+      "album": "Broken",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e36f8ef1fb2f6553d96fbc64",
+      "playedAt": "2026-03-24T18:33:07.621Z",
+      "source": "spotify",
+      "spotifyId": "4W8sUeokQKfHt1uTXp0Jq0",
+      "nowPlaying": false
+    },
+    {
+      "name": "Middle",
+      "artist": "DJ Snake, Bipolar Sunshine",
+      "album": "Encore",
+      "image": "https://i.scdn.co/image/ab67616d0000b273212d776c31027c511f0ee3bc",
+      "playedAt": "2026-03-24T18:29:46.134Z",
+      "source": "spotify",
+      "spotifyId": "0g5EKLgdKvNlln7TNqBByK",
+      "nowPlaying": false
+    },
+    {
+      "name": "Water Fountain",
+      "artist": "Alec Benjamin",
+      "album": "Narrated For You",
+      "image": "https://i.scdn.co/image/ab67616d0000b273459d675aa0b6f3b211357370",
+      "playedAt": "2026-03-24T18:26:05.778Z",
+      "source": "spotify",
+      "spotifyId": "4IhKLu7Vk3j2TLmnFPl6To",
+      "nowPlaying": false
+    },
+    {
+      "name": "Ain't Nobody Takin My Baby",
+      "artist": "Russ",
+      "album": "Ain't Nobody Takin My Baby",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737d6e6514217e231e7e3e35f2",
+      "playedAt": "2026-03-24T18:22:25.394Z",
+      "source": "spotify",
+      "spotifyId": "6VnqGxiMNexOe0kRmIsBw4",
+      "nowPlaying": false
+    },
+    {
+      "name": "You Got It",
+      "artist": "Vedo",
+      "album": "For You",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739b7e6a1ee15c55a550166e15",
+      "playedAt": "2026-03-24T18:19:15.881Z",
+      "source": "spotify",
+      "spotifyId": "4lsHZ92XCFOQfzJFBTluk8",
+      "nowPlaying": false
+    },
+    {
+      "name": "Wish",
+      "artist": "Diplo, Trippie Redd",
+      "album": "Wish (Sped Up)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730ad5bdf41fa39c6493977389",
+      "playedAt": "2026-03-24T18:15:52.196Z",
+      "source": "spotify",
+      "spotifyId": "3oByO94xgLnworeBgkCsGo",
+      "nowPlaying": false
+    },
+    {
+      "name": "Without Me",
+      "artist": "Halsey",
+      "album": "Manic",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737636e1c9e67eaafc9f49aefd",
+      "playedAt": "2026-03-24T18:12:56.568Z",
+      "source": "spotify",
+      "spotifyId": "6FZDfxM3a3UCqtzo5pxSLZ",
+      "nowPlaying": false
+    },
+    {
+      "name": "Rude",
+      "artist": "MAGIC!",
+      "album": "Don't Kill the Magic",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b1c2609c8b258ad621d4057b",
+      "playedAt": "2026-03-24T18:09:34.406Z",
+      "source": "spotify",
+      "spotifyId": "6RtPijgfPKROxEzTHNRiDp",
+      "nowPlaying": false
+    },
+    {
+      "name": "MUTT",
+      "artist": "Leon Thomas",
+      "album": "MUTT",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737fc4fb3453f841652d2e4814",
+      "playedAt": "2026-03-24T18:05:48.956Z",
+      "source": "spotify",
+      "spotifyId": "2uvE4L5ZsYKpv8hbK4TIOt",
+      "nowPlaying": false
+    },
+    {
+      "name": "Losin Control",
+      "artist": "Russ",
+      "album": "There's Really A Wolf",
+      "image": "https://i.scdn.co/image/ab67616d0000b273cb045e684adce8d49ada4045",
+      "playedAt": "2026-03-24T18:02:35.349Z",
+      "source": "spotify",
+      "spotifyId": "4cxMGhkinTocPSVVKWIw0d",
+      "nowPlaying": false
+    },
+    {
+      "name": "Better",
+      "artist": "Khalid",
+      "album": "Suncity",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c243500e164150d229750c91",
+      "playedAt": "2026-03-24T17:58:37.386Z",
+      "source": "spotify",
+      "spotifyId": "2OpBganfGk2GVdSlRdxzaX",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tumhen Dillagi Bhool Jani Paregee",
+      "artist": "Nusrat Fateh Ali Khan",
+      "album": "Dil Lagi Bhool Jani, Vol. 2",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735b0dfbaabd17ac4b09903065",
+      "playedAt": "2026-03-24T17:50:22.969Z",
+      "source": "spotify",
+      "spotifyId": "3YG634lejEuYl1l6PYC92r",
       "nowPlaying": false
     },
     {
@@ -52,156 +422,6 @@
       "playedAt": "2026-03-24T13:07:49.305Z",
       "source": "spotify",
       "spotifyId": "0VgkVdmE4gld66l8iyGjgx",
-      "nowPlaying": false
-    },
-    {
-      "name": "No Time for Caution",
-      "artist": "Hans Zimmer",
-      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
-      "image": "https://i.scdn.co/image/ab67616d0000b2730310d2e254062d98b2a92b2d",
-      "playedAt": "2026-03-24T09:21:21.027Z",
-      "source": "spotify",
-      "spotifyId": "5aaXqH8rgKZxg61HjECldi",
-      "nowPlaying": false
-    },
-    {
-      "name": "Stolen Dance",
-      "artist": "Milky Chance",
-      "album": "Sadnecessary",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732001bc1b4dd82d06631fcb9e",
-      "playedAt": "2026-03-24T05:30:50.143Z",
-      "source": "spotify",
-      "spotifyId": "34xGLuxM0rkxhCVyMSqwJO",
-      "nowPlaying": false
-    },
-    {
-      "name": "Psycho, Pt. 2",
-      "artist": "Russ",
-      "album": "Psycho, Pt. 2",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d76647a817d55638a50c863f",
-      "playedAt": "2026-03-24T05:22:41.746Z",
-      "source": "spotify",
-      "spotifyId": "26OhjtaTamFocE08t83ml6",
-      "nowPlaying": false
-    },
-    {
-      "name": "Stressed Out",
-      "artist": "Twenty One Pilots",
-      "album": "Blurryface",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732df0d98a423025032d0db1f7",
-      "playedAt": "2026-03-24T05:19:59.430Z",
-      "source": "spotify",
-      "spotifyId": "3CRDbSIZ4r5MsZ0YwxuEkn",
-      "nowPlaying": false
-    },
-    {
-      "name": "Money Trees",
-      "artist": "Kendrick Lamar, Jay Rock",
-      "album": "good kid, m.A.A.d city",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732cd55246d935a8a77cb4859e",
-      "playedAt": "2026-03-24T05:03:45.374Z",
-      "source": "spotify",
-      "spotifyId": "74tLlkN3rgVzRqQJgPfink",
-      "nowPlaying": false
-    },
-    {
-      "name": "Better",
-      "artist": "Khalid",
-      "album": "Suncity",
-      "image": "https://i.scdn.co/image/ab67616d0000b273316e987210a1186c95eff23e",
-      "playedAt": "2026-03-24T04:49:37.307Z",
-      "source": "spotify",
-      "spotifyId": "6zeeWid2sgw4lap2jV61PZ",
-      "nowPlaying": false
-    },
-    {
-      "name": "Baarish",
-      "artist": "Mohammed Irfan",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-03-24T03:10:06.198Z",
-      "source": "spotify",
-      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
-      "nowPlaying": false
-    },
-    {
-      "name": "Choomantar",
-      "artist": "Sohail Sen, Benny Dayal, Aditi Singh Sharma, Irshad Kamil",
-      "album": "Mere Brother Ki Dulhan",
-      "image": "https://i.scdn.co/image/ab67616d0000b273a2011a6b7f81c63c1557076d",
-      "playedAt": "2026-01-28T04:22:21.817Z",
-      "source": "spotify",
-      "spotifyId": "3JbujPTeag5mDMAcye3vDD",
-      "nowPlaying": false
-    },
-    {
-      "name": "Voh Dekhnay Mein",
-      "artist": "Ali Zafar",
-      "album": "London, Paris, New York (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d9168a716dd978d5322f411a",
-      "playedAt": "2026-01-20T22:39:06.921Z",
-      "source": "spotify",
-      "spotifyId": "0EMYTe2oQy70PCKPQFlbVy",
-      "nowPlaying": false
-    },
-    {
-      "name": "Rakhlo Tum Chupaake",
-      "artist": "Arpit Bala, Adil",
-      "album": "Keychain Laalu",
-      "image": "https://i.scdn.co/image/ab67616d0000b273bc52b9838ebcfae5646a5457",
-      "playedAt": "2026-01-20T06:07:03.618Z",
-      "source": "spotify",
-      "spotifyId": "5nXmr6ypbTYjhLR3lXSPyc",
-      "nowPlaying": false
-    },
-    {
-      "name": "Aadat",
-      "artist": "Jal",
-      "album": "Aadat (Remastered)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737542aed098fc044db8ce8498",
-      "playedAt": "2026-01-20T05:56:33.387Z",
-      "source": "spotify",
-      "spotifyId": "0lhlqmzeqlOCIgJH3yL6IY",
-      "nowPlaying": false
-    },
-    {
-      "name": "Woh Ladki Hai Kahan",
-      "artist": "Shaan, Kavita Krishnamurthy",
-      "album": "Dil Chahta Hai",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735da5e18b4f9a33d42e737c21",
-      "playedAt": "2026-01-07T11:25:35.220Z",
-      "source": "spotify",
-      "spotifyId": "2tO0QPdCA0jgDBshTuYYkc",
-      "nowPlaying": false
-    },
-    {
-      "name": "For A Reason",
-      "artist": "Karan Aujla, Ikky",
-      "album": "P-POP CULTURE",
-      "image": "https://i.scdn.co/image/ab67616d0000b27389e8f71cb6f3b6cc60944858",
-      "playedAt": "2026-01-07T11:20:01.510Z",
-      "source": "spotify",
-      "spotifyId": "0cYohCh24y1aMjJmcS9RBl",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tumne Jab Zulf-e-Pareshan Ko Sanwara Hoga",
-      "artist": "Ustad Jafar Badayuni",
-      "album": "Tumne Jab Zulf-e-Pareshan Ko Sanwara Hoga",
-      "image": "https://i.scdn.co/image/ab67616d0000b273beb05424c3e1c3e74b75214f",
-      "playedAt": "2025-12-29T20:35:59.782Z",
-      "source": "spotify",
-      "spotifyId": "1maGNaWdI4GfoDOFc4BZxP",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tujhe Bhula Diya",
-      "artist": "Vishal-Shekhar, Mohit Chauhan, Shekhar Ravjiani, Shruti Pathak",
-      "album": "Anjaana Anjaani",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
-      "playedAt": "2025-12-29T13:35:12.836Z",
-      "source": "spotify",
-      "spotifyId": "4r8JqkhpTb5tzSKKHnVJIJ",
       "nowPlaying": false
     }
   ]
