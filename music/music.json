@@ -1,15 +1,55 @@
 {
-  "lastUpdated": "2026-03-25T07:01:54.004188+00:00",
+  "lastUpdated": "2026-03-26T07:07:22.915420+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "505",
+      "artist": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+      "playedAt": "2026-03-26T07:06:18.912Z",
+      "source": "spotify",
+      "spotifyId": "0BxE4FqsDD1Ot4YuBXwAPp",
+      "nowPlaying": false
+    },
+    {
+      "name": "Beanie",
+      "artist": "Chezile",
+      "album": "Beanie",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739d181176cafa856a3c8b5537",
+      "playedAt": "2026-03-26T07:02:05.036Z",
+      "source": "spotify",
+      "spotifyId": "5e0b9LgOfi3aJSKXFcOWRe",
+      "nowPlaying": false
+    },
+    {
+      "name": "Shut up My Moms Calling",
+      "artist": "Hotel Ugly",
+      "album": "Shut up My Moms Calling",
+      "image": "https://i.scdn.co/image/ab67616d0000b273350ab7a839c04bfd5225a9f5",
+      "playedAt": "2026-03-26T06:59:52.220Z",
+      "source": "spotify",
+      "spotifyId": "3hxIUxnT27p5WcmjGUXNwx",
+      "nowPlaying": false
+    },
+    {
+      "name": "Babydoll",
+      "artist": "Dominic Fike",
+      "album": "Don't Forget About Me, Demos",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+      "playedAt": "2026-03-26T06:55:50.111Z",
+      "source": "spotify",
+      "spotifyId": "7yNf9YjeO5JXUE3JEBgnYc",
+      "nowPlaying": false
+    },
+    {
       "name": "After Hours",
       "artist": "The Weeknd",
       "album": "After Hours",
       "image": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
-      "playedAt": "2026-03-25T06:19:35.464Z",
+      "playedAt": "2026-03-26T06:51:29.201Z",
       "source": "spotify",
       "spotifyId": "2p8IUWQDrpjuFltbdgLOag",
       "nowPlaying": false
@@ -162,16 +202,6 @@
       "playedAt": "2026-03-24T19:13:23.998Z",
       "source": "spotify",
       "spotifyId": "1zuGHW5axtzu3NNrEr4vvY",
-      "nowPlaying": false
-    },
-    {
-      "name": "Shut up My Moms Calling",
-      "artist": "Hotel Ugly",
-      "album": "Shut up My Moms Calling",
-      "image": "https://i.scdn.co/image/ab67616d0000b273350ab7a839c04bfd5225a9f5",
-      "playedAt": "2026-03-24T19:09:16.886Z",
-      "source": "spotify",
-      "spotifyId": "3hxIUxnT27p5WcmjGUXNwx",
       "nowPlaying": false
     },
     {
