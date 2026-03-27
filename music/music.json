@@ -1,9 +1,89 @@
 {
-  "lastUpdated": "2026-03-26T07:07:22.915420+00:00",
+  "lastUpdated": "2026-03-27T07:06:46.156797+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Jiyein Kyun",
+      "artist": "Pritam, Papon",
+      "album": "Dum Maaro Dum",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e39388ba8eadf58476135087",
+      "playedAt": "2026-03-27T06:24:00.428Z",
+      "source": "spotify",
+      "spotifyId": "0up9rhm9qt2LW7cnoDFCMk",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tennu Le",
+      "artist": "omer inayat",
+      "album": "Jai Veeru",
+      "image": "https://i.scdn.co/image/ab67616d0000b27364faa2f475c5548a65607a72",
+      "playedAt": "2026-03-27T06:19:34.552Z",
+      "source": "spotify",
+      "spotifyId": "0dQiyqHUpnMPmHtk535VAY",
+      "nowPlaying": false
+    },
+    {
+      "name": "Ode To The Mets",
+      "artist": "The Strokes",
+      "album": "The New Abnormal",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
+      "playedAt": "2026-03-26T19:14:29.905Z",
+      "source": "spotify",
+      "spotifyId": "1BLOVHYYlH4JUHQGcpt75R",
+      "nowPlaying": false
+    },
+    {
+      "name": "Something About Us",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+      "playedAt": "2026-03-26T10:45:09.386Z",
+      "source": "spotify",
+      "spotifyId": "1NeLwFETswx8Fzxl2AFl91",
+      "nowPlaying": false
+    },
+    {
+      "name": "I Think I Left the Stove On",
+      "artist": "Hotel Ugly",
+      "album": "I Think I Left the Stove On",
+      "image": "https://i.scdn.co/image/ab67616d0000b273934e5b0ab5e1f73519e6b1d2",
+      "playedAt": "2026-03-26T10:37:13.012Z",
+      "source": "spotify",
+      "spotifyId": "34HgIvucTKJvDgzHVMaGLG",
+      "nowPlaying": false
+    },
+    {
+      "name": "New Gold (feat. Tame Impala and Bootie Brown)",
+      "artist": "Gorillaz, Tame Impala, Bootie Brown",
+      "album": "Cracker Island",
+      "image": "https://i.scdn.co/image/ab67616d0000b27319707804f73dc50f7a29cd86",
+      "playedAt": "2026-03-26T10:33:50.001Z",
+      "source": "spotify",
+      "spotifyId": "60SvhHtwefT0e2G7i7kOH3",
+      "nowPlaying": false
+    },
+    {
+      "name": "Loser",
+      "artist": "Tame Impala",
+      "album": "Deadbeat",
+      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
+      "playedAt": "2026-03-26T09:22:30.475Z",
+      "source": "spotify",
+      "spotifyId": "7bxaFZ1O3cHkgLKMsdC3xR",
+      "nowPlaying": false
+    },
+    {
+      "name": "Selfless",
+      "artist": "The Strokes",
+      "album": "The New Abnormal",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
+      "playedAt": "2026-03-26T09:18:46.557Z",
+      "source": "spotify",
+      "spotifyId": "2t0wwvR15fc3K1ey8OiOaN",
+      "nowPlaying": false
+    },
     {
       "name": "505",
       "artist": "Arctic Monkeys",
@@ -392,66 +472,6 @@
       "playedAt": "2026-03-24T18:02:35.349Z",
       "source": "spotify",
       "spotifyId": "4cxMGhkinTocPSVVKWIw0d",
-      "nowPlaying": false
-    },
-    {
-      "name": "Better",
-      "artist": "Khalid",
-      "album": "Suncity",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c243500e164150d229750c91",
-      "playedAt": "2026-03-24T17:58:37.386Z",
-      "source": "spotify",
-      "spotifyId": "2OpBganfGk2GVdSlRdxzaX",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tumhen Dillagi Bhool Jani Paregee",
-      "artist": "Nusrat Fateh Ali Khan",
-      "album": "Dil Lagi Bhool Jani, Vol. 2",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735b0dfbaabd17ac4b09903065",
-      "playedAt": "2026-03-24T17:50:22.969Z",
-      "source": "spotify",
-      "spotifyId": "3YG634lejEuYl1l6PYC92r",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Hills",
-      "artist": "The Weeknd",
-      "album": "Beauty Behind The Madness",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737fcead687e99583072cc217b",
-      "playedAt": "2026-03-24T15:22:58.618Z",
-      "source": "spotify",
-      "spotifyId": "7fBv7CLKzipRk6EC6TWHOB",
-      "nowPlaying": false
-    },
-    {
-      "name": "Heartless",
-      "artist": "Kanye West",
-      "album": "808s & Heartbreak",
-      "image": "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18",
-      "playedAt": "2026-03-24T15:16:58.528Z",
-      "source": "spotify",
-      "spotifyId": "4EWCNWgDS8707fNSZ1oaA5",
-      "nowPlaying": false
-    },
-    {
-      "name": "No Role Modelz",
-      "artist": "J. Cole",
-      "album": "2014 Forest Hills Drive",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c6e0948bbb0681ff29cdbae8",
-      "playedAt": "2026-03-24T15:08:30.242Z",
-      "source": "spotify",
-      "spotifyId": "68Dni7IE4VyPkTOH9mRWHr",
-      "nowPlaying": false
-    },
-    {
-      "name": "Mask Off",
-      "artist": "Future",
-      "album": "FUTURE",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e0b64c8be3c4e804abcb2696",
-      "playedAt": "2026-03-24T13:07:49.305Z",
-      "source": "spotify",
-      "spotifyId": "0VgkVdmE4gld66l8iyGjgx",
       "nowPlaying": false
     }
   ]
