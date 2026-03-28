@@ -1,9 +1,169 @@
 {
-  "lastUpdated": "2026-03-27T07:06:46.156797+00:00",
+  "lastUpdated": "2026-03-28T06:58:44.038551+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Burning",
+      "artist": "The Whitest Boy Alive",
+      "album": "Dreams",
+      "image": "https://i.scdn.co/image/ab67616d0000b27354405f4e966b1efbebb88883",
+      "playedAt": "2026-03-27T18:26:28.760Z",
+      "source": "spotify",
+      "spotifyId": "0QgR03vMDoBoLgcu08EtKl",
+      "nowPlaying": false
+    },
+    {
+      "name": "You Are the Right One",
+      "artist": "Sports",
+      "album": "Naked All the Time",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731192eb9f894b18f0de2682f1",
+      "playedAt": "2026-03-27T17:26:26.131Z",
+      "source": "spotify",
+      "spotifyId": "2qpacEyFxmbxCpIEqZkqvC",
+      "nowPlaying": false
+    },
+    {
+      "name": "Vanille fraise",
+      "artist": "L'Impératrice",
+      "album": "Vanille fraise",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734378e3b644f45841c3008454",
+      "playedAt": "2026-03-27T17:23:33.196Z",
+      "source": "spotify",
+      "spotifyId": "7nZ9CzhiFRPhOQCn7eDSnn",
+      "nowPlaying": false
+    },
+    {
+      "name": "Make Love",
+      "artist": "Daft Punk",
+      "album": "Human After All",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732ed719bad67261c7bf090c70",
+      "playedAt": "2026-03-27T17:19:39.060Z",
+      "source": "spotify",
+      "spotifyId": "4ABWPP59ItFKykdaDF09K5",
+      "nowPlaying": false
+    },
+    {
+      "name": "Breathe (In the Air)",
+      "artist": "Pink Floyd",
+      "album": "The Dark Side of the Moon",
+      "image": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
+      "playedAt": "2026-03-27T17:14:37.676Z",
+      "source": "spotify",
+      "spotifyId": "2ctvdKmETyOzPb2GiJJT53",
+      "nowPlaying": false
+    },
+    {
+      "name": "Veridis Quo",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+      "playedAt": "2026-03-27T17:11:47.909Z",
+      "source": "spotify",
+      "spotifyId": "2LD2gT7gwAurzdQDQtILds",
+      "nowPlaying": false
+    },
+    {
+      "name": "La lune",
+      "artist": "L'Impératrice",
+      "album": "Odyssée - EP",
+      "image": "https://i.scdn.co/image/ab67616d0000b27391d5af63d5acc752950d5927",
+      "playedAt": "2026-03-27T16:54:07.304Z",
+      "source": "spotify",
+      "spotifyId": "6rbbDK18oqK3MxHGQhpmn2",
+      "nowPlaying": false
+    },
+    {
+      "name": "Inflation",
+      "artist": "The Whitest Boy Alive",
+      "album": "Dreams",
+      "image": "https://i.scdn.co/image/ab67616d0000b27354405f4e966b1efbebb88883",
+      "playedAt": "2026-03-27T16:50:53.596Z",
+      "source": "spotify",
+      "spotifyId": "2Me5AgLwFI4vAmHFRnMu2Y",
+      "nowPlaying": false
+    },
+    {
+      "name": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+      "artist": "Daft Punk, Pharrell Williams, Nile Rodgers",
+      "album": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+      "image": "https://i.scdn.co/image/ab67616d0000b27319a88dd5c7118e87d7b1619e",
+      "playedAt": "2026-03-27T16:47:03.495Z",
+      "source": "spotify",
+      "spotifyId": "2Foc5Q5nqNiosCNqttzHof",
+      "nowPlaying": false
+    },
+    {
+      "name": "Is It True",
+      "artist": "Tame Impala",
+      "album": "The Slow Rush",
+      "image": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
+      "playedAt": "2026-03-27T16:32:18.044Z",
+      "source": "spotify",
+      "spotifyId": "6RZmhpvukfyeSURhf4kZ0d",
+      "nowPlaying": false
+    },
+    {
+      "name": "Instant Crush (feat. Julian Casablancas)",
+      "artist": "Daft Punk, Julian Casablancas",
+      "album": "Random Access Memories",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734d22198f946d9b32f25fc263",
+      "playedAt": "2026-03-27T13:50:11.739Z",
+      "source": "spotify",
+      "spotifyId": "5o126gjHW5VqsPQb7Rf2IM",
+      "nowPlaying": false
+    },
+    {
+      "name": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-03-27T13:44:33.550Z",
+      "source": "spotify",
+      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
+      "nowPlaying": false
+    },
+    {
+      "name": "Something About Us",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+      "playedAt": "2026-03-27T13:40:05.665Z",
+      "source": "spotify",
+      "spotifyId": "1NeLwFETswx8Fzxl2AFl91",
+      "nowPlaying": false
+    },
+    {
+      "name": "Lady - Hear Me Tonight",
+      "artist": "Modjo",
+      "album": "Modjo (Remastered)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27354c5c304064df85d61253ac7",
+      "playedAt": "2026-03-27T13:34:27.366Z",
+      "source": "spotify",
+      "spotifyId": "49X0LAl6faAusYq02PRAY6",
+      "nowPlaying": false
+    },
+    {
+      "name": "Starboy",
+      "artist": "The Weeknd, Daft Punk",
+      "album": "Starboy",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734718e2b124f79258be7bc452",
+      "playedAt": "2026-03-27T09:52:51.968Z",
+      "source": "spotify",
+      "spotifyId": "7MXVkk9YMctZqd1Srtv4MB",
+      "nowPlaying": false
+    },
+    {
+      "name": "Laaree Chootee",
+      "artist": "Call",
+      "album": "Dhoom",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738c2b34ee29332a03678719ba",
+      "playedAt": "2026-03-27T09:43:47.161Z",
+      "source": "spotify",
+      "spotifyId": "2M0pYMPcnI67XWM8vgs8OS",
+      "nowPlaying": false
+    },
     {
       "name": "Jiyein Kyun",
       "artist": "Pritam, Papon",
@@ -32,16 +192,6 @@
       "playedAt": "2026-03-26T19:14:29.905Z",
       "source": "spotify",
       "spotifyId": "1BLOVHYYlH4JUHQGcpt75R",
-      "nowPlaying": false
-    },
-    {
-      "name": "Something About Us",
-      "artist": "Daft Punk",
-      "album": "Discovery",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
-      "playedAt": "2026-03-26T10:45:09.386Z",
-      "source": "spotify",
-      "spotifyId": "1NeLwFETswx8Fzxl2AFl91",
       "nowPlaying": false
     },
     {
@@ -152,16 +302,6 @@
       "playedAt": "2026-03-25T06:10:19.480Z",
       "source": "spotify",
       "spotifyId": "6dBUzqjtbnIa1TwYbyw5CM",
-      "nowPlaying": false
-    },
-    {
-      "name": "Is It True",
-      "artist": "Tame Impala",
-      "album": "The Slow Rush",
-      "image": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
-      "playedAt": "2026-03-25T06:06:44.786Z",
-      "source": "spotify",
-      "spotifyId": "6RZmhpvukfyeSURhf4kZ0d",
       "nowPlaying": false
     },
     {
@@ -282,196 +422,6 @@
       "playedAt": "2026-03-24T19:13:23.998Z",
       "source": "spotify",
       "spotifyId": "1zuGHW5axtzu3NNrEr4vvY",
-      "nowPlaying": false
-    },
-    {
-      "name": "What They Want",
-      "artist": "Russ",
-      "album": "There's Really A Wolf",
-      "image": "https://i.scdn.co/image/ab67616d0000b273cb045e684adce8d49ada4045",
-      "playedAt": "2026-03-24T19:06:31.376Z",
-      "source": "spotify",
-      "spotifyId": "3pndPhlQWjuSoXhcIIdBjv",
-      "nowPlaying": false
-    },
-    {
-      "name": "Drew Barrymore",
-      "artist": "Bryce Vine",
-      "album": "Carnival",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f855fffce607af7c1d1cc845",
-      "playedAt": "2026-03-24T19:03:45.703Z",
-      "source": "spotify",
-      "spotifyId": "0JvUjekRwmDcQq4S0Sxocf",
-      "nowPlaying": false
-    },
-    {
-      "name": "Stressed Out",
-      "artist": "Twenty One Pilots",
-      "album": "Blurryface",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732df0d98a423025032d0db1f7",
-      "playedAt": "2026-03-24T19:00:33.453Z",
-      "source": "spotify",
-      "spotifyId": "3CRDbSIZ4r5MsZ0YwxuEkn",
-      "nowPlaying": false
-    },
-    {
-      "name": "Take Me To Church",
-      "artist": "Hozier",
-      "album": "Hozier",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737a9bf5f82e32d33d4503fe7b",
-      "playedAt": "2026-03-24T18:57:10.823Z",
-      "source": "spotify",
-      "spotifyId": "3dYD57lRAUcMHufyqn9GcI",
-      "nowPlaying": false
-    },
-    {
-      "name": "Belong to You (feat. 6LACK)",
-      "artist": "Sabrina Claudio, 6LACK",
-      "album": "About Time (Extended Vinyl Reissue)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273145aac0787809280053b8d00",
-      "playedAt": "2026-03-24T18:53:08.865Z",
-      "source": "spotify",
-      "spotifyId": "3GsmYNNiz9GCXgVgphLlyl",
-      "nowPlaying": false
-    },
-    {
-      "name": "Time of Our Lives",
-      "artist": "Pitbull, Ne-Yo",
-      "album": "Globalization",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e6efeff81a318670a292090f",
-      "playedAt": "2026-03-24T18:50:02.883Z",
-      "source": "spotify",
-      "spotifyId": "2bJvI42r8EF3wxjOuDav4r",
-      "nowPlaying": false
-    },
-    {
-      "name": "Ride Slow",
-      "artist": "Russ",
-      "album": "There's Really A Wolf",
-      "image": "https://i.scdn.co/image/ab67616d0000b273cb045e684adce8d49ada4045",
-      "playedAt": "2026-03-24T18:46:12.560Z",
-      "source": "spotify",
-      "spotifyId": "6HK4YGOpZr1ost68QP3ul0",
-      "nowPlaying": false
-    },
-    {
-      "name": "Money Trees",
-      "artist": "Kendrick Lamar, Jay Rock",
-      "album": "good kid, m.A.A.d city",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732cd55246d935a8a77cb4859e",
-      "playedAt": "2026-03-24T18:43:06.585Z",
-      "source": "spotify",
-      "spotifyId": "74tLlkN3rgVzRqQJgPfink",
-      "nowPlaying": false
-    },
-    {
-      "name": "Say You Won't Let Go",
-      "artist": "James Arthur",
-      "album": "Back from the Edge",
-      "image": "https://i.scdn.co/image/ab67616d0000b2738d34e1fc21441df43571faaa",
-      "playedAt": "2026-03-24T18:36:39.332Z",
-      "source": "spotify",
-      "spotifyId": "5uCax9HTNlzGybIStD3vDh",
-      "nowPlaying": false
-    },
-    {
-      "name": "Broken",
-      "artist": "Lund",
-      "album": "Broken",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e36f8ef1fb2f6553d96fbc64",
-      "playedAt": "2026-03-24T18:33:07.621Z",
-      "source": "spotify",
-      "spotifyId": "4W8sUeokQKfHt1uTXp0Jq0",
-      "nowPlaying": false
-    },
-    {
-      "name": "Middle",
-      "artist": "DJ Snake, Bipolar Sunshine",
-      "album": "Encore",
-      "image": "https://i.scdn.co/image/ab67616d0000b273212d776c31027c511f0ee3bc",
-      "playedAt": "2026-03-24T18:29:46.134Z",
-      "source": "spotify",
-      "spotifyId": "0g5EKLgdKvNlln7TNqBByK",
-      "nowPlaying": false
-    },
-    {
-      "name": "Water Fountain",
-      "artist": "Alec Benjamin",
-      "album": "Narrated For You",
-      "image": "https://i.scdn.co/image/ab67616d0000b273459d675aa0b6f3b211357370",
-      "playedAt": "2026-03-24T18:26:05.778Z",
-      "source": "spotify",
-      "spotifyId": "4IhKLu7Vk3j2TLmnFPl6To",
-      "nowPlaying": false
-    },
-    {
-      "name": "Ain't Nobody Takin My Baby",
-      "artist": "Russ",
-      "album": "Ain't Nobody Takin My Baby",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737d6e6514217e231e7e3e35f2",
-      "playedAt": "2026-03-24T18:22:25.394Z",
-      "source": "spotify",
-      "spotifyId": "6VnqGxiMNexOe0kRmIsBw4",
-      "nowPlaying": false
-    },
-    {
-      "name": "You Got It",
-      "artist": "Vedo",
-      "album": "For You",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739b7e6a1ee15c55a550166e15",
-      "playedAt": "2026-03-24T18:19:15.881Z",
-      "source": "spotify",
-      "spotifyId": "4lsHZ92XCFOQfzJFBTluk8",
-      "nowPlaying": false
-    },
-    {
-      "name": "Wish",
-      "artist": "Diplo, Trippie Redd",
-      "album": "Wish (Sped Up)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2730ad5bdf41fa39c6493977389",
-      "playedAt": "2026-03-24T18:15:52.196Z",
-      "source": "spotify",
-      "spotifyId": "3oByO94xgLnworeBgkCsGo",
-      "nowPlaying": false
-    },
-    {
-      "name": "Without Me",
-      "artist": "Halsey",
-      "album": "Manic",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737636e1c9e67eaafc9f49aefd",
-      "playedAt": "2026-03-24T18:12:56.568Z",
-      "source": "spotify",
-      "spotifyId": "6FZDfxM3a3UCqtzo5pxSLZ",
-      "nowPlaying": false
-    },
-    {
-      "name": "Rude",
-      "artist": "MAGIC!",
-      "album": "Don't Kill the Magic",
-      "image": "https://i.scdn.co/image/ab67616d0000b273b1c2609c8b258ad621d4057b",
-      "playedAt": "2026-03-24T18:09:34.406Z",
-      "source": "spotify",
-      "spotifyId": "6RtPijgfPKROxEzTHNRiDp",
-      "nowPlaying": false
-    },
-    {
-      "name": "MUTT",
-      "artist": "Leon Thomas",
-      "album": "MUTT",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737fc4fb3453f841652d2e4814",
-      "playedAt": "2026-03-24T18:05:48.956Z",
-      "source": "spotify",
-      "spotifyId": "2uvE4L5ZsYKpv8hbK4TIOt",
-      "nowPlaying": false
-    },
-    {
-      "name": "Losin Control",
-      "artist": "Russ",
-      "album": "There's Really A Wolf",
-      "image": "https://i.scdn.co/image/ab67616d0000b273cb045e684adce8d49ada4045",
-      "playedAt": "2026-03-24T18:02:35.349Z",
-      "source": "spotify",
-      "spotifyId": "4cxMGhkinTocPSVVKWIw0d",
       "nowPlaying": false
     }
   ]
