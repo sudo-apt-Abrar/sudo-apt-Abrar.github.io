@@ -5,7 +5,6 @@ Required env:
 - TWITTER_BEARER_TOKEN
 Optional env:
 - TWITTER_USERNAME (default: abrarasyed)
-- TWITTER_USER_ID (if set, skips username lookup endpoint)
 """
 
 import json
@@ -18,15 +17,6 @@ import requests
 
 TWITTER_BEARER_TOKEN = os.environ.get("TWITTER_BEARER_TOKEN", "")
 TWITTER_USERNAME = os.environ.get("TWITTER_USERNAME", "abrarasyed")
-TWITTER_USER_ID = os.environ.get("TWITTER_USER_ID", "")
-
-
-def _raise_with_body(resp, context):
-    try:
-        payload = resp.json()
-    except Exception:
-        payload = {"raw": resp.text[:500]}
-    raise RuntimeError(f"{context} failed ({resp.status_code}): {payload}")
 
 
 def get_user_id(headers):
@@ -35,8 +25,7 @@ def get_user_id(headers):
         headers=headers,
         timeout=30,
     )
-    if resp.status_code != 200:
-        _raise_with_body(resp, "Username lookup")
+    resp.raise_for_status()
     data = resp.json().get("data") or {}
     user_id = data.get("id")
     if not user_id:
@@ -55,8 +44,7 @@ def fetch_recent_tweets(headers, user_id, limit=2):
         },
         timeout=30,
     )
-    if resp.status_code != 200:
-        _raise_with_body(resp, "Tweets fetch")
+    resp.raise_for_status()
     items = resp.json().get("data", [])
 
     tweets = []
@@ -82,7 +70,7 @@ def main():
 
     headers = {"Authorization": f"Bearer {TWITTER_BEARER_TOKEN}"}
 
-    user_id = TWITTER_USER_ID.strip() or get_user_id(headers)
+    user_id = get_user_id(headers)
     tweets = fetch_recent_tweets(headers, user_id, limit=2)
 
     output = {
