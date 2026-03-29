@@ -192,6 +192,56 @@ nav {
     font-size: 1.05rem;
 }
 
+.tweet-subsection {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: var(--space-md);
+    margin-top: var(--space-md);
+}
+
+.tweet-subsection-title {
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--space-sm);
+    text-transform: lowercase;
+}
+
+.tweets-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    margin-top: var(--space-xs);
+}
+
+.tweet-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--space-sm);
+    padding: var(--space-sm);
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.tweet-item:hover {
+    background: var(--bg-secondary);
+}
+
+.tweet-text {
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-transform: none;
+}
+
+.tweet-meta {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
 /* Experience Section */
 .experience-content {
     display: flex;
