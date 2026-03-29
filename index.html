@@ -174,14 +174,6 @@
                 <div class="sher-card">
                     <p class="sher-text" id="sher-text"></p>
                 </div>
-
-                <div class="tweet-subsection">
-                    <div class="tweet-subsection-title">my tweets</div>
-                    <div id="tweets-list" class="tweets-list">
-                        <p class="loading">loading tweets...</p>
-                    </div>
-                    <a href="https://twitter.com/abrarasyed" target="_blank" class="feed-link">follow on x →</a>
-                </div>
             </div>
         </section>
 
@@ -292,51 +284,9 @@
             }
         }
 
-        function escapeHtml(text) {
-            return text
-                .replace(/&/g, '&amp;')
-                .replace(/</g, '&lt;')
-                .replace(/>/g, '&gt;')
-                .replace(/\"/g, '&quot;')
-                .replace(/'/g, '&#039;');
-        }
-
-        async function fetchTweets() {
-            const container = document.getElementById('tweets-list');
-
-            try {
-                const response = await fetch('./tweets.json');
-                const data = await response.json();
-                const tweets = (data.tweets || []).slice(0, 2);
-
-                if (tweets.length === 0) {
-                    container.innerHTML = '<p class="error">no tweets available right now.</p>';
-                    return;
-                }
-
-                container.innerHTML = tweets.map(tweet => {
-                    const safeText = escapeHtml(tweet.text || 'view tweet');
-                    const safeUrl = tweet.url || 'https://twitter.com/abrarasyed';
-                    const dateText = tweet.createdAt
-                        ? new Date(tweet.createdAt).toLocaleDateString()
-                        : '';
-
-                    return `
-                        <a href="${safeUrl}" target="_blank" class="tweet-item">
-                            <span class="tweet-text">${safeText}</span>
-                            <span class="tweet-meta">${dateText}</span>
-                        </a>
-                    `;
-                }).join('');
-            } catch (error) {
-                container.innerHTML = '<p class="error">unable to load tweets right now.</p>';
-            }
-        }
-
         // Initialize
         document.addEventListener('DOMContentLoaded', () => {
             fetchSubstackReads();
-            fetchTweets();
             loadShers();
         });
     </script>
