@@ -28,6 +28,7 @@ jobs:
         env:
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
           TWITTER_USERNAME: abrarasyed
+          TWITTER_USER_ID: ${{ secrets.TWITTER_USER_ID }}
         run: python .github/scripts/fetch_tweets.py
 
       - name: Commit and push if changed
