@@ -1,9 +1,269 @@
 {
-  "lastUpdated": "2026-04-01T07:19:52.522030+00:00",
+  "lastUpdated": "2026-04-02T07:12:12.282699+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "The Adults Are Talking",
+      "artist": "The Strokes",
+      "album": "The New Abnormal",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
+      "playedAt": "2026-04-02T06:38:28.271Z",
+      "source": "spotify",
+      "spotifyId": "5ruzrDWcT0vuJIOMW7gMnW",
+      "nowPlaying": false
+    },
+    {
+      "name": "Do I Wanna Know?",
+      "artist": "Arctic Monkeys",
+      "album": "AM",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+      "playedAt": "2026-04-02T06:33:16.526Z",
+      "source": "spotify",
+      "spotifyId": "5FVd6KXrgO9B3JPmC8OPst",
+      "nowPlaying": false
+    },
+    {
+      "name": "Borderline",
+      "artist": "Tame Impala",
+      "album": "The Slow Rush",
+      "image": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
+      "playedAt": "2026-04-02T06:28:19.480Z",
+      "source": "spotify",
+      "spotifyId": "5hM5arv9KDbCHS0k9uqwjr",
+      "nowPlaying": false
+    },
+    {
+      "name": "Feel Good Inc.",
+      "artist": "Gorillaz, De La Soul",
+      "album": "Demon Days",
+      "image": "https://i.scdn.co/image/ab67616d0000b273622aefd794f6fe4d8e714358",
+      "playedAt": "2026-04-02T06:24:22.058Z",
+      "source": "spotify",
+      "spotifyId": "0d28khcov6AiegSCpG5TuT",
+      "nowPlaying": false
+    },
+    {
+      "name": "505",
+      "artist": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+      "playedAt": "2026-04-02T06:20:37.682Z",
+      "source": "spotify",
+      "spotifyId": "0BxE4FqsDD1Ot4YuBXwAPp",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Spins",
+      "artist": "Mac Miller, Empire Of The Sun",
+      "album": "K.I.D.S. (Deluxe)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bd510ebd3fc410e97e80b892",
+      "playedAt": "2026-04-02T06:16:18.186Z",
+      "source": "spotify",
+      "spotifyId": "3iEUDvanZwQhLCIqUmCR7N",
+      "nowPlaying": false
+    },
+    {
+      "name": "Passionfruit",
+      "artist": "Drake",
+      "album": "More Life",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734f0fd9dad63977146e685700",
+      "playedAt": "2026-04-02T06:11:22.794Z",
+      "source": "spotify",
+      "spotifyId": "5mCPDVBb16L4XQwDdbRUpz",
+      "nowPlaying": false
+    },
+    {
+      "name": "After Hours",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
+      "playedAt": "2026-04-02T06:06:25.774Z",
+      "source": "spotify",
+      "spotifyId": "2p8IUWQDrpjuFltbdgLOag",
+      "nowPlaying": false
+    },
+    {
+      "name": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+      "artist": "Daft Punk, Pharrell Williams, Nile Rodgers",
+      "album": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+      "image": "https://i.scdn.co/image/ab67616d0000b27319a88dd5c7118e87d7b1619e",
+      "playedAt": "2026-04-02T06:00:22.858Z",
+      "source": "spotify",
+      "spotifyId": "2Foc5Q5nqNiosCNqttzHof",
+      "nowPlaying": false
+    },
+    {
+      "name": "Babydoll",
+      "artist": "Dominic Fike",
+      "album": "Don't Forget About Me, Demos",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+      "playedAt": "2026-04-02T04:42:22.965Z",
+      "source": "spotify",
+      "spotifyId": "7yNf9YjeO5JXUE3JEBgnYc",
+      "nowPlaying": false
+    },
+    {
+      "name": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-04-02T04:38:39.836Z",
+      "source": "spotify",
+      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
+      "nowPlaying": false
+    },
+    {
+      "name": "Veridis Quo",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+      "playedAt": "2026-04-02T04:25:57.310Z",
+      "source": "spotify",
+      "spotifyId": "2LD2gT7gwAurzdQDQtILds",
+      "nowPlaying": false
+    },
+    {
+      "name": "Sajni",
+      "artist": "Jal",
+      "album": "Boondh",
+      "image": "https://i.scdn.co/image/ab67616d0000b27388cb5174097dad53b774523e",
+      "playedAt": "2026-04-02T01:25:33.416Z",
+      "source": "spotify",
+      "spotifyId": "3wLX0HwfAZlhT9ss18LGLY",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tum Meri Ho",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-01T18:31:36.094Z",
+      "source": "spotify",
+      "spotifyId": "3ExLap1qHBI4f9bTfN5qk8",
+      "nowPlaying": false
+    },
+    {
+      "name": "Don't Let Me Down (feat. Khalid)",
+      "artist": "Sabrina Claudio, Khalid",
+      "album": "Don't Let Me Down / All to You",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738c81b9a3b3ac575b13bedd15",
+      "playedAt": "2026-04-01T18:26:44.788Z",
+      "source": "spotify",
+      "spotifyId": "2cSiyndkQZRPmYOfrk9WlC",
+      "nowPlaying": false
+    },
+    {
+      "name": "Day 'N' Nite (Nightmare)",
+      "artist": "Kid Cudi",
+      "album": "Man On The Moon: The End Of Day (Int'l Version)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273713f297a7bdc1d48971062b2",
+      "playedAt": "2026-04-01T17:49:14.656Z",
+      "source": "spotify",
+      "spotifyId": "60PAzFNW3vAiAiVK6DRJfB",
+      "nowPlaying": false
+    },
+    {
+      "name": "Learn Ya",
+      "artist": "6LACK",
+      "album": "FREE 6LACK",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e4f13cd87b3b1ead6735a520",
+      "playedAt": "2026-04-01T17:43:33.669Z",
+      "source": "spotify",
+      "spotifyId": "2V8OJ8i3WBh4Los9wG6OKQ",
+      "nowPlaying": false
+    },
+    {
+      "name": "La La Land (feat. YG)",
+      "artist": "Bryce Vine, YG",
+      "album": "Carnival",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f855fffce607af7c1d1cc845",
+      "playedAt": "2026-04-01T15:45:35.225Z",
+      "source": "spotify",
+      "spotifyId": "4cEONREpY8NQJMuGQP95Kl",
+      "nowPlaying": false
+    },
+    {
+      "name": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
+      "artist": "Kendrick Lamar, SZA",
+      "album": "Black Panther The Album Music From And Inspired By",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c027ad28821777b00dcaa888",
+      "playedAt": "2026-04-01T15:40:56.804Z",
+      "source": "spotify",
+      "spotifyId": "3GCdLUSnKSMJhs4Tj6CV3s",
+      "nowPlaying": false
+    },
+    {
+      "name": "Father Stretch My Hands Pt. 1",
+      "artist": "Kanye West",
+      "album": "The Life Of Pablo",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732a7db835b912dc5014bd37f4",
+      "playedAt": "2026-04-01T15:34:29.556Z",
+      "source": "spotify",
+      "spotifyId": "4KW1lqgSr8TKrvBII0Brf8",
+      "nowPlaying": false
+    },
+    {
+      "name": "Feels Like Summer",
+      "artist": "Childish Gambino",
+      "album": "Summer Pack",
+      "image": "https://i.scdn.co/image/ab67616d0000b273602ca5b83fe44b68074a74b2",
+      "playedAt": "2026-04-01T15:32:13.118Z",
+      "source": "spotify",
+      "spotifyId": "7p4vHnYXkxlzvfePJVpcTr",
+      "nowPlaying": false
+    },
+    {
+      "name": "Gold",
+      "artist": "Kiiara",
+      "album": "lil kiiwi",
+      "image": "https://i.scdn.co/image/ab67616d0000b2733df320c7de5212472b93d4a0",
+      "playedAt": "2026-04-01T15:23:50.629Z",
+      "source": "spotify",
+      "spotifyId": "7yNX3ZFBWZoR52pbeU4Mcl",
+      "nowPlaying": false
+    },
+    {
+      "name": "Take Me To Church",
+      "artist": "Hozier",
+      "album": "Hozier",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737a9bf5f82e32d33d4503fe7b",
+      "playedAt": "2026-04-01T14:35:16.146Z",
+      "source": "spotify",
+      "spotifyId": "3dYD57lRAUcMHufyqn9GcI",
+      "nowPlaying": false
+    },
+    {
+      "name": "Time of Our Lives",
+      "artist": "Pitbull, Ne-Yo",
+      "album": "Globalization",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e6efeff81a318670a292090f",
+      "playedAt": "2026-04-01T14:31:16.941Z",
+      "source": "spotify",
+      "spotifyId": "2bJvI42r8EF3wxjOuDav4r",
+      "nowPlaying": false
+    },
+    {
+      "name": "Stolen Dance",
+      "artist": "Milky Chance",
+      "album": "Sadnecessary",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732001bc1b4dd82d06631fcb9e",
+      "playedAt": "2026-04-01T08:37:32.074Z",
+      "source": "spotify",
+      "spotifyId": "34xGLuxM0rkxhCVyMSqwJO",
+      "nowPlaying": false
+    },
+    {
+      "name": "Shut up My Moms Calling",
+      "artist": "Hotel Ugly",
+      "album": "Shut up My Moms Calling",
+      "image": "https://i.scdn.co/image/ab67616d0000b273350ab7a839c04bfd5225a9f5",
+      "playedAt": "2026-04-01T08:33:19.152Z",
+      "source": "spotify",
+      "spotifyId": "3hxIUxnT27p5WcmjGUXNwx",
+      "nowPlaying": false
+    },
     {
       "name": "Middle",
       "artist": "DJ Snake, Bipolar Sunshine",
@@ -142,206 +402,6 @@
       "playedAt": "2026-04-01T02:41:18.252Z",
       "source": "spotify",
       "spotifyId": "1JRfP5jkBm7zS8B0k7Xj66",
-      "nowPlaying": false
-    },
-    {
-      "name": "Shaam Tanha",
-      "artist": "Agnee",
-      "album": "Agnee",
-      "image": "https://i.scdn.co/image/ab67616d0000b273310388fc9ed4739ae25919d9",
-      "playedAt": "2026-03-30T19:16:39.106Z",
-      "source": "spotify",
-      "spotifyId": "5V6XcXBrCGI6JOeYr4Uyo3",
-      "nowPlaying": false
-    },
-    {
-      "name": "Abhi Abhi (From \"Jism 2\")",
-      "artist": "KK",
-      "album": "Teri Yaadon Mein - K.K.",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f99cb6f65e480ac900fe3100",
-      "playedAt": "2026-03-30T13:37:34.042Z",
-      "source": "spotify",
-      "spotifyId": "7wiHW9MLKsjVZLCuWDGwDr",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jogi",
-      "artist": "Swastik The Band",
-      "album": "Avasa",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734d703b2fb1b9bbd0e51df374",
-      "playedAt": "2026-03-30T09:20:47.241Z",
-      "source": "spotify",
-      "spotifyId": "0h0gWburhWxIhV9h7kyX3l",
-      "nowPlaying": false
-    },
-    {
-      "name": "Laaree Chootee",
-      "artist": "Call",
-      "album": "Dhoom",
-      "image": "https://i.scdn.co/image/ab67616d0000b2738c2b34ee29332a03678719ba",
-      "playedAt": "2026-03-30T09:06:39.762Z",
-      "source": "spotify",
-      "spotifyId": "2M0pYMPcnI67XWM8vgs8OS",
-      "nowPlaying": false
-    },
-    {
-      "name": "Sajni",
-      "artist": "Jal",
-      "album": "Boondh",
-      "image": "https://i.scdn.co/image/ab67616d0000b27388cb5174097dad53b774523e",
-      "playedAt": "2026-03-30T09:02:36.465Z",
-      "source": "spotify",
-      "spotifyId": "3wLX0HwfAZlhT9ss18LGLY",
-      "nowPlaying": false
-    },
-    {
-      "name": "Bhulado",
-      "artist": "Raeth",
-      "album": "Raeth",
-      "image": "https://i.scdn.co/image/ab67616d0000b273553bb8eb98e51fd1cebb620c",
-      "playedAt": "2026-03-30T08:33:57.144Z",
-      "source": "spotify",
-      "spotifyId": "2InOKs3a6PcNXFBPk0fN0f",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tum Meri Ho",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-03-30T08:29:54.666Z",
-      "source": "spotify",
-      "spotifyId": "3ExLap1qHBI4f9bTfN5qk8",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tilak",
-      "artist": "Bombay Bandook",
-      "album": "Tilak",
-      "image": "https://i.scdn.co/image/ab67616d0000b27347c18d86a188b479004f1128",
-      "playedAt": "2026-03-30T05:36:35.836Z",
-      "source": "spotify",
-      "spotifyId": "3snujKMl0rkHSdwOLxWrFv",
-      "nowPlaying": false
-    },
-    {
-      "name": "Spin On It",
-      "artist": "wolf.cryman, Faizan, Circle Tone",
-      "album": "Dil Fenk Ke Marunga 2",
-      "image": "https://i.scdn.co/image/ab67616d0000b273360805061c7f2fc75e631d7c",
-      "playedAt": "2026-03-30T05:11:04.619Z",
-      "source": "spotify",
-      "spotifyId": "6XDTW3XDfVmdTO4nPSRD2G",
-      "nowPlaying": false
-    },
-    {
-      "name": "Let The Music Play - Original Vocal Mix",
-      "artist": "Shamur",
-      "album": "Let The Music Play (Original Vocal Mix)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d8484dcf4580b88f3b38d06c",
-      "playedAt": "2026-03-30T04:40:31.062Z",
-      "source": "spotify",
-      "spotifyId": "0XR8lfSV34gzPAKGjX6YZq",
-      "nowPlaying": false
-    },
-    {
-      "name": "Kangna (Acoustic Mix)",
-      "artist": "Dr Zeus, Master Rakesh, Sai Priya",
-      "album": "Unda Da Influence",
-      "image": "https://i.scdn.co/image/ab67616d0000b273295d3a2e94b7cc56b2be94fa",
-      "playedAt": "2026-03-30T04:36:47.427Z",
-      "source": "spotify",
-      "spotifyId": "0xwUByxkrgmuWUKvTZFaJ4",
-      "nowPlaying": false
-    },
-    {
-      "name": "Burning",
-      "artist": "The Whitest Boy Alive",
-      "album": "Dreams",
-      "image": "https://i.scdn.co/image/ab67616d0000b27354405f4e966b1efbebb88883",
-      "playedAt": "2026-03-27T18:26:28.760Z",
-      "source": "spotify",
-      "spotifyId": "0QgR03vMDoBoLgcu08EtKl",
-      "nowPlaying": false
-    },
-    {
-      "name": "You Are the Right One",
-      "artist": "Sports",
-      "album": "Naked All the Time",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731192eb9f894b18f0de2682f1",
-      "playedAt": "2026-03-27T17:26:26.131Z",
-      "source": "spotify",
-      "spotifyId": "2qpacEyFxmbxCpIEqZkqvC",
-      "nowPlaying": false
-    },
-    {
-      "name": "Vanille fraise",
-      "artist": "L'Impératrice",
-      "album": "Vanille fraise",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734378e3b644f45841c3008454",
-      "playedAt": "2026-03-27T17:23:33.196Z",
-      "source": "spotify",
-      "spotifyId": "7nZ9CzhiFRPhOQCn7eDSnn",
-      "nowPlaying": false
-    },
-    {
-      "name": "Make Love",
-      "artist": "Daft Punk",
-      "album": "Human After All",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732ed719bad67261c7bf090c70",
-      "playedAt": "2026-03-27T17:19:39.060Z",
-      "source": "spotify",
-      "spotifyId": "4ABWPP59ItFKykdaDF09K5",
-      "nowPlaying": false
-    },
-    {
-      "name": "Breathe (In the Air)",
-      "artist": "Pink Floyd",
-      "album": "The Dark Side of the Moon",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
-      "playedAt": "2026-03-27T17:14:37.676Z",
-      "source": "spotify",
-      "spotifyId": "2ctvdKmETyOzPb2GiJJT53",
-      "nowPlaying": false
-    },
-    {
-      "name": "Veridis Quo",
-      "artist": "Daft Punk",
-      "album": "Discovery",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
-      "playedAt": "2026-03-27T17:11:47.909Z",
-      "source": "spotify",
-      "spotifyId": "2LD2gT7gwAurzdQDQtILds",
-      "nowPlaying": false
-    },
-    {
-      "name": "La lune",
-      "artist": "L'Impératrice",
-      "album": "Odyssée - EP",
-      "image": "https://i.scdn.co/image/ab67616d0000b27391d5af63d5acc752950d5927",
-      "playedAt": "2026-03-27T16:54:07.304Z",
-      "source": "spotify",
-      "spotifyId": "6rbbDK18oqK3MxHGQhpmn2",
-      "nowPlaying": false
-    },
-    {
-      "name": "Inflation",
-      "artist": "The Whitest Boy Alive",
-      "album": "Dreams",
-      "image": "https://i.scdn.co/image/ab67616d0000b27354405f4e966b1efbebb88883",
-      "playedAt": "2026-03-27T16:50:53.596Z",
-      "source": "spotify",
-      "spotifyId": "2Me5AgLwFI4vAmHFRnMu2Y",
-      "nowPlaying": false
-    },
-    {
-      "name": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
-      "artist": "Daft Punk, Pharrell Williams, Nile Rodgers",
-      "album": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
-      "image": "https://i.scdn.co/image/ab67616d0000b27319a88dd5c7118e87d7b1619e",
-      "playedAt": "2026-03-27T16:47:03.495Z",
-      "source": "spotify",
-      "spotifyId": "2Foc5Q5nqNiosCNqttzHof",
       "nowPlaying": false
     }
   ]
