@@ -1,9 +1,179 @@
 {
-  "lastUpdated": "2026-04-02T07:12:12.282699+00:00",
+  "lastUpdated": "2026-04-03T07:07:23.659027+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "image": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+      "playedAt": "2026-04-03T05:18:59.397Z",
+      "source": "spotify",
+      "spotifyId": "7J1uxwnxfQLu4APicE5Rnj",
+      "nowPlaying": false
+    },
+    {
+      "name": "Babydoll",
+      "artist": "Dominic Fike",
+      "album": "Don't Forget About Me, Demos",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+      "playedAt": "2026-04-03T05:14:04.962Z",
+      "source": "spotify",
+      "spotifyId": "7yNf9YjeO5JXUE3JEBgnYc",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Spins",
+      "artist": "Mac Miller, Empire Of The Sun",
+      "album": "K.I.D.S. (Deluxe)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bd510ebd3fc410e97e80b892",
+      "playedAt": "2026-04-03T05:12:26.353Z",
+      "source": "spotify",
+      "spotifyId": "3iEUDvanZwQhLCIqUmCR7N",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Less I Know The Better",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "playedAt": "2026-04-03T05:09:09.988Z",
+      "source": "spotify",
+      "spotifyId": "6K4t31amVTZDgR3sKmwUJJ",
+      "nowPlaying": false
+    },
+    {
+      "name": "telepatía",
+      "artist": "Kali Uchis",
+      "album": "Sin Miedo (del Amor y Otros Demonios) ∞",
+      "image": "https://i.scdn.co/image/ab67616d0000b273044a5466dac00f7b3c570b99",
+      "playedAt": "2026-04-03T05:05:33.009Z",
+      "source": "spotify",
+      "spotifyId": "6tDDoYIxWvMLTdKpjFkc1B",
+      "nowPlaying": false
+    },
+    {
+      "name": "Selfless",
+      "artist": "The Strokes",
+      "album": "The New Abnormal",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
+      "playedAt": "2026-04-03T05:02:53.649Z",
+      "source": "spotify",
+      "spotifyId": "2t0wwvR15fc3K1ey8OiOaN",
+      "nowPlaying": false
+    },
+    {
+      "name": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-04-03T04:59:09.802Z",
+      "source": "spotify",
+      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
+      "nowPlaying": false
+    },
+    {
+      "name": "Time in a Bottle",
+      "artist": "Jim Croce",
+      "album": "You Don't Mess Around With Jim",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735b7a6cabbcb9fe150966563c",
+      "playedAt": "2026-04-02T15:31:33.909Z",
+      "source": "spotify",
+      "spotifyId": "7uWFUpGuEfmxYeymkV95jn",
+      "nowPlaying": false
+    },
+    {
+      "name": "Every Breath You Take",
+      "artist": "The Police",
+      "album": "Synchronicity (Remastered 2003)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c8e97cafeb2acb85b21a777e",
+      "playedAt": "2026-04-02T15:25:54.703Z",
+      "source": "spotify",
+      "spotifyId": "1JSTJqkT5qHq8MDJnJbRE1",
+      "nowPlaying": false
+    },
+    {
+      "name": "Have You Ever Seen The Rain",
+      "artist": "Creedence Clearwater Revival",
+      "album": "Pendulum (Expanded Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27351f311c2fb06ad2789e3ff91",
+      "playedAt": "2026-04-02T15:20:33.891Z",
+      "source": "spotify",
+      "spotifyId": "2LawezPeJhN4AWuSB0GtAU",
+      "nowPlaying": false
+    },
+    {
+      "name": "Baby Come Back",
+      "artist": "Player",
+      "album": "Player",
+      "image": "https://i.scdn.co/image/ab67616d0000b27381eae9a98487ae512df29469",
+      "playedAt": "2026-04-02T15:17:52.485Z",
+      "source": "spotify",
+      "spotifyId": "41sGGCCoHI2GLV9qadX80A",
+      "nowPlaying": false
+    },
+    {
+      "name": "Breathe (In the Air)",
+      "artist": "Pink Floyd",
+      "album": "The Dark Side of the Moon",
+      "image": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
+      "playedAt": "2026-04-02T15:13:35.360Z",
+      "source": "spotify",
+      "spotifyId": "2ctvdKmETyOzPb2GiJJT53",
+      "nowPlaying": false
+    },
+    {
+      "name": "Hotel California - 2013 Remaster",
+      "artist": "Eagles",
+      "album": "Hotel California (2013 Remaster)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
+      "playedAt": "2026-04-02T15:10:45.454Z",
+      "source": "spotify",
+      "spotifyId": "40riOy7x9W7GXjyGp4pjAv",
+      "nowPlaying": false
+    },
+    {
+      "name": "Silent Days",
+      "artist": "Anhad + Tanner, Akanksha Grover",
+      "album": "Silent Days EP",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a279143e2e037a97f30e4cf7",
+      "playedAt": "2026-04-02T08:43:04.068Z",
+      "source": "spotify",
+      "spotifyId": "5tLVQUwCEHJ3YSeSNvmHpi",
+      "nowPlaying": false
+    },
+    {
+      "name": "Nikamma",
+      "artist": "Lifafa",
+      "album": "Jaago",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ccb8f637c8dd7422f4266bfa",
+      "playedAt": "2026-04-02T08:39:23.926Z",
+      "source": "spotify",
+      "spotifyId": "0yrCxEoGU4cV3CGr0sc65J",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tilak",
+      "artist": "Bombay Bandook",
+      "album": "Tilak",
+      "image": "https://i.scdn.co/image/ab67616d0000b27347c18d86a188b479004f1128",
+      "playedAt": "2026-04-02T08:35:45.271Z",
+      "source": "spotify",
+      "spotifyId": "3snujKMl0rkHSdwOLxWrFv",
+      "nowPlaying": false
+    },
+    {
+      "name": "Azad",
+      "artist": "Bombay Bandook",
+      "album": "Azad",
+      "image": "https://i.scdn.co/image/ab67616d0000b27337977d9f4d18ae264ea27959",
+      "playedAt": "2026-04-02T08:07:11.901Z",
+      "source": "spotify",
+      "spotifyId": "3mDv3HRVNlPyJGLJvg8y8T",
+      "nowPlaying": false
+    },
     {
       "name": "The Adults Are Talking",
       "artist": "The Strokes",
@@ -55,16 +225,6 @@
       "nowPlaying": false
     },
     {
-      "name": "The Spins",
-      "artist": "Mac Miller, Empire Of The Sun",
-      "album": "K.I.D.S. (Deluxe)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273bd510ebd3fc410e97e80b892",
-      "playedAt": "2026-04-02T06:16:18.186Z",
-      "source": "spotify",
-      "spotifyId": "3iEUDvanZwQhLCIqUmCR7N",
-      "nowPlaying": false
-    },
-    {
       "name": "Passionfruit",
       "artist": "Drake",
       "album": "More Life",
@@ -92,26 +252,6 @@
       "playedAt": "2026-04-02T06:00:22.858Z",
       "source": "spotify",
       "spotifyId": "2Foc5Q5nqNiosCNqttzHof",
-      "nowPlaying": false
-    },
-    {
-      "name": "Babydoll",
-      "artist": "Dominic Fike",
-      "album": "Don't Forget About Me, Demos",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
-      "playedAt": "2026-04-02T04:42:22.965Z",
-      "source": "spotify",
-      "spotifyId": "7yNf9YjeO5JXUE3JEBgnYc",
-      "nowPlaying": false
-    },
-    {
-      "name": "We Are The People",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-02T04:38:39.836Z",
-      "source": "spotify",
-      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
       "nowPlaying": false
     },
     {
@@ -262,146 +402,6 @@
       "playedAt": "2026-04-01T08:33:19.152Z",
       "source": "spotify",
       "spotifyId": "3hxIUxnT27p5WcmjGUXNwx",
-      "nowPlaying": false
-    },
-    {
-      "name": "Middle",
-      "artist": "DJ Snake, Bipolar Sunshine",
-      "album": "Encore",
-      "image": "https://i.scdn.co/image/ab67616d0000b273212d776c31027c511f0ee3bc",
-      "playedAt": "2026-04-01T06:36:04.687Z",
-      "source": "spotify",
-      "spotifyId": "0g5EKLgdKvNlln7TNqBByK",
-      "nowPlaying": false
-    },
-    {
-      "name": "Rude",
-      "artist": "MAGIC!",
-      "album": "Don't Kill the Magic",
-      "image": "https://i.scdn.co/image/ab67616d0000b273b1c2609c8b258ad621d4057b",
-      "playedAt": "2026-04-01T06:32:23.652Z",
-      "source": "spotify",
-      "spotifyId": "6RtPijgfPKROxEzTHNRiDp",
-      "nowPlaying": false
-    },
-    {
-      "name": "Heartless",
-      "artist": "Kanye West",
-      "album": "808s & Heartbreak",
-      "image": "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18",
-      "playedAt": "2026-04-01T06:27:36.379Z",
-      "source": "spotify",
-      "spotifyId": "4EWCNWgDS8707fNSZ1oaA5",
-      "nowPlaying": false
-    },
-    {
-      "name": "Money Trees",
-      "artist": "Kendrick Lamar, Jay Rock",
-      "album": "good kid, m.A.A.d city",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732cd55246d935a8a77cb4859e",
-      "playedAt": "2026-04-01T06:24:04.578Z",
-      "source": "spotify",
-      "spotifyId": "74tLlkN3rgVzRqQJgPfink",
-      "nowPlaying": false
-    },
-    {
-      "name": "Better",
-      "artist": "Khalid",
-      "album": "Suncity",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c243500e164150d229750c91",
-      "playedAt": "2026-04-01T06:15:17.393Z",
-      "source": "spotify",
-      "spotifyId": "2OpBganfGk2GVdSlRdxzaX",
-      "nowPlaying": false
-    },
-    {
-      "name": "Location",
-      "artist": "Khalid",
-      "album": "American Teen",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
-      "playedAt": "2026-04-01T06:10:24.300Z",
-      "source": "spotify",
-      "spotifyId": "152lZdxL1OR0ZMW6KquMif",
-      "nowPlaying": false
-    },
-    {
-      "name": "Something About Us",
-      "artist": "Daft Punk",
-      "album": "Discovery",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
-      "playedAt": "2026-04-01T05:59:49.675Z",
-      "source": "spotify",
-      "spotifyId": "1NeLwFETswx8Fzxl2AFl91",
-      "nowPlaying": false
-    },
-    {
-      "name": "Hotel California - 2013 Remaster",
-      "artist": "Eagles",
-      "album": "Hotel California (2013 Remaster)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
-      "playedAt": "2026-04-01T04:36:54.927Z",
-      "source": "spotify",
-      "spotifyId": "40riOy7x9W7GXjyGp4pjAv",
-      "nowPlaying": false
-    },
-    {
-      "name": "End of Beginning",
-      "artist": "Djo",
-      "album": "DECIDE",
-      "image": "https://i.scdn.co/image/ab67616d0000b273fddfffec51b4580acae727c1",
-      "playedAt": "2026-04-01T03:20:59.561Z",
-      "source": "spotify",
-      "spotifyId": "3qhlB30KknSejmIvZZLjOD",
-      "nowPlaying": false
-    },
-    {
-      "name": "Billie Jean",
-      "artist": "Michael Jackson",
-      "album": "Thriller",
-      "image": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
-      "playedAt": "2026-04-01T03:01:42.152Z",
-      "source": "spotify",
-      "spotifyId": "7J1uxwnxfQLu4APicE5Rnj",
-      "nowPlaying": false
-    },
-    {
-      "name": "Beanie",
-      "artist": "Chezile",
-      "album": "Beanie",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739d181176cafa856a3c8b5537",
-      "playedAt": "2026-04-01T02:56:48.258Z",
-      "source": "spotify",
-      "spotifyId": "5e0b9LgOfi3aJSKXFcOWRe",
-      "nowPlaying": false
-    },
-    {
-      "name": "Be My Baby",
-      "artist": "The Ronettes",
-      "album": "Presenting the Fabulous Ronettes Featuring Veronica",
-      "image": "https://i.scdn.co/image/ab67616d0000b273b298efc29df3b69ec3f0d675",
-      "playedAt": "2026-04-01T02:54:37.283Z",
-      "source": "spotify",
-      "spotifyId": "1WN4uNclrDuczTO3bCr8s1",
-      "nowPlaying": false
-    },
-    {
-      "name": "Is It True",
-      "artist": "Tame Impala",
-      "album": "The Slow Rush",
-      "image": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
-      "playedAt": "2026-04-01T02:49:08.562Z",
-      "source": "spotify",
-      "spotifyId": "6RZmhpvukfyeSURhf4kZ0d",
-      "nowPlaying": false
-    },
-    {
-      "name": "Only You",
-      "artist": "Theophilus London, Tame Impala",
-      "album": "Bebey",
-      "image": "https://i.scdn.co/image/ab67616d0000b273fef7747791b60acfabfc9f27",
-      "playedAt": "2026-04-01T02:41:18.252Z",
-      "source": "spotify",
-      "spotifyId": "1JRfP5jkBm7zS8B0k7Xj66",
       "nowPlaying": false
     }
   ]
