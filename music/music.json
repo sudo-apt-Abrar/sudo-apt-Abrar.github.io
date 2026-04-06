@@ -1,9 +1,19 @@
 {
-  "lastUpdated": "2026-04-05T07:05:51.734583+00:00",
+  "lastUpdated": "2026-04-06T07:42:20.541669+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Zara Sa",
+      "artist": "Pritam, KK, Sayeed Quadri",
+      "album": "Jannat (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273727d531901c07a499498c544",
+      "playedAt": "2026-04-06T06:42:41.649Z",
+      "source": "spotify",
+      "spotifyId": "18YHbIhrleUkKKj2DvEp79",
+      "nowPlaying": false
+    },
     {
       "name": "Masakali",
       "artist": "Mohit Chauhan, A.R. Rahman, Prasoon Joshi",
@@ -382,16 +392,6 @@
       "playedAt": "2026-04-03T05:12:26.353Z",
       "source": "spotify",
       "spotifyId": "3iEUDvanZwQhLCIqUmCR7N",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Less I Know The Better",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-04-03T05:09:09.988Z",
-      "source": "spotify",
-      "spotifyId": "6K4t31amVTZDgR3sKmwUJJ",
       "nowPlaying": false
     }
   ]
