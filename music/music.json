@@ -1,9 +1,179 @@
 {
-  "lastUpdated": "2026-04-06T07:42:20.541669+00:00",
+  "lastUpdated": "2026-04-07T07:15:59.797040+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Pashmina",
+      "artist": "Amit Trivedi",
+      "album": "Fitoor (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b99c0e6b9bf5ba4da74e816d",
+      "playedAt": "2026-04-07T06:07:38.384Z",
+      "source": "spotify",
+      "spotifyId": "0WqwZRnE9t577O0AT3Dk0l",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tennu Le",
+      "artist": "omer inayat",
+      "album": "Jai Veeru",
+      "image": "https://i.scdn.co/image/ab67616d0000b27364faa2f475c5548a65607a72",
+      "playedAt": "2026-04-07T06:00:43.761Z",
+      "source": "spotify",
+      "spotifyId": "0dQiyqHUpnMPmHtk535VAY",
+      "nowPlaying": false
+    },
+    {
+      "name": "Dilko Tumse Pyar Hua",
+      "artist": "Roop Kumar Rathod",
+      "album": "Rehnaa Hai Terre Dil Mein",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e3fcf9171730df35aaf03c67",
+      "playedAt": "2026-04-07T05:50:06.708Z",
+      "source": "spotify",
+      "spotifyId": "4zlgBHkw0HL6JTcZBbnzqx",
+      "nowPlaying": false
+    },
+    {
+      "name": "Aao Milo Chalo",
+      "artist": "Pritam, Shaan, Ustad Sultan Khan, Irshad Kamil",
+      "album": "Jab We Met",
+      "image": "https://i.scdn.co/image/ab67616d0000b27352fe6875028c892308ffc2f7",
+      "playedAt": "2026-04-07T05:44:34.565Z",
+      "source": "spotify",
+      "spotifyId": "6ocOeSjnWPcSTaSsi0zIdY",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jao Na",
+      "artist": "Sohail Sen, Tarannum Malik Jain",
+      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
+      "playedAt": "2026-04-07T05:39:08.038Z",
+      "source": "spotify",
+      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
+      "nowPlaying": false
+    },
+    {
+      "name": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
+      "artist": "Kendrick Lamar, SZA",
+      "album": "Black Panther The Album Music From And Inspired By",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c027ad28821777b00dcaa888",
+      "playedAt": "2026-04-06T14:04:03.308Z",
+      "source": "spotify",
+      "spotifyId": "3GCdLUSnKSMJhs4Tj6CV3s",
+      "nowPlaying": false
+    },
+    {
+      "name": "Middle",
+      "artist": "DJ Snake, Bipolar Sunshine",
+      "album": "Encore",
+      "image": "https://i.scdn.co/image/ab67616d0000b273212d776c31027c511f0ee3bc",
+      "playedAt": "2026-04-06T10:38:19.593Z",
+      "source": "spotify",
+      "spotifyId": "0g5EKLgdKvNlln7TNqBByK",
+      "nowPlaying": false
+    },
+    {
+      "name": "Better",
+      "artist": "Khalid",
+      "album": "Suncity",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c243500e164150d229750c91",
+      "playedAt": "2026-04-06T10:27:10.558Z",
+      "source": "spotify",
+      "spotifyId": "2OpBganfGk2GVdSlRdxzaX",
+      "nowPlaying": false
+    },
+    {
+      "name": "Father Stretch My Hands Pt. 1",
+      "artist": "Kanye West",
+      "album": "The Life Of Pablo",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732a7db835b912dc5014bd37f4",
+      "playedAt": "2026-04-06T10:23:20.712Z",
+      "source": "spotify",
+      "spotifyId": "4KW1lqgSr8TKrvBII0Brf8",
+      "nowPlaying": false
+    },
+    {
+      "name": "Day 'N' Nite (Nightmare)",
+      "artist": "Kid Cudi",
+      "album": "Man On The Moon: The End Of Day (Int'l Version)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273713f297a7bdc1d48971062b2",
+      "playedAt": "2026-04-06T10:21:05.622Z",
+      "source": "spotify",
+      "spotifyId": "60PAzFNW3vAiAiVK6DRJfB",
+      "nowPlaying": false
+    },
+    {
+      "name": "Location",
+      "artist": "Khalid",
+      "album": "American Teen",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
+      "playedAt": "2026-04-06T10:15:40.777Z",
+      "source": "spotify",
+      "spotifyId": "152lZdxL1OR0ZMW6KquMif",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
+      "artist": "Gorillaz, Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda, Black Thought",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-06T10:08:00.628Z",
+      "source": "spotify",
+      "spotifyId": "6VflG4mpZSlpKnqNRL3NO9",
+      "nowPlaying": false
+    },
+    {
+      "name": "Maula Mere Maula",
+      "artist": "Roop Kumar Rathod, Sayeed Quadri",
+      "album": "Anwar",
+      "image": "https://i.scdn.co/image/ab67616d0000b27306b537ea166d7b3f3050241c",
+      "playedAt": "2026-04-06T09:15:49.297Z",
+      "source": "spotify",
+      "spotifyId": "4CGBTtlrjZj7ydpV52cgB4",
+      "nowPlaying": false
+    },
+    {
+      "name": "Guzarish",
+      "artist": "A.R. Rahman, Javed Ali, Prasoon Joshi",
+      "album": "Ghajini",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735b7ba7da308af447f48b9943",
+      "playedAt": "2026-04-06T08:59:38.085Z",
+      "source": "spotify",
+      "spotifyId": "2MvCNH9ua0CeOgUQfZf56z",
+      "nowPlaying": false
+    },
+    {
+      "name": "Toh Phir Aao",
+      "artist": "Pritam, Mustafa Zahid, Sayeed Quadri",
+      "album": "Awarapan (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738f2706d41aa1ec24c04135ba",
+      "playedAt": "2026-04-06T08:54:10.759Z",
+      "source": "spotify",
+      "spotifyId": "10rTRsKQDEke6Dd1Qj57Jd",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tum Ho",
+      "artist": "Mohit Chauhan, Suzanne D'Mello",
+      "album": "Rockstar",
+      "image": "https://i.scdn.co/image/ab67616d0000b27354e544672baa16145d67612b",
+      "playedAt": "2026-04-06T08:48:21.619Z",
+      "source": "spotify",
+      "spotifyId": "7uNnlVit5qDvfOje0pqICF",
+      "nowPlaying": false
+    },
+    {
+      "name": "Main Yahaan Hoon",
+      "artist": "Madan Mohan, Udit Narayan, Javed Akhtar",
+      "album": "Veer - Zaara",
+      "image": "https://i.scdn.co/image/ab67616d0000b27396fa496a2cfc301430589024",
+      "playedAt": "2026-04-06T08:43:04.714Z",
+      "source": "spotify",
+      "spotifyId": "3OAFzjwWionh8OfM4kgf2R",
+      "nowPlaying": false
+    },
     {
       "name": "Zara Sa",
       "artist": "Pritam, KK, Sayeed Quadri",
@@ -95,16 +265,6 @@
       "nowPlaying": false
     },
     {
-      "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
-      "artist": "Gorillaz, Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda, Black Thought",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-04T14:21:20.295Z",
-      "source": "spotify",
-      "spotifyId": "6VflG4mpZSlpKnqNRL3NO9",
-      "nowPlaying": false
-    },
-    {
       "name": "Jo Bhi Main",
       "artist": "Mohit Chauhan",
       "album": "Rockstar",
@@ -112,26 +272,6 @@
       "playedAt": "2026-04-04T07:06:07.340Z",
       "source": "spotify",
       "spotifyId": "2MmAYegcUty1DmG0Gw7AMh",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tum Ho",
-      "artist": "Mohit Chauhan, Suzanne D'Mello",
-      "album": "Rockstar",
-      "image": "https://i.scdn.co/image/ab67616d0000b27354e544672baa16145d67612b",
-      "playedAt": "2026-04-04T06:51:21.435Z",
-      "source": "spotify",
-      "spotifyId": "7uNnlVit5qDvfOje0pqICF",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tennu Le",
-      "artist": "omer inayat",
-      "album": "Jai Veeru",
-      "image": "https://i.scdn.co/image/ab67616d0000b27364faa2f475c5548a65607a72",
-      "playedAt": "2026-04-04T06:10:05.204Z",
-      "source": "spotify",
-      "spotifyId": "0dQiyqHUpnMPmHtk535VAY",
       "nowPlaying": false
     },
     {
@@ -152,246 +292,6 @@
       "playedAt": "2026-04-04T04:57:22.826Z",
       "source": "spotify",
       "spotifyId": "0up9rhm9qt2LW7cnoDFCMk",
-      "nowPlaying": false
-    },
-    {
-      "name": "Toh Phir Aao",
-      "artist": "Pritam, Mustafa Zahid, Sayeed Quadri",
-      "album": "Awarapan (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2738f2706d41aa1ec24c04135ba",
-      "playedAt": "2026-04-04T04:52:57.085Z",
-      "source": "spotify",
-      "spotifyId": "10rTRsKQDEke6Dd1Qj57Jd",
-      "nowPlaying": false
-    },
-    {
-      "name": "Kaun Mera",
-      "artist": "Papon",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-04-04T04:47:01.539Z",
-      "source": "spotify",
-      "spotifyId": "2n40kGcCG499ckQwYNJnWp",
-      "nowPlaying": false
-    },
-    {
-      "name": "Baarish",
-      "artist": "Mohammed Irfan",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-04-04T03:22:10.842Z",
-      "source": "spotify",
-      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
-      "nowPlaying": false
-    },
-    {
-      "name": "Stand By Me",
-      "artist": "Ben E. King",
-      "album": "Don't Play That Song",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c155b31ab9e86a3d96359811",
-      "playedAt": "2026-04-04T02:21:28.182Z",
-      "source": "spotify",
-      "spotifyId": "7jmHyHMEqm9MJWiMAneF05",
-      "nowPlaying": false
-    },
-    {
-      "name": "Billie Jean",
-      "artist": "Michael Jackson",
-      "album": "Thriller",
-      "image": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
-      "playedAt": "2026-04-03T18:29:53.623Z",
-      "source": "spotify",
-      "spotifyId": "7J1uxwnxfQLu4APicE5Rnj",
-      "nowPlaying": false
-    },
-    {
-      "name": "Every Breath You Take",
-      "artist": "The Police",
-      "album": "Synchronicity (Remastered 2003)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c8e97cafeb2acb85b21a777e",
-      "playedAt": "2026-04-03T18:24:13.272Z",
-      "source": "spotify",
-      "spotifyId": "1JSTJqkT5qHq8MDJnJbRE1",
-      "nowPlaying": false
-    },
-    {
-      "name": "Fortunate Son",
-      "artist": "Creedence Clearwater Revival",
-      "album": "Willy And The Poor Boys (Expanded Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739f39192f9f8ca1c90847b3e5",
-      "playedAt": "2026-04-03T18:19:58.740Z",
-      "source": "spotify",
-      "spotifyId": "4BP3uh0hFLFRb5cjsgLqDh",
-      "nowPlaying": false
-    },
-    {
-      "name": "California Dreamin'",
-      "artist": "The Mamas & The Papas",
-      "album": "All The Leaves Are Brown The Golden Era Collection",
-      "image": "https://i.scdn.co/image/ab67616d0000b273cbd56c3a8faf8cf8c8bea0df",
-      "playedAt": "2026-04-03T18:17:37.548Z",
-      "source": "spotify",
-      "spotifyId": "1ZEOIhSn6BKErV59bIgn76",
-      "nowPlaying": false
-    },
-    {
-      "name": "Rasputin - Single Version",
-      "artist": "Boney M.",
-      "album": "Fantastic Boney M.",
-      "image": "https://i.scdn.co/image/ab67616d0000b273971c4d717b2be5b04b1ec8fd",
-      "playedAt": "2026-04-03T13:52:39.696Z",
-      "source": "spotify",
-      "spotifyId": "67hbP9PFQZrb4XZc3TzB0s",
-      "nowPlaying": false
-    },
-    {
-      "name": "Let It Happen",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-04-03T13:48:58.319Z",
-      "source": "spotify",
-      "spotifyId": "2X485T9Z5Ly0xyaghN73ed",
-      "nowPlaying": false
-    },
-    {
-      "name": "Adventure of a Lifetime",
-      "artist": "Coldplay",
-      "album": "A Head Full of Dreams",
-      "image": "https://i.scdn.co/image/ab67616d0000b2738ff7c3580d429c8212b9a3b6",
-      "playedAt": "2026-04-03T11:39:54.216Z",
-      "source": "spotify",
-      "spotifyId": "69uxyAqqPIsUyTO8txoP2M",
-      "nowPlaying": false
-    },
-    {
-      "name": "Stronger",
-      "artist": "Kanye West",
-      "album": "Graduation",
-      "image": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
-      "playedAt": "2026-04-03T11:35:29.667Z",
-      "source": "spotify",
-      "spotifyId": "0j2T0R9dR9qdJYsB7ciXhf",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tomorrow Comes Today",
-      "artist": "Gorillaz",
-      "album": "Gorillaz",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f6c46838e4425ea96e2562fe",
-      "playedAt": "2026-04-03T11:30:17.048Z",
-      "source": "spotify",
-      "spotifyId": "6BL4PpswVjH9BAajbIbpmZ",
-      "nowPlaying": false
-    },
-    {
-      "name": "Do I Wanna Know?",
-      "artist": "Arctic Monkeys",
-      "album": "AM",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
-      "playedAt": "2026-04-03T11:27:03.053Z",
-      "source": "spotify",
-      "spotifyId": "5FVd6KXrgO9B3JPmC8OPst",
-      "nowPlaying": false
-    },
-    {
-      "name": "Smooth Criminal - 2012 Remaster",
-      "artist": "Michael Jackson",
-      "album": "Bad (Remastered)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eb2087dcd1eb61f833bdedff",
-      "playedAt": "2026-04-03T11:22:30.084Z",
-      "source": "spotify",
-      "spotifyId": "5T7ywazdGIydr6JCW6t02j",
-      "nowPlaying": false
-    },
-    {
-      "name": "Borderline",
-      "artist": "Tame Impala",
-      "album": "The Slow Rush",
-      "image": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
-      "playedAt": "2026-04-03T09:54:42.911Z",
-      "source": "spotify",
-      "spotifyId": "5hM5arv9KDbCHS0k9uqwjr",
-      "nowPlaying": false
-    },
-    {
-      "name": "Chamber Of Reflection",
-      "artist": "Mac DeMarco",
-      "album": "Salad Days",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9",
-      "playedAt": "2026-04-03T09:50:44.441Z",
-      "source": "spotify",
-      "spotifyId": "7H7NyZ3G075GqPx2evsfeb",
-      "nowPlaying": false
-    },
-    {
-      "name": "I Wonder",
-      "artist": "Kanye West",
-      "album": "Graduation",
-      "image": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
-      "playedAt": "2026-04-03T09:46:43.229Z",
-      "source": "spotify",
-      "spotifyId": "7rbECVPkY5UODxoOUVKZnA",
-      "nowPlaying": false
-    },
-    {
-      "name": "I Wanna Be Yours",
-      "artist": "Arctic Monkeys",
-      "album": "AM",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
-      "playedAt": "2026-04-03T07:59:56.520Z",
-      "source": "spotify",
-      "spotifyId": "5XeFesFbtLpXzIVDNQP22n",
-      "nowPlaying": false
-    },
-    {
-      "name": "They Don't Care About Us",
-      "artist": "Michael Jackson",
-      "album": "HIStory - PAST, PRESENT AND FUTURE - BOOK I",
-      "image": "https://i.scdn.co/image/ab67616d0000b273b4a878f008a0eda552446701",
-      "playedAt": "2026-04-03T07:56:52.172Z",
-      "source": "spotify",
-      "spotifyId": "3wuCCNCnBhJlwkIJTBZFiv",
-      "nowPlaying": false
-    },
-    {
-      "name": "Dracula",
-      "artist": "Tame Impala",
-      "album": "Deadbeat",
-      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-      "playedAt": "2026-04-03T07:52:07.560Z",
-      "source": "spotify",
-      "spotifyId": "1NXbNEAcPvY5G1xvfN57aA",
-      "nowPlaying": false
-    },
-    {
-      "name": "Clint Eastwood",
-      "artist": "Gorillaz, Del The Funky Homosapien",
-      "album": "Gorillaz",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f6c46838e4425ea96e2562fe",
-      "playedAt": "2026-04-03T07:48:43.860Z",
-      "source": "spotify",
-      "spotifyId": "1RKUoGiLEbcXN4GY4spQDx",
-      "nowPlaying": false
-    },
-    {
-      "name": "Babydoll",
-      "artist": "Dominic Fike",
-      "album": "Don't Forget About Me, Demos",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
-      "playedAt": "2026-04-03T05:14:04.962Z",
-      "source": "spotify",
-      "spotifyId": "7yNf9YjeO5JXUE3JEBgnYc",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Spins",
-      "artist": "Mac Miller, Empire Of The Sun",
-      "album": "K.I.D.S. (Deluxe)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273bd510ebd3fc410e97e80b892",
-      "playedAt": "2026-04-03T05:12:26.353Z",
-      "source": "spotify",
-      "spotifyId": "3iEUDvanZwQhLCIqUmCR7N",
       "nowPlaying": false
     }
   ]
