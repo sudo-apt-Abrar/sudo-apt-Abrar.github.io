@@ -1,15 +1,65 @@
 {
-  "lastUpdated": "2026-04-08T07:18:54.982844+00:00",
+  "lastUpdated": "2026-04-09T07:21:42.980298+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "Let It Happen",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "playedAt": "2026-04-09T05:28:24.501Z",
+      "source": "spotify",
+      "spotifyId": "2X485T9Z5Ly0xyaghN73ed",
+      "nowPlaying": false
+    },
+    {
+      "name": "Masakali",
+      "artist": "Mohit Chauhan, A.R. Rahman, Prasoon Joshi",
+      "album": "Delhi-6",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f7c6e0a439f01c38bac5730c",
+      "playedAt": "2026-04-09T05:13:10.268Z",
+      "source": "spotify",
+      "spotifyId": "5iyNH1Dmxif1k4Nl1gMeuh",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tu Hi Meri Shab Hai - From \"Gangster\"",
+      "artist": "Pritam, KK",
+      "album": "Gangster (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e15cc52ef005a58b575a958f",
+      "playedAt": "2026-04-09T03:28:24.738Z",
+      "source": "spotify",
+      "spotifyId": "1ufeADg0jivKpOFiAv3PYg",
+      "nowPlaying": false
+    },
+    {
+      "name": "Main Kya Karoon",
+      "artist": "Pritam, Nikhil Paul George",
+      "album": "Barfi! (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273352f44aed6f226c6ea28b961",
+      "playedAt": "2026-04-09T03:21:56.234Z",
+      "source": "spotify",
+      "spotifyId": "4GagsETs7qfR3cwQkRcXgb",
+      "nowPlaying": false
+    },
+    {
+      "name": "Rakhlo Tum Chupaake",
+      "artist": "Arpit Bala, Adil",
+      "album": "Keychain Laalu",
+      "image": "https://i.scdn.co/image/ab67616d0000b27393732df9ce62f28580bdb40e",
+      "playedAt": "2026-04-09T03:16:53.060Z",
+      "source": "spotify",
+      "spotifyId": "2AnT5iXM8ET5kiqBuE8Mpi",
+      "nowPlaying": false
+    },
+    {
       "name": "Day One (Interstellar Theme)",
       "artist": "Hans Zimmer",
       "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
       "image": "https://i.scdn.co/image/ab67616d0000b2730310d2e254062d98b2a92b2d",
-      "playedAt": "2026-04-08T04:42:11.122Z",
+      "playedAt": "2026-04-09T03:13:20.054Z",
       "source": "spotify",
       "spotifyId": "4WmB04GBqS4xPMYN9dHgBw",
       "nowPlaying": false
