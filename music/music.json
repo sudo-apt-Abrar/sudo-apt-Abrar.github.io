@@ -1,15 +1,95 @@
 {
-  "lastUpdated": "2026-04-09T07:21:42.980298+00:00",
+  "lastUpdated": "2026-04-10T07:26:55.291418+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "Only You",
+      "artist": "Theophilus London, Tame Impala",
+      "album": "Bebey",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fef7747791b60acfabfc9f27",
+      "playedAt": "2026-04-10T06:37:13.225Z",
+      "source": "spotify",
+      "spotifyId": "1JRfP5jkBm7zS8B0k7Xj66",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jao Na",
+      "artist": "Sohail Sen, Tarannum Malik Jain",
+      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
+      "playedAt": "2026-04-10T05:54:29.949Z",
+      "source": "spotify",
+      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tum Meri Ho",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-10T05:23:11.186Z",
+      "source": "spotify",
+      "spotifyId": "3ExLap1qHBI4f9bTfN5qk8",
+      "nowPlaying": false
+    },
+    {
+      "name": "Aaja Lehraate",
+      "artist": "Sohail Sen, Shaan, Bhavya Pandit",
+      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
+      "playedAt": "2026-04-10T03:15:22.949Z",
+      "source": "spotify",
+      "spotifyId": "7EeJAHtfmlzFrS2z5l5mOK",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jhoothi Kahani",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-09T17:41:40.001Z",
+      "source": "spotify",
+      "spotifyId": "0TZE993uvpgus4lkS87IEO",
+      "nowPlaying": false
+    },
+    {
+      "name": "Bolo Toh",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-09T17:34:11.166Z",
+      "source": "spotify",
+      "spotifyId": "6A6VCcCPbvghSmC1riMuBm",
+      "nowPlaying": false
+    },
+    {
+      "name": "Ode To The Mets",
+      "artist": "The Strokes",
+      "album": "The New Abnormal",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
+      "playedAt": "2026-04-09T17:16:40.095Z",
+      "source": "spotify",
+      "spotifyId": "1BLOVHYYlH4JUHQGcpt75R",
+      "nowPlaying": false
+    },
+    {
+      "name": "Loser",
+      "artist": "Tame Impala",
+      "album": "Deadbeat",
+      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
+      "playedAt": "2026-04-09T15:36:12.790Z",
+      "source": "spotify",
+      "spotifyId": "7bxaFZ1O3cHkgLKMsdC3xR",
+      "nowPlaying": false
+    },
+    {
       "name": "Let It Happen",
       "artist": "Tame Impala",
       "album": "Currents",
       "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-04-09T05:28:24.501Z",
+      "playedAt": "2026-04-09T15:27:47.371Z",
       "source": "spotify",
       "spotifyId": "2X485T9Z5Ly0xyaghN73ed",
       "nowPlaying": false
@@ -145,36 +225,6 @@
       "nowPlaying": false
     },
     {
-      "name": "Tum Meri Ho",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-04-08T03:42:56.617Z",
-      "source": "spotify",
-      "spotifyId": "3ExLap1qHBI4f9bTfN5qk8",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jao Na",
-      "artist": "Sohail Sen, Tarannum Malik Jain",
-      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
-      "playedAt": "2026-04-08T03:38:16.564Z",
-      "source": "spotify",
-      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
-      "nowPlaying": false
-    },
-    {
-      "name": "Only You",
-      "artist": "Theophilus London, Tame Impala",
-      "album": "Bebey",
-      "image": "https://i.scdn.co/image/ab67616d0000b273fef7747791b60acfabfc9f27",
-      "playedAt": "2026-04-08T03:33:12.152Z",
-      "source": "spotify",
-      "spotifyId": "1JRfP5jkBm7zS8B0k7Xj66",
-      "nowPlaying": false
-    },
-    {
       "name": "Freaking Out the Neighborhood",
       "artist": "Mac DeMarco",
       "album": "2",
@@ -192,146 +242,6 @@
       "playedAt": "2026-04-08T00:51:46.554Z",
       "source": "spotify",
       "spotifyId": "1BOTTR07ApMLo2IAvuags2",
-      "nowPlaying": false
-    },
-    {
-      "name": "Nayan Tarse &amp; Badra Bahaar",
-      "artist": "Amit Trivedi",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-04-07T16:49:41.435Z",
-      "source": "spotify",
-      "spotifyId": "43WuBDbNVDRZwDGfLx0e5G",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jiyein Kyun",
-      "artist": "Papon",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-04-07T16:42:17.111Z",
-      "source": "spotify",
-      "spotifyId": "3tyEQOACloIoX0jbM8YWx2",
-      "nowPlaying": false
-    },
-    {
-      "name": "Kaun Mera",
-      "artist": "Papon",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-04-07T16:36:31.333Z",
-      "source": "spotify",
-      "spotifyId": "2n40kGcCG499ckQwYNJnWp",
-      "nowPlaying": false
-    },
-    {
-      "name": "Baarish",
-      "artist": "Mohammed Irfan",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-04-07T16:30:47.884Z",
-      "source": "spotify",
-      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Hardest Thing (feat. Tony Allen)",
-      "artist": "Gorillaz, Tony Allen",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-07T15:37:33.331Z",
-      "source": "spotify",
-      "spotifyId": "2jSbuzSLLvFYO7xAMEU85i",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Happy Dictator (feat. Sparks)",
-      "artist": "Gorillaz, Sparks",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-07T15:35:15.003Z",
-      "source": "spotify",
-      "spotifyId": "4JbyNMvp3BqVILVy4Bbevf",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
-      "artist": "Gorillaz, Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda, Black Thought",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-07T15:29:55.744Z",
-      "source": "spotify",
-      "spotifyId": "6VflG4mpZSlpKnqNRL3NO9",
-      "nowPlaying": false
-    },
-    {
-      "name": "Zara Sa",
-      "artist": "Pritam, KK, Sayeed Quadri",
-      "album": "Jannat (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273727d531901c07a499498c544",
-      "playedAt": "2026-04-07T12:16:50.977Z",
-      "source": "spotify",
-      "spotifyId": "18YHbIhrleUkKKj2DvEp79",
-      "nowPlaying": false
-    },
-    {
-      "name": "Phir Mohabbat",
-      "artist": "Mohammed Irfan, Arijit Singh, Saim Bhat, Mithoon, Sayeed Quadri",
-      "album": "Murder 2",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732432edc97b465e6db54d356b",
-      "playedAt": "2026-04-07T12:11:47.489Z",
-      "source": "spotify",
-      "spotifyId": "2b2HutIDmoeBnnKRWDLAtV",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tum Ho Toh",
-      "artist": "Farhan Akhtar",
-      "album": "Rock On",
-      "image": "https://i.scdn.co/image/ab67616d0000b27319bf9ebc57d912cda1f83de8",
-      "playedAt": "2026-04-07T08:37:35.722Z",
-      "source": "spotify",
-      "spotifyId": "2uy15favOgEOtS8wjAD9B1",
-      "nowPlaying": false
-    },
-    {
-      "name": "Pashmina",
-      "artist": "Amit Trivedi",
-      "album": "Fitoor (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273b99c0e6b9bf5ba4da74e816d",
-      "playedAt": "2026-04-07T06:07:38.384Z",
-      "source": "spotify",
-      "spotifyId": "0WqwZRnE9t577O0AT3Dk0l",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tennu Le",
-      "artist": "omer inayat",
-      "album": "Jai Veeru",
-      "image": "https://i.scdn.co/image/ab67616d0000b27364faa2f475c5548a65607a72",
-      "playedAt": "2026-04-07T06:00:43.761Z",
-      "source": "spotify",
-      "spotifyId": "0dQiyqHUpnMPmHtk535VAY",
-      "nowPlaying": false
-    },
-    {
-      "name": "Dilko Tumse Pyar Hua",
-      "artist": "Roop Kumar Rathod",
-      "album": "Rehnaa Hai Terre Dil Mein",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e3fcf9171730df35aaf03c67",
-      "playedAt": "2026-04-07T05:50:06.708Z",
-      "source": "spotify",
-      "spotifyId": "4zlgBHkw0HL6JTcZBbnzqx",
-      "nowPlaying": false
-    },
-    {
-      "name": "Aao Milo Chalo",
-      "artist": "Pritam, Shaan, Ustad Sultan Khan, Irshad Kamil",
-      "album": "Jab We Met",
-      "image": "https://i.scdn.co/image/ab67616d0000b27352fe6875028c892308ffc2f7",
-      "playedAt": "2026-04-07T05:44:34.565Z",
-      "source": "spotify",
-      "spotifyId": "6ocOeSjnWPcSTaSsi0zIdY",
       "nowPlaying": false
     }
   ]
