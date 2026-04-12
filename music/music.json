@@ -1,9 +1,39 @@
 {
-  "lastUpdated": "2026-04-11T07:00:39.364470+00:00",
+  "lastUpdated": "2026-04-12T07:13:16.466804+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Floated By",
+      "artist": "Peter Cat Recording Co.",
+      "album": "Bismillah",
+      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
+      "playedAt": "2026-04-12T07:13:16.463167+00:00",
+      "source": "spotify",
+      "spotifyId": "7IAKxhI1z8Sas7iLcX8YF5",
+      "nowPlaying": true
+    },
+    {
+      "name": "Let It Happen",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "playedAt": "2026-04-11T19:21:02.736Z",
+      "source": "spotify",
+      "spotifyId": "2X485T9Z5Ly0xyaghN73ed",
+      "nowPlaying": false
+    },
+    {
+      "name": "Vishnu",
+      "artist": "Peter Cat Recording Co.",
+      "album": "Bismillah",
+      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
+      "playedAt": "2026-04-11T11:50:40.455Z",
+      "source": "spotify",
+      "spotifyId": "416JjjLmrkcvsFVzSf9B9E",
+      "nowPlaying": false
+    },
     {
       "name": "Soulless Friends",
       "artist": "Peter Cat Recording Co.",
@@ -12,16 +42,6 @@
       "playedAt": "2026-04-11T04:30:51.823Z",
       "source": "spotify",
       "spotifyId": "5tKLj0uHm2DbrXYVXcOgnu",
-      "nowPlaying": false
-    },
-    {
-      "name": "Floated By",
-      "artist": "Peter Cat Recording Co.",
-      "album": "Bismillah",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-04-11T04:24:14.164Z",
-      "source": "spotify",
-      "spotifyId": "7IAKxhI1z8Sas7iLcX8YF5",
       "nowPlaying": false
     },
     {
@@ -82,16 +102,6 @@
       "playedAt": "2026-04-10T15:26:54.432Z",
       "source": "spotify",
       "spotifyId": "6C5xm2roWdAIda9WJmu1jG",
-      "nowPlaying": false
-    },
-    {
-      "name": "Vishnu",
-      "artist": "Peter Cat Recording Co.",
-      "album": "Bismillah",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-04-10T15:18:50.483Z",
-      "source": "spotify",
-      "spotifyId": "416JjjLmrkcvsFVzSf9B9E",
       "nowPlaying": false
     },
     {
@@ -162,96 +172,6 @@
       "playedAt": "2026-04-09T15:36:12.790Z",
       "source": "spotify",
       "spotifyId": "7bxaFZ1O3cHkgLKMsdC3xR",
-      "nowPlaying": false
-    },
-    {
-      "name": "Let It Happen",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-04-09T15:27:47.371Z",
-      "source": "spotify",
-      "spotifyId": "2X485T9Z5Ly0xyaghN73ed",
-      "nowPlaying": false
-    },
-    {
-      "name": "Masakali",
-      "artist": "Mohit Chauhan, A.R. Rahman, Prasoon Joshi",
-      "album": "Delhi-6",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f7c6e0a439f01c38bac5730c",
-      "playedAt": "2026-04-09T05:13:10.268Z",
-      "source": "spotify",
-      "spotifyId": "5iyNH1Dmxif1k4Nl1gMeuh",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tu Hi Meri Shab Hai - From \"Gangster\"",
-      "artist": "Pritam, KK",
-      "album": "Gangster (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e15cc52ef005a58b575a958f",
-      "playedAt": "2026-04-09T03:28:24.738Z",
-      "source": "spotify",
-      "spotifyId": "1ufeADg0jivKpOFiAv3PYg",
-      "nowPlaying": false
-    },
-    {
-      "name": "Main Kya Karoon",
-      "artist": "Pritam, Nikhil Paul George",
-      "album": "Barfi! (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273352f44aed6f226c6ea28b961",
-      "playedAt": "2026-04-09T03:21:56.234Z",
-      "source": "spotify",
-      "spotifyId": "4GagsETs7qfR3cwQkRcXgb",
-      "nowPlaying": false
-    },
-    {
-      "name": "Rakhlo Tum Chupaake",
-      "artist": "Arpit Bala, Adil",
-      "album": "Keychain Laalu",
-      "image": "https://i.scdn.co/image/ab67616d0000b27393732df9ce62f28580bdb40e",
-      "playedAt": "2026-04-09T03:16:53.060Z",
-      "source": "spotify",
-      "spotifyId": "2AnT5iXM8ET5kiqBuE8Mpi",
-      "nowPlaying": false
-    },
-    {
-      "name": "Day One (Interstellar Theme)",
-      "artist": "Hans Zimmer",
-      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
-      "image": "https://i.scdn.co/image/ab67616d0000b2730310d2e254062d98b2a92b2d",
-      "playedAt": "2026-04-09T03:13:20.054Z",
-      "source": "spotify",
-      "spotifyId": "4WmB04GBqS4xPMYN9dHgBw",
-      "nowPlaying": false
-    },
-    {
-      "name": "Mia & Sebastian’s Theme",
-      "artist": "Justin Hurwitz",
-      "album": "La La Land (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2730bdf4dd39843ad48c5b66bc4",
-      "playedAt": "2026-04-08T04:29:58.063Z",
-      "source": "spotify",
-      "spotifyId": "1Vk4yRsz0iBzDiZEoFMQyv",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jacob and the Stone",
-      "artist": "Emile Mosseri",
-      "album": "Minari (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c4636d33993e7e56e69c8034",
-      "playedAt": "2026-04-08T04:28:19.754Z",
-      "source": "spotify",
-      "spotifyId": "2nltARCkZyrzjQANViDpuX",
-      "nowPlaying": false
-    },
-    {
-      "name": "Idea 10",
-      "artist": "Gibran Alcocer",
-      "album": "Idea 10",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d2cc3146f7e4bdcd2fb7ac8f",
-      "playedAt": "2026-04-08T04:26:42.628Z",
-      "source": "spotify",
-      "spotifyId": "1lb3H41lbvAN28N7yqRNL9",
       "nowPlaying": false
     }
   ]
