@@ -1,18 +1,48 @@
 {
-  "lastUpdated": "2026-04-12T07:13:16.466804+00:00",
+  "lastUpdated": "2026-04-13T08:02:26.883500+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "Bolo Toh",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-13T07:26:13.393Z",
+      "source": "spotify",
+      "spotifyId": "6A6VCcCPbvghSmC1riMuBm",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tum Meri Ho",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-13T06:42:18.611Z",
+      "source": "spotify",
+      "spotifyId": "3ExLap1qHBI4f9bTfN5qk8",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jao Na",
+      "artist": "Sohail Sen, Tarannum Malik Jain",
+      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
+      "playedAt": "2026-04-13T05:58:28.305Z",
+      "source": "spotify",
+      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
+      "nowPlaying": false
+    },
+    {
       "name": "Floated By",
       "artist": "Peter Cat Recording Co.",
       "album": "Bismillah",
       "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-04-12T07:13:16.463167+00:00",
+      "playedAt": "2026-04-13T05:44:08.178Z",
       "source": "spotify",
       "spotifyId": "7IAKxhI1z8Sas7iLcX8YF5",
-      "nowPlaying": true
+      "nowPlaying": false
     },
     {
       "name": "Let It Happen",
@@ -102,76 +132,6 @@
       "playedAt": "2026-04-10T15:26:54.432Z",
       "source": "spotify",
       "spotifyId": "6C5xm2roWdAIda9WJmu1jG",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jao Na",
-      "artist": "Sohail Sen, Tarannum Malik Jain",
-      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
-      "playedAt": "2026-04-10T08:14:21.966Z",
-      "source": "spotify",
-      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tum Meri Ho",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-04-10T05:23:11.186Z",
-      "source": "spotify",
-      "spotifyId": "3ExLap1qHBI4f9bTfN5qk8",
-      "nowPlaying": false
-    },
-    {
-      "name": "Aaja Lehraate",
-      "artist": "Sohail Sen, Shaan, Bhavya Pandit",
-      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
-      "playedAt": "2026-04-10T03:15:22.949Z",
-      "source": "spotify",
-      "spotifyId": "7EeJAHtfmlzFrS2z5l5mOK",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jhoothi Kahani",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-04-09T17:41:40.001Z",
-      "source": "spotify",
-      "spotifyId": "0TZE993uvpgus4lkS87IEO",
-      "nowPlaying": false
-    },
-    {
-      "name": "Bolo Toh",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-04-09T17:34:11.166Z",
-      "source": "spotify",
-      "spotifyId": "6A6VCcCPbvghSmC1riMuBm",
-      "nowPlaying": false
-    },
-    {
-      "name": "Ode To The Mets",
-      "artist": "The Strokes",
-      "album": "The New Abnormal",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
-      "playedAt": "2026-04-09T17:16:40.095Z",
-      "source": "spotify",
-      "spotifyId": "1BLOVHYYlH4JUHQGcpt75R",
-      "nowPlaying": false
-    },
-    {
-      "name": "Loser",
-      "artist": "Tame Impala",
-      "album": "Deadbeat",
-      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-      "playedAt": "2026-04-09T15:36:12.790Z",
-      "source": "spotify",
-      "spotifyId": "7bxaFZ1O3cHkgLKMsdC3xR",
       "nowPlaying": false
     }
   ]
