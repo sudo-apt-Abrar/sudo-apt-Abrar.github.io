@@ -1,15 +1,185 @@
 {
-  "lastUpdated": "2026-04-18T07:06:45.382793+00:00",
+  "lastUpdated": "2026-04-19T07:18:43.601599+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "Floated By",
+      "artist": "Peter Cat Recording Co.",
+      "album": "Bismillah",
+      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
+      "playedAt": "2026-04-19T07:14:02.257Z",
+      "source": "spotify",
+      "spotifyId": "7IAKxhI1z8Sas7iLcX8YF5",
+      "nowPlaying": false
+    },
+    {
+      "name": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-04-19T07:09:41.990Z",
+      "source": "spotify",
+      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
+      "nowPlaying": false
+    },
+    {
+      "name": "Vishnu",
+      "artist": "Peter Cat Recording Co.",
+      "album": "Bismillah",
+      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
+      "playedAt": "2026-04-19T06:35:31.766Z",
+      "source": "spotify",
+      "spotifyId": "416JjjLmrkcvsFVzSf9B9E",
+      "nowPlaying": false
+    },
+    {
+      "name": "Soulless Friends",
+      "artist": "Peter Cat Recording Co.",
+      "album": "Bismillah",
+      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
+      "playedAt": "2026-04-19T05:01:03.301Z",
+      "source": "spotify",
+      "spotifyId": "5tKLj0uHm2DbrXYVXcOgnu",
+      "nowPlaying": false
+    },
+    {
+      "name": "Delta Bay",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-04-18T20:30:13.152Z",
+      "source": "spotify",
+      "spotifyId": "1href03SFLehTobomjoWLX",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Shadowy Light (feat. Asha Bhosle, Gruff Rhys, Ajay Prasanna, Amaan Ali Bangash and Ayaan Ali Bangash)",
+      "artist": "Gorillaz, Asha Bhosle, Gruff Rhys, Ajay Prasanna, Amaan Ali Bangash, Ayaan Ali Bangash",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-18T20:17:21.458Z",
+      "source": "spotify",
+      "spotifyId": "1WHBtgrgSKDJd9Y8vHNZqH",
+      "nowPlaying": false
+    },
+    {
+      "name": "Damascus (feat. Omar Souleyman and Yasiin Bey)",
+      "artist": "Gorillaz, Omar Souleyman, Yasiin Bey",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-18T16:58:16.900Z",
+      "source": "spotify",
+      "spotifyId": "5eZVQYGpyXkeEVMhbpDhPB",
+      "nowPlaying": false
+    },
+    {
+      "name": "Delirium (feat. Mark E. Smith)",
+      "artist": "Gorillaz, Mark E. Smith",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-18T16:54:12.264Z",
+      "source": "spotify",
+      "spotifyId": "4uIXvy8PbYLEhs0PZgaP8p",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Plastic Guru (feat. Johnny Marr and Anoushka Shankar)",
+      "artist": "Gorillaz, Johnny Marr, Anoushka Shankar",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-18T16:50:20.032Z",
+      "source": "spotify",
+      "spotifyId": "68nwsIBVoGDO38VKhtvKzD",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Manifesto (feat. Trueno and Proof)",
+      "artist": "Gorillaz, Trueno, Proof",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-18T16:47:04.971Z",
+      "source": "spotify",
+      "spotifyId": "1WUBWl3jNNYo0hrPTrA5D0",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Empty Dream Machine (feat. Black Thought, Johnny Marr and Anoushka Shankar)",
+      "artist": "Gorillaz, Black Thought, Johnny Marr, Anoushka Shankar",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-18T13:39:14.586Z",
+      "source": "spotify",
+      "spotifyId": "5FH7DTLl8WQNkZs00Cb3EM",
+      "nowPlaying": false
+    },
+    {
+      "name": "The God of Lying (feat. IDLES)",
+      "artist": "Gorillaz, IDLES",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-18T13:33:33.397Z",
+      "source": "spotify",
+      "spotifyId": "5nrbuDZe5Hod1nUsND6QUA",
+      "nowPlaying": false
+    },
+    {
+      "name": "Orange County (feat. Bizarrap, Kara Jackson and Anoushka Shankar)",
+      "artist": "Gorillaz, Bizarrap, Kara Jackson, Anoushka Shankar",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-18T13:30:24.399Z",
+      "source": "spotify",
+      "spotifyId": "4HnBNOfnPYCgRzB1dcAi3x",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Hardest Thing (feat. Tony Allen)",
+      "artist": "Gorillaz, Tony Allen",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-18T13:26:57.319Z",
+      "source": "spotify",
+      "spotifyId": "2jSbuzSLLvFYO7xAMEU85i",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Happy Dictator (feat. Sparks)",
+      "artist": "Gorillaz, Sparks",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-18T13:24:28.666Z",
+      "source": "spotify",
+      "spotifyId": "4JbyNMvp3BqVILVy4Bbevf",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
+      "artist": "Gorillaz, Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda, Black Thought",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-18T13:19:44.159Z",
+      "source": "spotify",
+      "spotifyId": "6VflG4mpZSlpKnqNRL3NO9",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Mountain (feat. Dennis Hopper, Ajay Prasanna, Anoushka Shankar, Amaan Ali Bangash and Ayaan Ali Bangash)",
+      "artist": "Gorillaz, Dennis Hopper, Ajay Prasanna, Anoushka Shankar, Amaan Ali Bangash, Ayaan Ali Bangash",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-18T13:14:46.213Z",
+      "source": "spotify",
+      "spotifyId": "3MebYJnEDK4XdnCj3VMLjL",
+      "nowPlaying": false
+    },
+    {
       "name": "Jao Na",
       "artist": "Sohail Sen, Tarannum Malik Jain",
       "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
       "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
-      "playedAt": "2026-04-18T05:39:18.576Z",
+      "playedAt": "2026-04-18T13:05:10.190Z",
       "source": "spotify",
       "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
       "nowPlaying": false
@@ -52,36 +222,6 @@
       "playedAt": "2026-04-17T14:02:42.475Z",
       "source": "spotify",
       "spotifyId": "6C5xm2roWdAIda9WJmu1jG",
-      "nowPlaying": false
-    },
-    {
-      "name": "Vishnu",
-      "artist": "Peter Cat Recording Co.",
-      "album": "Bismillah",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-04-17T05:36:10.996Z",
-      "source": "spotify",
-      "spotifyId": "416JjjLmrkcvsFVzSf9B9E",
-      "nowPlaying": false
-    },
-    {
-      "name": "Soulless Friends",
-      "artist": "Peter Cat Recording Co.",
-      "album": "Bismillah",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-04-17T05:31:45.730Z",
-      "source": "spotify",
-      "spotifyId": "5tKLj0uHm2DbrXYVXcOgnu",
-      "nowPlaying": false
-    },
-    {
-      "name": "Floated By",
-      "artist": "Peter Cat Recording Co.",
-      "album": "Bismillah",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-04-17T05:27:58.177Z",
-      "source": "spotify",
-      "spotifyId": "7IAKxhI1z8Sas7iLcX8YF5",
       "nowPlaying": false
     },
     {
@@ -132,66 +272,6 @@
       "playedAt": "2026-04-16T18:58:20.736Z",
       "source": "spotify",
       "spotifyId": "1QufGJee7k9v4Cfp2NxXbv",
-      "nowPlaying": false
-    },
-    {
-      "name": "Happy Together",
-      "artist": "The Turtles",
-      "album": "Happy Together",
-      "image": "https://i.scdn.co/image/ab67616d0000b27372649ad8e79d1e8bdd54c929",
-      "playedAt": "2026-04-16T15:17:11.267Z",
-      "source": "spotify",
-      "spotifyId": "1JO1xLtVc8mWhIoE3YaCL0",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Happy Dictator (feat. Sparks)",
-      "artist": "Gorillaz, Sparks",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-16T04:44:44.380Z",
-      "source": "spotify",
-      "spotifyId": "4JbyNMvp3BqVILVy4Bbevf",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
-      "artist": "Gorillaz, Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda, Black Thought",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-16T03:24:36.637Z",
-      "source": "spotify",
-      "spotifyId": "6VflG4mpZSlpKnqNRL3NO9",
-      "nowPlaying": false
-    },
-    {
-      "name": "Shit I'm Dreaming",
-      "artist": "Peter Cat Recording Co.",
-      "album": "Bismillah",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-04-16T02:26:40.168Z",
-      "source": "spotify",
-      "spotifyId": "1cLsQoKBgYRQAR1CqHM3db",
-      "nowPlaying": false
-    },
-    {
-      "name": "Remain in Me",
-      "artist": "Peter Cat Recording Co.",
-      "album": "Bismillah",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-04-15T14:35:07.424Z",
-      "source": "spotify",
-      "spotifyId": "7haD09q3b7Ux66s7xhYAAz",
-      "nowPlaying": false
-    },
-    {
-      "name": "I'm This",
-      "artist": "Peter Cat Recording Co.",
-      "album": "Bismillah",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-04-15T14:29:56.440Z",
-      "source": "spotify",
-      "spotifyId": "5AUk5VM0yWmYkt0fx1vJMG",
       "nowPlaying": false
     }
   ]
