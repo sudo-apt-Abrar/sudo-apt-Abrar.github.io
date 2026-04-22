@@ -1,17 +1,117 @@
 {
-  "lastUpdated": "2026-04-21T07:49:14.468804+00:00",
+  "lastUpdated": "2026-04-22T07:46:20.104771+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "Aadat",
+      "artist": "Jal",
+      "album": "Aadat (Remastered)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737542aed098fc044db8ce8498",
+      "playedAt": "2026-04-22T05:35:08.356Z",
+      "source": "spotify",
+      "spotifyId": "0lhlqmzeqlOCIgJH3yL6IY",
+      "nowPlaying": false
+    },
+    {
+      "name": "Arziyan",
+      "artist": "Javed Ali, Kailash Kher, A.R. Rahman, Prasoon Joshi",
+      "album": "Delhi-6",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f7c6e0a439f01c38bac5730c",
+      "playedAt": "2026-04-22T04:44:37.654Z",
+      "source": "spotify",
+      "spotifyId": "3V80Iv04B9XAqGHbXdtRT1",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jao Na",
+      "artist": "Sohail Sen, Tarannum Malik Jain",
+      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
+      "playedAt": "2026-04-22T04:35:46.890Z",
+      "source": "spotify",
+      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
+      "nowPlaying": false
+    },
+    {
+      "name": "Dilko Tumse Pyar Hua",
+      "artist": "Roop Kumar Rathod",
+      "album": "Rehnaa Hai Terre Dil Mein",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e3fcf9171730df35aaf03c67",
+      "playedAt": "2026-04-22T02:47:46.361Z",
+      "source": "spotify",
+      "spotifyId": "4zlgBHkw0HL6JTcZBbnzqx",
+      "nowPlaying": false
+    },
+    {
+      "name": "Hairat",
+      "artist": "Vishal-Shekhar, Lucky Ali",
+      "album": "Anjaana Anjaani",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
+      "playedAt": "2026-04-22T02:42:14.534Z",
+      "source": "spotify",
+      "spotifyId": "6512hyAQxOng8v4R71IV47",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tum Ho",
+      "artist": "Mohit Chauhan, Suzanne D'Mello",
+      "album": "Rockstar",
+      "image": "https://i.scdn.co/image/ab67616d0000b27354e544672baa16145d67612b",
+      "playedAt": "2026-04-22T02:38:07.188Z",
+      "source": "spotify",
+      "spotifyId": "7uNnlVit5qDvfOje0pqICF",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tumse Hi Tumse",
+      "artist": "Vishal-Shekhar, Shekhar Ravjiani, Caralisa Monteiro",
+      "album": "Anjaana Anjaani",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
+      "playedAt": "2026-04-22T02:32:49.670Z",
+      "source": "spotify",
+      "spotifyId": "6qNyL8lZuqFmy9ginJRQOZ",
+      "nowPlaying": false
+    },
+    {
       "name": "Time",
       "artist": "Pink Floyd",
       "album": "The Dark Side of the Moon",
       "image": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
-      "playedAt": "2026-04-21T06:11:27.387Z",
+      "playedAt": "2026-04-21T21:18:47.102Z",
       "source": "spotify",
       "spotifyId": "3TO7bbrUKrOSPGRTB5MeCz",
+      "nowPlaying": false
+    },
+    {
+      "name": "Every Breath You Take",
+      "artist": "The Police",
+      "album": "Synchronicity (Remastered 2003)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c8e97cafeb2acb85b21a777e",
+      "playedAt": "2026-04-21T18:52:04.573Z",
+      "source": "spotify",
+      "spotifyId": "1JSTJqkT5qHq8MDJnJbRE1",
+      "nowPlaying": false
+    },
+    {
+      "name": "Ode To The Mets",
+      "artist": "The Strokes",
+      "album": "The New Abnormal",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
+      "playedAt": "2026-04-21T15:49:22.823Z",
+      "source": "spotify",
+      "spotifyId": "1BLOVHYYlH4JUHQGcpt75R",
+      "nowPlaying": false
+    },
+    {
+      "name": "Breathe (In the Air)",
+      "artist": "Pink Floyd",
+      "album": "The Dark Side of the Moon",
+      "image": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
+      "playedAt": "2026-04-21T15:43:30.361Z",
+      "source": "spotify",
+      "spotifyId": "2ctvdKmETyOzPb2GiJJT53",
       "nowPlaying": false
     },
     {
@@ -182,106 +282,6 @@
       "playedAt": "2026-04-18T20:17:21.458Z",
       "source": "spotify",
       "spotifyId": "1WHBtgrgSKDJd9Y8vHNZqH",
-      "nowPlaying": false
-    },
-    {
-      "name": "Damascus (feat. Omar Souleyman and Yasiin Bey)",
-      "artist": "Gorillaz, Omar Souleyman, Yasiin Bey",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-18T16:58:16.900Z",
-      "source": "spotify",
-      "spotifyId": "5eZVQYGpyXkeEVMhbpDhPB",
-      "nowPlaying": false
-    },
-    {
-      "name": "Delirium (feat. Mark E. Smith)",
-      "artist": "Gorillaz, Mark E. Smith",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-18T16:54:12.264Z",
-      "source": "spotify",
-      "spotifyId": "4uIXvy8PbYLEhs0PZgaP8p",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Plastic Guru (feat. Johnny Marr and Anoushka Shankar)",
-      "artist": "Gorillaz, Johnny Marr, Anoushka Shankar",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-18T16:50:20.032Z",
-      "source": "spotify",
-      "spotifyId": "68nwsIBVoGDO38VKhtvKzD",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Manifesto (feat. Trueno and Proof)",
-      "artist": "Gorillaz, Trueno, Proof",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-18T16:47:04.971Z",
-      "source": "spotify",
-      "spotifyId": "1WUBWl3jNNYo0hrPTrA5D0",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Empty Dream Machine (feat. Black Thought, Johnny Marr and Anoushka Shankar)",
-      "artist": "Gorillaz, Black Thought, Johnny Marr, Anoushka Shankar",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-18T13:39:14.586Z",
-      "source": "spotify",
-      "spotifyId": "5FH7DTLl8WQNkZs00Cb3EM",
-      "nowPlaying": false
-    },
-    {
-      "name": "The God of Lying (feat. IDLES)",
-      "artist": "Gorillaz, IDLES",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-18T13:33:33.397Z",
-      "source": "spotify",
-      "spotifyId": "5nrbuDZe5Hod1nUsND6QUA",
-      "nowPlaying": false
-    },
-    {
-      "name": "Orange County (feat. Bizarrap, Kara Jackson and Anoushka Shankar)",
-      "artist": "Gorillaz, Bizarrap, Kara Jackson, Anoushka Shankar",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-18T13:30:24.399Z",
-      "source": "spotify",
-      "spotifyId": "4HnBNOfnPYCgRzB1dcAi3x",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Hardest Thing (feat. Tony Allen)",
-      "artist": "Gorillaz, Tony Allen",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-18T13:26:57.319Z",
-      "source": "spotify",
-      "spotifyId": "2jSbuzSLLvFYO7xAMEU85i",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Happy Dictator (feat. Sparks)",
-      "artist": "Gorillaz, Sparks",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-18T13:24:28.666Z",
-      "source": "spotify",
-      "spotifyId": "4JbyNMvp3BqVILVy4Bbevf",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jao Na",
-      "artist": "Sohail Sen, Tarannum Malik Jain",
-      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
-      "playedAt": "2026-04-18T13:05:10.190Z",
-      "source": "spotify",
-      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
       "nowPlaying": false
     }
   ]
