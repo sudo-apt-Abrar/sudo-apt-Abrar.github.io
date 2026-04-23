@@ -1,9 +1,159 @@
 {
-  "lastUpdated": "2026-04-22T07:46:20.104771+00:00",
+  "lastUpdated": "2026-04-23T07:51:26.457438+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Pyar+Tum",
+      "artist": "Nanku",
+      "album": "Pyar N' Stuff",
+      "image": "https://i.scdn.co/image/ab67616d0000b27315659de392e002b1ced956f8",
+      "playedAt": "2026-04-23T07:05:19.849Z",
+      "source": "spotify",
+      "spotifyId": "2p1tAeCLCmJFW2grWsFldK",
+      "nowPlaying": false
+    },
+    {
+      "name": "Dooba",
+      "artist": "Nanku",
+      "album": "Dooba",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fb2f412764e011306749b1ff",
+      "playedAt": "2026-04-23T07:00:08.187Z",
+      "source": "spotify",
+      "spotifyId": "03furKeCY0Tg0XmpzmrE0j",
+      "nowPlaying": false
+    },
+    {
+      "name": "Yezdi",
+      "artist": "Nanku",
+      "album": "Yezdi",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734d4f174852431ed412943f35",
+      "playedAt": "2026-04-23T06:41:44.718Z",
+      "source": "spotify",
+      "spotifyId": "3OgOVP2bTK17d4iibgXdI9",
+      "nowPlaying": false
+    },
+    {
+      "name": "Kaafizyada",
+      "artist": "Nanku",
+      "album": "Nanku Sharma",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734d03bf681a0b658b97452db3",
+      "playedAt": "2026-04-23T06:39:18.170Z",
+      "source": "spotify",
+      "spotifyId": "3LAs811NWNGUK2YBhLJd8k",
+      "nowPlaying": false
+    },
+    {
+      "name": "Kamikaze",
+      "artist": "Nanku, Faizan",
+      "album": "Kamikaze",
+      "image": "https://i.scdn.co/image/ab67616d0000b27381dc9b3d0851088aaee87840",
+      "playedAt": "2026-04-23T06:36:33.261Z",
+      "source": "spotify",
+      "spotifyId": "4N1dL2QsTVlucOQ4Gg9rl1",
+      "nowPlaying": false
+    },
+    {
+      "name": "Pyar Ki Si",
+      "artist": "Nanku, Lambo Drive",
+      "album": "Pyar N' Stuff",
+      "image": "https://i.scdn.co/image/ab67616d0000b27315659de392e002b1ced956f8",
+      "playedAt": "2026-04-23T06:33:41.832Z",
+      "source": "spotify",
+      "spotifyId": "3hOTeF8NEeL1rQjt4QNXbE",
+      "nowPlaying": false
+    },
+    {
+      "name": "Delta Bay",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-04-23T06:29:06.361Z",
+      "source": "spotify",
+      "spotifyId": "1href03SFLehTobomjoWLX",
+      "nowPlaying": false
+    },
+    {
+      "name": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-04-23T06:25:52.204Z",
+      "source": "spotify",
+      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
+      "nowPlaying": false
+    },
+    {
+      "name": "Let It Happen",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "playedAt": "2026-04-23T05:42:48.397Z",
+      "source": "spotify",
+      "spotifyId": "2X485T9Z5Ly0xyaghN73ed",
+      "nowPlaying": false
+    },
+    {
+      "name": "Un Ka Andaz-E-Karam",
+      "artist": "Nusrat Fateh Ali Khan",
+      "album": "Sadness (Best Sad Qawwalies)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27329d5bb1d4d37e4ae40c88d22",
+      "playedAt": "2026-04-23T05:11:17.643Z",
+      "source": "spotify",
+      "spotifyId": "2q3ooHo29p2g2XeziKSe4f",
+      "nowPlaying": false
+    },
+    {
+      "name": "Another Sad Love Song",
+      "artist": "Khalid",
+      "album": "American Teen",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
+      "playedAt": "2026-04-23T03:05:19.533Z",
+      "source": "spotify",
+      "spotifyId": "52Qu0no0NBho3zyRmjlsHn",
+      "nowPlaying": false
+    },
+    {
+      "name": "Location",
+      "artist": "Khalid",
+      "album": "American Teen",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
+      "playedAt": "2026-04-23T02:15:34.212Z",
+      "source": "spotify",
+      "spotifyId": "152lZdxL1OR0ZMW6KquMif",
+      "nowPlaying": false
+    },
+    {
+      "name": "Sign of the Times",
+      "artist": "Harry Styles",
+      "album": "Harry Styles",
+      "image": "https://i.scdn.co/image/ab67616d0000b2733f8b8a9c71b2bd2f3019940b",
+      "playedAt": "2026-04-23T01:28:58.962Z",
+      "source": "spotify",
+      "spotifyId": "5Ohxk2dO5COHF1krpoPigN",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Less I Know The Better",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "playedAt": "2026-04-22T15:18:53.613Z",
+      "source": "spotify",
+      "spotifyId": "6K4t31amVTZDgR3sKmwUJJ",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tumhen Dillagi Bhool Jani Paregee",
+      "artist": "Nusrat Fateh Ali Khan",
+      "album": "Dil Lagi Bhool Jani, Vol. 2",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735b0dfbaabd17ac4b09903065",
+      "playedAt": "2026-04-22T13:48:15.421Z",
+      "source": "spotify",
+      "spotifyId": "3YG634lejEuYl1l6PYC92r",
+      "nowPlaying": false
+    },
     {
       "name": "Aadat",
       "artist": "Jal",
@@ -112,176 +262,6 @@
       "playedAt": "2026-04-21T15:43:30.361Z",
       "source": "spotify",
       "spotifyId": "2ctvdKmETyOzPb2GiJJT53",
-      "nowPlaying": false
-    },
-    {
-      "name": "Cornfield Chase",
-      "artist": "Hans Zimmer",
-      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
-      "image": "https://i.scdn.co/image/ab67616d0000b2730310d2e254062d98b2a92b2d",
-      "playedAt": "2026-04-21T05:44:01.698Z",
-      "source": "spotify",
-      "spotifyId": "6pWgRkpqVfxnj3WuIcJ7WP",
-      "nowPlaying": false
-    },
-    {
-      "name": "S.T.A.Y.",
-      "artist": "Hans Zimmer",
-      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
-      "image": "https://i.scdn.co/image/ab67616d0000b2730310d2e254062d98b2a92b2d",
-      "playedAt": "2026-04-21T05:39:47.423Z",
-      "source": "spotify",
-      "spotifyId": "6GUq9y0Iy5QrAuPYxTrFp2",
-      "nowPlaying": false
-    },
-    {
-      "name": "Baarish",
-      "artist": "Mohammed Irfan",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-04-21T02:28:20.862Z",
-      "source": "spotify",
-      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
-      "artist": "Gorillaz, Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda, Black Thought",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-20T14:40:53.363Z",
-      "source": "spotify",
-      "spotifyId": "6VflG4mpZSlpKnqNRL3NO9",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Mountain (feat. Dennis Hopper, Ajay Prasanna, Anoushka Shankar, Amaan Ali Bangash and Ayaan Ali Bangash)",
-      "artist": "Gorillaz, Dennis Hopper, Ajay Prasanna, Anoushka Shankar, Amaan Ali Bangash, Ayaan Ali Bangash",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-20T14:35:54.694Z",
-      "source": "spotify",
-      "spotifyId": "3MebYJnEDK4XdnCj3VMLjL",
-      "nowPlaying": false
-    },
-    {
-      "name": "Vishnu",
-      "artist": "Peter Cat Recording Co.",
-      "album": "Bismillah",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-04-20T12:30:01.653Z",
-      "source": "spotify",
-      "spotifyId": "416JjjLmrkcvsFVzSf9B9E",
-      "nowPlaying": false
-    },
-    {
-      "name": "Soulless Friends",
-      "artist": "Peter Cat Recording Co.",
-      "album": "Bismillah",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-04-20T05:58:27.538Z",
-      "source": "spotify",
-      "spotifyId": "5tKLj0uHm2DbrXYVXcOgnu",
-      "nowPlaying": false
-    },
-    {
-      "name": "Floated By",
-      "artist": "Peter Cat Recording Co.",
-      "album": "Bismillah",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-04-20T05:54:39.688Z",
-      "source": "spotify",
-      "spotifyId": "7IAKxhI1z8Sas7iLcX8YF5",
-      "nowPlaying": false
-    },
-    {
-      "name": "Bolo Toh",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-04-20T05:50:18.017Z",
-      "source": "spotify",
-      "spotifyId": "6A6VCcCPbvghSmC1riMuBm",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tum Meri Ho",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-04-20T02:31:35.044Z",
-      "source": "spotify",
-      "spotifyId": "3ExLap1qHBI4f9bTfN5qk8",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tiger By My Side",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-20T02:24:02.298Z",
-      "source": "spotify",
-      "spotifyId": "6XUUAsbzqwhqtdC9wW61Jg",
-      "nowPlaying": false
-    },
-    {
-      "name": "Swordfish Hotkiss Night",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-20T01:04:44.074Z",
-      "source": "spotify",
-      "spotifyId": "4bpvghnZgwRbYSCaVUR3xB",
-      "nowPlaying": false
-    },
-    {
-      "name": "The World",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-20T01:00:48.091Z",
-      "source": "spotify",
-      "spotifyId": "762EYBYx5mkp8cxD1w0y0F",
-      "nowPlaying": false
-    },
-    {
-      "name": "Country",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-20T00:56:10.573Z",
-      "source": "spotify",
-      "spotifyId": "4S4DVFQkLbfhZbGQxoRtPR",
-      "nowPlaying": false
-    },
-    {
-      "name": "Delta Bay",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-20T00:51:06.293Z",
-      "source": "spotify",
-      "spotifyId": "1href03SFLehTobomjoWLX",
-      "nowPlaying": false
-    },
-    {
-      "name": "We Are The People",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-20T00:47:52.244Z",
-      "source": "spotify",
-      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Shadowy Light (feat. Asha Bhosle, Gruff Rhys, Ajay Prasanna, Amaan Ali Bangash and Ayaan Ali Bangash)",
-      "artist": "Gorillaz, Asha Bhosle, Gruff Rhys, Ajay Prasanna, Amaan Ali Bangash, Ayaan Ali Bangash",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-18T20:17:21.458Z",
-      "source": "spotify",
-      "spotifyId": "1WHBtgrgSKDJd9Y8vHNZqH",
       "nowPlaying": false
     }
   ]
