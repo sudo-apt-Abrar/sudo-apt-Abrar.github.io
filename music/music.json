@@ -1,9 +1,79 @@
 {
-  "lastUpdated": "2026-04-23T07:51:26.457438+00:00",
+  "lastUpdated": "2026-04-24T08:02:20.610515+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "The Happy Dictator (feat. Sparks)",
+      "artist": "Gorillaz, Sparks",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-24T07:01:37.354Z",
+      "source": "spotify",
+      "spotifyId": "4JbyNMvp3BqVILVy4Bbevf",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
+      "artist": "Gorillaz, Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda, Black Thought",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-24T06:56:52.649Z",
+      "source": "spotify",
+      "spotifyId": "6VflG4mpZSlpKnqNRL3NO9",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Mountain (feat. Dennis Hopper, Ajay Prasanna, Anoushka Shankar, Amaan Ali Bangash and Ayaan Ali Bangash)",
+      "artist": "Gorillaz, Dennis Hopper, Ajay Prasanna, Anoushka Shankar, Amaan Ali Bangash, Ayaan Ali Bangash",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-24T06:51:53.690Z",
+      "source": "spotify",
+      "spotifyId": "3MebYJnEDK4XdnCj3VMLjL",
+      "nowPlaying": false
+    },
+    {
+      "name": "Hotel California - 2013 Remaster",
+      "artist": "Eagles",
+      "album": "Hotel California (2013 Remaster)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
+      "playedAt": "2026-04-24T06:46:26.201Z",
+      "source": "spotify",
+      "spotifyId": "40riOy7x9W7GXjyGp4pjAv",
+      "nowPlaying": false
+    },
+    {
+      "name": "Sparks",
+      "artist": "Coldplay",
+      "album": "Parachutes",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739164bafe9aaa168d93f4816a",
+      "playedAt": "2026-04-24T06:39:55.618Z",
+      "source": "spotify",
+      "spotifyId": "7D0RhFcb3CrfPuTJ0obrod",
+      "nowPlaying": false
+    },
+    {
+      "name": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-04-23T22:09:24.656Z",
+      "source": "spotify",
+      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
+      "nowPlaying": false
+    },
+    {
+      "name": "Dooba",
+      "artist": "Nanku",
+      "album": "Dooba",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fb2f412764e011306749b1ff",
+      "playedAt": "2026-04-23T13:54:31.576Z",
+      "source": "spotify",
+      "spotifyId": "03furKeCY0Tg0XmpzmrE0j",
+      "nowPlaying": false
+    },
     {
       "name": "Pyar+Tum",
       "artist": "Nanku",
@@ -12,16 +82,6 @@
       "playedAt": "2026-04-23T07:05:19.849Z",
       "source": "spotify",
       "spotifyId": "2p1tAeCLCmJFW2grWsFldK",
-      "nowPlaying": false
-    },
-    {
-      "name": "Dooba",
-      "artist": "Nanku",
-      "album": "Dooba",
-      "image": "https://i.scdn.co/image/ab67616d0000b273fb2f412764e011306749b1ff",
-      "playedAt": "2026-04-23T07:00:08.187Z",
-      "source": "spotify",
-      "spotifyId": "03furKeCY0Tg0XmpzmrE0j",
       "nowPlaying": false
     },
     {
@@ -72,16 +132,6 @@
       "playedAt": "2026-04-23T06:29:06.361Z",
       "source": "spotify",
       "spotifyId": "1href03SFLehTobomjoWLX",
-      "nowPlaying": false
-    },
-    {
-      "name": "We Are The People",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-23T06:25:52.204Z",
-      "source": "spotify",
-      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
       "nowPlaying": false
     },
     {
@@ -172,96 +222,6 @@
       "playedAt": "2026-04-22T04:44:37.654Z",
       "source": "spotify",
       "spotifyId": "3V80Iv04B9XAqGHbXdtRT1",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jao Na",
-      "artist": "Sohail Sen, Tarannum Malik Jain",
-      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
-      "playedAt": "2026-04-22T04:35:46.890Z",
-      "source": "spotify",
-      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
-      "nowPlaying": false
-    },
-    {
-      "name": "Dilko Tumse Pyar Hua",
-      "artist": "Roop Kumar Rathod",
-      "album": "Rehnaa Hai Terre Dil Mein",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e3fcf9171730df35aaf03c67",
-      "playedAt": "2026-04-22T02:47:46.361Z",
-      "source": "spotify",
-      "spotifyId": "4zlgBHkw0HL6JTcZBbnzqx",
-      "nowPlaying": false
-    },
-    {
-      "name": "Hairat",
-      "artist": "Vishal-Shekhar, Lucky Ali",
-      "album": "Anjaana Anjaani",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
-      "playedAt": "2026-04-22T02:42:14.534Z",
-      "source": "spotify",
-      "spotifyId": "6512hyAQxOng8v4R71IV47",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tum Ho",
-      "artist": "Mohit Chauhan, Suzanne D'Mello",
-      "album": "Rockstar",
-      "image": "https://i.scdn.co/image/ab67616d0000b27354e544672baa16145d67612b",
-      "playedAt": "2026-04-22T02:38:07.188Z",
-      "source": "spotify",
-      "spotifyId": "7uNnlVit5qDvfOje0pqICF",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tumse Hi Tumse",
-      "artist": "Vishal-Shekhar, Shekhar Ravjiani, Caralisa Monteiro",
-      "album": "Anjaana Anjaani",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
-      "playedAt": "2026-04-22T02:32:49.670Z",
-      "source": "spotify",
-      "spotifyId": "6qNyL8lZuqFmy9ginJRQOZ",
-      "nowPlaying": false
-    },
-    {
-      "name": "Time",
-      "artist": "Pink Floyd",
-      "album": "The Dark Side of the Moon",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
-      "playedAt": "2026-04-21T21:18:47.102Z",
-      "source": "spotify",
-      "spotifyId": "3TO7bbrUKrOSPGRTB5MeCz",
-      "nowPlaying": false
-    },
-    {
-      "name": "Every Breath You Take",
-      "artist": "The Police",
-      "album": "Synchronicity (Remastered 2003)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c8e97cafeb2acb85b21a777e",
-      "playedAt": "2026-04-21T18:52:04.573Z",
-      "source": "spotify",
-      "spotifyId": "1JSTJqkT5qHq8MDJnJbRE1",
-      "nowPlaying": false
-    },
-    {
-      "name": "Ode To The Mets",
-      "artist": "The Strokes",
-      "album": "The New Abnormal",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
-      "playedAt": "2026-04-21T15:49:22.823Z",
-      "source": "spotify",
-      "spotifyId": "1BLOVHYYlH4JUHQGcpt75R",
-      "nowPlaying": false
-    },
-    {
-      "name": "Breathe (In the Air)",
-      "artist": "Pink Floyd",
-      "album": "The Dark Side of the Moon",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
-      "playedAt": "2026-04-21T15:43:30.361Z",
-      "source": "spotify",
-      "spotifyId": "2ctvdKmETyOzPb2GiJJT53",
       "nowPlaying": false
     }
   ]
