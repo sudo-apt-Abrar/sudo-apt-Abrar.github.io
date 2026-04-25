@@ -1,9 +1,199 @@
 {
-  "lastUpdated": "2026-04-24T08:02:20.610515+00:00",
+  "lastUpdated": "2026-04-25T07:15:18.287010+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Tumse Hi Tumse",
+      "artist": "Vishal-Shekhar, Shekhar Ravjiani, Caralisa Monteiro",
+      "album": "Anjaana Anjaani",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
+      "playedAt": "2026-04-25T06:55:41.274Z",
+      "source": "spotify",
+      "spotifyId": "6qNyL8lZuqFmy9ginJRQOZ",
+      "nowPlaying": false
+    },
+    {
+      "name": "Nangs",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "playedAt": "2026-04-25T06:47:36.809Z",
+      "source": "spotify",
+      "spotifyId": "1cCbsojaA6GIT7Y3zuMJ1q",
+      "nowPlaying": false
+    },
+    {
+      "name": "Let It Happen",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "playedAt": "2026-04-25T06:45:49.230Z",
+      "source": "spotify",
+      "spotifyId": "2X485T9Z5Ly0xyaghN73ed",
+      "nowPlaying": false
+    },
+    {
+      "name": "Bolo Toh",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-25T06:42:22.998Z",
+      "source": "spotify",
+      "spotifyId": "6A6VCcCPbvghSmC1riMuBm",
+      "nowPlaying": false
+    },
+    {
+      "name": "Another Sad Love Song",
+      "artist": "Khalid",
+      "album": "American Teen",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
+      "playedAt": "2026-04-25T05:53:41.420Z",
+      "source": "spotify",
+      "spotifyId": "52Qu0no0NBho3zyRmjlsHn",
+      "nowPlaying": false
+    },
+    {
+      "name": "Location",
+      "artist": "Khalid",
+      "album": "American Teen",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
+      "playedAt": "2026-04-25T05:53:15.516Z",
+      "source": "spotify",
+      "spotifyId": "152lZdxL1OR0ZMW6KquMif",
+      "nowPlaying": false
+    },
+    {
+      "name": "Day One (Interstellar Theme)",
+      "artist": "Hans Zimmer",
+      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730310d2e254062d98b2a92b2d",
+      "playedAt": "2026-04-25T05:49:29.691Z",
+      "source": "spotify",
+      "spotifyId": "4WmB04GBqS4xPMYN9dHgBw",
+      "nowPlaying": false
+    },
+    {
+      "name": "Cornfield Chase",
+      "artist": "Hans Zimmer",
+      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730310d2e254062d98b2a92b2d",
+      "playedAt": "2026-04-24T22:51:37.483Z",
+      "source": "spotify",
+      "spotifyId": "6pWgRkpqVfxnj3WuIcJ7WP",
+      "nowPlaying": false
+    },
+    {
+      "name": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-04-24T22:48:16.466Z",
+      "source": "spotify",
+      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Moment",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "playedAt": "2026-04-24T21:11:53.722Z",
+      "source": "spotify",
+      "spotifyId": "1UYj8qTWjneZJDVjUMwMub",
+      "nowPlaying": false
+    },
+    {
+      "name": "Aag",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-24T20:20:24.804Z",
+      "source": "spotify",
+      "spotifyId": "4NtF9unALFUTQew1MFrT1g",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jhoothi Kahani",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-24T14:52:24.879Z",
+      "source": "spotify",
+      "spotifyId": "0TZE993uvpgus4lkS87IEO",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tum Meri Ho",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-24T14:41:06.353Z",
+      "source": "spotify",
+      "spotifyId": "3ExLap1qHBI4f9bTfN5qk8",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
+      "artist": "Gorillaz, Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda, Black Thought",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-24T14:36:19.639Z",
+      "source": "spotify",
+      "spotifyId": "6VflG4mpZSlpKnqNRL3NO9",
+      "nowPlaying": false
+    },
+    {
+      "name": "Delirium (feat. Mark E. Smith)",
+      "artist": "Gorillaz, Mark E. Smith",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-24T14:29:32.299Z",
+      "source": "spotify",
+      "spotifyId": "4uIXvy8PbYLEhs0PZgaP8p",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Plastic Guru (feat. Johnny Marr and Anoushka Shankar)",
+      "artist": "Gorillaz, Johnny Marr, Anoushka Shankar",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-24T14:25:40.158Z",
+      "source": "spotify",
+      "spotifyId": "68nwsIBVoGDO38VKhtvKzD",
+      "nowPlaying": false
+    },
+    {
+      "name": "The God of Lying (feat. IDLES)",
+      "artist": "Gorillaz, IDLES",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-24T14:17:15.419Z",
+      "source": "spotify",
+      "spotifyId": "5nrbuDZe5Hod1nUsND6QUA",
+      "nowPlaying": false
+    },
+    {
+      "name": "Orange County (feat. Bizarrap, Kara Jackson and Anoushka Shankar)",
+      "artist": "Gorillaz, Bizarrap, Kara Jackson, Anoushka Shankar",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-24T14:14:06.989Z",
+      "source": "spotify",
+      "spotifyId": "4HnBNOfnPYCgRzB1dcAi3x",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Hardest Thing (feat. Tony Allen)",
+      "artist": "Gorillaz, Tony Allen",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-04-24T14:10:37.663Z",
+      "source": "spotify",
+      "spotifyId": "2jSbuzSLLvFYO7xAMEU85i",
+      "nowPlaying": false
+    },
     {
       "name": "The Happy Dictator (feat. Sparks)",
       "artist": "Gorillaz, Sparks",
@@ -12,16 +202,6 @@
       "playedAt": "2026-04-24T07:01:37.354Z",
       "source": "spotify",
       "spotifyId": "4JbyNMvp3BqVILVy4Bbevf",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
-      "artist": "Gorillaz, Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda, Black Thought",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-04-24T06:56:52.649Z",
-      "source": "spotify",
-      "spotifyId": "6VflG4mpZSlpKnqNRL3NO9",
       "nowPlaying": false
     },
     {
@@ -52,16 +232,6 @@
       "playedAt": "2026-04-24T06:39:55.618Z",
       "source": "spotify",
       "spotifyId": "7D0RhFcb3CrfPuTJ0obrod",
-      "nowPlaying": false
-    },
-    {
-      "name": "We Are The People",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-23T22:09:24.656Z",
-      "source": "spotify",
-      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
       "nowPlaying": false
     },
     {
@@ -132,96 +302,6 @@
       "playedAt": "2026-04-23T06:29:06.361Z",
       "source": "spotify",
       "spotifyId": "1href03SFLehTobomjoWLX",
-      "nowPlaying": false
-    },
-    {
-      "name": "Let It Happen",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-04-23T05:42:48.397Z",
-      "source": "spotify",
-      "spotifyId": "2X485T9Z5Ly0xyaghN73ed",
-      "nowPlaying": false
-    },
-    {
-      "name": "Un Ka Andaz-E-Karam",
-      "artist": "Nusrat Fateh Ali Khan",
-      "album": "Sadness (Best Sad Qawwalies)",
-      "image": "https://i.scdn.co/image/ab67616d0000b27329d5bb1d4d37e4ae40c88d22",
-      "playedAt": "2026-04-23T05:11:17.643Z",
-      "source": "spotify",
-      "spotifyId": "2q3ooHo29p2g2XeziKSe4f",
-      "nowPlaying": false
-    },
-    {
-      "name": "Another Sad Love Song",
-      "artist": "Khalid",
-      "album": "American Teen",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
-      "playedAt": "2026-04-23T03:05:19.533Z",
-      "source": "spotify",
-      "spotifyId": "52Qu0no0NBho3zyRmjlsHn",
-      "nowPlaying": false
-    },
-    {
-      "name": "Location",
-      "artist": "Khalid",
-      "album": "American Teen",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
-      "playedAt": "2026-04-23T02:15:34.212Z",
-      "source": "spotify",
-      "spotifyId": "152lZdxL1OR0ZMW6KquMif",
-      "nowPlaying": false
-    },
-    {
-      "name": "Sign of the Times",
-      "artist": "Harry Styles",
-      "album": "Harry Styles",
-      "image": "https://i.scdn.co/image/ab67616d0000b2733f8b8a9c71b2bd2f3019940b",
-      "playedAt": "2026-04-23T01:28:58.962Z",
-      "source": "spotify",
-      "spotifyId": "5Ohxk2dO5COHF1krpoPigN",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Less I Know The Better",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-04-22T15:18:53.613Z",
-      "source": "spotify",
-      "spotifyId": "6K4t31amVTZDgR3sKmwUJJ",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tumhen Dillagi Bhool Jani Paregee",
-      "artist": "Nusrat Fateh Ali Khan",
-      "album": "Dil Lagi Bhool Jani, Vol. 2",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735b0dfbaabd17ac4b09903065",
-      "playedAt": "2026-04-22T13:48:15.421Z",
-      "source": "spotify",
-      "spotifyId": "3YG634lejEuYl1l6PYC92r",
-      "nowPlaying": false
-    },
-    {
-      "name": "Aadat",
-      "artist": "Jal",
-      "album": "Aadat (Remastered)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737542aed098fc044db8ce8498",
-      "playedAt": "2026-04-22T05:35:08.356Z",
-      "source": "spotify",
-      "spotifyId": "0lhlqmzeqlOCIgJH3yL6IY",
-      "nowPlaying": false
-    },
-    {
-      "name": "Arziyan",
-      "artist": "Javed Ali, Kailash Kher, A.R. Rahman, Prasoon Joshi",
-      "album": "Delhi-6",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f7c6e0a439f01c38bac5730c",
-      "playedAt": "2026-04-22T04:44:37.654Z",
-      "source": "spotify",
-      "spotifyId": "3V80Iv04B9XAqGHbXdtRT1",
       "nowPlaying": false
     }
   ]
