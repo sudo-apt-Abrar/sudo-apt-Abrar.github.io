@@ -1,15 +1,165 @@
 {
-  "lastUpdated": "2026-04-27T08:24:01.290004+00:00",
+  "lastUpdated": "2026-04-28T08:24:07.807600+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "Tumhe Jo Maine Dekha",
+      "artist": "Abhijeet, Shreya Ghoshal",
+      "album": "Main Hoon Na",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e7fa423de639247fed12be4a",
+      "playedAt": "2026-04-28T04:56:42.489Z",
+      "source": "spotify",
+      "spotifyId": "0pPGUL7171TRGgI6wyP8wP",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jhoothi Kahani",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-28T04:45:14.833Z",
+      "source": "spotify",
+      "spotifyId": "0TZE993uvpgus4lkS87IEO",
+      "nowPlaying": false
+    },
+    {
+      "name": "Bolo Toh",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-28T02:23:46Z",
+      "source": "spotify",
+      "spotifyId": "6A6VCcCPbvghSmC1riMuBm",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tum Meri Ho",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-04-28T02:12:32.773Z",
+      "source": "spotify",
+      "spotifyId": "3ExLap1qHBI4f9bTfN5qk8",
+      "nowPlaying": false
+    },
+    {
+      "name": "Delta Bay",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-04-28T02:08:01.971Z",
+      "source": "spotify",
+      "spotifyId": "1href03SFLehTobomjoWLX",
+      "nowPlaying": false
+    },
+    {
+      "name": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-04-28T00:36:09.777Z",
+      "source": "spotify",
+      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
+      "nowPlaying": false
+    },
+    {
+      "name": "Spring is Coming",
+      "artist": "Morunas",
+      "album": "Spring is Coming",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734f48c22574e7a02e74173a91",
+      "playedAt": "2026-04-27T17:38:00.126Z",
+      "source": "spotify",
+      "spotifyId": "6iN5Ce3HlPPLEHjqdMZJU8",
+      "nowPlaying": false
+    },
+    {
+      "name": "snowfall",
+      "artist": "Øneheart, reidenshi",
+      "album": "snowfall",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ed50c8fe9503fd8d73d82f9f",
+      "playedAt": "2026-04-27T16:18:24.998Z",
+      "source": "spotify",
+      "spotifyId": "4xF4ZBGPZKxECeDFrqSAG4",
+      "nowPlaying": false
+    },
+    {
+      "name": "Gods creation",
+      "artist": "daniel.mp3",
+      "album": "Gods creation",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737902ce115a28adf34197d7c2",
+      "playedAt": "2026-04-27T16:16:20.881Z",
+      "source": "spotify",
+      "spotifyId": "5QOB9GCEKefsHUO2SdH3hw",
+      "nowPlaying": false
+    },
+    {
+      "name": "Organ Variation",
+      "artist": "Hans Zimmer",
+      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730310d2e254062d98b2a92b2d",
+      "playedAt": "2026-04-27T16:14:21.523Z",
+      "source": "spotify",
+      "spotifyId": "6dkJvNZ7DJWzTFXv3KHmoT",
+      "nowPlaying": false
+    },
+    {
+      "name": "Idea 10",
+      "artist": "Gibran Alcocer",
+      "album": "Idea 10",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d2cc3146f7e4bdcd2fb7ac8f",
+      "playedAt": "2026-04-27T16:09:37.951Z",
+      "source": "spotify",
+      "spotifyId": "1lb3H41lbvAN28N7yqRNL9",
+      "nowPlaying": false
+    },
+    {
+      "name": "rumination",
+      "artist": "BAANDIT!",
+      "album": "rumination",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732ad9cab0d0da6e62ec6b32a1",
+      "playedAt": "2026-04-27T16:07:21.237Z",
+      "source": "spotify",
+      "spotifyId": "07ji8gwXu6NRAJvcb500hx",
+      "nowPlaying": false
+    },
+    {
+      "name": "Mia & Sebastian’s Theme",
+      "artist": "Justin Hurwitz",
+      "album": "La La Land (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730bdf4dd39843ad48c5b66bc4",
+      "playedAt": "2026-04-27T16:05:29.329Z",
+      "source": "spotify",
+      "spotifyId": "1Vk4yRsz0iBzDiZEoFMQyv",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jacob and the Stone",
+      "artist": "Emile Mosseri",
+      "album": "Minari (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c4636d33993e7e56e69c8034",
+      "playedAt": "2026-04-27T16:03:45.311Z",
+      "source": "spotify",
+      "spotifyId": "2nltARCkZyrzjQANViDpuX",
+      "nowPlaying": false
+    },
+    {
+      "name": "Time",
+      "artist": "Hans Zimmer",
+      "album": "Inception (Music from the Motion Picture)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735327620df3029a04646914c1",
+      "playedAt": "2026-04-27T16:02:06.233Z",
+      "source": "spotify",
+      "spotifyId": "6ZFbXIJkuI1dVNWvzJzown",
+      "nowPlaying": false
+    },
+    {
       "name": "Cornfield Chase",
       "artist": "Hans Zimmer",
       "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
       "image": "https://i.scdn.co/image/ab67616d0000b2730310d2e254062d98b2a92b2d",
-      "playedAt": "2026-04-27T07:38:02.997Z",
+      "playedAt": "2026-04-27T15:57:30.621Z",
       "source": "spotify",
       "spotifyId": "6pWgRkpqVfxnj3WuIcJ7WP",
       "nowPlaying": false
@@ -52,196 +202,6 @@
       "playedAt": "2026-04-26T09:01:57.977Z",
       "source": "spotify",
       "spotifyId": "5CQ30WqJwcep0pYcV4AMNc",
-      "nowPlaying": false
-    },
-    {
-      "name": "We Are The People",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-26T08:45:41.826Z",
-      "source": "spotify",
-      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
-      "nowPlaying": false
-    },
-    {
-      "name": "Loser",
-      "artist": "Tame Impala",
-      "album": "Deadbeat",
-      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-      "playedAt": "2026-04-26T06:36:16.607Z",
-      "source": "spotify",
-      "spotifyId": "7bxaFZ1O3cHkgLKMsdC3xR",
-      "nowPlaying": false
-    },
-    {
-      "name": "Dracula",
-      "artist": "Tame Impala",
-      "album": "Deadbeat",
-      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-      "playedAt": "2026-04-26T06:28:42.291Z",
-      "source": "spotify",
-      "spotifyId": "1NXbNEAcPvY5G1xvfN57aA",
-      "nowPlaying": false
-    },
-    {
-      "name": "My Old Ways",
-      "artist": "Tame Impala",
-      "album": "Deadbeat",
-      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-      "playedAt": "2026-04-26T06:22:31.576Z",
-      "source": "spotify",
-      "spotifyId": "4whkhyXTrTgHKZzkUvdwoq",
-      "nowPlaying": false
-    },
-    {
-      "name": "Stolen Dance",
-      "artist": "Milky Chance",
-      "album": "Sadnecessary",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732001bc1b4dd82d06631fcb9e",
-      "playedAt": "2026-04-26T04:15:17.721Z",
-      "source": "spotify",
-      "spotifyId": "34xGLuxM0rkxhCVyMSqwJO",
-      "nowPlaying": false
-    },
-    {
-      "name": "As It Was",
-      "artist": "Harry Styles",
-      "album": "Harry's House",
-      "image": "https://i.scdn.co/image/ab67616d0000b27382ce362511fb3d9dda6578ee",
-      "playedAt": "2026-04-26T04:09:58.335Z",
-      "source": "spotify",
-      "spotifyId": "4Dvkj6JhhA12EX05fT7y2e",
-      "nowPlaying": false
-    },
-    {
-      "name": "Babydoll",
-      "artist": "Dominic Fike",
-      "album": "Don't Forget About Me, Demos",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
-      "playedAt": "2026-04-26T04:07:10.292Z",
-      "source": "spotify",
-      "spotifyId": "7yNf9YjeO5JXUE3JEBgnYc",
-      "nowPlaying": false
-    },
-    {
-      "name": "Sign of the Times",
-      "artist": "Harry Styles",
-      "album": "Harry Styles",
-      "image": "https://i.scdn.co/image/ab67616d0000b2733f8b8a9c71b2bd2f3019940b",
-      "playedAt": "2026-04-26T04:03:45.399Z",
-      "source": "spotify",
-      "spotifyId": "5Ohxk2dO5COHF1krpoPigN",
-      "nowPlaying": false
-    },
-    {
-      "name": "Another Sad Love Song",
-      "artist": "Khalid",
-      "album": "American Teen",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
-      "playedAt": "2026-04-26T03:57:55.766Z",
-      "source": "spotify",
-      "spotifyId": "52Qu0no0NBho3zyRmjlsHn",
-      "nowPlaying": false
-    },
-    {
-      "name": "Location",
-      "artist": "Khalid",
-      "album": "American Teen",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
-      "playedAt": "2026-04-25T10:42:19.852Z",
-      "source": "spotify",
-      "spotifyId": "152lZdxL1OR0ZMW6KquMif",
-      "nowPlaying": false
-    },
-    {
-      "name": "Delta Bay",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-25T10:38:29.169Z",
-      "source": "spotify",
-      "spotifyId": "1href03SFLehTobomjoWLX",
-      "nowPlaying": false
-    },
-    {
-      "name": "Maula Mere Maula",
-      "artist": "Roop Kumar Rathod, Sayeed Quadri",
-      "album": "Anwar",
-      "image": "https://i.scdn.co/image/ab67616d0000b27306b537ea166d7b3f3050241c",
-      "playedAt": "2026-04-25T10:30:34.920Z",
-      "source": "spotify",
-      "spotifyId": "4CGBTtlrjZj7ydpV52cgB4",
-      "nowPlaying": false
-    },
-    {
-      "name": "Shaam Tanha",
-      "artist": "Agnee",
-      "album": "Agnee",
-      "image": "https://i.scdn.co/image/ab67616d0000b273310388fc9ed4739ae25919d9",
-      "playedAt": "2026-04-25T09:36:04.373Z",
-      "source": "spotify",
-      "spotifyId": "5V6XcXBrCGI6JOeYr4Uyo3",
-      "nowPlaying": false
-    },
-    {
-      "name": "Sajni",
-      "artist": "Jal",
-      "album": "Boondh",
-      "image": "https://i.scdn.co/image/ab67616d0000b27388cb5174097dad53b774523e",
-      "playedAt": "2026-04-25T07:46:38.148Z",
-      "source": "spotify",
-      "spotifyId": "3wLX0HwfAZlhT9ss18LGLY",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tilak",
-      "artist": "Bombay Bandook",
-      "album": "Tilak",
-      "image": "https://i.scdn.co/image/ab67616d0000b27347c18d86a188b479004f1128",
-      "playedAt": "2026-04-25T07:41:31.760Z",
-      "source": "spotify",
-      "spotifyId": "3snujKMl0rkHSdwOLxWrFv",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jogi",
-      "artist": "Swastik The Band",
-      "album": "Avasa",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734d703b2fb1b9bbd0e51df374",
-      "playedAt": "2026-04-25T07:35:13.685Z",
-      "source": "spotify",
-      "spotifyId": "0h0gWburhWxIhV9h7kyX3l",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tumse Hi Tumse",
-      "artist": "Vishal-Shekhar, Shekhar Ravjiani, Caralisa Monteiro",
-      "album": "Anjaana Anjaani",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
-      "playedAt": "2026-04-25T06:55:41.274Z",
-      "source": "spotify",
-      "spotifyId": "6qNyL8lZuqFmy9ginJRQOZ",
-      "nowPlaying": false
-    },
-    {
-      "name": "Nangs",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-04-25T06:47:36.809Z",
-      "source": "spotify",
-      "spotifyId": "1cCbsojaA6GIT7Y3zuMJ1q",
-      "nowPlaying": false
-    },
-    {
-      "name": "Let It Happen",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-04-25T06:45:49.230Z",
-      "source": "spotify",
-      "spotifyId": "2X485T9Z5Ly0xyaghN73ed",
       "nowPlaying": false
     }
   ]
