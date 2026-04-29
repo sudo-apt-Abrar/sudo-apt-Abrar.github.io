@@ -1,9 +1,29 @@
 {
-  "lastUpdated": "2026-04-28T08:24:07.807600+00:00",
+  "lastUpdated": "2026-04-29T08:16:47.796085+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Rehna Tu",
+      "artist": "A.R. Rahman, Prasoon Joshi",
+      "album": "Delhi-6",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f7c6e0a439f01c38bac5730c",
+      "playedAt": "2026-04-29T03:56:04.181Z",
+      "source": "spotify",
+      "spotifyId": "5RZbS87YI2wd87SWuO0YAX",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jogi",
+      "artist": "Swastik The Band",
+      "album": "Avasa",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734d703b2fb1b9bbd0e51df374",
+      "playedAt": "2026-04-29T03:48:45.779Z",
+      "source": "spotify",
+      "spotifyId": "0h0gWburhWxIhV9h7kyX3l",
+      "nowPlaying": false
+    },
     {
       "name": "Tumhe Jo Maine Dekha",
       "artist": "Abhijeet, Shreya Ghoshal",
@@ -162,46 +182,6 @@
       "playedAt": "2026-04-27T15:57:30.621Z",
       "source": "spotify",
       "spotifyId": "6pWgRkpqVfxnj3WuIcJ7WP",
-      "nowPlaying": false
-    },
-    {
-      "name": "Can't Tell Me Nothing",
-      "artist": "Kanye West",
-      "album": "Graduation",
-      "image": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
-      "playedAt": "2026-04-27T06:14:20.661Z",
-      "source": "spotify",
-      "spotifyId": "0mEdbdeRFQwBhN4xfyIeUM",
-      "nowPlaying": false
-    },
-    {
-      "name": "Ya Adheeman",
-      "artist": "Ahmed Bukhatir",
-      "album": "Fartaqi",
-      "image": "https://i.scdn.co/image/ab67616d0000b273a7ddb44b72cfd9eab661cae5",
-      "playedAt": "2026-04-26T14:59:08.299Z",
-      "source": "spotify",
-      "spotifyId": "3mftABAEmsrI9oakjZ0Itl",
-      "nowPlaying": false
-    },
-    {
-      "name": "Kahin To",
-      "artist": "Rashid Ali, Vasundhara Das",
-      "album": "Jaane Tu... Ya Jaane Na",
-      "image": "https://i.scdn.co/image/ab67616d0000b273abf91851997179d195afab5f",
-      "playedAt": "2026-04-26T13:38:31.574Z",
-      "source": "spotify",
-      "spotifyId": "3E424W0IJS3ypZ4YOxE0Jn",
-      "nowPlaying": false
-    },
-    {
-      "name": "Stairway to Heaven - Remaster",
-      "artist": "Led Zeppelin",
-      "album": "Led Zeppelin IV (Deluxe Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69",
-      "playedAt": "2026-04-26T09:01:57.977Z",
-      "source": "spotify",
-      "spotifyId": "5CQ30WqJwcep0pYcV4AMNc",
       "nowPlaying": false
     }
   ]
