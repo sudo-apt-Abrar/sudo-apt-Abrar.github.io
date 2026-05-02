@@ -1,9 +1,69 @@
 {
-  "lastUpdated": "2026-05-01T08:10:19.795275+00:00",
+  "lastUpdated": "2026-05-02T07:42:57.884237+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Baarish",
+      "artist": "Mohammed Irfan",
+      "album": "Bollywood Unplugged",
+      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
+      "playedAt": "2026-05-02T06:31:28.964Z",
+      "source": "spotify",
+      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
+      "nowPlaying": false
+    },
+    {
+      "name": "Kaun Mera",
+      "artist": "Papon",
+      "album": "Bollywood Unplugged",
+      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
+      "playedAt": "2026-05-02T04:39:12.929Z",
+      "source": "spotify",
+      "spotifyId": "2n40kGcCG499ckQwYNJnWp",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tum Ho Toh",
+      "artist": "Farhan Akhtar",
+      "album": "Rock On",
+      "image": "https://i.scdn.co/image/ab67616d0000b27319bf9ebc57d912cda1f83de8",
+      "playedAt": "2026-05-02T02:55:26.542Z",
+      "source": "spotify",
+      "spotifyId": "2uy15favOgEOtS8wjAD9B1",
+      "nowPlaying": false
+    },
+    {
+      "name": "Hey Ya !",
+      "artist": "Clinton Cerejo, Shankar Mahadevan, Loy Mendonsa",
+      "album": "Karthik Calling Karthik",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730e0eae488b99b7c7b901f659",
+      "playedAt": "2026-05-01T13:35:49.139Z",
+      "source": "spotify",
+      "spotifyId": "1qTh7hzjd361hjuzeaMFWK",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tumse Hi Tumse",
+      "artist": "Vishal-Shekhar, Shekhar Ravjiani, Caralisa Monteiro",
+      "album": "Anjaana Anjaani",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
+      "playedAt": "2026-05-01T13:28:25.476Z",
+      "source": "spotify",
+      "spotifyId": "6qNyL8lZuqFmy9ginJRQOZ",
+      "nowPlaying": false
+    },
+    {
+      "name": "Mera Mann Kehne Laga",
+      "artist": "Falak Shabbir",
+      "album": "Nautanki Saala !",
+      "image": "https://i.scdn.co/image/ab67616d0000b273785c415336347fca03a1d638",
+      "playedAt": "2026-05-01T13:23:56.197Z",
+      "source": "spotify",
+      "spotifyId": "1niVgR76UPobOED5cXfADq",
+      "nowPlaying": false
+    },
     {
       "name": "Eenie Meenie",
       "artist": "Sean Kingston, Justin Bieber",
@@ -122,76 +182,6 @@
       "playedAt": "2026-04-29T03:48:45.779Z",
       "source": "spotify",
       "spotifyId": "0h0gWburhWxIhV9h7kyX3l",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jhoothi Kahani",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-04-28T04:45:14.833Z",
-      "source": "spotify",
-      "spotifyId": "0TZE993uvpgus4lkS87IEO",
-      "nowPlaying": false
-    },
-    {
-      "name": "Bolo Toh",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-04-28T02:23:46Z",
-      "source": "spotify",
-      "spotifyId": "6A6VCcCPbvghSmC1riMuBm",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tum Meri Ho",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-04-28T02:12:32.773Z",
-      "source": "spotify",
-      "spotifyId": "3ExLap1qHBI4f9bTfN5qk8",
-      "nowPlaying": false
-    },
-    {
-      "name": "Delta Bay",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-28T02:08:01.971Z",
-      "source": "spotify",
-      "spotifyId": "1href03SFLehTobomjoWLX",
-      "nowPlaying": false
-    },
-    {
-      "name": "We Are The People",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-04-28T00:36:09.777Z",
-      "source": "spotify",
-      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
-      "nowPlaying": false
-    },
-    {
-      "name": "Spring is Coming",
-      "artist": "Morunas",
-      "album": "Spring is Coming",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734f48c22574e7a02e74173a91",
-      "playedAt": "2026-04-27T17:38:00.126Z",
-      "source": "spotify",
-      "spotifyId": "6iN5Ce3HlPPLEHjqdMZJU8",
-      "nowPlaying": false
-    },
-    {
-      "name": "snowfall",
-      "artist": "Øneheart, reidenshi",
-      "album": "snowfall",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ed50c8fe9503fd8d73d82f9f",
-      "playedAt": "2026-04-27T16:18:24.998Z",
-      "source": "spotify",
-      "spotifyId": "4xF4ZBGPZKxECeDFrqSAG4",
       "nowPlaying": false
     }
   ]
