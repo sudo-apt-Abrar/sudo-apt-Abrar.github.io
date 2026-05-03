@@ -1,17 +1,47 @@
 {
-  "lastUpdated": "2026-05-02T07:42:57.884237+00:00",
+  "lastUpdated": "2026-05-03T08:00:40.611421+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
-      "name": "Baarish",
-      "artist": "Mohammed Irfan",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-05-02T06:31:28.964Z",
+      "name": "Tilak",
+      "artist": "Bombay Bandook",
+      "album": "Tilak",
+      "image": "https://i.scdn.co/image/ab67616d0000b27347c18d86a188b479004f1128",
+      "playedAt": "2026-05-03T07:33:40.204Z",
       "source": "spotify",
-      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
+      "spotifyId": "3snujKMl0rkHSdwOLxWrFv",
+      "nowPlaying": false
+    },
+    {
+      "name": "Aadat",
+      "artist": "Jal",
+      "album": "Aadat (Remastered)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737542aed098fc044db8ce8498",
+      "playedAt": "2026-05-03T07:27:40.416Z",
+      "source": "spotify",
+      "spotifyId": "0lhlqmzeqlOCIgJH3yL6IY",
+      "nowPlaying": false
+    },
+    {
+      "name": "Delta Bay",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-05-03T07:23:04.924Z",
+      "source": "spotify",
+      "spotifyId": "1href03SFLehTobomjoWLX",
+      "nowPlaying": false
+    },
+    {
+      "name": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-05-02T19:28:16.650Z",
+      "source": "spotify",
+      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
       "nowPlaying": false
     },
     {
@@ -19,9 +49,19 @@
       "artist": "Papon",
       "album": "Bollywood Unplugged",
       "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-05-02T04:39:12.929Z",
+      "playedAt": "2026-05-02T19:23:31.342Z",
       "source": "spotify",
       "spotifyId": "2n40kGcCG499ckQwYNJnWp",
+      "nowPlaying": false
+    },
+    {
+      "name": "Baarish",
+      "artist": "Mohammed Irfan",
+      "album": "Bollywood Unplugged",
+      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
+      "playedAt": "2026-05-02T12:09:16.682Z",
+      "source": "spotify",
+      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
       "nowPlaying": false
     },
     {
