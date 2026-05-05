@@ -1,15 +1,145 @@
 {
-  "lastUpdated": "2026-05-04T08:28:13.970623+00:00",
+  "lastUpdated": "2026-05-05T08:08:15.428723+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "Babydoll",
+      "artist": "Dominic Fike",
+      "album": "Don't Forget About Me, Demos",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+      "playedAt": "2026-05-05T07:59:27.764Z",
+      "source": "spotify",
+      "spotifyId": "7yNf9YjeO5JXUE3JEBgnYc",
+      "nowPlaying": false
+    },
+    {
+      "name": "My Old Ways",
+      "artist": "Tame Impala",
+      "album": "Deadbeat",
+      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
+      "playedAt": "2026-05-05T07:57:56.482Z",
+      "source": "spotify",
+      "spotifyId": "4whkhyXTrTgHKZzkUvdwoq",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jogi",
+      "artist": "Swastik The Band",
+      "album": "Avasa",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734d703b2fb1b9bbd0e51df374",
+      "playedAt": "2026-05-05T06:56:21.552Z",
+      "source": "spotify",
+      "spotifyId": "0h0gWburhWxIhV9h7kyX3l",
+      "nowPlaying": false
+    },
+    {
+      "name": "Passionfruit",
+      "artist": "Drake",
+      "album": "More Life",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734f0fd9dad63977146e685700",
+      "playedAt": "2026-05-05T03:42:32.801Z",
+      "source": "spotify",
+      "spotifyId": "5mCPDVBb16L4XQwDdbRUpz",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Less I Know The Better",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "playedAt": "2026-05-05T03:35:13.453Z",
+      "source": "spotify",
+      "spotifyId": "6K4t31amVTZDgR3sKmwUJJ",
+      "nowPlaying": false
+    },
+    {
+      "name": "Borderline",
+      "artist": "Tame Impala",
+      "album": "The Slow Rush",
+      "image": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
+      "playedAt": "2026-05-05T03:30:49.478Z",
+      "source": "spotify",
+      "spotifyId": "5hM5arv9KDbCHS0k9uqwjr",
+      "nowPlaying": false
+    },
+    {
+      "name": "Veridis Quo",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+      "playedAt": "2026-05-05T03:26:51.461Z",
+      "source": "spotify",
+      "spotifyId": "2LD2gT7gwAurzdQDQtILds",
+      "nowPlaying": false
+    },
+    {
+      "name": "505",
+      "artist": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+      "playedAt": "2026-05-05T03:19:20.663Z",
+      "source": "spotify",
+      "spotifyId": "0BxE4FqsDD1Ot4YuBXwAPp",
+      "nowPlaying": false
+    },
+    {
+      "name": "Only You",
+      "artist": "Theophilus London, Tame Impala",
+      "album": "Bebey",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fef7747791b60acfabfc9f27",
+      "playedAt": "2026-05-04T16:07:10.881Z",
+      "source": "spotify",
+      "spotifyId": "1JRfP5jkBm7zS8B0k7Xj66",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jao Na",
+      "artist": "Sohail Sen, Tarannum Malik Jain",
+      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
+      "playedAt": "2026-05-04T15:39:43.663Z",
+      "source": "spotify",
+      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
+      "nowPlaying": false
+    },
+    {
+      "name": "Orange County (feat. Bizarrap, Kara Jackson and Anoushka Shankar)",
+      "artist": "Gorillaz, Bizarrap, Kara Jackson, Anoushka Shankar",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-05-04T15:32:40.631Z",
+      "source": "spotify",
+      "spotifyId": "4HnBNOfnPYCgRzB1dcAi3x",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Hardest Thing (feat. Tony Allen)",
+      "artist": "Gorillaz, Tony Allen",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-05-04T15:29:12.550Z",
+      "source": "spotify",
+      "spotifyId": "2jSbuzSLLvFYO7xAMEU85i",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Happy Dictator (feat. Sparks)",
+      "artist": "Gorillaz, Sparks",
+      "album": "The Mountain",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
+      "playedAt": "2026-05-04T15:26:54.989Z",
+      "source": "spotify",
+      "spotifyId": "4JbyNMvp3BqVILVy4Bbevf",
+      "nowPlaying": false
+    },
+    {
       "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
       "artist": "Gorillaz, Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda, Black Thought",
       "album": "The Mountain",
       "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-05-04T08:00:19.352Z",
+      "playedAt": "2026-05-04T15:22:09.008Z",
       "source": "spotify",
       "spotifyId": "6VflG4mpZSlpKnqNRL3NO9",
       "nowPlaying": false
@@ -62,96 +192,6 @@
       "playedAt": "2026-05-03T08:37:01.142Z",
       "source": "spotify",
       "spotifyId": "10rTRsKQDEke6Dd1Qj57Jd",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tilak",
-      "artist": "Bombay Bandook",
-      "album": "Tilak",
-      "image": "https://i.scdn.co/image/ab67616d0000b27347c18d86a188b479004f1128",
-      "playedAt": "2026-05-03T07:33:40.204Z",
-      "source": "spotify",
-      "spotifyId": "3snujKMl0rkHSdwOLxWrFv",
-      "nowPlaying": false
-    },
-    {
-      "name": "Delta Bay",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-05-03T07:23:04.924Z",
-      "source": "spotify",
-      "spotifyId": "1href03SFLehTobomjoWLX",
-      "nowPlaying": false
-    },
-    {
-      "name": "We Are The People",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-05-02T19:28:16.650Z",
-      "source": "spotify",
-      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
-      "nowPlaying": false
-    },
-    {
-      "name": "Kaun Mera",
-      "artist": "Papon",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-05-02T19:23:31.342Z",
-      "source": "spotify",
-      "spotifyId": "2n40kGcCG499ckQwYNJnWp",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tum Ho Toh",
-      "artist": "Farhan Akhtar",
-      "album": "Rock On",
-      "image": "https://i.scdn.co/image/ab67616d0000b27319bf9ebc57d912cda1f83de8",
-      "playedAt": "2026-05-02T02:55:26.542Z",
-      "source": "spotify",
-      "spotifyId": "2uy15favOgEOtS8wjAD9B1",
-      "nowPlaying": false
-    },
-    {
-      "name": "Hey Ya !",
-      "artist": "Clinton Cerejo, Shankar Mahadevan, Loy Mendonsa",
-      "album": "Karthik Calling Karthik",
-      "image": "https://i.scdn.co/image/ab67616d0000b2730e0eae488b99b7c7b901f659",
-      "playedAt": "2026-05-01T13:35:49.139Z",
-      "source": "spotify",
-      "spotifyId": "1qTh7hzjd361hjuzeaMFWK",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tumse Hi Tumse",
-      "artist": "Vishal-Shekhar, Shekhar Ravjiani, Caralisa Monteiro",
-      "album": "Anjaana Anjaani",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
-      "playedAt": "2026-05-01T13:28:25.476Z",
-      "source": "spotify",
-      "spotifyId": "6qNyL8lZuqFmy9ginJRQOZ",
-      "nowPlaying": false
-    },
-    {
-      "name": "Mera Mann Kehne Laga",
-      "artist": "Falak Shabbir",
-      "album": "Nautanki Saala !",
-      "image": "https://i.scdn.co/image/ab67616d0000b273785c415336347fca03a1d638",
-      "playedAt": "2026-05-01T13:23:56.197Z",
-      "source": "spotify",
-      "spotifyId": "1niVgR76UPobOED5cXfADq",
-      "nowPlaying": false
-    },
-    {
-      "name": "Eenie Meenie",
-      "artist": "Sean Kingston, Justin Bieber",
-      "album": "Eenie Meenie",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734dea4c1cdf30c359dbaec318",
-      "playedAt": "2026-05-01T03:00:58.398Z",
-      "source": "spotify",
-      "spotifyId": "4vVTI94F9uJ8lHNDWKv0i2",
       "nowPlaying": false
     }
   ]
