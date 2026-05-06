@@ -1,9 +1,59 @@
 {
-  "lastUpdated": "2026-05-05T08:08:15.428723+00:00",
+  "lastUpdated": "2026-05-06T08:25:54.821257+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Moth To A Flame (with The Weeknd)",
+      "artist": "Swedish House Mafia, The Weeknd",
+      "album": "Paradise Again",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bd6f8ac82dc5fe1028c14f7d",
+      "playedAt": "2026-05-06T03:03:06.300Z",
+      "source": "spotify",
+      "spotifyId": "0VO8gYVDSwM1Qdd2GsMoYK",
+      "nowPlaying": false
+    },
+    {
+      "name": "Loser",
+      "artist": "Tame Impala",
+      "album": "Deadbeat",
+      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
+      "playedAt": "2026-05-05T09:00:32.064Z",
+      "source": "spotify",
+      "spotifyId": "7bxaFZ1O3cHkgLKMsdC3xR",
+      "nowPlaying": false
+    },
+    {
+      "name": "Less Than Zero",
+      "artist": "The Weeknd",
+      "album": "Dawn FM",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ab2520c2c77a1d66b9ee21d",
+      "playedAt": "2026-05-05T08:56:48.868Z",
+      "source": "spotify",
+      "spotifyId": "2D4dV2KXDTszzJ3p3cFqhA",
+      "nowPlaying": false
+    },
+    {
+      "name": "Neverender",
+      "artist": "Justice, Tame Impala",
+      "album": "Hyperdrama",
+      "image": "https://i.scdn.co/image/ab67616d0000b273730e327760fe592ad69bf18e",
+      "playedAt": "2026-05-05T08:53:16.136Z",
+      "source": "spotify",
+      "spotifyId": "3aQ9MHkMeL7Yu7jpyF62xn",
+      "nowPlaying": false
+    },
+    {
+      "name": "Freaking Out the Neighborhood",
+      "artist": "Mac DeMarco",
+      "album": "2",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739d377496c6bc8724b521222d",
+      "playedAt": "2026-05-05T08:48:48.935Z",
+      "source": "spotify",
+      "spotifyId": "3HlK8txWAdtKMrbsqX40pl",
+      "nowPlaying": false
+    },
     {
       "name": "Babydoll",
       "artist": "Dominic Fike",
@@ -182,16 +232,6 @@
       "playedAt": "2026-05-03T15:55:50.791Z",
       "source": "spotify",
       "spotifyId": "5CQ30WqJwcep0pYcV4AMNc",
-      "nowPlaying": false
-    },
-    {
-      "name": "Toh Phir Aao",
-      "artist": "Pritam, Mustafa Zahid, Sayeed Quadri",
-      "album": "Awarapan (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2738f2706d41aa1ec24c04135ba",
-      "playedAt": "2026-05-03T08:37:01.142Z",
-      "source": "spotify",
-      "spotifyId": "10rTRsKQDEke6Dd1Qj57Jd",
       "nowPlaying": false
     }
   ]
