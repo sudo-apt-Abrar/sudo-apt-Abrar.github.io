@@ -1,9 +1,99 @@
 {
-  "lastUpdated": "2026-05-06T08:25:54.821257+00:00",
+  "lastUpdated": "2026-05-07T08:32:56.216054+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Hotel California - 2013 Remaster",
+      "artist": "Eagles",
+      "album": "Hotel California (2013 Remaster)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
+      "playedAt": "2026-05-07T06:27:23.966Z",
+      "source": "spotify",
+      "spotifyId": "40riOy7x9W7GXjyGp4pjAv",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jao Na",
+      "artist": "Sohail Sen, Tarannum Malik Jain",
+      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
+      "playedAt": "2026-05-07T06:20:27.714Z",
+      "source": "spotify",
+      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jhoothi Kahani",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-05-07T06:10:35.821Z",
+      "source": "spotify",
+      "spotifyId": "0TZE993uvpgus4lkS87IEO",
+      "nowPlaying": false
+    },
+    {
+      "name": "Bolo Toh",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-05-07T03:19:26.710Z",
+      "source": "spotify",
+      "spotifyId": "6A6VCcCPbvghSmC1riMuBm",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Moment",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "playedAt": "2026-05-07T03:13:49.171Z",
+      "source": "spotify",
+      "spotifyId": "1UYj8qTWjneZJDVjUMwMub",
+      "nowPlaying": false
+    },
+    {
+      "name": "Chale Jaise Hawaien",
+      "artist": "KK, Vasundhara Das",
+      "album": "Main Hoon Na",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e7fa423de639247fed12be4a",
+      "playedAt": "2026-05-06T16:09:51.316Z",
+      "source": "spotify",
+      "spotifyId": "3pRF060IEOI5XSQAvONgSt",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tumhe Jo Maine Dekha",
+      "artist": "Abhijeet, Shreya Ghoshal",
+      "album": "Main Hoon Na",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e7fa423de639247fed12be4a",
+      "playedAt": "2026-05-06T16:04:26.944Z",
+      "source": "spotify",
+      "spotifyId": "0pPGUL7171TRGgI6wyP8wP",
+      "nowPlaying": false
+    },
+    {
+      "name": "Kaun Mera",
+      "artist": "Papon",
+      "album": "Bollywood Unplugged",
+      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
+      "playedAt": "2026-05-06T15:58:37.166Z",
+      "source": "spotify",
+      "spotifyId": "2n40kGcCG499ckQwYNJnWp",
+      "nowPlaying": false
+    },
+    {
+      "name": "Baarish",
+      "artist": "Mohammed Irfan",
+      "album": "Bollywood Unplugged",
+      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
+      "playedAt": "2026-05-06T13:22:29.867Z",
+      "source": "spotify",
+      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
+      "nowPlaying": false
+    },
     {
       "name": "Moth To A Flame (with The Weeknd)",
       "artist": "Swedish House Mafia, The Weeknd",
@@ -145,16 +235,6 @@
       "nowPlaying": false
     },
     {
-      "name": "Jao Na",
-      "artist": "Sohail Sen, Tarannum Malik Jain",
-      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
-      "playedAt": "2026-05-04T15:39:43.663Z",
-      "source": "spotify",
-      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
-      "nowPlaying": false
-    },
-    {
       "name": "Orange County (feat. Bizarrap, Kara Jackson and Anoushka Shankar)",
       "artist": "Gorillaz, Bizarrap, Kara Jackson, Anoushka Shankar",
       "album": "The Mountain",
@@ -202,36 +282,6 @@
       "playedAt": "2026-05-04T07:55:13.811Z",
       "source": "spotify",
       "spotifyId": "6pWgRkpqVfxnj3WuIcJ7WP",
-      "nowPlaying": false
-    },
-    {
-      "name": "Baarish",
-      "artist": "Mohammed Irfan",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-05-04T04:49:13.602Z",
-      "source": "spotify",
-      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
-      "nowPlaying": false
-    },
-    {
-      "name": "Aadat",
-      "artist": "Jal",
-      "album": "Aadat (Remastered)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737542aed098fc044db8ce8498",
-      "playedAt": "2026-05-03T19:17:15.215Z",
-      "source": "spotify",
-      "spotifyId": "0lhlqmzeqlOCIgJH3yL6IY",
-      "nowPlaying": false
-    },
-    {
-      "name": "Stairway to Heaven - Remaster",
-      "artist": "Led Zeppelin",
-      "album": "Led Zeppelin IV (Deluxe Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69",
-      "playedAt": "2026-05-03T15:55:50.791Z",
-      "source": "spotify",
-      "spotifyId": "5CQ30WqJwcep0pYcV4AMNc",
       "nowPlaying": false
     }
   ]
