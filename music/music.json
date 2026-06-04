@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T07:46:58.042800+00:00",
+  "lastUpdated": "2026-06-04T07:42:39.430827+00:00",
   "sources": [
     "spotify"
   ],
@@ -9,7 +9,7 @@
       "artist": "KK, Vasundhara Das",
       "album": "Main Hoon Na",
       "image": "https://i.scdn.co/image/ab67616d0000b273e7fa423de639247fed12be4a",
-      "playedAt": "2026-06-03T03:57:13.220Z",
+      "playedAt": "2026-06-03T19:57:21.937Z",
       "source": "spotify",
       "spotifyId": "3pRF060IEOI5XSQAvONgSt",
       "nowPlaying": false
@@ -19,9 +19,19 @@
       "artist": "Abhijeet, Shreya Ghoshal",
       "album": "Main Hoon Na",
       "image": "https://i.scdn.co/image/ab67616d0000b273e7fa423de639247fed12be4a",
-      "playedAt": "2026-06-03T03:51:49.325Z",
+      "playedAt": "2026-06-03T08:33:44.648Z",
       "source": "spotify",
       "spotifyId": "0pPGUL7171TRGgI6wyP8wP",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tennu Le",
+      "artist": "omer inayat",
+      "album": "Jai Veeru",
+      "image": "https://i.scdn.co/image/ab67616d0000b27364faa2f475c5548a65607a72",
+      "playedAt": "2026-06-03T08:25:49.061Z",
+      "source": "spotify",
+      "spotifyId": "0dQiyqHUpnMPmHtk535VAY",
       "nowPlaying": false
     },
     {
