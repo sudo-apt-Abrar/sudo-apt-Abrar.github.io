@@ -1,15 +1,25 @@
 {
-  "lastUpdated": "2026-06-05T07:34:29.893631+00:00",
+  "lastUpdated": "2026-06-06T07:08:25.618519+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "Soulless Friends",
+      "artist": "Peter Cat Recording Co.",
+      "album": "Bismillah",
+      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
+      "playedAt": "2026-06-06T06:27:17.200Z",
+      "source": "spotify",
+      "spotifyId": "5tKLj0uHm2DbrXYVXcOgnu",
+      "nowPlaying": false
+    },
+    {
       "name": "Floated By",
       "artist": "Peter Cat Recording Co.",
       "album": "Bismillah",
       "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-06-05T02:50:57.185Z",
+      "playedAt": "2026-06-06T06:23:29.889Z",
       "source": "spotify",
       "spotifyId": "7IAKxhI1z8Sas7iLcX8YF5",
       "nowPlaying": false
@@ -19,9 +29,79 @@
       "artist": "Peter Cat Recording Co.",
       "album": "Bismillah",
       "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-06-05T01:34:30.210Z",
+      "playedAt": "2026-06-06T06:19:13.905Z",
       "source": "spotify",
       "spotifyId": "5lzMkZFiPYJ4ceVwaYcWlP",
+      "nowPlaying": false
+    },
+    {
+      "name": "Timeless (feat Playboi Carti)",
+      "artist": "The Weeknd, Playboi Carti",
+      "album": "Hurry Up Tomorrow",
+      "image": "https://i.scdn.co/image/ab67616d0000b273de79f330bc297af3fae736da",
+      "playedAt": "2026-06-06T06:13:48.468Z",
+      "source": "spotify",
+      "spotifyId": "0FIDCNYYjNvPVimz5icugS",
+      "nowPlaying": false
+    },
+    {
+      "name": "The Spins",
+      "artist": "Mac Miller, Empire Of The Sun",
+      "album": "K.I.D.S. (Deluxe)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737414c28a11a87cbfd91dce10",
+      "playedAt": "2026-06-06T05:19:13.103Z",
+      "source": "spotify",
+      "spotifyId": "3iEUDvanZwQhLCIqUmCR7N",
+      "nowPlaying": false
+    },
+    {
+      "name": "Day 'N' Nite (Nightmare)",
+      "artist": "Kid Cudi",
+      "album": "Man On The Moon: The End Of Day (Int'l Version)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273713f297a7bdc1d48971062b2",
+      "playedAt": "2026-06-06T05:15:56.576Z",
+      "source": "spotify",
+      "spotifyId": "60PAzFNW3vAiAiVK6DRJfB",
+      "nowPlaying": false
+    },
+    {
+      "name": "Sundress",
+      "artist": "A$AP Rocky",
+      "album": "Sundress",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731ae967e4a02c7a39eb3c189b",
+      "playedAt": "2026-06-06T05:12:14.829Z",
+      "source": "spotify",
+      "spotifyId": "2aPTvyE09vUCRwVvj0I8WK",
+      "nowPlaying": false
+    },
+    {
+      "name": "Father Stretch My Hands Pt. 1",
+      "artist": "Kanye West",
+      "album": "The Life Of Pablo",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732a7db835b912dc5014bd37f4",
+      "playedAt": "2026-06-06T05:09:36.128Z",
+      "source": "spotify",
+      "spotifyId": "4KW1lqgSr8TKrvBII0Brf8",
+      "nowPlaying": false
+    },
+    {
+      "name": "Money Trees",
+      "artist": "Kendrick Lamar, Jay Rock",
+      "album": "good kid, m.A.A.d city",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732cd55246d935a8a77cb4859e",
+      "playedAt": "2026-06-05T12:35:04.225Z",
+      "source": "spotify",
+      "spotifyId": "74tLlkN3rgVzRqQJgPfink",
+      "nowPlaying": false
+    },
+    {
+      "name": "No Role Modelz",
+      "artist": "J. Cole",
+      "album": "2014 Forest Hills Drive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c6e0948bbb0681ff29cdbae8",
+      "playedAt": "2026-06-05T03:41:35.009Z",
+      "source": "spotify",
+      "spotifyId": "68Dni7IE4VyPkTOH9mRWHr",
       "nowPlaying": false
     },
     {
@@ -292,46 +372,6 @@
       "playedAt": "2026-05-30T10:32:51.537Z",
       "source": "spotify",
       "spotifyId": "4s6LhHAV5SEsOV0lC2tjvJ",
-      "nowPlaying": false
-    },
-    {
-      "name": "Yes I'm Changing",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-05-30T01:21:35.388Z",
-      "source": "spotify",
-      "spotifyId": "0xtIp0lgccN85GfGOekS5L",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Moment",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-05-29T16:35:35.061Z",
-      "source": "spotify",
-      "spotifyId": "1UYj8qTWjneZJDVjUMwMub",
-      "nowPlaying": false
-    },
-    {
-      "name": "Nangs",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-05-29T16:31:19.562Z",
-      "source": "spotify",
-      "spotifyId": "1cCbsojaA6GIT7Y3zuMJ1q",
-      "nowPlaying": false
-    },
-    {
-      "name": "Let It Happen",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-05-29T16:29:32.017Z",
-      "source": "spotify",
-      "spotifyId": "2X485T9Z5Ly0xyaghN73ed",
       "nowPlaying": false
     }
   ]
