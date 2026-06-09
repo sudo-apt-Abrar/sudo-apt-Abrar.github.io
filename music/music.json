@@ -1,9 +1,79 @@
 {
-  "lastUpdated": "2026-06-08T07:48:01.641448+00:00",
+  "lastUpdated": "2026-06-09T07:19:08.032364+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Happy Together",
+      "artist": "The Turtles",
+      "album": "Happy Together",
+      "image": "https://i.scdn.co/image/ab67616d0000b27372649ad8e79d1e8bdd54c929",
+      "playedAt": "2026-06-09T05:46:45.533Z",
+      "source": "spotify",
+      "spotifyId": "1JO1xLtVc8mWhIoE3YaCL0",
+      "nowPlaying": false
+    },
+    {
+      "name": "Hooked On A Feeling",
+      "artist": "Blue Swede, Björn Skifs",
+      "album": "Hooked On A Feeling",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b2439940aedd2801c9ae2e5b",
+      "playedAt": "2026-06-09T05:23:50.145Z",
+      "source": "spotify",
+      "spotifyId": "6Ac4NVYYl2U73QiTt11ZKd",
+      "nowPlaying": false
+    },
+    {
+      "name": "No Role Modelz",
+      "artist": "J. Cole",
+      "album": "2014 Forest Hills Drive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c6e0948bbb0681ff29cdbae8",
+      "playedAt": "2026-06-09T05:10:13.232Z",
+      "source": "spotify",
+      "spotifyId": "68Dni7IE4VyPkTOH9mRWHr",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jiyein Kyun",
+      "artist": "Papon",
+      "album": "Bollywood Unplugged",
+      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
+      "playedAt": "2026-06-08T14:12:29.379Z",
+      "source": "spotify",
+      "spotifyId": "3tyEQOACloIoX0jbM8YWx2",
+      "nowPlaying": false
+    },
+    {
+      "name": "Kaun Mera",
+      "artist": "Papon",
+      "album": "Bollywood Unplugged",
+      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
+      "playedAt": "2026-06-08T10:15:47.819Z",
+      "source": "spotify",
+      "spotifyId": "2n40kGcCG499ckQwYNJnWp",
+      "nowPlaying": false
+    },
+    {
+      "name": "Baarish",
+      "artist": "Mohammed Irfan",
+      "album": "Bollywood Unplugged",
+      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
+      "playedAt": "2026-06-08T10:10:03.383Z",
+      "source": "spotify",
+      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
+      "nowPlaying": false
+    },
+    {
+      "name": "Bolo Toh",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-06-08T08:37:57.573Z",
+      "source": "spotify",
+      "spotifyId": "6A6VCcCPbvghSmC1riMuBm",
+      "nowPlaying": false
+    },
     {
       "name": "Tum Meri Ho",
       "artist": "Raeth",
@@ -52,36 +122,6 @@
       "playedAt": "2026-06-08T05:24:57.777Z",
       "source": "spotify",
       "spotifyId": "43WuBDbNVDRZwDGfLx0e5G",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jiyein Kyun",
-      "artist": "Papon",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-06-06T09:17:57.624Z",
-      "source": "spotify",
-      "spotifyId": "3tyEQOACloIoX0jbM8YWx2",
-      "nowPlaying": false
-    },
-    {
-      "name": "Kaun Mera",
-      "artist": "Papon",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-06-06T09:12:13.850Z",
-      "source": "spotify",
-      "spotifyId": "2n40kGcCG499ckQwYNJnWp",
-      "nowPlaying": false
-    },
-    {
-      "name": "Baarish",
-      "artist": "Mohammed Irfan",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-06-06T09:06:29.324Z",
-      "source": "spotify",
-      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
       "nowPlaying": false
     },
     {
@@ -185,16 +225,6 @@
       "nowPlaying": false
     },
     {
-      "name": "No Role Modelz",
-      "artist": "J. Cole",
-      "album": "2014 Forest Hills Drive",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c6e0948bbb0681ff29cdbae8",
-      "playedAt": "2026-06-05T03:41:35.009Z",
-      "source": "spotify",
-      "spotifyId": "68Dni7IE4VyPkTOH9mRWHr",
-      "nowPlaying": false
-    },
-    {
       "name": "Chale Jaise Hawaien",
       "artist": "KK, Vasundhara Das",
       "album": "Main Hoon Na",
@@ -262,96 +292,6 @@
       "playedAt": "2026-06-02T23:10:25.329Z",
       "source": "spotify",
       "spotifyId": "2gNfxysfBRfl9Lvi9T3v6R",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Manifesto (feat. Trueno and Proof)",
-      "artist": "Gorillaz, Trueno, Proof",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-06-02T15:17:38.200Z",
-      "source": "spotify",
-      "spotifyId": "1WUBWl3jNNYo0hrPTrA5D0",
-      "nowPlaying": false
-    },
-    {
-      "name": "The God of Lying (feat. IDLES)",
-      "artist": "Gorillaz, IDLES",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-06-01T15:37:05.413Z",
-      "source": "spotify",
-      "spotifyId": "5nrbuDZe5Hod1nUsND6QUA",
-      "nowPlaying": false
-    },
-    {
-      "name": "Orange County (feat. Bizarrap, Kara Jackson and Anoushka Shankar)",
-      "artist": "Gorillaz, Bizarrap, Kara Jackson, Anoushka Shankar",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-06-01T15:33:56.568Z",
-      "source": "spotify",
-      "spotifyId": "4HnBNOfnPYCgRzB1dcAi3x",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Hardest Thing (feat. Tony Allen)",
-      "artist": "Gorillaz, Tony Allen",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-06-01T15:30:28.027Z",
-      "source": "spotify",
-      "spotifyId": "2jSbuzSLLvFYO7xAMEU85i",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Happy Dictator (feat. Sparks)",
-      "artist": "Gorillaz, Sparks",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-06-01T15:28:09.649Z",
-      "source": "spotify",
-      "spotifyId": "4JbyNMvp3BqVILVy4Bbevf",
-      "nowPlaying": false
-    },
-    {
-      "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
-      "artist": "Gorillaz, Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda, Black Thought",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-06-01T15:23:24.899Z",
-      "source": "spotify",
-      "spotifyId": "6VflG4mpZSlpKnqNRL3NO9",
-      "nowPlaying": false
-    },
-    {
-      "name": "Another Sad Love Song",
-      "artist": "Khalid",
-      "album": "American Teen",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
-      "playedAt": "2026-06-01T14:45:42.466Z",
-      "source": "spotify",
-      "spotifyId": "52Qu0no0NBho3zyRmjlsHn",
-      "nowPlaying": false
-    },
-    {
-      "name": "Location",
-      "artist": "Khalid",
-      "album": "American Teen",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ac041e0d889d3a2608210d5",
-      "playedAt": "2026-06-01T14:41:37.724Z",
-      "source": "spotify",
-      "spotifyId": "152lZdxL1OR0ZMW6KquMif",
-      "nowPlaying": false
-    },
-    {
-      "name": "Ya Quluban",
-      "artist": "Abdulla AlSinani",
-      "album": "Ya Quluban",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732e6e0815d8b480dab477b891",
-      "playedAt": "2026-06-01T14:37:49.057Z",
-      "source": "spotify",
-      "spotifyId": "4gxsEwKFqId3PyrEdFUbsR",
       "nowPlaying": false
     }
   ]
