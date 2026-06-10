@@ -1,15 +1,75 @@
 {
-  "lastUpdated": "2026-06-09T07:19:08.032364+00:00",
+  "lastUpdated": "2026-06-10T07:33:57.894501+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "Only You",
+      "artist": "Theophilus London, Tame Impala",
+      "album": "Bebey",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fef7747791b60acfabfc9f27",
+      "playedAt": "2026-06-10T04:59:01.768Z",
+      "source": "spotify",
+      "spotifyId": "1JRfP5jkBm7zS8B0k7Xj66",
+      "nowPlaying": false
+    },
+    {
+      "name": "Can't Take My Eyes off You",
+      "artist": "Frankie Valli",
+      "album": "Solo",
+      "image": "https://i.scdn.co/image/ab67616d0000b273328ba1034774366865d78ac1",
+      "playedAt": "2026-06-10T00:14:10.292Z",
+      "source": "spotify",
+      "spotifyId": "0bfvHnWWOeU1U5XeKyVLbW",
+      "nowPlaying": false
+    },
+    {
+      "name": "Fortunate Son",
+      "artist": "Creedence Clearwater Revival",
+      "album": "Willy And The Poor Boys (Expanded Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739f39192f9f8ca1c90847b3e5",
+      "playedAt": "2026-06-09T14:32:53.896Z",
+      "source": "spotify",
+      "spotifyId": "4BP3uh0hFLFRb5cjsgLqDh",
+      "nowPlaying": false
+    },
+    {
+      "name": "House of the Rising Sun",
+      "artist": "The Animals",
+      "album": "The Complete Animals",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b49cefa2e0f92604950a0a63",
+      "playedAt": "2026-06-09T14:30:02.665Z",
+      "source": "spotify",
+      "spotifyId": "0ev91hkSfD8mR15VBiAHts",
+      "nowPlaying": false
+    },
+    {
+      "name": "Hotel California - 2013 Remaster",
+      "artist": "Eagles",
+      "album": "Hotel California (2013 Remaster)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
+      "playedAt": "2026-06-09T14:21:54.131Z",
+      "source": "spotify",
+      "spotifyId": "40riOy7x9W7GXjyGp4pjAv",
+      "nowPlaying": false
+    },
+    {
+      "name": "California Dreamin' - Single Version",
+      "artist": "The Mamas & The Papas",
+      "album": "If You Can Believe Your Eyes & Ears",
+      "image": "https://i.scdn.co/image/ab67616d0000b27308181b9f840a06e7a071cf72",
+      "playedAt": "2026-06-09T13:27:51.175Z",
+      "source": "spotify",
+      "spotifyId": "4s6LhHAV5SEsOV0lC2tjvJ",
+      "nowPlaying": false
+    },
+    {
       "name": "Happy Together",
       "artist": "The Turtles",
       "album": "Happy Together",
       "image": "https://i.scdn.co/image/ab67616d0000b27372649ad8e79d1e8bdd54c929",
-      "playedAt": "2026-06-09T05:46:45.533Z",
+      "playedAt": "2026-06-09T13:22:41.090Z",
       "source": "spotify",
       "spotifyId": "1JO1xLtVc8mWhIoE3YaCL0",
       "nowPlaying": false
@@ -232,66 +292,6 @@
       "playedAt": "2026-06-03T19:57:21.937Z",
       "source": "spotify",
       "spotifyId": "3pRF060IEOI5XSQAvONgSt",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tennu Le",
-      "artist": "omer inayat",
-      "album": "Jai Veeru",
-      "image": "https://i.scdn.co/image/ab67616d0000b27364faa2f475c5548a65607a72",
-      "playedAt": "2026-06-03T08:25:49.061Z",
-      "source": "spotify",
-      "spotifyId": "0dQiyqHUpnMPmHtk535VAY",
-      "nowPlaying": false
-    },
-    {
-      "name": "My Old Ways",
-      "artist": "Tame Impala",
-      "album": "Deadbeat",
-      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-      "playedAt": "2026-06-03T03:43:49.052Z",
-      "source": "spotify",
-      "spotifyId": "4whkhyXTrTgHKZzkUvdwoq",
-      "nowPlaying": false
-    },
-    {
-      "name": "Time",
-      "artist": "Pink Floyd",
-      "album": "The Dark Side of the Moon",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
-      "playedAt": "2026-06-03T03:25:06.930Z",
-      "source": "spotify",
-      "spotifyId": "3TO7bbrUKrOSPGRTB5MeCz",
-      "nowPlaying": false
-    },
-    {
-      "name": "Instant Crush (feat. Julian Casablancas)",
-      "artist": "Daft Punk, Julian Casablancas",
-      "album": "Random Access Memories",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937",
-      "playedAt": "2026-06-03T00:45:45.858Z",
-      "source": "spotify",
-      "spotifyId": "2cGxRwrMyEAp8dEbuZaVv6",
-      "nowPlaying": false
-    },
-    {
-      "name": "Past Life",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-06-02T23:10:25.329Z",
-      "source": "spotify",
-      "spotifyId": "4a9fW33mYR8LhXBOLUhbfF",
-      "nowPlaying": false
-    },
-    {
-      "name": "Disciples",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-06-02T23:10:25.329Z",
-      "source": "spotify",
-      "spotifyId": "2gNfxysfBRfl9Lvi9T3v6R",
       "nowPlaying": false
     }
   ]
