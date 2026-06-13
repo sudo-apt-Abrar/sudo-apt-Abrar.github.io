@@ -1,9 +1,49 @@
 {
-  "lastUpdated": "2026-06-12T07:42:28.546793+00:00",
+  "lastUpdated": "2026-06-13T07:22:51.453267+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Snap Out Of It",
+      "artist": "Arctic Monkeys",
+      "album": "AM",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+      "playedAt": "2026-06-12T13:21:14.264Z",
+      "source": "spotify",
+      "spotifyId": "0NdTUS4UiNYCNn5FgVqKQY",
+      "nowPlaying": false
+    },
+    {
+      "name": "I Wanna Be Yours",
+      "artist": "Arctic Monkeys",
+      "album": "AM",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+      "playedAt": "2026-06-12T10:27:13.192Z",
+      "source": "spotify",
+      "spotifyId": "5XeFesFbtLpXzIVDNQP22n",
+      "nowPlaying": false
+    },
+    {
+      "name": "Feet Don't Fail Me Now",
+      "artist": "Joy Crookes",
+      "album": "Skin",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fbc65345f46a31184123c8bc",
+      "playedAt": "2026-06-12T10:24:08.730Z",
+      "source": "spotify",
+      "spotifyId": "5goqVeMYUQecvpcjNxpadU",
+      "nowPlaying": false
+    },
+    {
+      "name": "Freaking Out the Neighborhood",
+      "artist": "Mac DeMarco",
+      "album": "2",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739d377496c6bc8724b521222d",
+      "playedAt": "2026-06-12T10:16:38.396Z",
+      "source": "spotify",
+      "spotifyId": "3HlK8txWAdtKMrbsqX40pl",
+      "nowPlaying": false
+    },
     {
       "name": "Yes I'm Changing",
       "artist": "Tame Impala",
@@ -292,46 +332,6 @@
       "playedAt": "2026-06-08T10:15:47.819Z",
       "source": "spotify",
       "spotifyId": "2n40kGcCG499ckQwYNJnWp",
-      "nowPlaying": false
-    },
-    {
-      "name": "Baarish",
-      "artist": "Mohammed Irfan",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-06-08T10:10:03.383Z",
-      "source": "spotify",
-      "spotifyId": "7pU3XDn2qRpUrn8FsBecTo",
-      "nowPlaying": false
-    },
-    {
-      "name": "Bolo Toh",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-06-08T08:37:57.573Z",
-      "source": "spotify",
-      "spotifyId": "6A6VCcCPbvghSmC1riMuBm",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tum Meri Ho",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-06-08T05:51:47.739Z",
-      "source": "spotify",
-      "spotifyId": "3ExLap1qHBI4f9bTfN5qk8",
-      "nowPlaying": false
-    },
-    {
-      "name": "We Are The People",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-06-08T05:46:54.546Z",
-      "source": "spotify",
-      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
       "nowPlaying": false
     }
   ]
