@@ -1,9 +1,189 @@
 {
-  "lastUpdated": "2026-06-15T08:05:54.208925+00:00",
+  "lastUpdated": "2026-06-16T08:02:30.959755+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Sunsetz",
+      "artist": "Cigarettes After Sex",
+      "album": "Cigarettes After Sex",
+      "image": "https://i.scdn.co/image/ab67616d0000b273dfed999f959177dfc4f33cdc",
+      "playedAt": "2026-06-16T08:02:30.957057+00:00",
+      "source": "spotify",
+      "spotifyId": "0yuAWlxq59xT3agQ965OxE",
+      "nowPlaying": true
+    },
+    {
+      "name": "Freaking Out the Neighborhood",
+      "artist": "Mac DeMarco",
+      "album": "2",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739d377496c6bc8724b521222d",
+      "playedAt": "2026-06-16T07:58:30.602Z",
+      "source": "spotify",
+      "spotifyId": "3HlK8txWAdtKMrbsqX40pl",
+      "nowPlaying": false
+    },
+    {
+      "name": "Shut up My Moms Calling",
+      "artist": "Hotel Ugly",
+      "album": "Shut up My Moms Calling",
+      "image": "https://i.scdn.co/image/ab67616d0000b273350ab7a839c04bfd5225a9f5",
+      "playedAt": "2026-06-16T07:55:36.226Z",
+      "source": "spotify",
+      "spotifyId": "3hxIUxnT27p5WcmjGUXNwx",
+      "nowPlaying": false
+    },
+    {
+      "name": "Something About Us",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+      "playedAt": "2026-06-16T06:48:48.203Z",
+      "source": "spotify",
+      "spotifyId": "1NeLwFETswx8Fzxl2AFl91",
+      "nowPlaying": false
+    },
+    {
+      "name": "Feels Like Summer",
+      "artist": "Childish Gambino",
+      "album": "Summer Pack",
+      "image": "https://i.scdn.co/image/ab67616d0000b273602ca5b83fe44b68074a74b2",
+      "playedAt": "2026-06-16T06:44:55.007Z",
+      "source": "spotify",
+      "spotifyId": "7p4vHnYXkxlzvfePJVpcTr",
+      "nowPlaying": false
+    },
+    {
+      "name": "505",
+      "artist": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+      "playedAt": "2026-06-16T06:39:57.151Z",
+      "source": "spotify",
+      "spotifyId": "0BxE4FqsDD1Ot4YuBXwAPp",
+      "nowPlaying": false
+    },
+    {
+      "name": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-06-16T06:35:43.105Z",
+      "source": "spotify",
+      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
+      "nowPlaying": false
+    },
+    {
+      "name": "Borderline",
+      "artist": "Tame Impala",
+      "album": "The Slow Rush",
+      "image": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
+      "playedAt": "2026-06-16T06:22:57.486Z",
+      "source": "spotify",
+      "spotifyId": "5hM5arv9KDbCHS0k9uqwjr",
+      "nowPlaying": false
+    },
+    {
+      "name": "Chamber Of Reflection",
+      "artist": "Mac DeMarco",
+      "album": "Salad Days",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9",
+      "playedAt": "2026-06-16T06:17:08.181Z",
+      "source": "spotify",
+      "spotifyId": "7H7NyZ3G075GqPx2evsfeb",
+      "nowPlaying": false
+    },
+    {
+      "name": "Veridis Quo",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+      "playedAt": "2026-06-16T06:13:15.997Z",
+      "source": "spotify",
+      "spotifyId": "2LD2gT7gwAurzdQDQtILds",
+      "nowPlaying": false
+    },
+    {
+      "name": "Feet Don't Fail Me Now",
+      "artist": "Joy Crookes",
+      "album": "Skin",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fbc65345f46a31184123c8bc",
+      "playedAt": "2026-06-16T06:07:30.340Z",
+      "source": "spotify",
+      "spotifyId": "5goqVeMYUQecvpcjNxpadU",
+      "nowPlaying": false
+    },
+    {
+      "name": "Why'd You Only Call Me When You're High?",
+      "artist": "Arctic Monkeys",
+      "album": "AM",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+      "playedAt": "2026-06-16T06:04:11.086Z",
+      "source": "spotify",
+      "spotifyId": "086myS9r57YsLbJpU0TgK9",
+      "nowPlaying": false
+    },
+    {
+      "name": "Loser",
+      "artist": "Tame Impala",
+      "album": "Deadbeat",
+      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
+      "playedAt": "2026-06-16T06:01:29.408Z",
+      "source": "spotify",
+      "spotifyId": "7bxaFZ1O3cHkgLKMsdC3xR",
+      "nowPlaying": false
+    },
+    {
+      "name": "Laaree Chootee",
+      "artist": "Call",
+      "album": "Dhoom",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738c2b34ee29332a03678719ba",
+      "playedAt": "2026-06-16T05:53:48.516Z",
+      "source": "spotify",
+      "spotifyId": "2M0pYMPcnI67XWM8vgs8OS",
+      "nowPlaying": false
+    },
+    {
+      "name": "Saajna (Unplugged)",
+      "artist": "Falak Shabbir, Kumaar",
+      "album": "I, Me Aur Main",
+      "image": "https://i.scdn.co/image/ab67616d0000b27322e2fdf8f6aff29175132ffe",
+      "playedAt": "2026-06-15T16:22:47.382Z",
+      "source": "spotify",
+      "spotifyId": "7FEa01m9SgfOaam2AawVF6",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jiyein Kyun",
+      "artist": "Pritam, Papon",
+      "album": "Dum Maaro Dum",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e39388ba8eadf58476135087",
+      "playedAt": "2026-06-15T16:13:20.290Z",
+      "source": "spotify",
+      "spotifyId": "0up9rhm9qt2LW7cnoDFCMk",
+      "nowPlaying": false
+    },
+    {
+      "name": "Sajni",
+      "artist": "Jal",
+      "album": "Boondh",
+      "image": "https://i.scdn.co/image/ab67616d0000b27388cb5174097dad53b774523e",
+      "playedAt": "2026-06-15T16:08:54.684Z",
+      "source": "spotify",
+      "spotifyId": "3wLX0HwfAZlhT9ss18LGLY",
+      "nowPlaying": false
+    },
+    {
+      "name": "Bhulado",
+      "artist": "Raeth",
+      "album": "Raeth",
+      "image": "https://i.scdn.co/image/ab67616d0000b273553bb8eb98e51fd1cebb620c",
+      "playedAt": "2026-06-15T16:06:29.784Z",
+      "source": "spotify",
+      "spotifyId": "2InOKs3a6PcNXFBPk0fN0f",
+      "nowPlaying": false
+    },
     {
       "name": "Jo Bhi Main",
       "artist": "Mohit Chauhan",
@@ -105,26 +285,6 @@
       "nowPlaying": false
     },
     {
-      "name": "Feet Don't Fail Me Now",
-      "artist": "Joy Crookes",
-      "album": "Skin",
-      "image": "https://i.scdn.co/image/ab67616d0000b273fbc65345f46a31184123c8bc",
-      "playedAt": "2026-06-12T10:24:08.730Z",
-      "source": "spotify",
-      "spotifyId": "5goqVeMYUQecvpcjNxpadU",
-      "nowPlaying": false
-    },
-    {
-      "name": "Freaking Out the Neighborhood",
-      "artist": "Mac DeMarco",
-      "album": "2",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739d377496c6bc8724b521222d",
-      "playedAt": "2026-06-12T10:16:38.396Z",
-      "source": "spotify",
-      "spotifyId": "3HlK8txWAdtKMrbsqX40pl",
-      "nowPlaying": false
-    },
-    {
       "name": "Yes I'm Changing",
       "artist": "Tame Impala",
       "album": "Currents",
@@ -175,26 +335,6 @@
       "nowPlaying": false
     },
     {
-      "name": "Borderline",
-      "artist": "Tame Impala",
-      "album": "The Slow Rush",
-      "image": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
-      "playedAt": "2026-06-11T05:31:32.318Z",
-      "source": "spotify",
-      "spotifyId": "5hM5arv9KDbCHS0k9uqwjr",
-      "nowPlaying": false
-    },
-    {
-      "name": "Why'd You Only Call Me When You're High?",
-      "artist": "Arctic Monkeys",
-      "album": "AM",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
-      "playedAt": "2026-06-11T05:27:34.036Z",
-      "source": "spotify",
-      "spotifyId": "086myS9r57YsLbJpU0TgK9",
-      "nowPlaying": false
-    },
-    {
       "name": "Instant Crush (feat. Julian Casablancas)",
       "artist": "Daft Punk, Julian Casablancas",
       "album": "Random Access Memories",
@@ -202,26 +342,6 @@
       "playedAt": "2026-06-11T05:24:23.476Z",
       "source": "spotify",
       "spotifyId": "5o126gjHW5VqsPQb7Rf2IM",
-      "nowPlaying": false
-    },
-    {
-      "name": "Feels Like Summer",
-      "artist": "Childish Gambino",
-      "album": "Summer Pack",
-      "image": "https://i.scdn.co/image/ab67616d0000b273602ca5b83fe44b68074a74b2",
-      "playedAt": "2026-06-11T05:18:45.463Z",
-      "source": "spotify",
-      "spotifyId": "7p4vHnYXkxlzvfePJVpcTr",
-      "nowPlaying": false
-    },
-    {
-      "name": "Loser",
-      "artist": "Tame Impala",
-      "album": "Deadbeat",
-      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-      "playedAt": "2026-06-11T05:13:47.558Z",
-      "source": "spotify",
-      "spotifyId": "7bxaFZ1O3cHkgLKMsdC3xR",
       "nowPlaying": false
     },
     {
@@ -235,26 +355,6 @@
       "nowPlaying": false
     },
     {
-      "name": "Something About Us",
-      "artist": "Daft Punk",
-      "album": "Discovery",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
-      "playedAt": "2026-06-10T18:09:37.947Z",
-      "source": "spotify",
-      "spotifyId": "1NeLwFETswx8Fzxl2AFl91",
-      "nowPlaying": false
-    },
-    {
-      "name": "505",
-      "artist": "Arctic Monkeys",
-      "album": "Favourite Worst Nightmare",
-      "image": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
-      "playedAt": "2026-06-10T18:04:49.026Z",
-      "source": "spotify",
-      "spotifyId": "0BxE4FqsDD1Ot4YuBXwAPp",
-      "nowPlaying": false
-    },
-    {
       "name": "Feels Like We Only Go Backwards",
       "artist": "Tame Impala",
       "album": "Lonerism",
@@ -262,106 +362,6 @@
       "playedAt": "2026-06-10T15:31:13.718Z",
       "source": "spotify",
       "spotifyId": "0LtOwyZoSNZKJWHqjzADpW",
-      "nowPlaying": false
-    },
-    {
-      "name": "Shut up My Moms Calling",
-      "artist": "Hotel Ugly",
-      "album": "Shut up My Moms Calling",
-      "image": "https://i.scdn.co/image/ab67616d0000b273350ab7a839c04bfd5225a9f5",
-      "playedAt": "2026-06-10T15:28:00.279Z",
-      "source": "spotify",
-      "spotifyId": "3hxIUxnT27p5WcmjGUXNwx",
-      "nowPlaying": false
-    },
-    {
-      "name": "Veridis Quo",
-      "artist": "Daft Punk",
-      "album": "Discovery",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
-      "playedAt": "2026-06-10T15:25:15.215Z",
-      "source": "spotify",
-      "spotifyId": "2LD2gT7gwAurzdQDQtILds",
-      "nowPlaying": false
-    },
-    {
-      "name": "Babydoll",
-      "artist": "Dominic Fike",
-      "album": "Don't Forget About Me, Demos",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
-      "playedAt": "2026-06-10T15:19:29.396Z",
-      "source": "spotify",
-      "spotifyId": "7yNf9YjeO5JXUE3JEBgnYc",
-      "nowPlaying": false
-    },
-    {
-      "name": "My Old Ways",
-      "artist": "Tame Impala",
-      "album": "Deadbeat",
-      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-      "playedAt": "2026-06-10T15:16:24.558Z",
-      "source": "spotify",
-      "spotifyId": "4whkhyXTrTgHKZzkUvdwoq",
-      "nowPlaying": false
-    },
-    {
-      "name": "Can't Take My Eyes off You",
-      "artist": "Frankie Valli",
-      "album": "Solo",
-      "image": "https://i.scdn.co/image/ab67616d0000b273328ba1034774366865d78ac1",
-      "playedAt": "2026-06-10T00:14:10.292Z",
-      "source": "spotify",
-      "spotifyId": "0bfvHnWWOeU1U5XeKyVLbW",
-      "nowPlaying": false
-    },
-    {
-      "name": "Fortunate Son",
-      "artist": "Creedence Clearwater Revival",
-      "album": "Willy And The Poor Boys (Expanded Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739f39192f9f8ca1c90847b3e5",
-      "playedAt": "2026-06-09T14:32:53.896Z",
-      "source": "spotify",
-      "spotifyId": "4BP3uh0hFLFRb5cjsgLqDh",
-      "nowPlaying": false
-    },
-    {
-      "name": "House of the Rising Sun",
-      "artist": "The Animals",
-      "album": "The Complete Animals",
-      "image": "https://i.scdn.co/image/ab67616d0000b273b49cefa2e0f92604950a0a63",
-      "playedAt": "2026-06-09T14:30:02.665Z",
-      "source": "spotify",
-      "spotifyId": "0ev91hkSfD8mR15VBiAHts",
-      "nowPlaying": false
-    },
-    {
-      "name": "Hotel California - 2013 Remaster",
-      "artist": "Eagles",
-      "album": "Hotel California (2013 Remaster)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
-      "playedAt": "2026-06-09T14:21:54.131Z",
-      "source": "spotify",
-      "spotifyId": "40riOy7x9W7GXjyGp4pjAv",
-      "nowPlaying": false
-    },
-    {
-      "name": "California Dreamin' - Single Version",
-      "artist": "The Mamas & The Papas",
-      "album": "If You Can Believe Your Eyes & Ears",
-      "image": "https://i.scdn.co/image/ab67616d0000b27308181b9f840a06e7a071cf72",
-      "playedAt": "2026-06-09T13:27:51.175Z",
-      "source": "spotify",
-      "spotifyId": "4s6LhHAV5SEsOV0lC2tjvJ",
-      "nowPlaying": false
-    },
-    {
-      "name": "Happy Together",
-      "artist": "The Turtles",
-      "album": "Happy Together",
-      "image": "https://i.scdn.co/image/ab67616d0000b27372649ad8e79d1e8bdd54c929",
-      "playedAt": "2026-06-09T13:22:41.090Z",
-      "source": "spotify",
-      "spotifyId": "1JO1xLtVc8mWhIoE3YaCL0",
       "nowPlaying": false
     }
   ]
