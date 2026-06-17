@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-06-16T08:02:30.959755+00:00",
+  "lastUpdated": "2026-06-17T07:55:46.276196+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
-      "name": "Sunsetz",
-      "artist": "Cigarettes After Sex",
-      "album": "Cigarettes After Sex",
-      "image": "https://i.scdn.co/image/ab67616d0000b273dfed999f959177dfc4f33cdc",
-      "playedAt": "2026-06-16T08:02:30.957057+00:00",
+      "name": "Instant Crush (feat. Julian Casablancas)",
+      "artist": "Daft Punk, Julian Casablancas",
+      "album": "Random Access Memories",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734d22198f946d9b32f25fc263",
+      "playedAt": "2026-06-17T02:59:29.274Z",
       "source": "spotify",
-      "spotifyId": "0yuAWlxq59xT3agQ965OxE",
-      "nowPlaying": true
+      "spotifyId": "5o126gjHW5VqsPQb7Rf2IM",
+      "nowPlaying": false
     },
     {
       "name": "Freaking Out the Neighborhood",
@@ -332,16 +332,6 @@
       "playedAt": "2026-06-11T05:42:10.963Z",
       "source": "spotify",
       "spotifyId": "1oAwsWBovWRIp7qLMGPIet",
-      "nowPlaying": false
-    },
-    {
-      "name": "Instant Crush (feat. Julian Casablancas)",
-      "artist": "Daft Punk, Julian Casablancas",
-      "album": "Random Access Memories",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734d22198f946d9b32f25fc263",
-      "playedAt": "2026-06-11T05:24:23.476Z",
-      "source": "spotify",
-      "spotifyId": "5o126gjHW5VqsPQb7Rf2IM",
       "nowPlaying": false
     },
     {
