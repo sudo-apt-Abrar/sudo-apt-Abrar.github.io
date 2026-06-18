@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T07:55:46.276196+00:00",
+  "lastUpdated": "2026-06-18T07:46:01.508467+00:00",
   "sources": [
     "spotify"
   ],
@@ -9,7 +9,7 @@
       "artist": "Daft Punk, Julian Casablancas",
       "album": "Random Access Memories",
       "image": "https://i.scdn.co/image/ab67616d0000b2734d22198f946d9b32f25fc263",
-      "playedAt": "2026-06-17T02:59:29.274Z",
+      "playedAt": "2026-06-17T14:53:02.608Z",
       "source": "spotify",
       "spotifyId": "5o126gjHW5VqsPQb7Rf2IM",
       "nowPlaying": false
@@ -322,36 +322,6 @@
       "playedAt": "2026-06-11T10:17:38.933Z",
       "source": "spotify",
       "spotifyId": "4HnBNOfnPYCgRzB1dcAi3x",
-      "nowPlaying": false
-    },
-    {
-      "name": "Apocalypse",
-      "artist": "Cigarettes After Sex",
-      "album": "Cigarettes After Sex",
-      "image": "https://i.scdn.co/image/ab67616d0000b273dfed999f959177dfc4f33cdc",
-      "playedAt": "2026-06-11T05:42:10.963Z",
-      "source": "spotify",
-      "spotifyId": "1oAwsWBovWRIp7qLMGPIet",
-      "nowPlaying": false
-    },
-    {
-      "name": "New Person, Same Old Mistakes",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-06-10T20:02:16.522Z",
-      "source": "spotify",
-      "spotifyId": "52ojopYMUzeNcudsoz7O9D",
-      "nowPlaying": false
-    },
-    {
-      "name": "Feels Like We Only Go Backwards",
-      "artist": "Tame Impala",
-      "album": "Lonerism",
-      "image": "https://i.scdn.co/image/ab67616d0000b273370c12f82872c9cfaee80193",
-      "playedAt": "2026-06-10T15:31:13.718Z",
-      "source": "spotify",
-      "spotifyId": "0LtOwyZoSNZKJWHqjzADpW",
       "nowPlaying": false
     }
   ]
