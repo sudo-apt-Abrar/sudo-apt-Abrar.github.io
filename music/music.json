@@ -1,9 +1,19 @@
 {
-  "lastUpdated": "2026-06-18T07:46:01.508467+00:00",
+  "lastUpdated": "2026-06-19T07:56:42.514215+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Aadat",
+      "artist": "Jal",
+      "album": "Aadat (Remastered)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737542aed098fc044db8ce8498",
+      "playedAt": "2026-06-18T18:51:12.877Z",
+      "source": "spotify",
+      "spotifyId": "0lhlqmzeqlOCIgJH3yL6IY",
+      "nowPlaying": false
+    },
     {
       "name": "Instant Crush (feat. Julian Casablancas)",
       "artist": "Daft Punk, Julian Casablancas",
@@ -282,46 +292,6 @@
       "playedAt": "2026-06-12T10:27:13.192Z",
       "source": "spotify",
       "spotifyId": "5XeFesFbtLpXzIVDNQP22n",
-      "nowPlaying": false
-    },
-    {
-      "name": "Yes I'm Changing",
-      "artist": "Tame Impala",
-      "album": "Currents",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "playedAt": "2026-06-11T13:40:18.105Z",
-      "source": "spotify",
-      "spotifyId": "0xtIp0lgccN85GfGOekS5L",
-      "nowPlaying": false
-    },
-    {
-      "name": "Sweater Weather",
-      "artist": "The Neighbourhood",
-      "album": "I Love You.",
-      "image": "https://i.scdn.co/image/ab67616d0000b2738265a736a1eb838ad5a0b921",
-      "playedAt": "2026-06-11T10:29:28.718Z",
-      "source": "spotify",
-      "spotifyId": "2QjOHCTQ1Jl3zawyYOpxh6",
-      "nowPlaying": false
-    },
-    {
-      "name": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
-      "artist": "Daft Punk, Pharrell Williams, Nile Rodgers",
-      "album": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
-      "image": "https://i.scdn.co/image/ab67616d0000b27319a88dd5c7118e87d7b1619e",
-      "playedAt": "2026-06-11T10:25:27.841Z",
-      "source": "spotify",
-      "spotifyId": "2Foc5Q5nqNiosCNqttzHof",
-      "nowPlaying": false
-    },
-    {
-      "name": "Orange County (feat. Bizarrap, Kara Jackson and Anoushka Shankar)",
-      "artist": "Gorillaz, Bizarrap, Kara Jackson, Anoushka Shankar",
-      "album": "The Mountain",
-      "image": "https://i.scdn.co/image/ab67616d0000b273eeb01b41f48210d032d1b6a4",
-      "playedAt": "2026-06-11T10:17:38.933Z",
-      "source": "spotify",
-      "spotifyId": "4HnBNOfnPYCgRzB1dcAi3x",
       "nowPlaying": false
     }
   ]
