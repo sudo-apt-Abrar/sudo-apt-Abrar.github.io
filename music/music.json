@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T07:56:42.514215+00:00",
+  "lastUpdated": "2026-06-20T07:24:19.970781+00:00",
   "sources": [
     "spotify"
   ],
@@ -9,7 +9,7 @@
       "artist": "Jal",
       "album": "Aadat (Remastered)",
       "image": "https://i.scdn.co/image/ab67616d0000b2737542aed098fc044db8ce8498",
-      "playedAt": "2026-06-18T18:51:12.877Z",
+      "playedAt": "2026-06-20T03:43:41.032Z",
       "source": "spotify",
       "spotifyId": "0lhlqmzeqlOCIgJH3yL6IY",
       "nowPlaying": false
@@ -272,26 +272,6 @@
       "playedAt": "2026-06-13T17:42:17.822Z",
       "source": "spotify",
       "spotifyId": "7v9Q0dAb9t7h8gJOkcJHay",
-      "nowPlaying": false
-    },
-    {
-      "name": "Snap Out Of It",
-      "artist": "Arctic Monkeys",
-      "album": "AM",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
-      "playedAt": "2026-06-12T13:21:14.264Z",
-      "source": "spotify",
-      "spotifyId": "0NdTUS4UiNYCNn5FgVqKQY",
-      "nowPlaying": false
-    },
-    {
-      "name": "I Wanna Be Yours",
-      "artist": "Arctic Monkeys",
-      "album": "AM",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
-      "playedAt": "2026-06-12T10:27:13.192Z",
-      "source": "spotify",
-      "spotifyId": "5XeFesFbtLpXzIVDNQP22n",
       "nowPlaying": false
     }
   ]
