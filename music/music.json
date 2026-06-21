@@ -1,9 +1,99 @@
 {
-  "lastUpdated": "2026-06-20T07:24:19.970781+00:00",
+  "lastUpdated": "2026-06-21T07:42:47.954967+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Arziyan",
+      "artist": "Javed Ali, Kailash Kher, A.R. Rahman, Prasoon Joshi",
+      "album": "Delhi-6",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f7c6e0a439f01c38bac5730c",
+      "playedAt": "2026-06-20T14:13:25.856Z",
+      "source": "spotify",
+      "spotifyId": "3V80Iv04B9XAqGHbXdtRT1",
+      "nowPlaying": false
+    },
+    {
+      "name": "Kahin To",
+      "artist": "Rashid Ali, Vasundhara Das",
+      "album": "Jaane Tu... Ya Jaane Na",
+      "image": "https://i.scdn.co/image/ab67616d0000b273abf91851997179d195afab5f",
+      "playedAt": "2026-06-20T14:04:46.073Z",
+      "source": "spotify",
+      "spotifyId": "3E424W0IJS3ypZ4YOxE0Jn",
+      "nowPlaying": false
+    },
+    {
+      "name": "Phir Mohabbat",
+      "artist": "Mohammed Irfan, Arijit Singh, Saim Bhat, Mithoon, Sayeed Quadri",
+      "album": "Murder 2",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732432edc97b465e6db54d356b",
+      "playedAt": "2026-06-20T13:56:20.704Z",
+      "source": "spotify",
+      "spotifyId": "2b2HutIDmoeBnnKRWDLAtV",
+      "nowPlaying": false
+    },
+    {
+      "name": "Abhi Kuch Dino Se",
+      "artist": "Pritam, Mohit Chauhan",
+      "album": "Dil Toh Baccha Hai Ji",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b4e0221394af47af99c78eb3",
+      "playedAt": "2026-06-20T13:50:50.311Z",
+      "source": "spotify",
+      "spotifyId": "1QufGJee7k9v4Cfp2NxXbv",
+      "nowPlaying": false
+    },
+    {
+      "name": "Mera Mann Kehne Laga",
+      "artist": "Falak Shabbir",
+      "album": "Latest Songs Of Ayushmann Khurrana",
+      "image": "https://i.scdn.co/image/ab67616d0000b27338a1f0f963bd1fbc349dd1e6",
+      "playedAt": "2026-06-20T13:46:04.159Z",
+      "source": "spotify",
+      "spotifyId": "1ai3itvPFcWilE9NX0JTCf",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tumse Hi Tumse",
+      "artist": "Vishal-Shekhar, Shekhar Ravjiani, Caralisa Monteiro",
+      "album": "Anjaana Anjaani",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
+      "playedAt": "2026-06-20T13:41:48.929Z",
+      "source": "spotify",
+      "spotifyId": "6qNyL8lZuqFmy9ginJRQOZ",
+      "nowPlaying": false
+    },
+    {
+      "name": "Hosanna",
+      "artist": "A.R. Rahman, Leon D'souza, Suzanne D'Mello",
+      "album": "Ekk Deewana Tha (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f8910d64a61c3e3dc970613c",
+      "playedAt": "2026-06-20T13:37:26.814Z",
+      "source": "spotify",
+      "spotifyId": "5NChQ2tXB9q9D8kdkLTWOL",
+      "nowPlaying": false
+    },
+    {
+      "name": "Adhoore",
+      "artist": "Vishal-Shekhar, Vishal Dadlani, Alyssa Mendonsa",
+      "album": "Break Ke Baad",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734c82108d938074902385f29d",
+      "playedAt": "2026-06-20T13:29:44.369Z",
+      "source": "spotify",
+      "spotifyId": "298atiKYvG84VfbXNbZiX5",
+      "nowPlaying": false
+    },
+    {
+      "name": "Hum Yaadon Ke Sang (Acoustic)",
+      "artist": "Raeth",
+      "album": "Hum Yaadon Ke Sang",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
+      "playedAt": "2026-06-20T09:14:27.312Z",
+      "source": "spotify",
+      "spotifyId": "6MsBmh1ByVNKNIuZs5ngT2",
+      "nowPlaying": false
+    },
     {
       "name": "Aadat",
       "artist": "Jal",
@@ -252,26 +342,6 @@
       "playedAt": "2026-06-14T11:09:28.932Z",
       "source": "spotify",
       "spotifyId": "1JRfP5jkBm7zS8B0k7Xj66",
-      "nowPlaying": false
-    },
-    {
-      "name": "Where the Money Flows",
-      "artist": "Peter Cat Recording Co.",
-      "album": "Bismillah",
-      "image": "https://i.scdn.co/image/ab67616d0000b273db88abf0fe30030cf30c3a87",
-      "playedAt": "2026-06-14T05:41:50.432Z",
-      "source": "spotify",
-      "spotifyId": "5lzMkZFiPYJ4ceVwaYcWlP",
-      "nowPlaying": false
-    },
-    {
-      "name": "Face to Face",
-      "artist": "Daft Punk",
-      "album": "Discovery",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
-      "playedAt": "2026-06-13T17:42:17.822Z",
-      "source": "spotify",
-      "spotifyId": "7v9Q0dAb9t7h8gJOkcJHay",
       "nowPlaying": false
     }
   ]
