@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T07:42:47.954967+00:00",
+  "lastUpdated": "2026-06-22T08:07:28.724573+00:00",
   "sources": [
     "spotify"
   ],
@@ -282,66 +282,6 @@
       "playedAt": "2026-06-15T16:06:29.784Z",
       "source": "spotify",
       "spotifyId": "2InOKs3a6PcNXFBPk0fN0f",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jo Bhi Main",
-      "artist": "Mohit Chauhan",
-      "album": "Rockstar",
-      "image": "https://i.scdn.co/image/ab67616d0000b27354e544672baa16145d67612b",
-      "playedAt": "2026-06-14T14:27:16.433Z",
-      "source": "spotify",
-      "spotifyId": "2MmAYegcUty1DmG0Gw7AMh",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tennu Le",
-      "artist": "omer inayat",
-      "album": "Jai Veeru",
-      "image": "https://i.scdn.co/image/ab67616d0000b27364faa2f475c5548a65607a72",
-      "playedAt": "2026-06-14T14:22:42.416Z",
-      "source": "spotify",
-      "spotifyId": "0dQiyqHUpnMPmHtk535VAY",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jogi",
-      "artist": "Swastik The Band",
-      "album": "Avasa",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734d703b2fb1b9bbd0e51df374",
-      "playedAt": "2026-06-14T14:17:23.360Z",
-      "source": "spotify",
-      "spotifyId": "0h0gWburhWxIhV9h7kyX3l",
-      "nowPlaying": false
-    },
-    {
-      "name": "Toh Phir Aao",
-      "artist": "Pritam, Mustafa Zahid, Sayeed Quadri",
-      "album": "Awarapan (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2738f2706d41aa1ec24c04135ba",
-      "playedAt": "2026-06-14T13:37:34.045Z",
-      "source": "spotify",
-      "spotifyId": "10rTRsKQDEke6Dd1Qj57Jd",
-      "nowPlaying": false
-    },
-    {
-      "name": "Saajna",
-      "artist": "Falak Shabbir, Kumaar",
-      "album": "I, Me Aur Main",
-      "image": "https://i.scdn.co/image/ab67616d0000b27322e2fdf8f6aff29175132ffe",
-      "playedAt": "2026-06-14T11:28:52.820Z",
-      "source": "spotify",
-      "spotifyId": "7KzGAwJRYS9KLMuVnStqYN",
-      "nowPlaying": false
-    },
-    {
-      "name": "Only You",
-      "artist": "Theophilus London, Tame Impala",
-      "album": "Bebey",
-      "image": "https://i.scdn.co/image/ab67616d0000b273fef7747791b60acfabfc9f27",
-      "playedAt": "2026-06-14T11:09:28.932Z",
-      "source": "spotify",
-      "spotifyId": "1JRfP5jkBm7zS8B0k7Xj66",
       "nowPlaying": false
     }
   ]
