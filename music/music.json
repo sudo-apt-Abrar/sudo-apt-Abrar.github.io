@@ -1,9 +1,19 @@
 {
-  "lastUpdated": "2026-06-22T08:07:28.724573+00:00",
+  "lastUpdated": "2026-06-23T07:19:43.916309+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Maula Mere Maula",
+      "artist": "Roop Kumar Rathod, Sayeed Quadri",
+      "album": "Anwar",
+      "image": "https://i.scdn.co/image/ab67616d0000b27306b537ea166d7b3f3050241c",
+      "playedAt": "2026-06-22T12:41:32.402Z",
+      "source": "spotify",
+      "spotifyId": "4CGBTtlrjZj7ydpV52cgB4",
+      "nowPlaying": false
+    },
     {
       "name": "Arziyan",
       "artist": "Javed Ali, Kailash Kher, A.R. Rahman, Prasoon Joshi",
@@ -132,156 +142,6 @@
       "playedAt": "2026-06-16T07:55:36.226Z",
       "source": "spotify",
       "spotifyId": "3hxIUxnT27p5WcmjGUXNwx",
-      "nowPlaying": false
-    },
-    {
-      "name": "Something About Us",
-      "artist": "Daft Punk",
-      "album": "Discovery",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
-      "playedAt": "2026-06-16T06:48:48.203Z",
-      "source": "spotify",
-      "spotifyId": "1NeLwFETswx8Fzxl2AFl91",
-      "nowPlaying": false
-    },
-    {
-      "name": "Feels Like Summer",
-      "artist": "Childish Gambino",
-      "album": "Summer Pack",
-      "image": "https://i.scdn.co/image/ab67616d0000b273602ca5b83fe44b68074a74b2",
-      "playedAt": "2026-06-16T06:44:55.007Z",
-      "source": "spotify",
-      "spotifyId": "7p4vHnYXkxlzvfePJVpcTr",
-      "nowPlaying": false
-    },
-    {
-      "name": "505",
-      "artist": "Arctic Monkeys",
-      "album": "Favourite Worst Nightmare",
-      "image": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
-      "playedAt": "2026-06-16T06:39:57.151Z",
-      "source": "spotify",
-      "spotifyId": "0BxE4FqsDD1Ot4YuBXwAPp",
-      "nowPlaying": false
-    },
-    {
-      "name": "We Are The People",
-      "artist": "Empire Of The Sun",
-      "album": "Walking On A Dream (10th Anniversary Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "playedAt": "2026-06-16T06:35:43.105Z",
-      "source": "spotify",
-      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
-      "nowPlaying": false
-    },
-    {
-      "name": "Borderline",
-      "artist": "Tame Impala",
-      "album": "The Slow Rush",
-      "image": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
-      "playedAt": "2026-06-16T06:22:57.486Z",
-      "source": "spotify",
-      "spotifyId": "5hM5arv9KDbCHS0k9uqwjr",
-      "nowPlaying": false
-    },
-    {
-      "name": "Chamber Of Reflection",
-      "artist": "Mac DeMarco",
-      "album": "Salad Days",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9",
-      "playedAt": "2026-06-16T06:17:08.181Z",
-      "source": "spotify",
-      "spotifyId": "7H7NyZ3G075GqPx2evsfeb",
-      "nowPlaying": false
-    },
-    {
-      "name": "Veridis Quo",
-      "artist": "Daft Punk",
-      "album": "Discovery",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
-      "playedAt": "2026-06-16T06:13:15.997Z",
-      "source": "spotify",
-      "spotifyId": "2LD2gT7gwAurzdQDQtILds",
-      "nowPlaying": false
-    },
-    {
-      "name": "Feet Don't Fail Me Now",
-      "artist": "Joy Crookes",
-      "album": "Skin",
-      "image": "https://i.scdn.co/image/ab67616d0000b273fbc65345f46a31184123c8bc",
-      "playedAt": "2026-06-16T06:07:30.340Z",
-      "source": "spotify",
-      "spotifyId": "5goqVeMYUQecvpcjNxpadU",
-      "nowPlaying": false
-    },
-    {
-      "name": "Why'd You Only Call Me When You're High?",
-      "artist": "Arctic Monkeys",
-      "album": "AM",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
-      "playedAt": "2026-06-16T06:04:11.086Z",
-      "source": "spotify",
-      "spotifyId": "086myS9r57YsLbJpU0TgK9",
-      "nowPlaying": false
-    },
-    {
-      "name": "Loser",
-      "artist": "Tame Impala",
-      "album": "Deadbeat",
-      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-      "playedAt": "2026-06-16T06:01:29.408Z",
-      "source": "spotify",
-      "spotifyId": "7bxaFZ1O3cHkgLKMsdC3xR",
-      "nowPlaying": false
-    },
-    {
-      "name": "Laaree Chootee",
-      "artist": "Call",
-      "album": "Dhoom",
-      "image": "https://i.scdn.co/image/ab67616d0000b2738c2b34ee29332a03678719ba",
-      "playedAt": "2026-06-16T05:53:48.516Z",
-      "source": "spotify",
-      "spotifyId": "2M0pYMPcnI67XWM8vgs8OS",
-      "nowPlaying": false
-    },
-    {
-      "name": "Saajna (Unplugged)",
-      "artist": "Falak Shabbir, Kumaar",
-      "album": "I, Me Aur Main",
-      "image": "https://i.scdn.co/image/ab67616d0000b27322e2fdf8f6aff29175132ffe",
-      "playedAt": "2026-06-15T16:22:47.382Z",
-      "source": "spotify",
-      "spotifyId": "7FEa01m9SgfOaam2AawVF6",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jiyein Kyun",
-      "artist": "Pritam, Papon",
-      "album": "Dum Maaro Dum",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e39388ba8eadf58476135087",
-      "playedAt": "2026-06-15T16:13:20.290Z",
-      "source": "spotify",
-      "spotifyId": "0up9rhm9qt2LW7cnoDFCMk",
-      "nowPlaying": false
-    },
-    {
-      "name": "Sajni",
-      "artist": "Jal",
-      "album": "Boondh",
-      "image": "https://i.scdn.co/image/ab67616d0000b27388cb5174097dad53b774523e",
-      "playedAt": "2026-06-15T16:08:54.684Z",
-      "source": "spotify",
-      "spotifyId": "3wLX0HwfAZlhT9ss18LGLY",
-      "nowPlaying": false
-    },
-    {
-      "name": "Bhulado",
-      "artist": "Raeth",
-      "album": "Raeth",
-      "image": "https://i.scdn.co/image/ab67616d0000b273553bb8eb98e51fd1cebb620c",
-      "playedAt": "2026-06-15T16:06:29.784Z",
-      "source": "spotify",
-      "spotifyId": "2InOKs3a6PcNXFBPk0fN0f",
       "nowPlaying": false
     }
   ]
