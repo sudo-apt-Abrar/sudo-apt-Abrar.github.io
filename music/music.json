@@ -1,9 +1,29 @@
 {
-  "lastUpdated": "2026-06-23T07:19:43.916309+00:00",
+  "lastUpdated": "2026-06-24T07:16:01.262936+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Tum Ho",
+      "artist": "Mohit Chauhan, Suzanne D'Mello",
+      "album": "Rockstar",
+      "image": "https://i.scdn.co/image/ab67616d0000b27354e544672baa16145d67612b",
+      "playedAt": "2026-06-24T04:57:03.247Z",
+      "source": "spotify",
+      "spotifyId": "7uNnlVit5qDvfOje0pqICF",
+      "nowPlaying": false
+    },
+    {
+      "name": "Hosanna",
+      "artist": "A.R. Rahman, Leon D'souza, Suzanne D'Mello",
+      "album": "Ekk Deewana Tha (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f8910d64a61c3e3dc970613c",
+      "playedAt": "2026-06-23T19:37:40.280Z",
+      "source": "spotify",
+      "spotifyId": "5NChQ2tXB9q9D8kdkLTWOL",
+      "nowPlaying": false
+    },
     {
       "name": "Maula Mere Maula",
       "artist": "Roop Kumar Rathod, Sayeed Quadri",
@@ -75,16 +95,6 @@
       "nowPlaying": false
     },
     {
-      "name": "Hosanna",
-      "artist": "A.R. Rahman, Leon D'souza, Suzanne D'Mello",
-      "album": "Ekk Deewana Tha (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f8910d64a61c3e3dc970613c",
-      "playedAt": "2026-06-20T13:37:26.814Z",
-      "source": "spotify",
-      "spotifyId": "5NChQ2tXB9q9D8kdkLTWOL",
-      "nowPlaying": false
-    },
-    {
       "name": "Adhoore",
       "artist": "Vishal-Shekhar, Vishal Dadlani, Alyssa Mendonsa",
       "album": "Break Ke Baad",
@@ -122,26 +132,6 @@
       "playedAt": "2026-06-17T14:53:02.608Z",
       "source": "spotify",
       "spotifyId": "5o126gjHW5VqsPQb7Rf2IM",
-      "nowPlaying": false
-    },
-    {
-      "name": "Freaking Out the Neighborhood",
-      "artist": "Mac DeMarco",
-      "album": "2",
-      "image": "https://i.scdn.co/image/ab67616d0000b2739d377496c6bc8724b521222d",
-      "playedAt": "2026-06-16T07:58:30.602Z",
-      "source": "spotify",
-      "spotifyId": "3HlK8txWAdtKMrbsqX40pl",
-      "nowPlaying": false
-    },
-    {
-      "name": "Shut up My Moms Calling",
-      "artist": "Hotel Ugly",
-      "album": "Shut up My Moms Calling",
-      "image": "https://i.scdn.co/image/ab67616d0000b273350ab7a839c04bfd5225a9f5",
-      "playedAt": "2026-06-16T07:55:36.226Z",
-      "source": "spotify",
-      "spotifyId": "3hxIUxnT27p5WcmjGUXNwx",
       "nowPlaying": false
     }
   ]
