@@ -1,15 +1,45 @@
 {
-  "lastUpdated": "2026-06-24T07:16:01.262936+00:00",
+  "lastUpdated": "2026-06-25T07:16:19.047019+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "Dooriyan",
+      "artist": "Pritam, Mohit Chauhan",
+      "album": "Love Aaj Kal (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273379298ceb1e3c8e52048eeba",
+      "playedAt": "2026-06-24T17:08:24.448Z",
+      "source": "spotify",
+      "spotifyId": "4Nu6be6Wgvqq60hFoRMqsc",
+      "nowPlaying": false
+    },
+    {
+      "name": "Khuda Jaane",
+      "artist": "Vishal-Shekhar, KK, Shilpa Rao, Anvita Dutt Guptan",
+      "album": "Bachna Ae Haseeno",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a08c7022ea424b2f048b46e9",
+      "playedAt": "2026-06-24T10:15:55.095Z",
+      "source": "spotify",
+      "spotifyId": "0gPgdRfB4jdGrlyXS0Vx78",
+      "nowPlaying": false
+    },
+    {
+      "name": "Kabhi Kabhi Aditi",
+      "artist": "Rashid Ali",
+      "album": "Jaane Tu... Ya Jaane Na",
+      "image": "https://i.scdn.co/image/ab67616d0000b273abf91851997179d195afab5f",
+      "playedAt": "2026-06-24T10:10:21.053Z",
+      "source": "spotify",
+      "spotifyId": "3APdIdF8H0jsxSuGOqXedS",
+      "nowPlaying": false
+    },
+    {
       "name": "Tum Ho",
       "artist": "Mohit Chauhan, Suzanne D'Mello",
       "album": "Rockstar",
       "image": "https://i.scdn.co/image/ab67616d0000b27354e544672baa16145d67612b",
-      "playedAt": "2026-06-24T04:57:03.247Z",
+      "playedAt": "2026-06-24T10:04:23.807Z",
       "source": "spotify",
       "spotifyId": "7uNnlVit5qDvfOje0pqICF",
       "nowPlaying": false
@@ -122,16 +152,6 @@
       "playedAt": "2026-06-20T03:43:41.032Z",
       "source": "spotify",
       "spotifyId": "0lhlqmzeqlOCIgJH3yL6IY",
-      "nowPlaying": false
-    },
-    {
-      "name": "Instant Crush (feat. Julian Casablancas)",
-      "artist": "Daft Punk, Julian Casablancas",
-      "album": "Random Access Memories",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734d22198f946d9b32f25fc263",
-      "playedAt": "2026-06-17T14:53:02.608Z",
-      "source": "spotify",
-      "spotifyId": "5o126gjHW5VqsPQb7Rf2IM",
       "nowPlaying": false
     }
   ]
