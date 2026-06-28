@@ -1,9 +1,39 @@
 {
-  "lastUpdated": "2026-06-27T07:08:59.702480+00:00",
+  "lastUpdated": "2026-06-28T07:25:11.467284+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Chamber Of Reflection",
+      "artist": "Mac DeMarco",
+      "album": "Salad Days",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9",
+      "playedAt": "2026-06-28T06:20:23.386Z",
+      "source": "spotify",
+      "spotifyId": "7H7NyZ3G075GqPx2evsfeb",
+      "nowPlaying": false
+    },
+    {
+      "name": "Count Me Out",
+      "artist": "Kendrick Lamar",
+      "album": "Mr. Morale & The Big Steppers",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732e02117d76426a08ac7c174f",
+      "playedAt": "2026-06-28T06:08:31.435Z",
+      "source": "spotify",
+      "spotifyId": "6BU1RZexmvJcBjgagVVt3M",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jao Na",
+      "artist": "Sohail Sen, Tarannum Malik Jain",
+      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
+      "playedAt": "2026-06-28T04:35:38.536Z",
+      "source": "spotify",
+      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
+      "nowPlaying": false
+    },
     {
       "name": "Dooriyan",
       "artist": "Pritam, Mohit Chauhan",
@@ -62,86 +92,6 @@
       "playedAt": "2026-06-22T12:41:32.402Z",
       "source": "spotify",
       "spotifyId": "4CGBTtlrjZj7ydpV52cgB4",
-      "nowPlaying": false
-    },
-    {
-      "name": "Arziyan",
-      "artist": "Javed Ali, Kailash Kher, A.R. Rahman, Prasoon Joshi",
-      "album": "Delhi-6",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f7c6e0a439f01c38bac5730c",
-      "playedAt": "2026-06-20T14:13:25.856Z",
-      "source": "spotify",
-      "spotifyId": "3V80Iv04B9XAqGHbXdtRT1",
-      "nowPlaying": false
-    },
-    {
-      "name": "Kahin To",
-      "artist": "Rashid Ali, Vasundhara Das",
-      "album": "Jaane Tu... Ya Jaane Na",
-      "image": "https://i.scdn.co/image/ab67616d0000b273abf91851997179d195afab5f",
-      "playedAt": "2026-06-20T14:04:46.073Z",
-      "source": "spotify",
-      "spotifyId": "3E424W0IJS3ypZ4YOxE0Jn",
-      "nowPlaying": false
-    },
-    {
-      "name": "Phir Mohabbat",
-      "artist": "Mohammed Irfan, Arijit Singh, Saim Bhat, Mithoon, Sayeed Quadri",
-      "album": "Murder 2",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732432edc97b465e6db54d356b",
-      "playedAt": "2026-06-20T13:56:20.704Z",
-      "source": "spotify",
-      "spotifyId": "2b2HutIDmoeBnnKRWDLAtV",
-      "nowPlaying": false
-    },
-    {
-      "name": "Abhi Kuch Dino Se",
-      "artist": "Pritam, Mohit Chauhan",
-      "album": "Dil Toh Baccha Hai Ji",
-      "image": "https://i.scdn.co/image/ab67616d0000b273b4e0221394af47af99c78eb3",
-      "playedAt": "2026-06-20T13:50:50.311Z",
-      "source": "spotify",
-      "spotifyId": "1QufGJee7k9v4Cfp2NxXbv",
-      "nowPlaying": false
-    },
-    {
-      "name": "Mera Mann Kehne Laga",
-      "artist": "Falak Shabbir",
-      "album": "Latest Songs Of Ayushmann Khurrana",
-      "image": "https://i.scdn.co/image/ab67616d0000b27338a1f0f963bd1fbc349dd1e6",
-      "playedAt": "2026-06-20T13:46:04.159Z",
-      "source": "spotify",
-      "spotifyId": "1ai3itvPFcWilE9NX0JTCf",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tumse Hi Tumse",
-      "artist": "Vishal-Shekhar, Shekhar Ravjiani, Caralisa Monteiro",
-      "album": "Anjaana Anjaani",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
-      "playedAt": "2026-06-20T13:41:48.929Z",
-      "source": "spotify",
-      "spotifyId": "6qNyL8lZuqFmy9ginJRQOZ",
-      "nowPlaying": false
-    },
-    {
-      "name": "Adhoore",
-      "artist": "Vishal-Shekhar, Vishal Dadlani, Alyssa Mendonsa",
-      "album": "Break Ke Baad",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734c82108d938074902385f29d",
-      "playedAt": "2026-06-20T13:29:44.369Z",
-      "source": "spotify",
-      "spotifyId": "298atiKYvG84VfbXNbZiX5",
-      "nowPlaying": false
-    },
-    {
-      "name": "Hum Yaadon Ke Sang (Acoustic)",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-06-20T09:14:27.312Z",
-      "source": "spotify",
-      "spotifyId": "6MsBmh1ByVNKNIuZs5ngT2",
       "nowPlaying": false
     }
   ]
