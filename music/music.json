@@ -1,15 +1,25 @@
 {
-  "lastUpdated": "2026-06-28T07:25:11.467284+00:00",
+  "lastUpdated": "2026-06-29T07:48:54.351013+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
     {
+      "name": "Stairway to Heaven - Remaster",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin IV (Deluxe Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69",
+      "playedAt": "2026-06-28T16:18:17.625Z",
+      "source": "spotify",
+      "spotifyId": "5CQ30WqJwcep0pYcV4AMNc",
+      "nowPlaying": false
+    },
+    {
       "name": "Chamber Of Reflection",
       "artist": "Mac DeMarco",
       "album": "Salad Days",
       "image": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9",
-      "playedAt": "2026-06-28T06:20:23.386Z",
+      "playedAt": "2026-06-28T08:35:04.606Z",
       "source": "spotify",
       "spotifyId": "7H7NyZ3G075GqPx2evsfeb",
       "nowPlaying": false
