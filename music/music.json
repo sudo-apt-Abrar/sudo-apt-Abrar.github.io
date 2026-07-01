@@ -1,9 +1,79 @@
 {
-  "lastUpdated": "2026-06-30T07:22:33.359942+00:00",
+  "lastUpdated": "2026-07-01T07:34:36.423379+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Dust",
+      "artist": "Hans Zimmer",
+      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+      "image": "https://i.scdn.co/image/ab67616d0000b27347e0ec015e2360ea18038bd9",
+      "playedAt": "2026-07-01T05:40:08.200Z",
+      "source": "spotify",
+      "spotifyId": "1oFeXti9EanzUrHvWfRrfJ",
+      "nowPlaying": false
+    },
+    {
+      "name": "Cornfield Chase",
+      "artist": "Hans Zimmer",
+      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+      "image": "https://i.scdn.co/image/ab67616d0000b27347e0ec015e2360ea18038bd9",
+      "playedAt": "2026-06-30T15:50:19.845Z",
+      "source": "spotify",
+      "spotifyId": "6pWgRkpqVfxnj3WuIcJ7WP",
+      "nowPlaying": false
+    },
+    {
+      "name": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-06-30T15:45:12.747Z",
+      "source": "spotify",
+      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
+      "nowPlaying": false
+    },
+    {
+      "name": "Masakali",
+      "artist": "Mohit Chauhan, A.R. Rahman, Prasoon Joshi",
+      "album": "Delhi-6",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f7c6e0a439f01c38bac5730c",
+      "playedAt": "2026-06-30T15:40:27.743Z",
+      "source": "spotify",
+      "spotifyId": "5iyNH1Dmxif1k4Nl1gMeuh",
+      "nowPlaying": false
+    },
+    {
+      "name": "Arziyan",
+      "artist": "Javed Ali, Kailash Kher, A.R. Rahman, Prasoon Joshi",
+      "album": "Delhi-6",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f7c6e0a439f01c38bac5730c",
+      "playedAt": "2026-06-30T15:35:39.093Z",
+      "source": "spotify",
+      "spotifyId": "3V80Iv04B9XAqGHbXdtRT1",
+      "nowPlaying": false
+    },
+    {
+      "name": "Borderline",
+      "artist": "Tame Impala",
+      "album": "The Slow Rush",
+      "image": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
+      "playedAt": "2026-06-30T15:24:46.134Z",
+      "source": "spotify",
+      "spotifyId": "5hM5arv9KDbCHS0k9uqwjr",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tujhe Bhula Diya",
+      "artist": "Vishal-Shekhar, Mohit Chauhan, Shekhar Ravjiani, Shruti Pathak",
+      "album": "Anjaana Anjaani",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
+      "playedAt": "2026-06-30T13:54:54.123Z",
+      "source": "spotify",
+      "spotifyId": "4r8JqkhpTb5tzSKKHnVJIJ",
+      "nowPlaying": false
+    },
     {
       "name": "Guzarish",
       "artist": "A.R. Rahman, Javed Ali, Prasoon Joshi",
@@ -152,16 +222,6 @@
       "playedAt": "2026-06-24T10:04:23.807Z",
       "source": "spotify",
       "spotifyId": "7uNnlVit5qDvfOje0pqICF",
-      "nowPlaying": false
-    },
-    {
-      "name": "Hosanna",
-      "artist": "A.R. Rahman, Leon D'souza, Suzanne D'Mello",
-      "album": "Ekk Deewana Tha (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f8910d64a61c3e3dc970613c",
-      "playedAt": "2026-06-23T19:37:40.280Z",
-      "source": "spotify",
-      "spotifyId": "5NChQ2tXB9q9D8kdkLTWOL",
       "nowPlaying": false
     }
   ]
