@@ -1,9 +1,169 @@
 {
-  "lastUpdated": "2026-07-01T07:34:36.423379+00:00",
+  "lastUpdated": "2026-07-02T07:11:40.801793+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "La lune",
+      "artist": "L'Impératrice",
+      "album": "Odyssée - EP",
+      "image": "https://i.scdn.co/image/ab67616d0000b27391d5af63d5acc752950d5927",
+      "playedAt": "2026-07-02T02:58:25.637Z",
+      "source": "spotify",
+      "spotifyId": "6rbbDK18oqK3MxHGQhpmn2",
+      "nowPlaying": false
+    },
+    {
+      "name": "Lost In Yesterday",
+      "artist": "Tame Impala",
+      "album": "The Slow Rush",
+      "image": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
+      "playedAt": "2026-07-02T02:55:11.538Z",
+      "source": "spotify",
+      "spotifyId": "5JWPUEov2wlX7c0jhYZpeB",
+      "nowPlaying": false
+    },
+    {
+      "name": "3 Nights",
+      "artist": "Dominic Fike",
+      "album": "Don't Forget About Me, Demos",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+      "playedAt": "2026-07-02T02:51:01.421Z",
+      "source": "spotify",
+      "spotifyId": "0uI7yAKUf52Cn7y3sYyjiX",
+      "nowPlaying": false
+    },
+    {
+      "name": "Overnight",
+      "artist": "Parcels",
+      "album": "Overnight",
+      "image": "https://i.scdn.co/image/ab67616d0000b273cb0697945af18f523fa11217",
+      "playedAt": "2026-07-02T02:48:03.302Z",
+      "source": "spotify",
+      "spotifyId": "0hhXziDUO0wNYPsstDQWN6",
+      "nowPlaying": false
+    },
+    {
+      "name": "Still Beating",
+      "artist": "Mac DeMarco",
+      "album": "This Old Dog",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739f1b21f21b13ff2d3e891f6b",
+      "playedAt": "2026-07-02T02:44:23.247Z",
+      "source": "spotify",
+      "spotifyId": "4LpUpiYoZ2M3Z1kmhn4EQo",
+      "nowPlaying": false
+    },
+    {
+      "name": "Feel Good Inc.",
+      "artist": "Gorillaz, De La Soul",
+      "album": "Demon Days",
+      "image": "https://i.scdn.co/image/ab67616d0000b273622aefd794f6fe4d8e714358",
+      "playedAt": "2026-07-02T02:41:21.202Z",
+      "source": "spotify",
+      "spotifyId": "0d28khcov6AiegSCpG5TuT",
+      "nowPlaying": false
+    },
+    {
+      "name": "New Person, Same Old Mistakes",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "playedAt": "2026-07-02T01:36:54.128Z",
+      "source": "spotify",
+      "spotifyId": "52ojopYMUzeNcudsoz7O9D",
+      "nowPlaying": false
+    },
+    {
+      "name": "On Melancholy Hill",
+      "artist": "Gorillaz",
+      "album": "Plastic Beach (Deluxe)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734960e8b13691e5570337d4d8",
+      "playedAt": "2026-07-01T17:48:26.101Z",
+      "source": "spotify",
+      "spotifyId": "4ercRiJZl8kBm8vfPaNjrl",
+      "nowPlaying": false
+    },
+    {
+      "name": "Only You",
+      "artist": "Theophilus London, Tame Impala",
+      "album": "Bebey",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fef7747791b60acfabfc9f27",
+      "playedAt": "2026-07-01T17:44:31.759Z",
+      "source": "spotify",
+      "spotifyId": "1JRfP5jkBm7zS8B0k7Xj66",
+      "nowPlaying": false
+    },
+    {
+      "name": "Freaking Out the Neighborhood",
+      "artist": "Mac DeMarco",
+      "album": "2",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739d377496c6bc8724b521222d",
+      "playedAt": "2026-07-01T17:40:55.853Z",
+      "source": "spotify",
+      "spotifyId": "3HlK8txWAdtKMrbsqX40pl",
+      "nowPlaying": false
+    },
+    {
+      "name": "Shut up My Moms Calling",
+      "artist": "Hotel Ugly",
+      "album": "Shut up My Moms Calling",
+      "image": "https://i.scdn.co/image/ab67616d0000b273350ab7a839c04bfd5225a9f5",
+      "playedAt": "2026-07-01T15:44:36.874Z",
+      "source": "spotify",
+      "spotifyId": "3hxIUxnT27p5WcmjGUXNwx",
+      "nowPlaying": false
+    },
+    {
+      "name": "My Old Ways",
+      "artist": "Tame Impala",
+      "album": "Deadbeat",
+      "image": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
+      "playedAt": "2026-07-01T15:41:51.814Z",
+      "source": "spotify",
+      "spotifyId": "4whkhyXTrTgHKZzkUvdwoq",
+      "nowPlaying": false
+    },
+    {
+      "name": "Feels Like Summer",
+      "artist": "Childish Gambino",
+      "album": "Summer Pack",
+      "image": "https://i.scdn.co/image/ab67616d0000b273602ca5b83fe44b68074a74b2",
+      "playedAt": "2026-07-01T15:34:33.526Z",
+      "source": "spotify",
+      "spotifyId": "7p4vHnYXkxlzvfePJVpcTr",
+      "nowPlaying": false
+    },
+    {
+      "name": "505",
+      "artist": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+      "playedAt": "2026-07-01T15:29:35.629Z",
+      "source": "spotify",
+      "spotifyId": "0BxE4FqsDD1Ot4YuBXwAPp",
+      "nowPlaying": false
+    },
+    {
+      "name": "Babydoll",
+      "artist": "Dominic Fike",
+      "album": "Don't Forget About Me, Demos",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+      "playedAt": "2026-07-01T15:24:34.460Z",
+      "source": "spotify",
+      "spotifyId": "7yNf9YjeO5JXUE3JEBgnYc",
+      "nowPlaying": false
+    },
+    {
+      "name": "Veridis Quo",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+      "playedAt": "2026-07-01T15:22:55.962Z",
+      "source": "spotify",
+      "spotifyId": "2LD2gT7gwAurzdQDQtILds",
+      "nowPlaying": false
+    },
     {
       "name": "Dust",
       "artist": "Hans Zimmer",
@@ -162,66 +322,6 @@
       "playedAt": "2026-06-28T08:35:04.606Z",
       "source": "spotify",
       "spotifyId": "7H7NyZ3G075GqPx2evsfeb",
-      "nowPlaying": false
-    },
-    {
-      "name": "Count Me Out",
-      "artist": "Kendrick Lamar",
-      "album": "Mr. Morale & The Big Steppers",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732e02117d76426a08ac7c174f",
-      "playedAt": "2026-06-28T06:08:31.435Z",
-      "source": "spotify",
-      "spotifyId": "6BU1RZexmvJcBjgagVVt3M",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jao Na",
-      "artist": "Sohail Sen, Tarannum Malik Jain",
-      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
-      "playedAt": "2026-06-28T04:35:38.536Z",
-      "source": "spotify",
-      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
-      "nowPlaying": false
-    },
-    {
-      "name": "Dooriyan",
-      "artist": "Pritam, Mohit Chauhan",
-      "album": "Love Aaj Kal (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273379298ceb1e3c8e52048eeba",
-      "playedAt": "2026-06-24T17:08:24.448Z",
-      "source": "spotify",
-      "spotifyId": "4Nu6be6Wgvqq60hFoRMqsc",
-      "nowPlaying": false
-    },
-    {
-      "name": "Khuda Jaane",
-      "artist": "Vishal-Shekhar, KK, Shilpa Rao, Anvita Dutt Guptan",
-      "album": "Bachna Ae Haseeno",
-      "image": "https://i.scdn.co/image/ab67616d0000b273a08c7022ea424b2f048b46e9",
-      "playedAt": "2026-06-24T10:15:55.095Z",
-      "source": "spotify",
-      "spotifyId": "0gPgdRfB4jdGrlyXS0Vx78",
-      "nowPlaying": false
-    },
-    {
-      "name": "Kabhi Kabhi Aditi",
-      "artist": "Rashid Ali",
-      "album": "Jaane Tu... Ya Jaane Na",
-      "image": "https://i.scdn.co/image/ab67616d0000b273abf91851997179d195afab5f",
-      "playedAt": "2026-06-24T10:10:21.053Z",
-      "source": "spotify",
-      "spotifyId": "3APdIdF8H0jsxSuGOqXedS",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tum Ho",
-      "artist": "Mohit Chauhan, Suzanne D'Mello",
-      "album": "Rockstar",
-      "image": "https://i.scdn.co/image/ab67616d0000b27354e544672baa16145d67612b",
-      "playedAt": "2026-06-24T10:04:23.807Z",
-      "source": "spotify",
-      "spotifyId": "7uNnlVit5qDvfOje0pqICF",
       "nowPlaying": false
     }
   ]
