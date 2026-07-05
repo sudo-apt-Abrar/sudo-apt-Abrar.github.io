@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T08:34:44.827284+00:00",
+  "lastUpdated": "2026-07-05T08:50:47.465575+00:00",
   "sources": [
     "spotify"
   ],
@@ -312,16 +312,6 @@
       "playedAt": "2026-06-29T14:12:19.871Z",
       "source": "spotify",
       "spotifyId": "5CQ30WqJwcep0pYcV4AMNc",
-      "nowPlaying": false
-    },
-    {
-      "name": "Chamber Of Reflection",
-      "artist": "Mac DeMarco",
-      "album": "Salad Days",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9",
-      "playedAt": "2026-06-28T08:35:04.606Z",
-      "source": "spotify",
-      "spotifyId": "7H7NyZ3G075GqPx2evsfeb",
       "nowPlaying": false
     }
   ]
