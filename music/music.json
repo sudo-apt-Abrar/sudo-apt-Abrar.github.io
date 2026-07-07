@@ -1,9 +1,19 @@
 {
-  "lastUpdated": "2026-07-06T10:18:18.412857+00:00",
+  "lastUpdated": "2026-07-07T09:38:25.592857+00:00",
   "sources": [
     "spotify"
   ],
   "tracks": [
+    {
+      "name": "Resonance",
+      "artist": "Home",
+      "album": "Odyssey",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d3434e8f47ec47a90b4b4784",
+      "playedAt": "2026-07-03T09:28:22.627Z",
+      "source": "spotify",
+      "spotifyId": "2NHkwSwm6C6eAX3z6xm7Uy",
+      "nowPlaying": false
+    },
     {
       "name": "La lune",
       "artist": "L'Impératrice",
@@ -232,86 +242,6 @@
       "playedAt": "2026-06-30T13:54:54.123Z",
       "source": "spotify",
       "spotifyId": "4r8JqkhpTb5tzSKKHnVJIJ",
-      "nowPlaying": false
-    },
-    {
-      "name": "Guzarish",
-      "artist": "A.R. Rahman, Javed Ali, Prasoon Joshi",
-      "album": "Ghajini",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735b7ba7da308af447f48b9943",
-      "playedAt": "2026-06-30T06:25:27.646Z",
-      "source": "spotify",
-      "spotifyId": "2MvCNH9ua0CeOgUQfZf56z",
-      "nowPlaying": false
-    },
-    {
-      "name": "Woh Lamhe Woh Baatein",
-      "artist": "Roop Kumar Rathod, Mithoon, Naresh Sharma, Atif Aslam",
-      "album": "Emraan Hashmi Sad Love Hits",
-      "image": "https://i.scdn.co/image/ab67616d0000b273df81def5f819407f1ddf2c30",
-      "playedAt": "2026-06-30T06:19:56.687Z",
-      "source": "spotify",
-      "spotifyId": "2jw1vFPJnVSjywctRTpVeO",
-      "nowPlaying": false
-    },
-    {
-      "name": "Aadat",
-      "artist": "Jal, Mithoon, Atif Aslam",
-      "album": "Kalyug (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e650df38b751417df3602e82",
-      "playedAt": "2026-06-30T06:14:36.185Z",
-      "source": "spotify",
-      "spotifyId": "2YbKtL9lJBzrjFo4Krld7R",
-      "nowPlaying": false
-    },
-    {
-      "name": "Jo Tere Sang",
-      "artist": "Jeet Gannguli, Mustafa Zahid, Sayeed Quadri",
-      "album": "Blood Money (Original Motion Picture Soundtrack)",
-      "image": "https://i.scdn.co/image/ab67616d0000b2730ccca2f49bcdac5491e47b1a",
-      "playedAt": "2026-06-30T06:08:26.804Z",
-      "source": "spotify",
-      "spotifyId": "0kYBzFJ5a2Jozi6cI4y9Bp",
-      "nowPlaying": false
-    },
-    {
-      "name": "Saajna",
-      "artist": "Falak Shabbir, Kumaar",
-      "album": "I, Me Aur Main",
-      "image": "https://i.scdn.co/image/ab67616d0000b27322e2fdf8f6aff29175132ffe",
-      "playedAt": "2026-06-30T06:03:20.146Z",
-      "source": "spotify",
-      "spotifyId": "7KzGAwJRYS9KLMuVnStqYN",
-      "nowPlaying": false
-    },
-    {
-      "name": "Milne Hai Mujhse Aayi",
-      "artist": "Arijit Singh, Jeet Gannguli, Irshad Kamil",
-      "album": "Aashiqui 2",
-      "image": "https://i.scdn.co/image/ab67616d0000b2736404721c1943d5069f0805f3",
-      "playedAt": "2026-06-30T05:58:38.173Z",
-      "source": "spotify",
-      "spotifyId": "2iGnFW7m517taq3AJIE6DK",
-      "nowPlaying": false
-    },
-    {
-      "name": "No Role Modelz",
-      "artist": "J. Cole",
-      "album": "2014 Forest Hills Drive",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c6e0948bbb0681ff29cdbae8",
-      "playedAt": "2026-06-30T05:22:48.316Z",
-      "source": "spotify",
-      "spotifyId": "68Dni7IE4VyPkTOH9mRWHr",
-      "nowPlaying": false
-    },
-    {
-      "name": "Stairway to Heaven - Remaster",
-      "artist": "Led Zeppelin",
-      "album": "Led Zeppelin IV (Deluxe Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69",
-      "playedAt": "2026-06-29T14:12:19.871Z",
-      "source": "spotify",
-      "spotifyId": "5CQ30WqJwcep0pYcV4AMNc",
       "nowPlaying": false
     }
   ]
