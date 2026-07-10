@@ -1,18 +1,7 @@
 {
-  "lastUpdated": "2026-07-09T09:36:37.174189+00:00",
+  "lastUpdated": "2026-07-10T09:32:41.835933+00:00",
   "sources": [
     "spotify"
   ],
-  "tracks": [
-    {
-      "name": "Resonance",
-      "artist": "Home",
-      "album": "Odyssey",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d3434e8f47ec47a90b4b4784",
-      "playedAt": "2026-07-03T09:28:22.627Z",
-      "source": "spotify",
-      "spotifyId": "2NHkwSwm6C6eAX3z6xm7Uy",
-      "nowPlaying": false
-    }
-  ]
+  "tracks": []
 }
