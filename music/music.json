@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-12T08:14:44.849395+00:00",
+  "lastUpdated": "2026-07-13T09:23:39.275742+00:00",
   "sources": [
     "spotify"
   ],
-  "tracks": []
+  "tracks": [
+    {
+      "name": "Tum Ho Toh",
+      "artist": "Farhan Akhtar",
+      "album": "Rock On",
+      "image": "https://i.scdn.co/image/ab67616d0000b27319bf9ebc57d912cda1f83de8",
+      "playedAt": "2026-07-13T03:52:16.425Z",
+      "source": "spotify",
+      "spotifyId": "2uy15favOgEOtS8wjAD9B1",
+      "nowPlaying": false
+    }
+  ]
 }
