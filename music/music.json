@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T08:26:36.313297+00:00",
+  "lastUpdated": "2026-07-23T08:27:23.295236+00:00",
   "sources": [
     "spotify"
   ],
@@ -12,56 +12,6 @@
       "playedAt": "2026-07-16T15:28:33.348Z",
       "source": "spotify",
       "spotifyId": "7KzGAwJRYS9KLMuVnStqYN",
-      "nowPlaying": false
-    },
-    {
-      "name": "Kaun Mera",
-      "artist": "Papon",
-      "album": "Bollywood Unplugged",
-      "image": "https://i.scdn.co/image/ab67616d0000b273af6018f9d3fc959e62bcddc0",
-      "playedAt": "2026-07-16T04:11:53.538Z",
-      "source": "spotify",
-      "spotifyId": "2n40kGcCG499ckQwYNJnWp",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tumse Hi Tumse",
-      "artist": "Vishal-Shekhar, Shekhar Ravjiani, Caralisa Monteiro",
-      "album": "Anjaana Anjaani",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731da0a37c5bad81580d49ef05",
-      "playedAt": "2026-07-16T04:06:08.615Z",
-      "source": "spotify",
-      "spotifyId": "6qNyL8lZuqFmy9ginJRQOZ",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tum Meri Ho",
-      "artist": "Raeth",
-      "album": "Hum Yaadon Ke Sang",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c09f66a0c5249c26bb88a5fd",
-      "playedAt": "2026-07-16T04:01:46.636Z",
-      "source": "spotify",
-      "spotifyId": "3ExLap1qHBI4f9bTfN5qk8",
-      "nowPlaying": false
-    },
-    {
-      "name": "Rehna Tu",
-      "artist": "A.R. Rahman, Prasoon Joshi",
-      "album": "Delhi-6",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f7c6e0a439f01c38bac5730c",
-      "playedAt": "2026-07-16T03:57:21.885Z",
-      "source": "spotify",
-      "spotifyId": "5RZbS87YI2wd87SWuO0YAX",
-      "nowPlaying": false
-    },
-    {
-      "name": "Tum Ho Toh",
-      "artist": "Farhan Akhtar",
-      "album": "Rock On",
-      "image": "https://i.scdn.co/image/ab67616d0000b27319bf9ebc57d912cda1f83de8",
-      "playedAt": "2026-07-16T03:50:32.180Z",
-      "source": "spotify",
-      "spotifyId": "2uy15favOgEOtS8wjAD9B1",
       "nowPlaying": false
     }
   ]
