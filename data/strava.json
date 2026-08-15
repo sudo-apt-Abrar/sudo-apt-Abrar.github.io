@@ -1,0 +1,15 @@
+{
+  "updated_at": null,
+  "athlete": {
+    "id": 128861933,
+    "firstname": "Abrar",
+    "profile_url": "https://www.strava.com/athletes/128861933"
+  },
+  "totals": {
+    "recent_4wk": null,
+    "ytd": null,
+    "all_time": null
+  },
+  "recent_activities": [],
+  "weekly_volume": []
+}

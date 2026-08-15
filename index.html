@@ -191,19 +191,24 @@
             <h2>staying active</h2>
             <div class="active-content">
                 <p>running keeps me balanced.</p>
-                
+
                 <div class="strava-card">
                     <div class="strava-header">
                         <svg class="strava-icon" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7.008 13.828h4.172"/>
                         </svg>
                         <span>strava</span>
+                        <span id="strava-updated" class="strava-updated"></span>
                     </div>
-                    <div class="strava-stats">
-                        <div class="stat">
-                            <span class="stat-label">running</span>
-                        </div>
+
+                    <div id="strava-tiles" class="strava-tiles">
+                        <p class="loading">loading stats...</p>
                     </div>
+
+                    <div id="strava-chart" class="strava-chart"></div>
+
+                    <div id="strava-activities" class="strava-activities"></div>
+
                     <a href="https://www.strava.com/athletes/128861933" target="_blank" class="strava-profile-link">
                         view full profile →
                     </a>
@@ -284,10 +289,121 @@
             }
         }
 
+        // Fetch and render Strava data (written by the fetch-strava GitHub Action)
+        function formatKm(meters) {
+            return (meters / 1000).toFixed(1);
+        }
+
+        function formatDuration(seconds) {
+            const h = Math.floor(seconds / 3600);
+            const m = Math.round((seconds % 3600) / 60);
+            return h > 0 ? `${h}h ${m}m` : `${m}m`;
+        }
+
+        function formatPace(distanceM, movingTimeS) {
+            if (!distanceM) return '–';
+            const secPerKm = movingTimeS / (distanceM / 1000);
+            const min = Math.floor(secPerKm / 60);
+            const sec = Math.round(secPerKm % 60).toString().padStart(2, '0');
+            return `${min}:${sec}/km`;
+        }
+
+        function relativeDate(iso) {
+            const days = Math.floor((Date.now() - new Date(iso)) / 86400000);
+            if (days <= 0) return 'today';
+            if (days === 1) return 'yesterday';
+            if (days < 7) return `${days}d ago`;
+            return new Date(iso).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+        }
+
+        function renderTiles(totals) {
+            const container = document.getElementById('strava-tiles');
+            const { recent_4wk, ytd, all_time } = totals || {};
+
+            if (!recent_4wk && !ytd && !all_time) {
+                container.innerHTML = '<p class="error">stats not synced yet</p>';
+                return;
+            }
+
+            const tiles = [
+                { label: 'last 4 weeks', value: recent_4wk ? `${formatKm(recent_4wk.distance)} km` : '–' },
+                { label: 'this year', value: ytd ? `${formatKm(ytd.distance)} km` : '–' },
+                { label: 'all time', value: all_time ? `${formatKm(all_time.distance)} km` : '–' },
+            ];
+
+            container.innerHTML = tiles.map(t => `
+                <div class="stat-tile">
+                    <span class="stat-tile-value">${t.value}</span>
+                    <span class="stat-tile-label">${t.label}</span>
+                </div>
+            `).join('');
+        }
+
+        function renderChart(weeklyVolume) {
+            const container = document.getElementById('strava-chart');
+            if (!weeklyVolume || weeklyVolume.length === 0) {
+                container.innerHTML = '';
+                return;
+            }
+
+            const max = Math.max(...weeklyVolume.map(w => w.distance_m), 1);
+            const bars = weeklyVolume.map(w => {
+                const pct = Math.max((w.distance_m / max) * 100, w.distance_m > 0 ? 6 : 2);
+                const km = formatKm(w.distance_m);
+                return `<div class="chart-bar" style="height:${pct}%" title="${km} km"></div>`;
+            }).join('');
+
+            container.innerHTML = `
+                <div class="chart-label">weekly distance</div>
+                <div class="chart-bars">${bars}</div>
+            `;
+        }
+
+        function renderActivities(activities) {
+            const container = document.getElementById('strava-activities');
+            if (!activities || activities.length === 0) {
+                container.innerHTML = '';
+                return;
+            }
+
+            container.innerHTML = activities.map(a => `
+                <div class="activity-item">
+                    <div class="activity-main">
+                        <span class="activity-name">${a.name}</span>
+                        <span class="activity-date">${relativeDate(a.date)}</span>
+                    </div>
+                    <div class="activity-meta">
+                        <span>${formatKm(a.distance_m)} km</span>
+                        <span>${formatDuration(a.moving_time_s)}</span>
+                        <span>${formatPace(a.distance_m, a.moving_time_s)}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        async function fetchStravaData() {
+            try {
+                const response = await fetch('data/strava.json', { cache: 'no-store' });
+                const data = await response.json();
+
+                if (data.updated_at) {
+                    document.getElementById('strava-updated').textContent =
+                        `synced ${relativeDate(data.updated_at)}`;
+                }
+
+                renderTiles(data.totals);
+                renderChart(data.weekly_volume);
+                renderActivities(data.recent_activities);
+            } catch (error) {
+                document.getElementById('strava-tiles').innerHTML = '<p class="error">unable to load strava data</p>';
+            }
+        }
+
         // Initialize
         document.addEventListener('DOMContentLoaded', () => {
             fetchSubstackReads();
             loadShers();
+            fetchStravaData();
         });
     </script>
 </body>
