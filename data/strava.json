@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T01:56:06.667Z",
+  "updated_at": "2026-08-17T07:17:07.390Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -30,6 +30,16 @@
     }
   },
   "recent_activities": [
+    {
+      "id": 19774180592,
+      "name": "Morning Badminton",
+      "type": "Workout",
+      "date": "2026-08-17T07:17:25Z",
+      "distance_m": 0,
+      "moving_time_s": 3299,
+      "elevation_m": 0,
+      "avg_speed_mps": 0
+    },
     {
       "id": 19746169886,
       "name": "Morning Independence Easy Run",
@@ -77,16 +87,6 @@
       "date": "2026-08-09T16:19:39Z",
       "distance_m": 0,
       "moving_time_s": 4258,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 19657851626,
-      "name": "Evening Badminton",
-      "type": "Workout",
-      "date": "2026-08-08T18:16:17Z",
-      "distance_m": 0,
-      "moving_time_s": 5743,
       "elevation_m": 0,
       "avg_speed_mps": 0
     }
