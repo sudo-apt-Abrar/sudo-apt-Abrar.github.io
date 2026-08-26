@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T13:17:36.725Z",
+  "updated_at": "2026-08-26T20:03:46.381Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -30,6 +30,26 @@
     }
   },
   "recent_activities": [
+    {
+      "id": 19913230989,
+      "name": "Night Football (Soccer)",
+      "type": "Soccer",
+      "date": "2026-08-27T00:25:00Z",
+      "distance_m": 0,
+      "moving_time_s": 779,
+      "elevation_m": 0,
+      "avg_speed_mps": 0
+    },
+    {
+      "id": 19912507880,
+      "name": "Night Football (Soccer)",
+      "type": "Soccer",
+      "date": "2026-08-26T22:51:42Z",
+      "distance_m": 0,
+      "moving_time_s": 4162,
+      "elevation_m": 0,
+      "avg_speed_mps": 0
+    },
     {
       "id": 19866785512,
       "name": "Evening Football (Soccer)",
@@ -69,26 +89,6 @@
       "moving_time_s": 4619,
       "elevation_m": 0,
       "avg_speed_mps": 0
-    },
-    {
-      "id": 19774180592,
-      "name": "Morning Badminton",
-      "type": "Workout",
-      "date": "2026-08-17T07:17:25Z",
-      "distance_m": 0,
-      "moving_time_s": 3299,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 19746169886,
-      "name": "Morning Independence Easy Run",
-      "type": "Run",
-      "date": "2026-08-15T06:35:20Z",
-      "distance_m": 10235.2,
-      "moving_time_s": 4088,
-      "elevation_m": 64.1,
-      "avg_speed_mps": 2.504
     }
   ],
   "weekly_volume": [
