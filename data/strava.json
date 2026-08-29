@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T16:43:55.901Z",
+  "updated_at": "2026-08-29T20:56:30.930Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -7,11 +7,11 @@
   },
   "totals": {
     "recent_4wk": {
-      "count": 1,
-      "distance": 10235.2,
-      "moving_time": 4088,
-      "elapsed_time": 4166,
-      "elevation_gain": 64.1,
+      "count": 2,
+      "distance": 15824.400000000001,
+      "moving_time": 6127,
+      "elapsed_time": 6276,
+      "elevation_gain": 119.89999999999999,
       "achievement_count": 0
     },
     "ytd": {
