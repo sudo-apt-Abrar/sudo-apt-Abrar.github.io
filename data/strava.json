@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T11:56:04.714Z",
+  "updated_at": "2026-08-30T16:41:57.152Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -31,12 +31,12 @@
   },
   "recent_activities": [
     {
-      "id": 19958298215,
-      "name": "Lunch Weight Training",
-      "type": "WeightTraining",
-      "date": "2026-08-30T12:20:00Z",
+      "id": 19962340192,
+      "name": "Morning Badminton",
+      "type": "Workout",
+      "date": "2026-08-30T08:27:00Z",
       "distance_m": 0,
-      "moving_time_s": 1139,
+      "moving_time_s": 6599,
       "elevation_m": 0,
       "avg_speed_mps": 0
     },
