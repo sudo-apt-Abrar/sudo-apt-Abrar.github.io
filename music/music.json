@@ -1,7 +1,48 @@
 {
-  "lastUpdated": "2026-09-01T11:08:24.456350+00:00",
+  "lastUpdated": "2026-09-02T10:40:49.860821+00:00",
   "sources": [
     "spotify"
   ],
-  "tracks": []
+  "tracks": [
+    {
+      "name": "Shaam Tanha",
+      "artist": "Agnee",
+      "album": "Agnee",
+      "image": "https://i.scdn.co/image/ab67616d0000b273310388fc9ed4739ae25919d9",
+      "playedAt": "2026-09-02T03:32:01.282Z",
+      "source": "spotify",
+      "spotifyId": "5V6XcXBrCGI6JOeYr4Uyo3",
+      "nowPlaying": false
+    },
+    {
+      "name": "Tu Kisi Rail Si",
+      "artist": "Swanand Kirkire",
+      "album": "Masaan (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f6dbc45809c3059f02175182",
+      "playedAt": "2026-09-02T03:26:15.812Z",
+      "source": "spotify",
+      "spotifyId": "38GXsI5NhQGQnZpibjwXOV",
+      "nowPlaying": false
+    },
+    {
+      "name": "Jao Na",
+      "artist": "Sohail Sen, Tarannum Malik Jain",
+      "album": "What's Your Rashee? (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27372148a8fba4c3bee9c168932",
+      "playedAt": "2026-09-02T03:20:57.384Z",
+      "source": "spotify",
+      "spotifyId": "0rVr5Dn0yGtJYgI2uvktxV",
+      "nowPlaying": false
+    },
+    {
+      "name": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "album": "Walking On A Dream (10th Anniversary Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "playedAt": "2026-09-02T03:15:07.421Z",
+      "source": "spotify",
+      "spotifyId": "3zEN0ii6s4DHHBpnTp3RP7",
+      "nowPlaying": false
+    }
+  ]
 }
