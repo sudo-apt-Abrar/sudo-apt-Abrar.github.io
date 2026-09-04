@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T21:03:23.232Z",
+  "updated_at": "2026-09-04T04:35:17.762Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -30,6 +30,16 @@
     }
   },
   "recent_activities": [
+    {
+      "id": 20028405484,
+      "name": "Morning Workout",
+      "type": "Workout",
+      "date": "2026-09-04T07:17:00Z",
+      "distance_m": 0,
+      "moving_time_s": 3659,
+      "elevation_m": 0,
+      "avg_speed_mps": 0
+    },
     {
       "id": 20009035780,
       "name": "Night Workout",
@@ -77,16 +87,6 @@
       "date": "2026-08-26T22:51:42Z",
       "distance_m": 0,
       "moving_time_s": 4162,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 19866785512,
-      "name": "Evening Football (Soccer)",
-      "type": "Soccer",
-      "date": "2026-08-23T19:14:44Z",
-      "distance_m": 0,
-      "moving_time_s": 5342,
       "elevation_m": 0,
       "avg_speed_mps": 0
     }
