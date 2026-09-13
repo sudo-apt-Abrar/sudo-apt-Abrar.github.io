@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T04:49:28.762Z",
+  "updated_at": "2026-09-13T11:54:08.978Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -30,6 +30,16 @@
     }
   },
   "recent_activities": [
+    {
+      "id": 20155297284,
+      "name": "Afternoon Walk",
+      "type": "Walk",
+      "date": "2026-09-13T14:50:00Z",
+      "distance_m": 0,
+      "moving_time_s": 1619,
+      "elevation_m": 0,
+      "avg_speed_mps": 0
+    },
     {
       "id": 20132002486,
       "name": "Evening Walk",
@@ -77,16 +87,6 @@
       "date": "2026-09-04T07:17:00Z",
       "distance_m": 0,
       "moving_time_s": 3659,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 20009035780,
-      "name": "Night Badminton",
-      "type": "Workout",
-      "date": "2026-09-02T21:10:00Z",
-      "distance_m": 0,
-      "moving_time_s": 5519,
       "elevation_m": 0,
       "avg_speed_mps": 0
     }
