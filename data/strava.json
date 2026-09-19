@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T15:54:01.868Z",
+  "updated_at": "2026-09-19T20:41:53.172Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -7,11 +7,11 @@
   },
   "totals": {
     "recent_4wk": {
-      "count": 1,
-      "distance": 5589.2,
-      "moving_time": 2039,
-      "elapsed_time": 2110,
-      "elevation_gain": 55.8,
+      "count": 2,
+      "distance": 7990.1,
+      "moving_time": 2632,
+      "elapsed_time": 3636,
+      "elevation_gain": 58.199999999999996,
       "achievement_count": 0
     },
     "ytd": {
@@ -30,6 +30,16 @@
     }
   },
   "recent_activities": [
+    {
+      "id": 20244146323,
+      "name": "Night Football (Soccer)",
+      "type": "Soccer",
+      "date": "2026-09-19T22:02:00Z",
+      "distance_m": 0,
+      "moving_time_s": 1139,
+      "elevation_m": 0,
+      "avg_speed_mps": 0
+    },
     {
       "id": 20241058612,
       "name": "Evening Run",
@@ -77,16 +87,6 @@
       "date": "2026-09-11T20:58:00Z",
       "distance_m": 0,
       "moving_time_s": 1259,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 20068676324,
-      "name": "Morning Badminton",
-      "type": "Workout",
-      "date": "2026-09-07T07:23:00Z",
-      "distance_m": 0,
-      "moving_time_s": 2279,
       "elevation_m": 0,
       "avg_speed_mps": 0
     }
