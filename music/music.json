@@ -1,18 +1,7 @@
 {
-  "lastUpdated": "2026-09-18T10:36:47.540950+00:00",
+  "lastUpdated": "2026-09-19T10:21:14.133328+00:00",
   "sources": [
     "spotify"
   ],
-  "tracks": [
-    {
-      "name": "Ujale Baaz",
-      "artist": "Mohan",
-      "album": "Agnee",
-      "image": "https://i.scdn.co/image/ab67616d0000b273310388fc9ed4739ae25919d9",
-      "playedAt": "2026-09-12T07:30:32.732Z",
-      "source": "spotify",
-      "spotifyId": "58PkDDbzS5ptoXaqqBuuoX",
-      "nowPlaying": false
-    }
-  ]
+  "tracks": []
 }
