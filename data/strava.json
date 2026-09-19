@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T11:00:59.533Z",
+  "updated_at": "2026-09-19T15:54:01.868Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -15,21 +15,31 @@
       "achievement_count": 0
     },
     "ytd": {
-      "count": 4,
-      "distance": 19840,
-      "moving_time": 7363,
-      "elapsed_time": 7523,
-      "elevation_gain": 131
+      "count": 5,
+      "distance": 22241,
+      "moving_time": 7956,
+      "elapsed_time": 9049,
+      "elevation_gain": 133.4
     },
     "all_time": {
-      "count": 16,
-      "distance": 72647.7,
-      "moving_time": 27184,
-      "elapsed_time": 27598,
-      "elevation_gain": 174.1
+      "count": 17,
+      "distance": 75048.6,
+      "moving_time": 27777,
+      "elapsed_time": 29124,
+      "elevation_gain": 176.5
     }
   },
   "recent_activities": [
+    {
+      "id": 20241058612,
+      "name": "Evening Run",
+      "type": "Run",
+      "date": "2026-09-19T18:36:03Z",
+      "distance_m": 2400.9,
+      "moving_time_s": 593,
+      "elevation_m": 2.4,
+      "avg_speed_mps": 4.049
+    },
     {
       "id": 20210624170,
       "name": "Afternoon Walk",
@@ -79,16 +89,6 @@
       "moving_time_s": 2279,
       "elevation_m": 0,
       "avg_speed_mps": 0
-    },
-    {
-      "id": 20056637533,
-      "name": "Afternoon Badminton",
-      "type": "Workout",
-      "date": "2026-09-06T12:08:00Z",
-      "distance_m": 0,
-      "moving_time_s": 5219,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
     }
   ],
   "weekly_volume": [
@@ -130,7 +130,7 @@
     },
     {
       "week_start": "2026-09-14",
-      "distance_m": 0
+      "distance_m": 2400.9
     }
   ]
 }
