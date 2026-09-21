@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T04:57:46.482Z",
+  "updated_at": "2026-09-21T12:50:25.714Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -32,7 +32,7 @@
   "recent_activities": [
     {
       "id": 20254779438,
-      "name": "Afternoon Workout",
+      "name": "Afternoon Badminton",
       "type": "Workout",
       "date": "2026-09-20T16:11:00Z",
       "distance_m": 0,
