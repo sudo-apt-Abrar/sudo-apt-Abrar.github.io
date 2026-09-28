@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T13:57:30.892Z",
+  "updated_at": "2026-09-28T23:17:29.393Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -41,6 +41,16 @@
       "avg_speed_mps": 0
     },
     {
+      "id": 20370544497,
+      "name": "Evening Football (Soccer)",
+      "type": "Soccer",
+      "date": "2026-09-27T20:12:38Z",
+      "distance_m": 0,
+      "moving_time_s": 3930,
+      "elevation_m": 0,
+      "avg_speed_mps": 0
+    },
+    {
       "id": 20345425262,
       "name": "Morning Workout",
       "type": "Workout",
@@ -61,32 +71,22 @@
       "avg_speed_mps": 0
     },
     {
-      "id": 20276375407,
-      "name": "Morning Walk",
-      "type": "Walk",
-      "date": "2026-09-22T08:51:00Z",
-      "distance_m": 0,
-      "moving_time_s": 1259,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 20254779438,
-      "name": "Afternoon Badminton",
+      "id": 20370544499,
+      "name": "Night Badminton",
       "type": "Workout",
-      "date": "2026-09-20T16:11:00Z",
+      "date": "2026-09-23T22:12:49Z",
       "distance_m": 0,
-      "moving_time_s": 7079,
+      "moving_time_s": 3140,
       "elevation_m": 0,
       "avg_speed_mps": 0
     },
     {
-      "id": 20244146323,
+      "id": 20370544506,
       "name": "Night Football (Soccer)",
       "type": "Soccer",
-      "date": "2026-09-19T22:02:00Z",
+      "date": "2026-09-22T23:13:30Z",
       "distance_m": 0,
-      "moving_time_s": 1139,
+      "moving_time_s": 3570,
       "elevation_m": 0,
       "avg_speed_mps": 0
     }
