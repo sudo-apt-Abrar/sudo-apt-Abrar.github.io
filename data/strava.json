@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T12:54:54.999Z",
+  "updated_at": "2026-09-29T22:16:25.759Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -12,7 +12,7 @@
       "moving_time": 593,
       "elapsed_time": 1526,
       "elevation_gain": 2.4,
-      "achievement_count": 0
+      "achievement_count": 1
     },
     "ytd": {
       "count": 5,
