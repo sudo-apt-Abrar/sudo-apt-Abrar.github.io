@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T11:41:01.473Z",
+  "updated_at": "2026-10-03T16:18:42.273Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -30,6 +30,26 @@
     }
   },
   "recent_activities": [
+    {
+      "id": 20432035525,
+      "name": "Morning Workout",
+      "type": "Workout",
+      "date": "2026-10-03T10:19:00Z",
+      "distance_m": 0,
+      "moving_time_s": 3539,
+      "elevation_m": 0,
+      "avg_speed_mps": 0
+    },
+    {
+      "id": 20432034204,
+      "name": "Morning Workout",
+      "type": "Workout",
+      "date": "2026-10-03T09:05:00Z",
+      "distance_m": 0,
+      "moving_time_s": 3719,
+      "elevation_m": 0,
+      "avg_speed_mps": 0
+    },
     {
       "id": 20422879552,
       "name": "Evening Football (Soccer)",
@@ -67,26 +87,6 @@
       "date": "2026-09-27T20:12:38Z",
       "distance_m": 0,
       "moving_time_s": 3930,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 20345425262,
-      "name": "Morning Workout",
-      "type": "Workout",
-      "date": "2026-09-27T09:12:00Z",
-      "distance_m": 0,
-      "moving_time_s": 3479,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 20320207735,
-      "name": "Lunch Walk",
-      "type": "Walk",
-      "date": "2026-09-25T12:09:00Z",
-      "distance_m": 0,
-      "moving_time_s": 779,
       "elevation_m": 0,
       "avg_speed_mps": 0
     }
