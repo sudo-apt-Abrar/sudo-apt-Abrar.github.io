@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T20:37:40.308Z",
+  "updated_at": "2026-10-18T04:35:46.387Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -12,24 +12,44 @@
       "moving_time": 0,
       "elapsed_time": 0,
       "elevation_gain": 0,
-      "achievement_count": 1
+      "achievement_count": 0
     },
     "ytd": {
-      "count": 5,
-      "distance": 22241,
-      "moving_time": 7956,
-      "elapsed_time": 9049,
-      "elevation_gain": 133.4
+      "count": 6,
+      "distance": 32264,
+      "moving_time": 11322,
+      "elapsed_time": 12415,
+      "elevation_gain": 150.70000000000002
     },
     "all_time": {
-      "count": 17,
-      "distance": 75048.6,
-      "moving_time": 27777,
-      "elapsed_time": 29124,
-      "elevation_gain": 176.5
+      "count": 18,
+      "distance": 85072.3,
+      "moving_time": 31143,
+      "elapsed_time": 32490,
+      "elevation_gain": 193.8
     }
   },
   "recent_activities": [
+    {
+      "id": 20629399910,
+      "name": "Morning Run",
+      "type": "Run",
+      "date": "2026-10-18T07:41:56Z",
+      "distance_m": 10023.7,
+      "moving_time_s": 3366,
+      "elevation_m": 17.3,
+      "avg_speed_mps": 2.978
+    },
+    {
+      "id": 20629399788,
+      "name": "Morning Walk",
+      "type": "Walk",
+      "date": "2026-10-18T07:00:48Z",
+      "distance_m": 1933.7,
+      "moving_time_s": 1530,
+      "elevation_m": 10.5,
+      "avg_speed_mps": 1.264
+    },
     {
       "id": 20599537513,
       "name": "Night Walk",
@@ -67,26 +87,6 @@
       "date": "2026-10-04T23:08:00Z",
       "distance_m": 0,
       "moving_time_s": 1319,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 20451054308,
-      "name": "Evening Football (Soccer)",
-      "type": "Soccer",
-      "date": "2026-10-04T20:29:00Z",
-      "distance_m": 0,
-      "moving_time_s": 5759,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 20432035525,
-      "name": "Badminton",
-      "type": "Workout",
-      "date": "2026-10-03T10:19:00Z",
-      "distance_m": 0,
-      "moving_time_s": 3539,
       "elevation_m": 0,
       "avg_speed_mps": 0
     }
@@ -130,7 +130,7 @@
     },
     {
       "week_start": "2026-10-12",
-      "distance_m": 0
+      "distance_m": 11957.400000000001
     }
   ]
 }
