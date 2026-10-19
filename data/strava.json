@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T20:44:50.103Z",
+  "updated_at": "2026-10-19T04:42:24.116Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -93,10 +93,6 @@
   ],
   "weekly_volume": [
     {
-      "week_start": "2026-08-10",
-      "distance_m": 10235.2
-    },
-    {
       "week_start": "2026-08-17",
       "distance_m": 0
     },
@@ -131,6 +127,10 @@
     {
       "week_start": "2026-10-12",
       "distance_m": 11957.400000000001
+    },
+    {
+      "week_start": "2026-10-19",
+      "distance_m": 0
     }
   ]
 }
