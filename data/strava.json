@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T20:51:59.107Z",
+  "updated_at": "2026-10-26T04:49:05.735Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -32,7 +32,7 @@
   "recent_activities": [
     {
       "id": 20714231506,
-      "name": "Afternoon Workout",
+      "name": "Afternoon Badminton",
       "type": "Workout",
       "date": "2026-10-24T16:45:00Z",
       "distance_m": 0,
@@ -93,10 +93,6 @@
   ],
   "weekly_volume": [
     {
-      "week_start": "2026-08-17",
-      "distance_m": 0
-    },
-    {
       "week_start": "2026-08-24",
       "distance_m": 5589.2
     },
@@ -130,6 +126,10 @@
     },
     {
       "week_start": "2026-10-19",
+      "distance_m": 0
+    },
+    {
+      "week_start": "2026-10-26",
       "distance_m": 0
     }
   ]
