@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T07:29:57.907Z",
+  "updated_at": "2026-11-18T20:32:53.856Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -7,29 +7,69 @@
   },
   "totals": {
     "recent_4wk": {
-      "count": 0,
-      "distance": 0,
-      "moving_time": 0,
-      "elapsed_time": 0,
-      "elevation_gain": 0,
-      "achievement_count": 0
+      "count": 4,
+      "distance": 7931.8,
+      "moving_time": 4932,
+      "elapsed_time": 5255,
+      "elevation_gain": 156.49999999999997,
+      "achievement_count": 2
     },
     "ytd": {
-      "count": 6,
-      "distance": 32264,
-      "moving_time": 11322,
-      "elapsed_time": 12415,
-      "elevation_gain": 150.70000000000002
+      "count": 10,
+      "distance": 40196,
+      "moving_time": 16254,
+      "elapsed_time": 17670,
+      "elevation_gain": 307.2
     },
     "all_time": {
-      "count": 18,
-      "distance": 85072.3,
-      "moving_time": 31143,
-      "elapsed_time": 32490,
-      "elevation_gain": 193.8
+      "count": 22,
+      "distance": 93004.09999999999,
+      "moving_time": 36075,
+      "elapsed_time": 37745,
+      "elevation_gain": 350.2999999999999
     }
   },
   "recent_activities": [
+    {
+      "id": 21035287134,
+      "name": "Evening Run",
+      "type": "Run",
+      "date": "2026-11-18T19:31:50Z",
+      "distance_m": 324.7,
+      "moving_time_s": 105,
+      "elevation_m": 10.6,
+      "avg_speed_mps": 3.092
+    },
+    {
+      "id": 21035752732,
+      "name": "Evening Run",
+      "type": "Run",
+      "date": "2026-11-18T19:07:27Z",
+      "distance_m": 3529.7,
+      "moving_time_s": 1332,
+      "elevation_m": 2.2,
+      "avg_speed_mps": 2.65
+    },
+    {
+      "id": 21035759577,
+      "name": "Evening Run",
+      "type": "Run",
+      "date": "2026-11-18T19:07:25Z",
+      "distance_m": 4077.4,
+      "moving_time_s": 1336,
+      "elevation_m": 143.7,
+      "avg_speed_mps": 3.052
+    },
+    {
+      "id": 21035094051,
+      "name": "Evening Run",
+      "type": "Run",
+      "date": "2026-11-18T19:04:00Z",
+      "distance_m": 0,
+      "moving_time_s": 2159,
+      "elevation_m": 0,
+      "avg_speed_mps": 0
+    },
     {
       "id": 21024380642,
       "name": "Night Weight Training",
@@ -47,46 +87,6 @@
       "date": "2026-11-16T21:06:37Z",
       "distance_m": 0,
       "moving_time_s": 5034,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 20992594636,
-      "name": "Lunch Walk",
-      "type": "Walk",
-      "date": "2026-11-15T11:21:00Z",
-      "distance_m": 0,
-      "moving_time_s": 779,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 20983954230,
-      "name": "Afternoon Walk",
-      "type": "Walk",
-      "date": "2026-11-14T17:56:00Z",
-      "distance_m": 0,
-      "moving_time_s": 839,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 20982927400,
-      "name": "Afternoon Walk",
-      "type": "Walk",
-      "date": "2026-11-14T16:23:00Z",
-      "distance_m": 0,
-      "moving_time_s": 1859,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 20980187834,
-      "name": "Lunch Walk",
-      "type": "Walk",
-      "date": "2026-11-14T12:55:00Z",
-      "distance_m": 0,
-      "moving_time_s": 1559,
       "elevation_m": 0,
       "avg_speed_mps": 0
     }
@@ -130,7 +130,7 @@
     },
     {
       "week_start": "2026-11-16",
-      "distance_m": 0
+      "distance_m": 7931.799999999999
     }
   ]
 }
