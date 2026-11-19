@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T20:32:53.856Z",
+  "updated_at": "2026-11-19T07:27:13.349Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -30,6 +30,16 @@
     }
   },
   "recent_activities": [
+    {
+      "id": 21043112405,
+      "name": "Morning Walk",
+      "type": "Walk",
+      "date": "2026-11-19T10:48:00Z",
+      "distance_m": 0,
+      "moving_time_s": 2279,
+      "elevation_m": 0,
+      "avg_speed_mps": 0
+    },
     {
       "id": 21035287134,
       "name": "Evening Run",
@@ -77,16 +87,6 @@
       "date": "2026-11-17T22:52:04Z",
       "distance_m": 0,
       "moving_time_s": 2589,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 21010812864,
-      "name": "Night Weight Training",
-      "type": "WeightTraining",
-      "date": "2026-11-16T21:06:37Z",
-      "distance_m": 0,
-      "moving_time_s": 5034,
       "elevation_m": 0,
       "avg_speed_mps": 0
     }
