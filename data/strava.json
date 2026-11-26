@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T21:42:44.368Z",
+  "updated_at": "2026-11-26T08:20:13.141Z",
   "athlete": {
     "id": 128861933,
     "firstname": "Abrar",
@@ -71,22 +71,22 @@
       "avg_speed_mps": 0
     },
     {
+      "id": 21127649688,
+      "name": "Morning Weight Training",
+      "type": "WeightTraining",
+      "date": "2026-11-25T09:51:02Z",
+      "distance_m": 0,
+      "moving_time_s": 1611,
+      "elevation_m": 0,
+      "avg_speed_mps": 0
+    },
+    {
       "id": 21091108751,
       "name": "Lunch Walk",
       "type": "Walk",
       "date": "2026-11-23T11:14:00Z",
       "distance_m": 0,
       "moving_time_s": 899,
-      "elevation_m": 0,
-      "avg_speed_mps": 0
-    },
-    {
-      "id": 21086212693,
-      "name": "Night Weight Training",
-      "type": "WeightTraining",
-      "date": "2026-11-22T21:24:06Z",
-      "distance_m": 0,
-      "moving_time_s": 2765,
       "elevation_m": 0,
       "avg_speed_mps": 0
     }
